@@ -200,10 +200,17 @@ fieldset[disabled] .btn-xl.active {
   letter-spacing: 1px;
   color: #333333;
 }
+.home-navbar .navbar-nav > li > a {
+  color: #fff;
+}
 .navbar-default .navbar-nav li a:hover,
 .navbar-default .navbar-nav li a:focus {
   outline: 0;
   color: #0eb493;
+}
+.home-navbar .navbar-nav > li > a:hover,
+.home-navbar .navbar-nav > li > a:focus {
+  color: #fff;
 }
 .navbar-default .navbar-nav > .active > a {
   border-radius: 0;
@@ -1136,7 +1143,121 @@ a {
   font-weight: 700;
   font-size: 22px;
 }
-
+.technologies-wraper {
+  padding: 20px;
+}
+.owl-theme .owl-controls {
+  margin-top: 30px !important;
+}
+.tech-item {
+  text-align: center;
+}
+.tech-item img {
+  width: 90px;
+  height: 90px;
+}
+.team-wraper {
+  padding: 50px 0;
+}
+.team-item {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.team-item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.team-item-info label {
+  display: block;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 4px;
+  margin-top: 5px;
+}
+.team-item-info small {
+  color: #555;
+}
+.features-wraper {
+  background: url('/img/square-bg.jpg') repeat;
+  padding: 60px 0;
+}
+.features-wraper-head {
+  margin-bottom: 40px;
+}
+.features-wraper-head h2 {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 42px;
+}
+.features-wraper-head p {
+  font-style: italic;
+  text-align: center;
+}
+.feature-item {
+  position: relative;
+  background-color: #fff;
+  min-height: 360px;
+  box-shadow: 0 0 0 1px rgba(230,230,230,.8) inset;
+  margin-bottom: 35px;
+  padding: 25px;
+  text-align: center;
+}
+.feature-item-head {
+  margin-bottom: 25px;
+}
+.feature-item-head h4 {
+  font-size: 26px;
+  color: #8894A3;
+  margin-bottom: 20px;
+}
+.feature-item-head hr {
+  background: rgba(136,148,163,.5);
+  display: block;
+  height: 2px;
+  margin: 0 auto;
+  width: 15px;
+}
+.feature-item-icon {
+  margin: 25px 0;
+}
+.feature-item-icon img {
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 0 auto;
+}
+.feature-item-message p {
+  color: #8894A3;
+  font-size: 15px;
+}
+.feature-item-count {
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 auto;
+  background-color: #0eb493;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+}
+.more-link {
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: #8894A3;
+  padding: 5px;
+}
+.more-link:hover,
+.more-link:focus {
+  color: #0eb493;
+  text-decoration: none;
+}
 @media(min-width: 1200px) {
   .banner .intro-text {
     padding-top: 150px;
@@ -1208,5 +1329,3 @@ a {
     float: none;
   }
 }
-
-

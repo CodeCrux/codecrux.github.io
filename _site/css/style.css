@@ -202,6 +202,11 @@ fieldset[disabled] .btn-xl.active {
   color: #333333;
 }
 .home-navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
   border-bottom: 0 !important;
 }
 .home-navbar .navbar-nav > li > a {

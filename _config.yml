@@ -1,0 +1,13 @@
+# Site settings
+title: CodeCrux
+email: contact@codecrux.com
+description: > # this means to ignore newlines until "baseurl:"
+  CloudSync is the easiest way to connect salesforce to your back-office data system.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://codecrux.com" # the base hostname & protocol for your site
+
+twitter_username: codecrux
+github_username:  codecrux
+
+# Build settings
+markdown: kramdown

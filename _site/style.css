@@ -324,12 +324,32 @@ fieldset[disabled] .btn-xl.active {
   border-radius: 100%;
   background-color: #fff;
 }
-section h2.section-heading {
+.section-heading {
+  position: relative;
+  padding-bottom: 15px;
+  margin: 25px 0;
+}
+.section-heading::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 50px;
+  height: 4px;
+  background-color: #0eb493;
+  margin: 0 auto;
+}
+.section-heading h2 {
   margin-top: 0;
-  margin-bottom: 15px;
-  font-size: 45px;
+  margin-bottom: 0;
+  font-size: 38px;
   font-family: 'Lato', sans-serif;
-  font-weight: 900;
+  font-weight: 400;
+  text-align: center;
+}
+.section-heading p {
+  margin-bottom: 0;
 }
 section h3.section-subheading {
   margin-bottom: 75px;
@@ -344,59 +364,6 @@ section {
 }
 aside.clients img {
   margin: 50px auto;
-}
-section#contact {
-  background-color: #222;
-  background-image: url('/img/map-image.png');
-  background-position: center;
-  background-repeat: no-repeat;
-}
-section#contact .section-heading {
-  color: #fff;
-}
-section#contact .form-group {
-  margin-bottom: 25px;
-}
-section#contact .form-group input,
-section#contact .form-group textarea {
-  padding: 20px;
-}
-section#contact .form-group input.form-control {
-  height: auto;
-}
-section#contact .form-group textarea.form-control {
-  height: 236px;
-}
-section#contact .form-control:focus {
-  border-color: #0eb493;
-  box-shadow: none;
-}
-section#contact::-webkit-input-placeholder {
-  text-transform: uppercase;
-  font-family: Maven Pro, "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 700;
-  color: #bbb;
-}
-section#contact:-moz-placeholder {
-  text-transform: uppercase;
-  font-family: Maven Pro, "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 700;
-  color: #bbb;
-}
-section#contact::-moz-placeholder {
-  text-transform: uppercase;
-  font-family: Maven Pro, "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 700;
-  color: #bbb;
-}
-section#contact:-ms-input-placeholder {
-  text-transform: uppercase;
-  font-family: Maven Pro, "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 700;
-  color: #bbb;
-}
-section#contact .text-danger {
-  color: #e74c3c;
 }
 footer {
   padding: 25px 0;
@@ -568,7 +535,7 @@ a {
   height: 90px;
 }
 .team-wraper {
-  background-color: #f6f6f8;
+  background: url('/img/square-bg.jpg') repeat;
   padding: 50px 0;
 }
 .team-item {
@@ -703,7 +670,9 @@ a {
   position: relative;
   width: 100%;
   height: 450px;
-  background: url('/img/codecrux-blog-bg.png') no-repeat center center/cover;
+  background: url('/img/codecrux-blog-bg.png') no-repeat;
+  background-size: cover;
+  background-position: center center;
   padding: 80px 0;
 }
 .blog-banner::before {
@@ -713,7 +682,7 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 .blog-banner-message {
   position: absolute;
@@ -728,6 +697,15 @@ a {
 }
 .blog-banner-message h1 {
   color: #fff;
+}
+.owl-theme .owl-controls .owl-page span {
+  background: #fff !important;
+  border: 1px solid #ddd;
+  opacity: 1 !important;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+  background: #42dca3 !important;
 }
 @media(min-width: 1200px) {
   .banner .intro-text {

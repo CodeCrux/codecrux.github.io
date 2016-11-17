@@ -33,6 +33,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
+  text-decoration: none;
   outline: 0;
 }
 a {
@@ -171,7 +172,12 @@ fieldset[disabled] .btn-xl.active {
   line-height: 30px;
   font-family: 'Kaushan Script', cursive;
 }
-
+@font-face {
+  font-family: "proxima-nova";
+  src: url(/fonts/proxima-nova.otf) format("opentype");
+  src: url(/fonts/proxima-nova.eot) format("embedded-opentype"),
+       url(/fonts/proxima-nova.ttf) format("truetype");
+}
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
   color: #0eb493;
@@ -438,7 +444,9 @@ a {
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
 }
-
+blockquote {
+  border-left: 5px solid #01c3a7;
+}
 @media (min-width: 992px){
   .section-header {
     margin-bottom: 3.75em;
@@ -674,7 +682,7 @@ a {
 .blog-banner {
   position: relative;
   width: 100%;
-  height: 450px;
+  height: 400px;
   background: url('/img/codecrux-blog-bg.png') no-repeat;
   background-size: cover;
   background-position: center center;
@@ -702,6 +710,12 @@ a {
 }
 .blog-banner-message h1 {
   color: #fff;
+  font-weight: 700;
+}
+.blog-banner-message p {
+  font-family: 'proxima-nova', serif;
+  color: #fff;
+  font-size: 22px;
 }
 .owl-theme .owl-controls .owl-page span {
   background: #fff !important;
@@ -711,6 +725,129 @@ a {
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span {
   background: #42dca3 !important;
+}
+/*-----Blog-----*/
+.blogs-wraper {
+  margin: 50px 0;
+}
+.blog-item {
+  border-bottom: 1px solid #e4e1e1;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+  margin-bottom: 35px;
+}
+.blog-item-image {
+  background-color: #f6f6f6;
+  height: 230px;
+}
+.bg-green {
+  background-color: #01c3a7;
+}
+.bg-blue {
+  background-color: #006ad5;
+}
+.blog-item-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.blog-item-content {
+  position: relative;
+  height: 180px;
+  padding: 20px;
+}
+.blog-item-title a {
+  color: #2d4158;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 1.5em;
+  text-align: left;
+}
+.blog-item-category a {
+  font-family: 'proxima-nova', serif;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.category-tech {
+  color: #3FB1F8;
+}
+.author-name {
+  font-family: 'proxima-nova', serif;
+  color: #0081FF;
+}
+.posted-date {
+  font-family: 'proxima-nova', serif;
+  font-size: 16px;
+  color: #b9bdc5;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.blog-posted-info {
+  position: absolute;
+  bottom: 16px;
+}
+.blog-post-banner {
+  width: 100%;
+  height: 420px;
+  display: table;
+  text-align: center;
+}
+.blog-post-banner-content {
+  display: table-cell;
+  vertical-align: middle;
+}
+.blog-post-author {
+  padding-bottom: 30px;
+}
+.blog-post-author img {
+  display: block;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: 0 auto;
+  object-fit: cover;
+}
+.blog-post-title h1 {
+  width: 60%;
+  margin: 0 auto;
+  color: #fff;
+}
+.blog-post-author-name {
+  color: #fff;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+.blog-post-author time {
+  color: #f1f1f1;
+  font-size: 13px;
+}
+.blog-post-category {
+  font-family: 'proxima-nova', serif;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 2px;
+}
+.blog-post-content {
+  font-family: 'proxima-nova', serif;
+  min-height: 600px;
+  padding: 40px 0;
+}
+.blog-post-content p {
+  font-size: 18px;
+}
+.blog-post-content strong {
+  font-weight: 600;
+  font-size: 20px;
+}
+.blog-post-content img {
+  max-width: 100%;
+  height: auto;
 }
 @media(min-width: 1200px) {
   .banner .intro-text {

@@ -444,7 +444,9 @@ a {
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
 }
-
+blockquote {
+  border-left: 5px solid #01c3a7;
+}
 @media (min-width: 992px){
   .section-header {
     margin-bottom: 3.75em;
@@ -842,6 +844,10 @@ a {
 .blog-post-content strong {
   font-weight: 600;
   font-size: 20px;
+}
+.blog-post-content img {
+  max-width: 100%;
+  height: auto;
 }
 @media(min-width: 1200px) {
   .banner .intro-text {

@@ -57,87 +57,43 @@
 
 
     <div class="blog-main-content">
-      <div class="blog-banner">
-  <div class="blog-banner-message">
-    <h1>Codecrux Blog</h1>
-    <p>Our Thoughts About Software Design And Development</p>
-  </div>
+      <div class="blog-post-banner bg-green">
+    <div class="blog-post-banner-content">
+        <div class="blog-post-author">
+            <img src="/img/team/codecrux-shyam.jpg" alt="" />
+            <p class="blog-post-author-name">Shyam Mohan</p>
+            <time>On 8 Nov 2016</time>
+        </div>
+        <div class="blog-post-title">
+            <p class="blog-post-category">#amazon-s3 #google #cloud #azure #storage #codecrux.com</p>
+            <h1>Cloud Storage Performance amazon S3 vs Google Cloud vs Azure</h1>
+        </div>
+    </div>
 </div>
 
-<div class="blogs-wraper">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4 col-sm-6">
-        <article class="blog-item">
-          <div class="blog-item-image bg-green">
-            <img src="/img/blogs/codecrux-blog.png" alt="codecrux blog" weidth="900" />
-          </div>
-          <div class="blog-item-content">
-            <div class="blog-item-category">
-              <a href="#" class="category-tech">#TECH</a>
-            </div>
-            <h4 class="blog-item-title"><a href="/blog/2016/100-most-successful-apps-with-ruby-on-rails">100 Most Successfull Apps Using Ruby On Rails</a></h4>
-            <div class="blog-posted-info">
-              <span class="author-name">Shyam</span> <span>/</span> <span class="posted-date">20 Nov 2016</span>
-            </div>
-          </div>
-        </article>
-      </div>
+<div class="blog-post-content">
+    <div class="container">
+        <div class="col-md-8 col-md-offset-2">
+            <h1>Cloud Storage Performance amazon S3 vs Google Cloud vs Azure</h1>
 
-      <div class="col-md-4 col-sm-6">
-        <article class="blog-item">
-          <div class="blog-item-image bg-green">
-            <img src="/img/blogs/amazon-google-cloud.png" alt="codecrux blog" weidth="900" />
-          </div>
-          <div class="blog-item-content">
-            <div class="blog-item-category">
-              <a href="#" class="category-tech">#amazon-s3 #google #cloud</a>
-            </div>
-            <h4 class="blog-item-title"><a href="/blog/2016/cloud-storage-performance-amazon-s3-vs-google-or-cloud-vs-azure">Cloud Storage Performance amazon S3 vs Google Cloud vs Azure</a></h4>
-            <div class="blog-posted-info">
-              <span class="author-name">Shyam</span> <span>/</span> <span class="posted-date">08 Nov 2016</span>
-            </div>
-          </div>
-        </article>
-      </div>
+            <p><strong>Cloud Storage Performance amazon S3 vs Google Cloud vs Azure&nbsp;</strong></p>
 
-      <div class="col-md-4 col-sm-6">
-        <article class="blog-item">
-          <div class="blog-item-image bg-green">
-            <img src="/img/blogs/growth.png" alt="codecrux blog" weidth="900" />
-          </div>
-          <div class="blog-item-content">
-            <div class="blog-item-category">
-              <a href="#" class="category-tech">#TECH</a>
-            </div>
-            <h4 class="blog-item-title"><a href="/blog/2016/5-simple-and-low-cost-tricks-for-growing-your-business">5 Simple and Low-Cost Tricks For Growing Your Business</a></h4>
-            <div class="blog-posted-info">
-              <span class="author-name">Shyam</span> <span>/</span> <span class="posted-date">01 Nov 2016</span>
-            </div>
-          </div>
-        </article>
-      </div>
+            <p>Quick Answer</p>
 
-      <div class="col-md-4 col-sm-6">
-        <article class="blog-item">
-          <div class="blog-item-image bg-green">
-            <img src="/img/blogs/platforms.png" alt="codecrux blog" weidth="900" />
-          </div>
-          <div class="blog-item-content">
-            <div class="blog-item-category">
-              <a href="#" class="category-tech">#business #startup #cost</a>
-            </div>
-            <h4 class="blog-item-title"><a href="/blog/2016/which-platform-you-should-build-for-first">Which platform should you build for first?</a></h4>
-            <div class="blog-posted-info">
-              <span class="author-name">Shyam</span> <span>/</span> <span class="posted-date">28 Oct 2016</span>
-            </div>
-          </div>
-        </article>
-      </div>
+            <ol>
+                <li>Amazon and Azure provide the lowest latency, while Google provides the highest throughput, for both uploads and downloads. This means that AWS and Azure excel for smaller files, while GCE excels for larger files, and this highlights the
+                    importance of benchmarking with data that are comparable in size to what your application uses.</li>
+                <li>The substantial limitations on AWS EC2 network throughput must be taken into consideration when designing high-speed data processing systems.</li>
+                <li>Google's unique multi-region buckets keep costs down when working with data from multiple datacenters in the same region (e.g. continent).</li>
+                <li>Object storage scales automatically to provide high aggregate throughput.</li>
+                <li>Finally, note that I’m only showing data from API access (which is the exact same boto code for AWS and Google), and I have unsurprisingly observed substantial differences in performance from different clients (the vendor-specific CLIs,
+                    node.js API package, cURL’ing URLs, etc.)</li>
+            </ol>
 
+            <p>This result has been taken form <a href="http://blog.zachbjornson.com/2015/12/29/cloud-storage-performance.html" target="_blank">blog</a>, to read more please follow the given link.</p>
 
+        </div>
     </div>
-  </div>
 </div>
 
     </div>

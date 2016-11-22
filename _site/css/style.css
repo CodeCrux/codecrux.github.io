@@ -361,7 +361,6 @@ fieldset[disabled] .btn-xl.active {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 38px;
-  font-family: 'Lato', sans-serif;
   font-weight: 400;
   text-align: center;
 }
@@ -522,6 +521,9 @@ blockquote {
   color: #0eb493;
   outline: 0;
 }
+.contact-wraper {
+  background-color: #222222;
+}
 .btn-contact {
   display: block;
   max-width: 200px;
@@ -531,10 +533,16 @@ blockquote {
 .address-wraper {
   padding: 30px 0;
 }
+.contact-wraper h2 {
+  color: #fff;
+}
 .address-wraper .sub-heading {
   display: inline-block;
   padding-bottom: 10px;
   border-bottom: 2px solid #0eb493;
+}
+.contact-address {
+  color: #fff;
 }
 .contact-address h4 {
   font-weight: 700;
@@ -741,18 +749,18 @@ blockquote {
   background: #42dca3 !important;
 }
 /*-----Blog-----*/
+.blog-main-container {
+  background-color: #f6f6f6;
+}
 .blogs-wraper {
-  margin: 50px 0;
+  padding: 50px 0;
 }
 .blog-item {
   border-bottom: 1px solid #e4e1e1;
   border-radius: 4px;
-  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+  /*box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);*/
   margin-bottom: 35px;
-}
-.blog-item-image {
-  background-color: #f6f6f6;
-  height: 230px;
+  background-color: #fff;
 }
 .bg-green {
   background-color: #01c3a7;
@@ -760,24 +768,72 @@ blockquote {
 .bg-blue {
   background-color: #006ad5;
 }
+.blog-item-content {
+  position: relative;
+  padding: 25px;
+  display: block;
+}
+.blog-content-row {
+  position: relative;
+}
+.blog-content-row::after,
+.blog-content-row::before {
+  content: '';
+  display: table;
+}
+.blog-content-row::after {
+  clear: both;
+}
+.blog-item-image {
+  width: 30%;
+  float: left;
+  padding-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 .blog-item-image img {
   display: block;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
 }
-.blog-item-content {
+.blog-item-text {
+  width: 70%;
+  float: left;
+}
+.blog-item-text.blog-item-full {
+  width: 100%;
+}
+.blog-item-text p {
+  color: #576366;
+  font-size: 16px;
+  line-height: 26px;
+}
+.blog-item-content:hover {
+  box-shadow: 0 8px 8px rgba(0,0,0,0.1),0 4px 4px rgba(0,0,0,0.08);
+}
+.blog-item-content:hover .blog-item-title::before {
+  border-color: #073648;
+}
+.blog-item-title {
   position: relative;
-  height: 180px;
-  padding: 20px;
-}
-.blog-item-title a {
-  color: #2d4158;
+  color: #2e353b;
   font-weight: 600;
   font-size: 20px;
   letter-spacing: 0px;
   line-height: 1.5em;
   text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 15px 0;
+}
+.blog-item-title::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: -26px;
+  width: 100%;
+  height: 100%;
+  border-left: 5px solid #ddd;
 }
 .blog-item-category a {
   font-family: 'proxima-nova', serif;
@@ -802,9 +858,23 @@ blockquote {
   letter-spacing: 0px;
   text-align: left;
 }
+.read-more-link {
+  display: inline-block;
+  color: #0eb493;
+}
+.read-more-link i {
+  vertical-align: middle;
+}
 .blog-posted-info {
-  position: absolute;
-  bottom: 16px;
+  position: relative;
+  margin-bottom: 12px;
+}
+.blog-posted-info img {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  margin-right: 8px;
+  border-radius: 50%;
 }
 .blog-post-banner {
   width: 100%;
@@ -862,6 +932,47 @@ blockquote {
 .blog-post-content img {
   max-width: 100%;
   height: auto;
+}
+.dot-divider {
+  display: inline-block;
+  height: 6px;
+  width: 6px;
+  background-color: #aaa;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 8px;
+}
+.tag-info {
+  color: #999;
+}
+.tag-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 25px;
+}
+.tag-list > li {
+  display: inline-block;
+  margin-right: 6px;
+}
+.tag-list > li > a {
+  display: block;
+  padding: 3px 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  background-color: #fff;
+  border: 1px solid rgba(255,255,255,0.5);
+  border-radius: 2px;
+  display: inline-block;
+  color: #999;
+  font-weight: bold;
+  font-size: 12px;
+  transition: 0.2s all ease-out;
+  text-decoration: none;
+}
+.tag-list > li > a:hover,
+.tag-list > li > a:focus {
+  color: #111;
 }
 @media(min-width: 1200px) {
   .banner .intro-text .intro-lead-in {

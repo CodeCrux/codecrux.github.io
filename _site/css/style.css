@@ -186,7 +186,7 @@ fieldset[disabled] .btn-xl.active {
   color: #0eb493;
 }
 .navbar-default .navbar-brand img {
-  height: 50px;
+  height: 40px;
   vertical-align: middle;
 }
 .navbar-default .navbar-collapse {
@@ -1038,8 +1038,15 @@ address a.location{
   }
 }
 @media (max-width: 767px) {
-  .navbar-header {
-    border-bottom: 2px solid #42dca3;
+  .navbar-default .navbar-collapse {
+    background-color: #fff;
+  }
+  .home-navbar .navbar-nav > li > a {
+    color: #666;
+  }
+  .home-navbar .navbar-nav > li > a:hover,
+  .home-navbar .navbar-nav > li > a:focus {
+    color: #01c3a7;
   }
   .default-header {
     border-bottom: 1px solid #ddd;

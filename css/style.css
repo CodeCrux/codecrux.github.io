@@ -364,7 +364,6 @@ fieldset[disabled] .btn-xl.active {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 38px;
-  font-family: 'Lato', sans-serif;
   font-weight: 400;
   text-align: center;
 }
@@ -850,9 +849,17 @@ address a.location{
    padding: 0 !important;
    margin: 0 !important;
 }
-.blog-content-row img{
-  width: 180px;
-  height: 130px;
+.blogs-row {
+  max-width: 850px;
+  width: 100%;
+  margin: 0 auto;
+}
+.blog-content-img {
+  margin-right: 10px;
+}
+.blog-content-img img{
+  width: 100%;
+  height: auto;
   box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.3);
   opacity: 0.8;
   margin-top: 9px;
@@ -966,6 +973,55 @@ address a.location{
 .blog-post-content img {
   max-width: 100%;
   height: auto;
+}
+
+/*------Technology------*/
+.technology-banner {
+  background: url('/img/codecrux-tech-bg.jpg') no-repeat;
+  background-position: top center;
+  background-size: 100%;
+  padding: 60px 0;
+  text-align: center;
+}
+.technology-banner-content h1 {
+  color: #fff;
+}
+.technology-content-wraper {
+  padding: 30px 0;
+}
+.technology-item {
+  position: relative;
+  margin-bottom: 40px;
+}
+.technology-item::after,
+.technology-item::before {
+  content: '';
+  display: table;
+}
+.technology-item::after {
+  clear: both;
+}
+.technology-item-img {
+  width: 120px;
+  height: 120px;
+  background-color: #f6f6f6;
+  border-radius: 5px;
+  float: left;
+  text-align: center;
+  padding-top: 18px;
+  margin-right: 20px;
+}
+.technology-item-img img {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  vertical-align: middle;
+}
+.technology-item-content {
+  overflow: hidden;
+}
+.technology-item-content h3 {
+  margin-top: 0;
 }
 @media(min-width: 1200px) {
   .banner .intro-text .intro-lead-in {

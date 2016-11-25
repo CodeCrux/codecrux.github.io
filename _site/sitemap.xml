@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://codecrux.com/</loc>
+  <lastmod>2016-11-25T08:45:21+00:00</lastmod>
+</url>
+<url>
+  <loc>http://codecrux.com/blog/</loc>
+  <lastmod>2016-11-25T08:45:21+00:00</lastmod>
+</url>
+<url>
+  <loc>http://codecrux.com/technology/</loc>
+  <lastmod>2016-11-25T08:45:21+00:00</lastmod>
+</url>
+<url>
+  <loc>http://codecrux.com/blog/2016/100-most-successful-apps-with-ruby-on-rails</loc>
+  <lastmod>2016-11-25T08:45:21+00:00</lastmod>
+</url>
+<url>
+  <loc>http://codecrux.com/blog/2016/cloud-storage-performance-amazon-s3-vs-google-or-cloud-vs-azure</loc>
+  <lastmod>2016-11-25T08:45:21+00:00</lastmod>
+</url>
+<url>
+  <loc>http://codecrux.com/blog/2016/5-simple-and-low-cost-tricks-for-growing-your-business</loc>
+  <lastmod>2016-11-25T08:45:21+00:00</lastmod>
+</url>
+<url>
+  <loc>http://codecrux.com/blog/2016/which-platform-you-should-build-for-first</loc>
+  <lastmod>2016-11-25T08:45:21+00:00</lastmod>
+</url>
+</urlset>

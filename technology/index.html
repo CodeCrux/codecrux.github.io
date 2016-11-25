@@ -15,229 +15,30 @@ layout: default
 
         <article class="technology-item" id="ruby">
           <div class="technology-item-img">
-            <img src="/img/tech-images/ruby-original.png" alt="" />
+            <img src="/img/tech-images/codecrux-ruby-on-rails.png" alt="" />
           </div>
           <div class="technology-item-content">
-            <h2>Ruby</h2>
-
-
+            <h2>Ruby On Rails</h2>
             <div id="content-wrapper">
-
             <h4>About Ruby</h4>
-
-
-
               <div id="content">
                 <p class="summary">Wondering why Ruby is so popular? Its fans call it a beautiful, artful
             language. And yet, they say it’s handy and practical. What gives?</p>
 
             <h4>The Ideals of Ruby’s Creator</h4>
-
-            <p>Ruby is a language of careful balance. Its creator, <a href="http://www.rubyist.net/~matz/">Yukihiro “Matz”
+            <p>Ruby is a language of careful balance. Its creator, <a href="#">Yukihiro “Matz”
             Matsumoto</a>, blended parts of his favorite languages (Perl, Smalltalk,
             Eiffel, Ada, and Lisp) to form a new language that balanced functional
             programming with imperative programming.</p>
 
             <p>He has often said that he is “trying to make Ruby natural, not simple,”
             in a way that mirrors life.</p>
-
             <p>Building on this, he adds:</p>
-
             <blockquote>
               <p>Ruby is simple in appearance, but is very complex inside, just like
             our human body<sup><a href="#fn1">1</a></sup>.</p>
             </blockquote>
 
-            <h4>About Ruby’s Growth</h4>
-
-            <p>Since its public release in 1995, Ruby has drawn devoted coders
-            worldwide. In 2006, Ruby achieved mass acceptance. With active user
-            groups formed in the world’s major cities and Ruby-related conferences
-            filled to capacity.</p>
-
-            <p>Ruby-Talk, the primary <a href="/en/community/mailing-lists/">mailing list</a> for
-            discussion of the Ruby language, climbed to an average of 200 messages
-            per day in 2006. It has dropped in recent years as the size of the
-            community pushed discussion from one central list into many smaller
-            groups.</p>
-
-            <p>Ruby is ranked among the top 10 on most of the indices that measure
-            the growth and popularity of programming languages worldwide
-            (such as the <a href="http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html">TIOBE index</a>). Much of the growth is attributed to the
-            popularity of software written in Ruby, particularly the
-            <a href="http://rubyonrails.org/">Ruby on Rails</a> web framework.</p>
-
-            <p>Ruby is also <a href="/en/about/license.txt">completely free</a>. Not only free of charge, but
-            also free to use, copy, modify, and distribute.</p>
-
-            <h4>Seeing Everything as an Object</h4>
-
-            <p>Initially, Matz looked at other languages to find an ideal syntax.
-            Recalling his search, he said, “I wanted a scripting language that was
-            more powerful than Perl, and more object-oriented than
-            Python<sup><a href="#fn2">2</a></sup>.”</p>
-
-            <p>In Ruby, everything is an object. Every bit of information and code can
-            be given their own properties and actions. Object-oriented programming
-            calls properties by the name <em>instance variables</em> and actions are known
-            as <em>methods</em>. Ruby’s pure object-oriented approach is most commonly
-            demonstrated by a bit of code which applies an action to a number.</p>
-
-            <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="mi">5</span><span class="p">.</span><span class="nf">times</span> <span class="p">{</span> <span class="nb">print</span> <span class="s2">"We *love* Ruby -- it's outrageous!"</span> <span class="p">}</span></code></pre></figure>
-
-            <p>In many languages, numbers and other primitive types are not objects.
-            Ruby follows the influence of the Smalltalk language by giving methods
-            and instance variables to all of its types. This eases one’s use of
-            Ruby, since rules applying to objects apply to all of Ruby.</p>
-
-            <h4>Ruby’s Flexibility</h4>
-
-            <p>Ruby is seen as a flexible language, since it allows its users to freely
-            alter its parts. Essential parts of Ruby can be removed or redefined, at
-            will. Existing parts can be added upon. Ruby tries not to restrict the
-            coder.</p>
-
-            <p>For example, addition is performed with the plus (<code>+</code>) operator. But, if
-            you’d rather use the readable word <code>plus</code>, you could add such a method
-            to Ruby’s builtin <code>Numeric</code> class.</p>
-
-            <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">class</span> <span class="nc">Numeric</span>
-              <span class="k">def</span> <span class="nf">plus</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-                <span class="nb">self</span><span class="p">.</span><span class="nf">+</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-              <span class="k">end</span>
-            <span class="k">end</span>
-
-            <span class="n">y</span> <span class="o">=</span> <span class="mi">5</span><span class="p">.</span><span class="nf">plus</span> <span class="mi">6</span>
-            <span class="c1"># y is now equal to 11</span></code></pre></figure>
-
-            <p>Ruby’s operators are syntactic sugar for methods. You can redefine them
-            as well.</p>
-
-            <h4>Blocks: a Truly Expressive Feature</h4>
-
-            <p>Ruby’s block are also seen as a source of great flexibility. A
-            programmer can attach a closure to any method, describing how that
-            method should act. The closure is called a <em>block</em> and has become one of
-            the most popular features for newcomers to Ruby from other imperative
-            languages like PHP or Visual Basic.</p>
-
-            <p>Blocks are inspired by functional languages. Matz said, “in Ruby
-            closures, I wanted to respect the Lisp culture<sup><a href="#fn3">3</a></sup>.”</p>
-
-            <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">search_engines</span> <span class="o">=</span>
-              <span class="sx">%w[Google Yahoo MSN]</span><span class="p">.</span><span class="nf">map</span> <span class="k">do</span> <span class="o">|</span><span class="n">engine</span><span class="o">|</span>
-                <span class="s2">"http://www."</span> <span class="o">+</span> <span class="n">engine</span><span class="p">.</span><span class="nf">downcase</span> <span class="o">+</span> <span class="s2">".com"</span>
-              <span class="k">end</span></code></pre></figure>
-
-            <p>In the above code, the block is described inside the <code>do ... end</code>
-            construct. The <code>map</code> method applies the block to the provided list of
-            words. Many other methods in Ruby leave a hole open for a coder to write
-            their own block to fill in the details of what that method should do.</p>
-
-            <h4>Ruby and the Mixin</h4>
-
-            <p>Unlike many object-oriented languages, Ruby features single inheritance
-            only, <strong>on purpose</strong>. But Ruby knows the concept of modules (called
-            Categories in Objective-C). Modules are collections of methods.</p>
-
-            <p>Classes can mixin a module and receive all its methods for free. For
-            example, any class which implements the <code>each</code> method can mixin the
-            <code>Enumerable</code> module, which adds a pile of methods that use <code>each</code> for
-            looping.</p>
-
-            <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">class</span> <span class="nc">MyArray</span>
-              <span class="kp">include</span> <span class="no">Enumerable</span>
-            <span class="k">end</span></code></pre></figure>
-
-            <p>Generally, Rubyists see this as a much clearer way than multiple
-            inheritance, which is complex and can be too restrictive.</p>
-
-            <h4>Ruby’s Visual Appearance</h4>
-
-            <p>While Ruby often uses very limited punctuation and usually prefers
-            English keywords, some punctuation is used to decorate Ruby. Ruby needs
-            no variable declarations. It uses simple naming conventions to denote
-            the scope of variables.</p>
-
-            <ul>
-              <li><code>var</code> could be a local variable.</li>
-              <li><code>@var</code> is an instance variable.</li>
-              <li><code>$var</code> is a global variable.</li>
-            </ul>
-
-            <p>These sigils enhance readability by allowing the programmer to easily
-            identify the roles of each variable. It also becomes unnecessary to use
-            a tiresome <code>self.</code> prepended to every instance member.</p>
-
-            <h4>Beyond the Basics</h4>
-
-            <p>Ruby has a wealth of other features, among which are the following:</p>
-
-            <ul>
-              <li>
-                <p>Ruby has exception handling features, like Java or Python, to make it
-            easy to handle errors.</p>
-              </li>
-              <li>
-                <p>Ruby features a true mark-and-sweep garbage collector for all Ruby
-            objects. No need to maintain reference counts in extension libraries.
-            As Matz says, “This is better for your health.”</p>
-              </li>
-              <li>
-                <p>Writing C extensions in Ruby is easier than in Perl or Python, with a
-            very elegant API for calling Ruby from C. This includes calls for
-            embedding Ruby in software, for use as a scripting language. A SWIG
-            interface is also available.</p>
-              </li>
-              <li>
-                <p>Ruby can load extension libraries dynamically if an OS allows.</p>
-              </li>
-              <li>
-                <p>Ruby features OS independent threading. Thus, for all platforms on
-            which Ruby runs, you also have multithreading, regardless of if the OS
-            supports it or not, even on MS-DOS!</p>
-              </li>
-              <li>
-                <p>Ruby is highly portable: it is developed mostly on GNU/Linux, but
-            works on many types of UNIX, Mac OS X, Windows, DOS, BeOS, OS/2, etc.</p>
-              </li>
-            </ul>
-
-            <h4>Other Implementations of Ruby</h4>
-
-            <p>Ruby, as a language, has a few different implementations.
-            This page has been discussing the reference implementation, in the
-            community often referred to as <strong>MRI</strong> (“Matz’s Ruby Interpreter”)
-            or <strong>CRuby</strong> (since it is written in C), but there are also others.
-            They are often useful in certain situations, provide extra
-            integration to other languages or environments, or have special features
-            that MRI doesn’t.</p>
-
-            <p>Here’s a list:</p>
-
-            <ul>
-              <li><a href="http://jruby.org">JRuby</a> is Ruby atop the JVM (Java Virtual Machine), utilizing the
-            JVM’s optimizing JIT compilers, garbage collectors, concurrent
-            threads, tool ecosystem, and vast collection of libraries.</li>
-              <li><a href="http://rubini.us">Rubinius</a> is ‘Ruby written in Ruby’. Built on top of LLVM,
-            Rubinius sports a nifty virtual machine that other languages are being
-            built on top of, too.</li>
-              <li><a href="http://www.macruby.org">MacRuby</a> is a Ruby that’s tightly integrated with Apple’s Cocoa
-            libraries for Mac OS X, allowing you to write desktop applications
-            with ease.</li>
-              <li><a href="http://www.mruby.org/">mruby</a> is a lightweight implementation of the Ruby language
-            that can be linked and embedded within an application.
-            Its development is led by Ruby’s creator Yukihiro “Matz” Matsumoto.</li>
-              <li><a href="http://www.ironruby.net">IronRuby</a> is an implementation “tightly integrated with the .NET
-            Framework”.</li>
-              <li><a href="http://ruby.gemstone.com">MagLev</a> is “a fast, stable, Ruby implementation with integrated
-            object persistence and distributed shared cache”.</li>
-              <li><a href="https://github.com/parrot/cardinal">Cardinal</a> is a “Ruby compiler for <a href="http://parrot.org">Parrot</a> Virtual Machine”
-            (Perl 6).</li>
-            </ul>
-
-              </div>
-            </div>
           </div>
         </article>
 
@@ -251,8 +52,7 @@ layout: default
             <h2>Devops</h2>
             <h4>What Is DevOps?<h4>
             <p>DevOps is a term for a group of concepts that, while not all new, have catalyzed into a movement and are rapidly spreading throughout the technical community.  Like any new and popular term, people have somewhat confused and sometimes contradictory impressions of what it is.  Here’s my take on how DevOps can be usefully defined; I propose this definition as a standard framework to more clearly discuss the various issues DevOps covers. Like “Quality” or “Agile,” DevOps is a large enough concept that it requires some nuance to fully understand</p>
-            <h4>Definition of DevOps</h4>
-            <p>DevOps is a new term emerging from the collision of two major related trends. The first was also&nbsp;called “agile system administration” or “agile operations”; it sprang from applying&nbsp;newer Agile and Lean approaches to operations work.&nbsp; The second is a much expanded understanding of the value of collaboration between development and operations staff throughout all stages of the development lifecycle when creating and operating a&nbsp;service, and how important operations has become in our increasingly service-oriented world (cf. <a href="http://radar.oreilly.com/2006/07/operations-the-new-secret-sauc.html">Operations: The New Secret Sauce</a>).</p>
+
           </div>
         </article>
 
@@ -267,95 +67,12 @@ layout: default
             <br>
             <div ng-hide="loading" ng-include="partialPath" autoscroll="" class="ng-scope">
 
-            <h4 id="what-is-angular-" class="ng-scope">What Is Angular?</h4>
-            <p class="ng-scope">AngularJS is a structural framework for dynamic web apps. It lets you use HTML as your template
-            language and lets you extend HTML's syntax to express your application's components clearly and
-            succinctly. Angular's data binding and dependency injection eliminate much of the code you
-            would otherwise have to write. And it all happens within the browser, making it
-            an ideal partner with any server technology.</p>
-            <p class="ng-scope">Angular is what HTML would have been, had it been designed for applications. HTML is a great
-            declarative language for static documents. It does not contain much in the way of creating
-            applications, and as a result building web applications is an exercise in <em>what do I have to do
-            to trick the browser into doing what I want?</em></p>
-            <p class="ng-scope">The impedance mismatch between dynamic applications and static documents is often solved with:</p>
-            <ul class="ng-scope">
-            <li><strong>a library</strong> - a collection of functions which are useful when writing web apps. Your code is
-            in charge and it calls into the library when it sees fit. E.g., <code><span class="pln">jQuery</span></code>.</li>
-            <li><strong>frameworks</strong> - a particular implementation of a web application, where your code fills in
-            the details. The framework is in charge and it calls into your code when it needs something
-            app specific. E.g., <code><span class="pln">durandal</span></code>, <code><span class="pln">ember</span></code>, etc.</li>
-            </ul>
-            <p class="ng-scope">Angular takes another approach. It attempts to minimize the impedance mismatch between document
-            centric HTML and what an application needs by creating new HTML constructs. Angular teaches the
-            browser new syntax through a construct we call <em>directives</em>. Examples include:</p>
-            <ul class="ng-scope">
-            <li>Data binding, as in <code><span class="pun">{{}}</span></code>.</li>
-            <li>DOM control structures for repeating, showing and hiding DOM fragments.</li>
-            <li>Support for forms and form validation.</li>
-            <li>Attaching new behavior to DOM elements, such as DOM event handling.</li>
-            <li>Grouping of HTML into reusable components.</li>
-            </ul>
-            <h4 id="a-complete-client-side-solution" class="ng-scope">A complete client-side solution</h4>
-            <p class="ng-scope">Angular is not a single piece in the overall puzzle of building the client-side of a web
-            application. It handles all of the DOM and AJAX glue code you once wrote by hand and puts it in a
-            well-defined structure. This makes Angular opinionated about how a CRUD (Create, Read, Update, Delete)
-            application should be built. But while it is opinionated, it also tries to make sure that its opinion
-            is just a starting point you can easily change. Angular comes with the following out-of-the-box:</p>
-            <ul class="ng-scope">
-            <li>Everything you need to build a CRUD app in a cohesive set: Data-binding, basic templating
-            directives, form validation, routing, deep-linking, reusable components and dependency injection.</li>
-            <li>Testability story: Unit-testing, end-to-end testing, mocks and test harnesses.</li>
-            <li>Seed application with directory layout and test scripts as a starting point.</li>
-            </ul>
-            <h4 id="angular-s-sweet-spot" class="ng-scope">Angular's sweet spot</h4>
-            <p class="ng-scope">Angular simplifies application development by presenting a higher level of abstraction to the
-            developer. Like any abstraction, it comes at a cost of flexibility. In other words, not every app
-            is a good fit for Angular. Angular was built with the CRUD application in mind. Luckily CRUD
-            applications represent the majority of web applications. To understand what Angular is
-            good at, though, it helps to understand when an app is not a good fit for Angular.</p>
-            <p class="ng-scope">Games and GUI editors are examples of applications with intensive and tricky DOM manipulation.
-            These kinds of apps are different from CRUD apps, and as a result are probably not a good fit for Angular.
-            In these cases it may be better to use a library with a lower level of abstraction, such as <code><span class="pln">jQuery</span></code>.</p>
-            <h4 id="the-zen-of-angular" class="ng-scope">The Zen of Angular</h4>
-            <p class="ng-scope">Angular is built around the belief that declarative code is better than imperative when it comes
-            to building UIs and wiring software components together, while imperative code is excellent for
-            expressing business logic.</p>
-            <ul class="ng-scope">
-            <li>It is a very good idea to decouple DOM manipulation from app logic. This dramatically improves
-            the testability of the code.</li>
-            <li>It is a really, <em>really</em> good idea to regard app testing as equal in importance to app
-            writing. Testing difficulty is dramatically affected by the way the code is structured.</li>
-            <li>It is an excellent idea to decouple the client side of an app from the server side. This
-            allows development work to progress in parallel, and allows for reuse of both sides.</li>
-            <li>It is very helpful indeed if the framework guides developers through the entire journey of
-            building an app: From designing the UI, through writing the business logic, to testing.</li>
-            <li>It is always good to make common tasks trivial and difficult tasks possible.</li>
-            </ul>
-            <p class="ng-scope">Angular frees you from the following pains:</p>
-            <ul class="ng-scope">
-            <li><strong>Registering callbacks:</strong> Registering callbacks clutters your code, making it hard to see the
-            forest for the trees. Removing common boilerplate code such as callbacks is a good thing. It
-            vastly reduces the amount of JavaScript coding <em>you</em> have to do, and it makes it easier to see
-            what your application does.</li>
-            <li><strong>Manipulating HTML DOM programmatically:</strong> Manipulating HTML DOM is a cornerstone of AJAX
-            applications, but it's cumbersome and error-prone. By declaratively describing how the UI
-            should change as your application state changes, you are freed from low-level DOM manipulation
-            tasks. Most applications written with Angular never have to programmatically manipulate the
-            DOM, although you can if you want to.</li>
-            <li><strong>Marshaling data to and from the UI:</strong> CRUD operations make up the majority of AJAX
-            applications' tasks. The flow of marshaling data from the server to an internal object to an HTML
-            form, allowing users to modify the form, validating the form, displaying validation errors,
-            returning to an internal model, and then back to the server, creates a lot of boilerplate
-            code. Angular eliminates almost all of this boilerplate, leaving code that describes the
-            overall flow of the application rather than all of the implementation details.</li>
-            <li><strong>Writing tons of initialization code just to get started:</strong> Typically you need to write a lot
-            of plumbing just to get a basic "Hello World" AJAX app working. With Angular you can bootstrap
-            your app easily using services, which are auto-injected into your application in a
-            <a href="https://github.com/google/guice">Guice</a>-like dependency-injection style. This allows you
-            to get started developing features quickly. As a bonus, you get full control over the
-            initialization process in automated tests.</li>
-            </ul>
-
+              <h4 id="what-is-angular-" class="ng-scope">What Is Angular?</h4>
+              <p class="ng-scope">AngularJS is a structural framework for dynamic web apps. It lets you use HTML as your template
+              language and lets you extend HTML's syntax to express your application's components clearly and
+              succinctly. Angular's data binding and dependency injection eliminate much of the code you
+              would otherwise have to write. And it all happens within the browser, making it
+              an ideal partner with any server technology.</p>
 
             </div>
           </div>
@@ -368,12 +85,7 @@ layout: default
           <div class="technology-item-content">
             <h3>Android</h3>
             <br>
-            <p><b>Android</b> is a <a href="/wiki/Mobile_operating_system" title="Mobile operating system">mobile operating system</a> developed by <a href="/wiki/Google" title="Google">Google</a>, based on the <a href="/wiki/Linux_kernel" title="Linux kernel">Linux kernel</a> and designed primarily for <a href="/wiki/Touchscreen" title="Touchscreen">touchscreen</a> mobile devices such as <a href="/wiki/Smartphone" title="Smartphone">smartphones</a> and <a href="/wiki/Tablet_computer" title="Tablet computer">tablets</a>. Android's <a href="/wiki/User_interface" title="User interface">user interface</a> is mainly based on <a href="/wiki/Direct_manipulation_interface" title="Direct manipulation interface">direct manipulation</a>, using touch gestures that loosely correspond to real-world actions, such as swiping, tapping and pinching, to manipulate on-screen objects, along with a <a href="/wiki/Virtual_keyboard" title="Virtual keyboard">virtual keyboard</a> for text input. In addition to touchscreen devices, Google has further developed <a href="/wiki/Android_TV" title="Android TV">Android TV</a> for televisions, <a href="/wiki/Android_Auto" title="Android Auto">Android Auto</a> for cars, and <a href="/wiki/Android_Wear" title="Android Wear">Android Wear</a> for wrist watches, each with a specialized user interface. Variants of Android are also used on <a href="/wiki/Laptop" title="Laptop">notebooks</a>, <a href="/wiki/Video_game_console" title="Video game console">game consoles</a>, <a href="/wiki/Digital_camera" title="Digital camera">digital cameras</a>, and other electronics.</p>
-            <p>Android has the largest <a href="/wiki/Installed_base" title="Installed base">installed base</a> of all operating systems (OS) of any kind.<sup id="cite_ref-16" class="reference"><a href="#cite_note-16">[b]</a></sup> Android has been the best selling OS on tablets since 2013, and on smartphones it is dominant by any metric.<sup id="cite_ref-manjoomurky_17-0" class="reference"><a href="#cite_note-manjoomurky-17">[15]</a></sup><sup id="cite_ref-dominating_18-0" class="reference"><a href="#cite_note-dominating-18">[16]</a></sup></p>
-
-            <p>Initially developed by Android, Inc., which Google bought in 2005,<sup id="cite_ref-AndroidInc_19-0" class="reference"><a href="#cite_note-AndroidInc-19">[17]</a></sup> Android was unveiled in 2007 along with the founding of the <a href="/wiki/Open_Handset_Alliance" title="Open Handset Alliance">Open Handset Alliance</a>&nbsp;– a consortium of <a href="/wiki/Computer_hardware" title="Computer hardware">hardware</a>, <a href="/wiki/Software" title="Software">software</a>, and telecommunication companies devoted to advancing <a href="/wiki/Open_standard" title="Open standard">open standards</a> for mobile devices.<sup id="cite_ref-AndroidAnnouncement_20-0" class="reference"><a href="#cite_note-AndroidAnnouncement-20">[18]</a></sup> As of July 2013<sup class="plainlinks noprint asof-tag update" style="display:none;"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Android_(operating_system)&amp;action=edit">[update]</a></sup>, the <a href="/wiki/Google_Play" title="Google Play">Google Play</a> store has had over one million Android applications ("apps") published&nbsp;–  including many "business-class apps"<sup id="cite_ref-Infoworld2016_21-0" class="reference"><a href="#cite_note-Infoworld2016-21">[19]</a></sup> that rival competing mobile platforms<sup id="cite_ref-Infoworld2015_22-0" class="reference"><a href="#cite_note-Infoworld2015-22">[20]</a></sup>&nbsp;–  and over 50 billion applications downloaded.<sup id="cite_ref-phonearena1_23-0" class="reference"><a href="#cite_note-phonearena1-23">[21]</a></sup> An April–May 2013 survey of mobile application developers found that 71% of developers create applications for Android,<sup id="cite_ref-visionmobile1_24-0" class="reference"><a href="#cite_note-visionmobile1-24">[22]</a></sup> and a 2015 survey found that 40% of full-time professional developers see Android as their priority target platform, which is comparable to <a href="/wiki/Apple_Inc." title="Apple Inc.">Apple</a>'s <a href="/wiki/IOS" title="IOS">iOS</a> on 37% with both platforms far above others.<sup id="cite_ref-25" class="reference"><a href="#cite_note-25">[23]</a></sup> In September 2015, Android had 1.4 billion monthly active devices.<sup id="cite_ref-26" class="reference"><a href="#cite_note-26">[24]</a></sup></p>
-
-            <p>Android's <a href="/wiki/Source_code" title="Source code">source code</a> is released by Google under <a href="/wiki/Open_source" class="mw-redirect" title="Open source">open source</a> licenses, although most Android devices ultimately ship with a combination of open source and proprietary software, including proprietary software required for accessing Google services.<sup id="cite_ref-ars-irongrip_3-1" class="reference"><a href="#cite_note-ars-irongrip-3">[3]</a></sup> Android is popular with technology companies that require a ready-made, low-cost and customizable operating system for <a href="/wiki/High-tech" class="mw-redirect" title="High-tech">high-tech</a> devices.<sup id="cite_ref-ars5th_27-0" class="reference"><a href="#cite_note-ars5th-27">[25]</a></sup> Its open nature has encouraged a large community of developers and enthusiasts to use the open-source code as a foundation for community-driven projects, which deliver updates to older devices, add new features for advanced users<sup id="cite_ref-apolroms_28-0" class="reference"><a href="#cite_note-apolroms-28">[26]</a></sup> or bring Android to devices originally shipped with other operating systems. The success of Android has made it a target for patent (and copyright) litigation as part of the so-called "<a href="/wiki/Smartphone_wars" class="mw-redirect" title="Smartphone wars">smartphone wars</a>" between technology companies.<sup id="cite_ref-cnet2011_29-0" class="reference"><a href="#cite_note-cnet2011-29">[27]</a></sup><sup id="cite_ref-tomsguide_30-0" class="reference"><a href="#cite_note-tomsguide-30">[28]</a></sup></p>
+            <p><b>Android</b> is a <a href="#" title="Mobile operating system">mobile operating system</a> developed by <a href="#" title="Google">Google</a>, based on the <a href="#" title="Linux kernel">Linux kernel</a> and designed primarily for <a href="#" title="Touchscreen">touchscreen</a> mobile devices such as <a href="#" title="Smartphone">smartphones</a> and <a href="#" title="Tablet computer">tablets</a>. </p>
           </div>
         </article>
 
@@ -385,7 +97,9 @@ layout: default
           <div class="technology-item-content">
             <h3>BACKBONE</h3>
             <br>
-            <p><b>Backbone.js</b> is a <a href="/wiki/JavaScript" title="JavaScript">JavaScript</a> library with a <a href="/wiki/REST" class="mw-redirect" title="REST">RESTful</a> <a href="/wiki/JSON" title="JSON">JSON</a> interface and is based on the <a href="/wiki/Model%E2%80%93view%E2%80%93presenter" title="Model–view–presenter">model–view–presenter</a> (MVP) application design paradigm. Backbone is known for being lightweight, as its only hard dependency is on one <a href="/wiki/JavaScript_library" title="JavaScript library">JavaScript library</a>,<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[2]</a></sup> <a href="/wiki/Underscore.js" title="Underscore.js">Underscore.js</a>, plus <a href="/wiki/JQuery" title="JQuery">jQuery</a> for use of the full library.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">[3]</a></sup> It is designed for developing <a href="/wiki/Single-page_application" title="Single-page application">single-page web applications</a>,<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">[4]</a></sup> and for keeping various parts of web applications (e.g. multiple clients and the server) synchronized.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5">[5]</a></sup> Backbone was created by <a href="/wiki/Jeremy_Ashkenas" title="Jeremy Ashkenas">Jeremy Ashkenas</a>,<sup id="cite_ref-6" class="reference"><a href="#cite_note-6">[6]</a></sup> who is also known for <a href="/wiki/CoffeeScript" title="CoffeeScript">CoffeeScript</a> and <a href="/wiki/Underscore.js" title="Underscore.js">Underscore.js</a>.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">[7]</a></sup></p>
+            <p><b>Backbone.js</b> is a <a href="#" title="JavaScript">JavaScript</a> library with a <a href="#" class="mw-redirect" title="REST">RESTful</a>
+              <a href="#" title="JSON">JSON</a> interface and is based on the <a href="#" title="Model–view–presenter">model–view–presenter</a>
+              (MVP) application design paradigm. Backbone is known for being lightweight, as its only hard dependency is on one <a href="#" title="JavaScript library">JavaScript library</a></p>
           </div>
         </article>
 
@@ -396,9 +110,10 @@ layout: default
           </div>
           <div class="technology-item-content">
             <h3>React</h3>
-            <p><b>React</b> (sometimes styled <b>React.js</b> or <b>ReactJS</b>) is an <a href="/wiki/Open-source_software" title="Open-source software">open-source</a> <a href="/wiki/JavaScript_library" title="JavaScript library">JavaScript library</a> for data rendered as <a href="/wiki/HTML" title="HTML">HTML</a>.</p>
-            <p>It is maintained by <a href="/wiki/Facebook" title="Facebook">Facebook</a>, <a href="/wiki/Instagram" title="Instagram">Instagram</a> and a community of individual developers and corporations.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[2]</a></sup><sup id="cite_ref-3" class="reference"><a href="#cite_note-3">[3]</a></sup><sup id="cite_ref-4" class="reference"><a href="#cite_note-4">[4]</a></sup> According to <a href="/wiki/JavaScript" title="JavaScript">JavaScript</a> analytics service <a href="/wiki/Libscore" title="Libscore">Libscore</a>, React is currently being used on the websites of <a href="/wiki/Netflix" title="Netflix">Netflix</a>, <a href="/wiki/Imgur" title="Imgur">Imgur</a>, <a href="/wiki/Bleacher_Report" title="Bleacher Report">Bleacher Report</a>, <a href="/wiki/Feedly" title="Feedly">Feedly</a>, <a href="/wiki/Airbnb" title="Airbnb">Airbnb</a>, <a href="/wiki/SeatGeek" title="SeatGeek">SeatGeek</a>, <a href="/wiki/HelloSign" title="HelloSign">HelloSign</a>, and others.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5">[5]</a></sup></p>
-            <p>As of March 2016, React and React Native are Facebook's top two open-source projects by number of stars on <a href="/wiki/GitHub" title="GitHub">GitHub</a>,<sup id="cite_ref-6" class="reference"><a href="#cite_note-6">[6]</a></sup> and React is the 6th most starred project of all time on GitHub.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">[7]</a></sup></p>
+            <p><b>React</b> (sometimes styled <b>React.js</b> or <b>ReactJS</b>) is an <a href="#" title="Open-source software">open-source</a> <a href="#" title="JavaScript library">JavaScript library</a> for data rendered as <a href="#" title="HTML">HTML</a>.</p>
+            <p>It is maintained by <a href="#" title="Facebook">Facebook</a>, <a href="#" title="Instagram">Instagram</a> and a community of individual developers and corporations.
+            </p>
+            <p>As of March 2016, React and React Native are Facebook's top two open-source projects by number of stars on <a href="#" title="GitHub">GitHub</a> and React is the 6th most starred project of all time on GitHub.</p>
           </div>
         </article>
 
@@ -410,21 +125,9 @@ layout: default
           <div class="technology-item-content">
             <h3>Heroku</h3>
             <p>
-              Heroku is a cloud application platform – a new way
-              of building and deploying web apps.
+              Heroku is a cloud application platform – a new way of building and deploying web apps.
             </p>
-            <p>
-              Our service lets app developers spend their time on their application
-              code, not managing servers, deployment, ongoing operations, or scaling.
-            </p>
-            <p>
-              Learn more about our <a href="/products">products</a>, <a href="/pricing">pricing</a>, <a href="/free">free offerings</a>, <a href="/languages">language support</a>, and <a href="https://elements.heroku.com/">Elements Marketplace</a>.
-            </p>
-            <p>
-              Heroku was founded in 2007 by Orion Henry, James Lindenbaum, and Adam
-              Wiggins.  It was <a href="http://www.salesforce.com/company/news-press/press-releases/2010/12/101208.jsp">acquired by Salesforce</a>
-              in 2011, and Heroku is now part of the <a href="http://www.salesforce.com/platform/products/heroku/">Salesforce App Cloud</a>.
-            </p>
+
           </div>
         </article>
 
@@ -435,8 +138,6 @@ layout: default
           <div class="technology-item-content">
             <h3>Python</h3>
             <p>Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.</p>
-
-            <p>Often, programmers fall in love with Python because of the increased productivity it provides. Since there is no compilation step, the edit-test-debug cycle is incredibly fast. Debugging Python programs is easy: a bug or bad input will never cause a segmentation fault. Instead, when the interpreter discovers an error, it raises an exception. When the program doesn't catch the exception, the interpreter prints a stack trace. A source level debugger allows inspection of local and global variables, evaluation of arbitrary expressions, setting breakpoints, stepping through the code a line at a time, and so on. The debugger is written in Python itself, testifying to Python's introspective power. On the other hand, often the quickest way to debug a program is to add a few print statements to the source: the fast edit-test-debug cycle makes this simple approach very effective.</p>
           </div>
         </article>
 
@@ -456,7 +157,7 @@ layout: default
               data types, including INTEGER, NUMERIC, BOOLEAN, CHAR, VARCHAR, DATE, INTERVAL,
               and TIMESTAMP. It also supports storage of binary large objects, including pictures,
               sounds, or video. It has native programming interfaces for C/C++, Java, .Net, Perl,
-              Python, Ruby, Tcl, ODBC, among others, and <a href="/docs/manuals/" target="_top">exceptional documentation</a>.
+              Python, Ruby, Tcl, ODBC, among others.
               </p>
           </div>
         </article>

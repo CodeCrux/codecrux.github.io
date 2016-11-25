@@ -28,6 +28,9 @@ p {
 p.large {
   font-size: 16px;
 }
+input, textarea{
+  border-width: 1px !important;
+}
 a,
 a:hover,
 a:focus,
@@ -183,7 +186,7 @@ fieldset[disabled] .btn-xl.active {
   color: #0eb493;
 }
 .navbar-default .navbar-brand img {
-  height: 50px;
+  height: 40px;
   vertical-align: middle;
 }
 .navbar-default .navbar-collapse {
@@ -361,7 +364,6 @@ fieldset[disabled] .btn-xl.active {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 38px;
-  font-family: 'Lato', sans-serif;
   font-weight: 400;
   text-align: center;
 }
@@ -536,9 +538,22 @@ blockquote {
   padding-bottom: 10px;
   border-bottom: 2px solid #0eb493;
 }
+address a.location{
+  color: inherit;
+  cursor: pointer;
+}
 .contact-address h4 {
   font-weight: 700;
   font-size: 22px;
+}
+.contact-wraper{
+  /*background-color: #f6f8f8;*/
+  background-image: url("/img/why_we_do_background_codecrux.jpg");
+  position: center center;
+}
+.codecrux-address{
+  width: 265px;
+  height: 165px;
 }
 .technologies-wraper {
   padding: 20px;
@@ -552,9 +567,22 @@ blockquote {
 .tech-item {
   text-align: center;
 }
+.tech-item span{
+  font-weight: 600;
+  color: rgba(128, 128, 128, 0.41);
+  font-size: 17px;
+}
+.tech-item span img.android{
+  width: 99px !important;
+  height: 12px !important;
+}
+.tech-item span img.heroku{
+  width: 77px !important;
+  height: 19px !important;
+}
 .tech-item img {
-  width: 50px;
-  height: 50px;
+  width: 36px;
+  height: 36px;
 }
 .team-wraper {
   background-color: #f6f8f8;
@@ -581,6 +609,8 @@ blockquote {
   color: #555;
 }
 .features-wraper {
+  /*background-image: url("/img/why_we_do_background_codecrux.jpg");
+  background-position: center center;*/
   background-color: #f6f8f8;
   padding: 60px 0;
 }
@@ -744,10 +774,13 @@ blockquote {
 .blogs-wraper {
   margin: 50px 0;
 }
+.blogs-wraper a{
+  color: inherit;
+}
 .blog-item {
   border-bottom: 1px solid #e4e1e1;
   border-radius: 4px;
-  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.3);
   margin-bottom: 35px;
 }
 .blog-item-image {
@@ -768,8 +801,8 @@ blockquote {
 }
 .blog-item-content {
   position: relative;
-  height: 180px;
-  padding: 20px;
+  height: auto;
+  /*padding: 20px;*/
 }
 .blog-item-title a {
   color: #2d4158;
@@ -778,6 +811,58 @@ blockquote {
   letter-spacing: 0px;
   line-height: 1.5em;
   text-align: left;
+}
+.blog-item-info{
+  display: block;
+  color: #2e353b;
+  font-weight: 500;
+  display: inline-block;
+  padding: 0 40px;
+}
+.blog-item-title{
+  font-size: 30px;
+  line-height: 40px;
+  margin: 30px 0px 20px;
+  display: block;
+  color: #2e353b;
+  font-weight: 500;
+  display: inline-block;
+  padding: 10px 40px;
+  border-left: 5px solid #ddd;
+}
+.blog-item-info img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 0 auto;
+  object-fit: cover;
+}
+.blog-content-row{
+  margin-top: 20px;
+  padding: 0 40px 20px;
+  color: #576366;
+}
+.blog-content-row p{
+  font-size: 15px !important;
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+.blogs-row {
+  max-width: 850px;
+  width: 100%;
+  margin: 0 auto;
+}
+.blog-content-img {
+  margin-right: 10px;
+}
+.blog-content-img img{
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.3);
+  opacity: 0.8;
+  margin-top: 9px;
 }
 .blog-item-category a {
   font-family: 'proxima-nova', serif;
@@ -793,8 +878,34 @@ blockquote {
 }
 .author-name {
   font-family: 'proxima-nova', serif;
-  color: #0081FF;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 30px;
+  color: #333;
 }
+.separator-dot{
+  color: #ddd;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 30px;
+}
+.blogs-wraper .blog-item:hover{
+  text-decoration:none;
+  box-shadow:1px 8px 8px rgba(0,0,0,0.1),0 0 4px rgba(0,0,0,0.08);
+}
+.blogs-wraper .blog-item:hover .blog-item-title{
+  border-left: 5px solid #000;
+}
+.blogs-wraper .blog-item:hover .blog-content-row,
+.blogs-wraper .blog-item:hover .separator-dot,
+.blogs-wraper .blog-item:hover .posted-date{
+  color: #000;
+}
+.blogs-wraper .blog-item:hover .blog-content-row img{
+  opacity: 1;
+}
+
 .posted-date {
   font-family: 'proxima-nova', serif;
   font-size: 16px;
@@ -863,6 +974,55 @@ blockquote {
   max-width: 100%;
   height: auto;
 }
+
+/*------Technology------*/
+.technology-banner {
+  background: url('/img/codecrux-tech-bg.jpg') no-repeat;
+  background-position: top center;
+  background-size: 100%;
+  padding: 60px 0;
+  text-align: center;
+}
+.technology-banner-content h1 {
+  color: #fff;
+}
+.technology-content-wraper {
+  padding: 30px 0;
+}
+.technology-item {
+  position: relative;
+  margin-bottom: 40px;
+}
+.technology-item::after,
+.technology-item::before {
+  content: '';
+  display: table;
+}
+.technology-item::after {
+  clear: both;
+}
+.technology-item-img {
+  width: 120px;
+  height: 120px;
+  background-color: #f6f6f6;
+  border-radius: 5px;
+  float: left;
+  text-align: center;
+  padding-top: 18px;
+  margin-right: 20px;
+}
+.technology-item-img img {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  vertical-align: middle;
+}
+.technology-item-content {
+  overflow: hidden;
+}
+.technology-item-content h3 {
+  margin-top: 0;
+}
 @media(min-width: 1200px) {
   .banner .intro-text .intro-lead-in {
     margin-bottom: 25px;
@@ -878,8 +1038,15 @@ blockquote {
   }
 }
 @media (max-width: 767px) {
-  .navbar-header {
-    border-bottom: 2px solid #42dca3;
+  .navbar-default .navbar-collapse {
+    background-color: #fff;
+  }
+  .home-navbar .navbar-nav > li > a {
+    color: #666;
+  }
+  .home-navbar .navbar-nav > li > a:hover,
+  .home-navbar .navbar-nav > li > a:focus {
+    color: #01c3a7;
   }
   .default-header {
     border-bottom: 1px solid #ddd;

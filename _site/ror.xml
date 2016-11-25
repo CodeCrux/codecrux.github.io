@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://codecrux.com/</title>
+  <link>http://codecrux.com/</link>
+
+<item>
+     <link>http://codecrux.com/</link>
+     <title>CodeCrux</title>
+     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://codecrux.com/blog/</link>
+     <title>Codecrux | Our Blog</title>
+     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://codecrux.com/technology/</link>
+     <title>Codecrux | Our Blog</title>
+     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://codecrux.com/blog/2016/100-most-successful-apps-with-ruby-on-rails</link>
+     <title>Codecrux | Our Blog</title>
+     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://codecrux.com/blog/2016/cloud-storage-performance-amazon-s3-vs-google-or-cloud-vs-azure</link>
+     <title>Codecrux | Our Blog</title>
+     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://codecrux.com/blog/2016/5-simple-and-low-cost-tricks-for-growing-your-business</link>
+     <title>Codecrux | Our Blog</title>
+     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://codecrux.com/blog/2016/which-platform-you-should-build-for-first</link>
+     <title>Codecrux | Our Blog</title>
+     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  

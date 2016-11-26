@@ -940,7 +940,7 @@ address a.location{
   object-fit: cover;
 }
 .blog-post-title h1 {
-  width: 60%;
+  width: 100%;
   margin: 0 auto;
   color: #fff;
 }

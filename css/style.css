@@ -1030,6 +1030,15 @@ address a.location{
   color: #01c3a7;
 }
 
+.alert-success{
+  /*background-color: #17806b;
+  border-color: 0 2px #17806b;
+  color: #ffffff;*/
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+
 @media(min-width: 1200px) {
   .banner .intro-text .intro-lead-in {
     margin-bottom: 25px;

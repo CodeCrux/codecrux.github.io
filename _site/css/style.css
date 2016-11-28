@@ -175,6 +175,15 @@ fieldset[disabled] .btn-xl.active {
   line-height: 30px;
   /*font-family: 'Kaushan Script', cursive;*/
 }
+.navbar-default .nav-logo {
+  color: #00829c;
+  padding: 10px;
+}
+.nav-logo img {
+  height: 60px;
+  width: auto;
+  margin-top: -12px;
+}
 @font-face {
   font-family: "proxima-nova";
   src: url(/fonts/proxima-nova.otf) format("opentype");
@@ -184,11 +193,6 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
   color: #0eb493;
-}
-.navbar-default .navbar-brand img {
-  height: 64px;
-  vertical-align: middle;
-  margin-left: 38px;
 }
 .navbar-default .navbar-collapse {
   border-color: rgba(255,255,255,.02);
@@ -222,6 +226,16 @@ fieldset[disabled] .btn-xl.active {
   width: 100%;
   z-index: 999;
   border-bottom: 0 !important;
+}
+.home-navbar .navbar-brand {
+  color: #fff;
+  text-align: center;
+}
+.home-navbar .navbar-brand img {
+  display: inline-block;
+  height: 80px;
+  width: auto;
+  margin-top: -10px;
 }
 .home-navbar .navbar-nav > li > a {
   color: #fff;
@@ -284,9 +298,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .banner .intro-text .intro-lead-in {
   margin-bottom: 25px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif;
   font-size: 35px !important;
-  font-style: italic;
   line-height: 22px;
 }
 .banner .intro-text .intro-heading {
@@ -1047,9 +1059,7 @@ address a.location{
 @media(min-width: 1200px) {
   .banner .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif;
     font-size: 40px;
-    font-style: italic;
     line-height: 40px;
   }
   .banner .intro-text .intro-heading {

@@ -22,7 +22,7 @@ body {
   color: #0eb493;
 }
 p {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.75;
 }
 p.large {
@@ -173,7 +173,16 @@ fieldset[disabled] .btn-xl.active {
   font-size: 30px;
   padding: 14px 15px;
   line-height: 30px;
-  font-family: 'Kaushan Script', cursive;
+  /*font-family: 'Kaushan Script', cursive;*/
+}
+.navbar-default .nav-logo {
+  color: #00829c;
+  padding: 10px;
+}
+.nav-logo img {
+  height: 60px;
+  width: auto;
+  margin-top: -12px;
 }
 @font-face {
   font-family: "proxima-nova";
@@ -184,10 +193,6 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
   color: #0eb493;
-}
-.navbar-default .navbar-brand img {
-  height: 40px;
-  vertical-align: middle;
 }
 .navbar-default .navbar-collapse {
   border-color: rgba(255,255,255,.02);
@@ -210,6 +215,10 @@ fieldset[disabled] .btn-xl.active {
   letter-spacing: 1px;
   color: #333333;
 }
+.color-primary{
+  color: #FFF;
+}
+
 .home-navbar {
   position: absolute;
   top: 0;
@@ -217,6 +226,16 @@ fieldset[disabled] .btn-xl.active {
   width: 100%;
   z-index: 999;
   border-bottom: 0 !important;
+}
+.home-navbar .navbar-brand {
+  color: #fff;
+  text-align: center;
+}
+.home-navbar .navbar-brand img {
+  display: inline-block;
+  height: 80px;
+  width: auto;
+  margin-top: -10px;
 }
 .home-navbar .navbar-nav > li > a {
   color: #fff;
@@ -263,7 +282,7 @@ fieldset[disabled] .btn-xl.active {
   width: 100%;
   height: 100%;
   background: url('/img/banner-overlay.png') no-repeat 0 0/cover;
-  opacity: 0.85;
+  opacity: 0.7;
 }
 .banner .intro-text {
   position: absolute;
@@ -279,9 +298,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .banner .intro-text .intro-lead-in {
   margin-bottom: 25px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif;
-  font-size: 22px;
-  font-style: italic;
+  font-size: 35px !important;
   line-height: 22px;
 }
 .banner .intro-text .intro-heading {
@@ -796,10 +813,11 @@ address a.location{
   color: inherit;
 }
 .blog-item {
+  background-color: #FDFDFD;
   border-bottom: 1px solid #e4e1e1;
   border-radius: 4px;
   box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.3);
-  margin-bottom: 35px;
+  margin-bottom: 20px;
 }
 .blog-item-image {
   background-color: #f6f6f6;
@@ -937,7 +955,7 @@ address a.location{
 }
 .blog-post-banner {
   width: 100%;
-  height: 420px;
+  height: 300px;
   display: table;
   text-align: center;
 }
@@ -957,7 +975,7 @@ address a.location{
   object-fit: cover;
 }
 .blog-post-title h1 {
-  width: 60%;
+  width: 100%;
   margin: 0 auto;
   color: #fff;
 }
@@ -998,7 +1016,7 @@ address a.location{
   background: url('/img/codecrux-tech-bg.jpg') no-repeat;
   background-position: top center;
   background-size: 100%;
-  padding: 60px 0;
+  padding: 100px 0;
   text-align: center;
 }
 .technology-banner-content h1 {
@@ -1049,12 +1067,22 @@ address a.location{
   max-width: 100%;
   height: auto;
 }
+
+.read-more-link{
+  font-weight: bold;
+  color: #01c3a7;
+}
+
+.alert-success{
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+
 @media(min-width: 1200px) {
   .banner .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif;
     font-size: 40px;
-    font-style: italic;
     line-height: 40px;
   }
   .banner .intro-text .intro-heading {

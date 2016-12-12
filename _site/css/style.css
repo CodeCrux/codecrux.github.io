@@ -401,8 +401,35 @@ section {
 aside.clients img {
   margin: 50px auto;
 }
+
+.footer-links{
+  padding: 30px 10px 60px 10px;
+  background-color: #404040;
+  color: #FFF;
+  line-height: 1.5;
+}
+
+.footer-links ul > li {
+  list-style: none;
+  margin-left: -40px;
+}
+
+.footer-links ul > li > a {
+  color: #FFF;
+}
+
+.footer-links ul > li > a:hover{
+  color: #0eb493;
+}
+
+.buttons-col{
+  border: 1px solid #EEE;
+  border-radius: 4px;
+  background: #efefef;
+}
+
 footer {
-  padding: 25px 0;
+  padding: 10px 0;
   text-align: center;
   border-top: 1px solid #ccc;
 }

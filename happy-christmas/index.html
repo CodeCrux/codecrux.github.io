@@ -1,0 +1,38 @@
+<html>
+  <head>
+  <link rel="stylesheet" href="styles.css"></link>
+  </head>
+  <body class="darkBg">
+    <div class="test-container"></div>
+    <script src='js/snowfall.min.js'></script>
+    <script type='text/javascript'>
+      var collectOnMe = document.querySelectorAll('.collectonme'),
+      buttons = document.getElementsByTagName("input");
+
+      for(var i = 0; i < collectOnMe.length; i++){
+      collectOnMe[i].style.display = "none";
+      }
+
+      //default options
+      snowFall.snow(document.body);
+
+      var testContainer = document.querySelector('.test-container'),
+      testContainerIsSnowing = true;
+
+      snowFall.snow(testContainer);
+
+      testContainer.addEventListener('click', function(e){
+      testContainerIsSnowing = !testContainerIsSnowing;
+
+      if(!testContainerIsSnowing){
+      snowFall.snow(testContainer, "clear");
+      }else{
+      snowFall.snow(testContainer);
+      }
+      })
+    </script>
+
+
+  </body>
+  
+</html>

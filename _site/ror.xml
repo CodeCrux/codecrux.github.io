@@ -6,8 +6,8 @@
 
 <item>
      <link>http://codecrux.com/</link>
-     <title>CodeCrux</title>
-     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <title>CodeCrux - Smart, Data-Driven and Outcome focussed Product Development Company</title>
+     <description>CodeCrux builds web and mobile applications using Ruby on Rails, iOS and Android for startups, high growth, enterprises</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>0</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -26,6 +26,102 @@
      <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://codecrux.com/process/</link>
+     <title>Codecrux | Our Blog</title>
+     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://codecrux.com/product-engineering/</link>
+     <title>Codecrux | Our Blog</title>
+     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://codecrux.com/data-practices/</link>
+     <title>Codecrux | Our Blog</title>
+     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://codecrux.com/portfolio/</link>
+     <title>Codecrux | Our Blog</title>
+     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://codecrux.com/about/</link>
+     <title>Codecrux | Our Blog</title>
+     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://codecrux.com/services/</link>
+     <title>Codecrux | Our Blog</title>
+     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://codecrux.com/contact/</link>
+     <title>Codecrux | Our Blog</title>
+     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://codecrux.com/careers/</link>
+     <title>Codecrux | Our Blog</title>
+     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://codecrux.com/api-development/</link>
+     <title>Codecrux | Our Blog</title>
+     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://codecrux.com/blog/2016/how-to-learn-ruby-on-rails.html</link>
+     <title>Codecrux | Our Blog</title>
+     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://codecrux.com/blog/2016/tips-to-become-more-productive.html</link>
+     <title>Codecrux | Our Blog</title>
+     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://codecrux.com/blog/2016/static-compiled-programming-language-for-ruby-developers.html</link>
+     <title>Codecrux | Our Blog</title>
+     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>

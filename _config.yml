@@ -1,9 +1,4 @@
 
-title: CodeCrux - Smart, Data-Driven and Outcome focussed Product Development Company
-email: contact@codecrux.com
-contact_email: shyam@codecrux.com
-
-description: Smart, Data-Driven and Outcome focussed Products
 baseurl: ""
 url: "http://codecrux.com"
 
@@ -12,3 +7,10 @@ github_username:  codecrux
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-seo-tag
+
+collections:
+  cookies:
+    output: true

@@ -49,10 +49,23 @@ h6 {
   margin: 0 auto;
 }
 .btn {
+  height: 42px;
+  padding: 10px 15px;
+  border: 0;
   position: relative;
   font-family: Maven Pro, "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 500;
   font-size: 15px;
+}
+.btn-round {
+  border-radius: 30px;
+}
+.btn-default {
+  color: #777;
+}
+.btn-default:hover,
+.btn-default:focus {
+  color: #000;
 }
 .bg-light-gray {
   background-color: #f7f7f7;
@@ -69,16 +82,19 @@ h6 {
 	transition: none;
   border-radius: 4px;
 }
-
 .btn-warning {
   border: 0;
   color: #fff;
   background-color: #ec971f;
   border-color: #d58512;
-  box-shadow: 0 4px #17806b;
+  box-shadow: 0 4px #c67604;
   -webkit-transition: none;
   transition: none;
-  border-radius: 4px;
+  border-radius: 2px;
+}
+.btn-danger-link {
+  color: #d9534f;
+  font-weight: 700;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -88,14 +104,15 @@ h6 {
   color: #fff;
   background-color: #0eb493 !important;
 }
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-primary:focus {
   box-shadow: 0 2px #17806b;
   top: 2px;
 }
-.btn-primary:focus {
-  box-shadow: 0 0 #17806b;
-  top: 6px;
-
+.btn-warning:hover,
+.btn-warning:focus {
+  box-shadow: 0 2px #c67604;
+  top: 2px;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -159,6 +176,18 @@ fieldset[disabled] .btn-xl.active {
 .btn-xl .badge {
   color: #0eb493;
   background-color: #fff;
+}
+.form-control {
+  height: 46px;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  box-shadow: none;
+  font-size: 15px;
+}
+.form-control:focus {
+  box-shadow: none;
+  border-color: #ccc;
 }
 .navbar-default {
   background-color: #fff;
@@ -397,7 +426,7 @@ section h3.section-subheading {
   font-weight: 400;
 }
 section {
-  padding: 60px 0;
+  padding: 40px 0;
 }
 aside.clients img {
   margin: 50px auto;
@@ -1153,7 +1182,7 @@ address a.location{
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .pf-heading-message {
   position: absolute;
@@ -1165,11 +1194,17 @@ address a.location{
   height: 100px;
   text-align: center;
   z-index: 2;
+  padding: 0px 15px;
 }
 .pf-heading-message h1 {
-  margin: 0;
-  display: inline-block;
-  vertical-align: middle;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.pf-heading-message p {
+  font-family: 'proxima-nova', serif;
+  color: #fff;
+  font-size: 22px;
 }
 .btn-g {
   background-color: #0eb493;
@@ -1185,8 +1220,57 @@ address a.location{
 .fa-right {
   margin-left: 5px;
 }
-.more-link {
-
+.fa-left {
+  margin-right: 5px;
+}
+.pf-links a {
+  padding: 5px;
+  margin-right: 10px;
+}
+/*----Enquiry form------*/
+.enquiry-wraper {
+  background-color: #f3f3f3;
+  padding: 50px 0;
+}
+.contact-form .form-control {
+  height: 50px;
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 2px;
+  background-color: #fff;
+  box-shadow: inset 0 0 0 2px #fff;
+  -webkit-transition: box-shadow 200ms ease-in-out;
+  transition: box-shadow 200ms ease-in-out;
+}
+.contact-form .form-group {
+  margin-bottom: 25px;
+}
+.contact-form .form-control:focus {
+  box-shadow: inset 0 0 0 2px #ddd;
+}
+.contact-form textarea.form-control {
+  height: auto;
+}
+.contact-form .btn {
+  height: 50px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+.steps {
+  list-style: none;
+  padding: 0px 0px 0px 15px;
+  margin: 0;
+}
+.steps li {
+  display: block;
+  margin-bottom: 15px;
+  font-family: 'proxima-nova', serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+.en-head {
+  margin-bottom: 30px;
+  text-align: center;
 }
 @media(min-width: 1200px) {
   .banner .intro-text .intro-lead-in {

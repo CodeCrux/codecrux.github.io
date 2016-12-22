@@ -13,145 +13,169 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>http://codecrux.com/portfolio/</link>
+     <title>CodeCrux Portfolio</title>
+     <description>CodeCrux Portfolio includes Y Axis Coustmer portal, coustmized e-commarce applications, travel and jobs applications including petcare system</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>http://codecrux.com/blog/</link>
-     <title>Codecrux | Our Blog</title>
-     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <title></title>
+     
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
      <link>http://codecrux.com/technology/</link>
-     <title>Codecrux | Our Blog</title>
-     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <title></title>
+     
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
      <link>http://codecrux.com/process/</link>
-     <title>Codecrux | Our Blog</title>
-     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <title></title>
+     
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
      <link>http://codecrux.com/product-engineering/</link>
-     <title>Codecrux | Our Blog</title>
-     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <title></title>
+     
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
      <link>http://codecrux.com/data-practices/</link>
-     <title>Codecrux | Our Blog</title>
-     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>http://codecrux.com/portfolio/</link>
-     <title>Codecrux | Our Blog</title>
-     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <title></title>
+     
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
      <link>http://codecrux.com/about/</link>
-     <title>Codecrux | Our Blog</title>
-     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <title></title>
+     
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
      <link>http://codecrux.com/services/</link>
-     <title>Codecrux | Our Blog</title>
-     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <title></title>
+     
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
      <link>http://codecrux.com/contact/</link>
-     <title>Codecrux | Our Blog</title>
-     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <title></title>
+     
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
      <link>http://codecrux.com/careers/</link>
-     <title>Codecrux | Our Blog</title>
-     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <title>CodeCrux Portfolio</title>
+     <description>CodeCrux Portfolio includes Y Axis Coustmer portal, coustmized e-commarce applications, travel and jobs applications including petcare system</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
      <link>http://codecrux.com/api-development/</link>
-     <title>Codecrux | Our Blog</title>
-     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://codecrux.com/sitemap.html</link>
+     <title>CodeCrux - sitemap</title>
+     <description>Sitemap of CodeCrux - Ruby on Rails development company</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
      <link>http://codecrux.com/blog/2016/how-to-learn-ruby-on-rails.html</link>
-     <title>Codecrux | Our Blog</title>
-     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <title>How to learn Ruby on Rails?</title>
+     <description>If you take the time to fully understand Ruby before you learn Rails; then learning Rails will become a piece of cake</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
      <link>http://codecrux.com/blog/2016/tips-to-become-more-productive.html</link>
-     <title>Codecrux | Our Blog</title>
-     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <title>Tips to become more productive</title>
+     <description>Most of successful persons has very fast rate of absorption informations and implementations</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
      <link>http://codecrux.com/blog/2016/static-compiled-programming-language-for-ruby-developers.html</link>
-     <title>Codecrux | Our Blog</title>
-     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <title>Static compiled Programming language for ruby developers</title>
+     <description>Crystal-lang, golang, rust are very eassy to learn for a ruby developer</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
      <link>http://codecrux.com/blog/2016/100-most-successful-apps-with-ruby-on-rails</link>
-     <title>Codecrux | Our Blog</title>
-     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <title>100 Most successful apps built in Ruby on Rails</title>
+     <description>Here is a list of popular web services built with Ruby on Rails</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
      <link>http://codecrux.com/blog/2016/cloud-storage-performance-amazon-s3-vs-google-or-cloud-vs-azure</link>
-     <title>Codecrux | Our Blog</title>
-     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <title>Cloud Storage Performance amazon S3 vs Google Cloud vs Azure</title>
+     <description>Amazon and Azure provide the lowest latency, while Google provides the highest throughput</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
      <link>http://codecrux.com/blog/2016/5-simple-and-low-cost-tricks-for-growing-your-business</link>
-     <title>Codecrux | Our Blog</title>
-     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <title>5 Simple and Low-Cost Tricks For Growing Your Business</title>
+     <description>I’m sharing 5 of my favorite simple and low-cost business growth tactics. My hope is that you use one or all of these to spark new growth at your business</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
      <link>http://codecrux.com/blog/2016/which-platform-you-should-build-for-first</link>
-     <title>Codecrux | Our Blog</title>
-     <description>We build beautiful, data-driven and outcome focused products for startups, high growth, enterprises</description>
+     <title>Which platform should you build for first</title>
+     <description>Once upon a time, software-creators had only a few platforms to build on. Today, there are many to choose from</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://codecrux.com/free-website-for-ngos/</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://codecrux.com/happy-christmas/</link>
+     <title>CodeCrux - Smart, Data-Driven and Outcome focussed Product Development Company</title>
+     <description>CodeCrux builds web and mobile applications using Ruby on Rails, iOS and Android for startups, high growth, enterprises</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>

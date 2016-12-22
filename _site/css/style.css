@@ -1272,6 +1272,51 @@ address a.location{
   margin-bottom: 30px;
   text-align: center;
 }
+/*---ui ux design---*/
+.ui-item-wrap {
+  margin: 50px 0;
+}
+.ui-item-wrap::before,
+.ui-item-wrap::after {
+  content: '';
+  display: table;
+}
+.ui-item-wrap::after {
+  clear: both;
+}
+.ui-item-wrap h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+.ui-item-img {
+  float: right;
+  width: 37%;
+  margin-left: 3%;
+}
+.ui-item-img img {
+  max-width: 300px;
+  height: auto;
+  float: left;
+}
+.ui-item-content {
+  width: 60%;
+  float: left;
+}
+.ui-item-content p {
+  font-size: 20px;
+}
+.ui-reverse h2 {
+  width: 60%;
+  float: right;
+}
+.ui-reverse .ui-item-img {
+  float: left;
+  margin-left: 0;
+  margin-right: 3%;
+}
+.ui-reverse .ui-item-img img {
+  float: right;
+}
 @media(min-width: 1200px) {
   .banner .intro-text .intro-lead-in {
     margin-bottom: 25px;
@@ -1342,6 +1387,18 @@ address a.location{
     opacity: 1;
   }
   .focus-item-image {
+    float: none;
+  }
+  .ui-item-img {
+    width: 100%;
+    float: none !important;
+    margin: 0 0 15px !important;
+  }
+  .ui-item-img img {
+    float: none !important;
+  }
+  .ui-reverse h2 {
+    width: 100%;
     float: none;
   }
 }

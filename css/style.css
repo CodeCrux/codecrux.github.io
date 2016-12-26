@@ -1285,8 +1285,8 @@ address a.location{
   clear: both;
 }
 .ui-item-wrap h2 {
-  font-size: 32px;
-  font-weight: 700;
+  font-size: 24px;
+  font-weight: 600;
 }
 .ui-item-img {
   float: right;
@@ -1303,7 +1303,7 @@ address a.location{
   float: left;
 }
 .ui-item-content p {
-  font-size: 20px;
+  font-size: 16px;
 }
 .ui-reverse h2 {
   width: 60%;
@@ -1316,6 +1316,17 @@ address a.location{
 }
 .ui-reverse .ui-item-img img {
   float: right;
+}
+.exp-item {
+  padding: 15px;
+  margin-bottom: 30px;
+}
+.exp-item h4 {
+  font-size: 24px;
+}
+.exp-item figure img {
+  width: 80px;
+  height: 80px;
 }
 @media(min-width: 1200px) {
   .banner .intro-text .intro-lead-in {

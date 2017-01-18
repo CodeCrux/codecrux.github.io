@@ -1446,5 +1446,14 @@ address a.location{
   }
   .banner {
     min-height: 600px;
+    height: 600px;
+  }
+  .intro-text{
+    position: relative;
+    padding-top: 120px;
+    top: auto;
+    bottom: auto;
+    right: auto;
+    left: auto;
   }
 }

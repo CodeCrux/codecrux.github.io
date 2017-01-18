@@ -1444,4 +1444,7 @@ address a.location{
   .ui-item-wrap {
     padding: 0 15px;
   }
+  .banner {
+    min-height: 600px;
+  }
 }

@@ -1448,7 +1448,7 @@ address a.location{
     min-height: 600px;
     height: 600px;
   }
-  .intro-text{
+  .banner .intro-text {
     position: relative;
     padding-top: 120px;
     top: auto;

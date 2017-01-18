@@ -1455,5 +1455,6 @@ address a.location{
     bottom: auto;
     right: auto;
     left: auto;
+    margin: 0 auto;
   }
 }

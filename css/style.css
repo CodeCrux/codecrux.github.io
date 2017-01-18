@@ -1446,5 +1446,6 @@ address a.location{
   }
   .banner {
     min-height: 600px;
+    height: 600px;
   }
 }

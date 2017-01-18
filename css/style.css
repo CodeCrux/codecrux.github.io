@@ -1341,10 +1341,17 @@ address a.location{
   }
 }
 @media (max-width: 767px) {
+  .home-navbar .navbar-brand img {
+    height: 60px;
+  }
+  .home-navbar .navbar-collapse {
+    margin-top: 10px;
+  }
   .navbar-default .navbar-collapse {
     background-color: #fff;
   }
   .home-navbar .navbar-nav > li > a {
+    padding: 15px;
     color: #666;
   }
   .home-navbar .navbar-nav > li > a:hover,
@@ -1388,6 +1395,10 @@ address a.location{
     margin: 0 auto;
     background-color: #d4d4d4;
   }
+  .step-wraper,
+  .how-it-works {
+    padding: 15px;
+  }
   .plan-item {
     padding: 20px 0;
   }
@@ -1411,5 +1422,26 @@ address a.location{
   .ui-reverse h2 {
     width: 100%;
     float: none;
+  }
+  footer span.copyright {
+    display: block;
+    text-align: center !important;
+    float: none !important;
+    margin-bottom: 10px;
+  }
+  ul.social-buttons {
+    float: none !important;
+    text-align: center;
+  }
+  .block-m {
+    display: block;
+    float: none !important;
+    margin-top: 5px;
+  }
+  .blog-post-banner {
+    padding: 20px 15px;
+  }
+  .ui-item-wrap {
+    padding: 0 15px;
   }
 }

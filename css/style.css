@@ -205,12 +205,11 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-default .nav-logo {
   color: #00829c;
-  padding: 10px;
+  padding: 0;
 }
 .nav-logo img {
-  height: 51px;
+  height: 50px;
   width: auto;
-  margin-top: -12px;
 }
 @font-face {
   font-family: "proxima-nova";
@@ -262,9 +261,9 @@ fieldset[disabled] .btn-xl.active {
 }
 .home-navbar .navbar-brand img {
   display: inline-block;
-  height: 80px;
+  height: 60px;
   width: auto;
-  margin-top: -10px;
+  margin-top: -0px;
 }
 .home-navbar .navbar-nav > li > a {
   color: #fff;
@@ -1340,9 +1339,17 @@ address a.location{
     line-height: 75px;
   }
 }
+@media (min-width: 767px) {
+  .default-header {
+    padding: 4px 0;
+  }
+}
 @media (max-width: 767px) {
+  .home-navbar .navbar-brand {
+    padding-top: 5px;
+  }
   .home-navbar .navbar-brand img {
-    height: 60px;
+    height: 56px;
   }
   .home-navbar .navbar-collapse {
     margin-top: 10px;

@@ -10,7 +10,10 @@ http://codecrux.com/services/
 http://codecrux.com/contact/
 http://codecrux.com/careers/
 http://codecrux.com/api-development/
+http://codecrux.com/ruby-on-rails-development/
+http://codecrux.com/ui-ux-design/
 http://codecrux.com/sitemap.html
+http://codecrux.com/blog/2017/best-ruby-on-rails-cms.html
 http://codecrux.com/blog/2016/how-to-learn-ruby-on-rails.html
 http://codecrux.com/blog/2016/tips-to-become-more-productive.html
 http://codecrux.com/blog/2016/static-compiled-programming-language-for-ruby-developers.html
@@ -18,5 +21,6 @@ http://codecrux.com/blog/2016/100-most-successful-apps-with-ruby-on-rails
 http://codecrux.com/blog/2016/cloud-storage-performance-amazon-s3-vs-google-or-cloud-vs-azure
 http://codecrux.com/blog/2016/5-simple-and-low-cost-tricks-for-growing-your-business
 http://codecrux.com/blog/2016/which-platform-you-should-build-for-first
+http://codecrux.com/open-source-customization/
 http://codecrux.com/free-website-for-ngos/
 http://codecrux.com/happy-christmas/

@@ -1326,6 +1326,131 @@ address a.location{
   width: 80px;
   height: 80px;
 }
+.app-services {
+  padding: 40px 0;
+}
+.app-service-item {
+  padding: 10px;
+  text-align: center;
+}
+.app-service-item img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 20px;
+}
+.app-service-item h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.apps-offering {
+  padding: 60px 0;
+  background: #182841 no-repeat center top;
+  background-image: linear-gradient(to right,#172031 0%,#1a2d4f 100%);
+}
+.apps-offering .section-heading {
+  margin-bottom: 80px;
+}
+.app-offer-item {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.app-offer-item img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px
+}
+.app-offer-item h4 {
+  color: #fff;
+  font-size: 20px;
+}
+.text-white {
+  color: #fff;
+}
+.app-process {
+  padding: 40px 0;
+}
+.app-process-col {
+  width: 50%;
+  float: left;
+}
+.app-process-col.left-col {
+  text-align: right;
+}
+.app-process-content {
+  position: relative;
+  min-height: 650px;
+  height: auto;
+  padding: 1px 50px 0 50px;
+}
+@media (max-width: 991px) {
+  .app-process-content {
+    min-height: 800px;
+  }
+}
+.left-col .app-process-content {
+  border-right: 1px solid #0eb493;
+}
+.left-col .app-process-content::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  right: -6px;
+  top: 0px;
+  background-color: #0eb493;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+}
+.left-col .app-process-content::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  right: -6px;
+  bottom: 0px;
+  background-color: #0eb493;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+}
+.app-process-step {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #0eb493;
+}
+.app-process-step.no-border {
+  border-bottom: 0;
+}
+.app-process-step h4 {
+  color: #0eb493;
+  font-size: 22px;
+}
+@media (max-width: 767px) {
+  .app-process-content {
+    min-height: 100px;
+  }
+  .app-process-col {
+    float: none;
+    width: 100%;
+  }
+  .app-process-col.left-col {
+    text-align: left;
+  }
+  .left-col .app-process-content {
+    border-right: 0;
+  }
+  .left-col .app-process-content::after,
+  .left-col .app-process-content::before {
+    content: none;
+  }
+  .app-process-step {
+    border-bottom: 0 !important;
+    padding-bottom: 0;
+    margin-bottom: 25px;
+  }
+}
 @media(min-width: 1200px) {
   .banner .intro-text .intro-lead-in {
     margin-bottom: 25px;

@@ -1427,6 +1427,68 @@ address a.location{
   color: #0eb493;
   font-size: 22px;
 }
+.kub-packages {
+  margin: 40px 0;
+}
+.kub-package-item {
+  background-color: #fff;
+  border: 1px solid #0ed0a3;
+  border-radius: 10px;
+  min-height: 380px;
+  margin-bottom: 30px;
+}
+.kub-package-item.bg-light-green {
+  background-color: #f6f8f6;
+}
+.kub-package-item.bg-white {
+  background-color: #fff;
+}
+.kub-package-header {
+  background-color: rgba(0, 0, 0, 0.0333);
+  padding: 15px;
+}
+.kub-package-header::after,
+.kub-package-header::before {
+  content: '';
+  display: table;
+}
+.kub-package-header::after {
+  clear: both;
+}
+.kub-package-header figure {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 14px;
+  margin-right: 8px;
+}
+.kub-package-header figure img {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+.kub-package-header h4 {
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+.kub-package-message {
+  padding: 15px;
+}
+.kub-package-message ul {
+  padding-left: 20px;
+}
+.kub-package-message ul li {
+  padding-bottom: 8px;
+  font-size: 15px;
+}
+.talk-btn {
+  min-width: 150px;
+}
 @media (max-width: 767px) {
   .app-process-content {
     min-height: 100px;

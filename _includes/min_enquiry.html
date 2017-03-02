@@ -1,0 +1,53 @@
+<div class="enquiry-wraper" id="enquiry-form">
+  <div class="container">
+    <h2 class="en-head">Get in touch with CodeCrux team</h2>
+    <center>
+    <p>
+      We would love to contribute our expertise and insights to your product. <br>
+      Do you want to know more about our services, have any questions, or any suggestions/feedback?
+    </p>
+  </center>
+  <br>
+  <br>
+
+    <div class="row">
+
+      <div class="col-md-6">
+        <form name="sentMessage" id="contactForm" data-toggle="validator">
+          <div class="contact-form">
+            <div class="form-group row">
+              <div class="col-sm-6">
+                <input class="form-control" type="text"  placeholder="Name *" id="name" 
+                      required data-validation-required-message="Please enter your name.">
+                <p class="help-block text-danger"></p>
+              </div>
+                <div class="col-sm-6">
+                  <input class="form-control" type="email" placeholder="Email *"  id="email" required data-validation-required-message="Please enter your email address.">
+                </div>
+            </div>
+
+            <div class="form-group row">
+              <div class="col-sm-12">
+                <textarea class="form-control"  rows="4" cols="40" placeholder="Tell us about your project" id="message"></textarea>
+              </div>
+            </div>
+
+            <div id="success"></div>
+            
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="col-md-6">
+        <ul class="steps">
+          <li>Let us know what your organizational needs are, and we will get in touch to help you find the right solution.</li>
+          <li> We offer customizable services designed to help organizations succeed with Kubernetes. Our team will help tailor a solution to your needs. </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</div>

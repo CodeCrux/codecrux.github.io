@@ -6,10 +6,18 @@
 
 <item>
      <link>http://codecrux.com/</link>
-     <title>Smart,Data-Driven and Outcome focussed product development company</title>
+     <title>Ruby on Rails, mobile development and design company</title>
      <description>CodeCrux builds web and mobile applications using Ruby on Rails, iOS and Android for startups, high growth, enterprises</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://codecrux.com/about/</link>
+     <title>CodeCrux is a creative design, Web and Mobile application Development firm</title>
+     <description>CodeCrux founders holding degrees in Computer Science and Engineering, we’re passionate about algorithms, patterns, and agile leadership. Above all, we apply concepts that matter most to your project.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -37,6 +45,14 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>http://codecrux.com/kubernetes/</link>
+     <title>The kubernetes Experts</title>
+     <description>Whether you want to get started with containers or already have a team that need to get up to speed – Codecrux can offer trainings, services and support.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>http://codecrux.com/process/</link>
      <title></title>
      
@@ -54,14 +70,6 @@
 </item>
 <item>
      <link>http://codecrux.com/data-practices/</link>
-     <title></title>
-     
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>http://codecrux.com/about/</link>
      <title></title>
      
      <ror:updatePeriod></ror:updatePeriod>
@@ -117,11 +125,35 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>http://codecrux.com/mobile-development/</link>
+     <title>Mobile apps development using React Native</title>
+     <description>Mobile apps development using React Native,it is a very powerful technology to develop any type of application.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://codecrux.com/open-source-customization/</link>
+     <title>Open Source Development using ruby on rails</title>
+     <description>Ruby on Rails is a good place to start Open Source Development,it is a very powerful technology to develop any type of application.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>http://codecrux.com/sitemap.html</link>
      <title>CodeCrux - sitemap</title>
      <description>Sitemap of CodeCrux - Ruby on Rails development company</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://codecrux.com/blog/2017/how-to-configure-godaddy-domain-on-heroku.html</link>
+     <title>How to configure godaddy domain on heroku</title>
+     <description>The first step is adding the GoDaddy domain to the Heroku app. Navigate to the project folder from the terminal then type “heroku domains:add www.yourdomain.com”. The domain name is the one purchased from GoDaddy.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -189,17 +221,9 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://codecrux.com/open-source-customization/</link>
-     <title>Open Source Development using ruby on rails</title>
-     <description>Ruby on Rails is a good place to start Open Source Development,it is a very powerful technology to develop any type of application.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
      <link>http://codecrux.com/free-website-for-ngos/</link>
-     <title></title>
-     
+     <title>CodeCrux Offers FREE Website for NGO</title>
+     <description>CodeCrux Offers FREE Website for NGO</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>

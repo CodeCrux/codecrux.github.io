@@ -1,0 +1,86 @@
+---
+layout: blog
+title: Why Kubernetes Matters 
+---
+<div class="blog-post-banner bg-green">
+  <div class="blog-post-banner-content">
+    <div class="blog-post-author">
+      <img src="/img/team/codecrux-dinesh.jpg" alt="" />
+      <p class="blog-post-author-name">Dinesh Y</p>
+      <time>On 5 March 2017</time>
+    </div>
+    <div class="blog-post-title">
+      <p class="blog-post-category">#Infrastructure, #Docker, #Kubernetes</p>
+      <h1>Why Kubernetes Matters ?</h1>
+    </div>
+  </div>
+</div>
+
+<div class="blog-post-content">
+  <div class="container">
+    <div class="col-md-8 col-md-offset-2">
+      <h4> Little history </h4> <hr>
+      <p> Currently many enterprises are facing a costly battle to manage their own infrastructure, and struggling with outdated delivery models. To create new innovations and efficiencies in IT, to enabling new business models, enterprises should embrace new infrastructure innovations. Cloud computing and containers can reduce infrastructure costs and create the conditions for innovation at scale and shift the efforts of IT teams towards creating business value, rather than fighting infrastructure fires. </p>
+      <p>
+        Much have been <a href="https://www.work-bench.com/blog/tags/containers/"> said </a> regarding how adopting containers is the future of software distribution and delivery. Container orchestration is the big fight of the moment. While the container format itself is largely settled, for now, the real differentiation is in how to deploy and manage those containers on different hosting providers - on prem or in cloud.
+      </p>
+
+      <p> We inspect Kubernetes, one of the most popular open-source container orchestration tool for production environments. Kubernetes builds upon 15 years of experience of running production workloads at Google. Moreover the community of Kubernetes appears to be the biggest among all the open source container management communities.  </p>
+
+      <p> With more of the recent buzz building around Kubernetes, we wanted to take a moment to compare the pros and cons of other platforms, and why we believe Kubernetes will be crown jewel of container orchestration. </p>
+      <br> 
+      <h4> Why Kubernetes ?</h4>  <hr>
+
+      <p> Given the several options for cloud native capabilities, we had to evaluate our options. These options included technologies like 
+        <a href="https://docs.docker.com/engine/swarm/"> Docker Swarm </a>, 
+        <a href="http://mesos.apache.org/"> Apache Mesos </a>, and even 
+        <a href="https://www.cloudfoundry.org/">Cloud Foundry </a>. 
+      </p>
+
+      <p> So why would you choose Kubernetes? There are two major reasons: </p>
+
+      <strong> Engineering </strong> <br>
+      <p>
+      After performing a diligent evaluation of various orchestration technologies, Kubernetes not only stands out but was also lightweight and easy to work with. Kubernetes elegantly solves the major problems in distributed computing and container orchestration since it has been created by strong engineering organization - Google. Other orchestration platforms are build by the companies who haven't seen the kind of scale Google has seen. if anyone understands cloud scale, it’s Google, and it’s evident in Kubernetes’ thoughtful architecture. 
+      </p>
+
+      <strong>Community </strong> <br>
+      <p>
+      The Kubernetes community has laid a solid foundation for running distributed applications at enterprise scale, while teams from companies like CoreOS, Redhat, have been busy combining Kubernetes with other powerful open source technologies to help businesses run containers with enterprise-grade security, reliability and support. There are many public slack/IRC channels, community hangouts, conferences and support groups to teach and train.
+      What makes Kubernetes stand apart from other orchestration platforms is largely due to the open source community that is forming around it, driving its open integration with other key infrastructure components (like Soundcloud's Prometheus and CoreOS's etcd) to form a multi-vendor supported enterprise stack.
+      </p>
+
+      <strong>Infrastructure Cost </strong> <br>
+
+      <p> Kubernetes also helps in cutting infrastructure costs marginally in large scale deployments. The overhead of running etcd and a master node aren’t significant in these deployments. Kubernetes makes it very easy to run many containers on the same hosts, making maximum use of the available resources. This reduces the number of required servers, which directly saves you money. </p>
+
+
+    <br><h4> Risks/Weakness </h4> <hr>
+    <p> Sure, there's no platform without faults and with Kubernetes the main challenges are as follows - </p>
+    <ul>
+      <li>
+        <h4> Potential Futuristic risk  </h4>
+        <p> Many Kubernetes advance features are still in alpha/beta state and not ready for the production scale. Each new release generally contains breaking changes and painful to upgrade. Support for running stateful and datastore services like databases, replication and caching stores is still not production ready.</p>
+      </li>
+
+      <li>
+        <h4> Needs better Documentation </h4>
+        <p> Kubernetes has many individuals and large companies working at light speed, and have lots of moving parts. The documentation, tutorials and blogs posts become obsolete after couple of releases. There is a serious lack of good documentation for some of the advance features regarding how to use, setup and tackle issues in production. </p>
+      </li>
+
+      <li>
+        <h4> UI/UX for new users </h4>
+        <p> Kubernetes initially has a steeper learning curve and is operationally hard than other orchestration platforms. New users sometime feel overwhelmed regarding how to use pods, services, deployments, ingress, secrets etc. A good news is there are plenty of support/service options coming up. In practice, it takes several days to familiarize developers with the workflow of Kubernetes. </p>
+      </li>
+    </ul>
+
+    <br>
+    <h4> Conclusion </h4> <hr>
+    <p> Kubernetes's feature set and maturity helps build a production infrastructure faster. Hope you enjoyed this high level overview of our Kubernetes deployment. If you have any comments, please, feel free to share them! 
+    </p>
+
+    <p> 
+    And don't forget, our <a href="/kubernetes"> Kubernetes services </a> can help with any aspect, from tailored advice, to full hands-on involvement with your organization.
+    </p>
+  </div>
+</div>

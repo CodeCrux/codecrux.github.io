@@ -29,7 +29,7 @@ title: Minikube Tips
 
       <br> <h4> Getting Started </h4> <hr>
 
-      <p>Minikube is VM provider agnostic and supports several drivers like <a href="http://www.vmware.com/products/fusion.html"> VMware Fusion </a>, 
+      <p>Minikube is VM provider agnostic and supports several drivers like <a href="http://www.vmware.com/products/fusion.html"> VMware Fusion </a>,
       <a href="https://www.virtualbox.org/"> Virtualbox </a>, <a href="https://github.com/mist64/xhyve"> Xhype </a>, <a href="https://www.linux-kvm.org/page/Main_Page"> kvm </a> etc. You will also need <a href="https://kubernetes.io/docs/user-guide/kubectl-overview/"> `kubectl` </a> to interact with cluster. </p>
 
       <p> Installing Minikube is pretty easy since it's available as a single binary. At the time of writing this article 0.17.1 is the latest version, to install - </p>
@@ -89,9 +89,9 @@ $ docker ps
 {% highlight bash %}
 => minikube start --vm-driver=xhyve
 {% endhighlight %}
-  
+
     <p> Or set it permanently </p>
-  
+
 {% highlight bash %}
 => minikube config set vm-driver=xhyve
 {% endhighlight %}
@@ -101,7 +101,7 @@ $ docker ps
 
     <p> To enable an addon, run - </p>
 
-{% highlight bash %} 
+{% highlight bash %}
 => minikube addons enable <addon>
 {% endhighlight %}
 
@@ -146,11 +146,21 @@ path: /path/to/app/
     <h4> Conclusion </h4>
 
     <p>
-I hope this post helps people who are struggling setting up their own Kubernetes cluster and getting them quickly started. Here we got a single node 
-Kubernetes cluster running locally, for purposes of learning, development and testing, and will be using Minikube in next article to set up applications. Thanks for reading through this tutorial! Let me know if you found it useful in the comments ;-) 
+I hope this post helps people who are struggling setting up their own Kubernetes cluster and getting them quickly started. Here we got a single node
+Kubernetes cluster running locally, for purposes of learning, development and testing, and will be using Minikube in next article to set up applications. Thanks for reading through this tutorial! Let me know if you found it useful in the comments ;-)
   </p>
   </div>
   </div>
 </div>
 
+<div class="container">
+  <div class="col-md-8 col-md-offset-2">
+    <a href="/blog/2017/how-to-configure-godaddy-domain-on-heroku.html" class="btn btn-default btn-round"><i class="fa fa-long-arrow-left fa-left"></i>Previous</a>
+    <a href="/blog/2017/why-kubernetes.html" class="btn btn-default btn-round pull-right">Next<i class="fa fa-long-arrow-right fa-right"></i></a>
+  </div>
+</div>
 
+<hr>
+<center>
+<div class="fb-comments" data-href="http://codecrux.com/blog/2017/minikube-tips.html" data-numposts="10"></div>
+</center>

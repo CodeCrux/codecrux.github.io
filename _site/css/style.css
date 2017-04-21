@@ -1124,7 +1124,7 @@ address a.location{
   margin-bottom: 25px;
 }
 .feature-item-img img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 

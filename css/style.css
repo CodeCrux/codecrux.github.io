@@ -1651,3 +1651,13 @@ address a.location{
     margin: 0 auto;
   }
 }
+
+.about-box{
+  text-align: justify;
+  min-height: 230px;
+}
+
+.fa-2x {
+  font-size: 2em;
+  padding: 10px;
+}

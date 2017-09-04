@@ -21,7 +21,8 @@ $(function() {
             }
             $.ajax({
               // url: "https://formspree.io/{{site.contact_email}}",
-                url: "https://formspree.io/shyam@codecrux.com",
+                // url: "https://formspree.io/shyam@codecrux.com",
+                url: "https://codecrux.herokuapp.com/email_api",
                 type: "POST",
                 data: {
                     name: name,

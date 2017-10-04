@@ -424,7 +424,7 @@ section h3.section-subheading {
   font-weight: 400;
 }
 section {
-  padding: 20px 0;
+  padding: 40px 0;
 }
 aside.clients img {
   margin: 50px auto;
@@ -703,7 +703,7 @@ address a.location{
   /*background-image: url("/img/why_we_do_background_codecrux.jpg");
   background-position: center center;*/
   background-color: #f6f8f8;
-  /*padding: 60px 0;*/
+  padding: 60px 0;
 }
 .features-wraper-head {
   margin-bottom: 40px;

@@ -1058,7 +1058,6 @@ address a.location{
   font-family: 'proxima-nova', serif;
   min-height: 600px;
   padding: 40px 0;
-  text-align: justify;
 }
 .blog-post-content p {
   font-size: 18px;

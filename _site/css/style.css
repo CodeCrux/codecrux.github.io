@@ -392,7 +392,7 @@ fieldset[disabled] .btn-xl.active {
 .section-heading {
   position: relative;
   padding-bottom: 15px;
-  margin: 25px 0;
+  margin: 36px 0;
 }
 .section-heading::after {
   content: '';
@@ -424,7 +424,7 @@ section h3.section-subheading {
   font-weight: 400;
 }
 section {
-  padding: 40px 0;
+  padding: 10px 0;
 }
 aside.clients img {
   margin: 50px auto;
@@ -655,9 +655,16 @@ address a.location{
 .owl-theme .owl-controls {
   margin-top: 30px !important;
 }
-.tech-item {
+
+.tech-items {
   text-align: center;
 }
+
+.tech-item {
+  display: inline-block;
+  margin: 0 10px;
+}
+
 .tech-item span{
   font-weight: 600;
   color: rgba(128, 128, 128, 0.41);
@@ -700,10 +707,8 @@ address a.location{
   color: #555;
 }
 .features-wraper {
-  /*background-image: url("/img/why_we_do_background_codecrux.jpg");
-  background-position: center center;*/
-  background-color: #f6f8f8;
-  padding: 60px 0;
+  background-color: #0eb493;
+  color: #FFF;
 }
 .features-wraper-head {
   margin-bottom: 40px;

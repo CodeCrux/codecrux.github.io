@@ -1,7 +1,7 @@
-baseurl: ""
-url: "
-
-https://codecrux.com"
+name: CodeCrux Web Technologies
+description: CodeCrux builds web and mobile applications using Ruby on Rails, iOS and Android for startups, high growth, enterprises
+baseurl:
+url: https://codecrux.com
 
 twitter_username: codecrux
 github_username:  codecrux
@@ -23,6 +23,7 @@ kramdown:
 
 gems:
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
 collections:
   cookies:

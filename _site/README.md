@@ -11,9 +11,13 @@ Our Technology Stack
 
 Ruby, Ruby on rails, Python, AngularJS, BackboneJS, HTML5, JavaScript, CSS3, SCSS, Postgres, MongoDB, MySql, Redis, Heroku, Amazon Web Services, Mobile Development Native as well as hybrid using Ionic & React and many more.
 
-Our Portfolio : http://codecrux.com/portfolio
+Our Portfolio :
 
-Please visit http://codecrux.com/ for more details.
+https://codecrux.com/portfolio
+
+Please visit
+
+https://codecrux.com/ for more details.
 
 Our service includes In this note:
 

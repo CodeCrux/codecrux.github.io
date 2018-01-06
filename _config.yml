@@ -2,7 +2,7 @@ name: CodeCrux Web Technologies
 description: CodeCrux builds web and mobile applications using Ruby on Rails, iOS and Android for startups, high growth, enterprises
 baseurl:
 url: https://codecrux.com
-# redirect_to: https://codecrux.com
+redirect_to: https://codecrux.com
 
 twitter_username: codecrux
 github_username:  codecrux

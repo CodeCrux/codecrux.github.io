@@ -4,9 +4,13 @@
 <link rel="manifest" href="/manifest.json">
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="theme-color" content="#ffffff">
-<script type="text/javascript">
-  if (location.protocol != 'https:')
-    {
-     location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
-    }
-</script>
+
+{% if site.env == 'production' %}
+  <script type="text/javascript">
+    if(location.protocol != 'https:'){
+       location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+      }
+  </script>
+{% endif %}
+
+<script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5a50d614079115001207f66b&product=inline-share-buttons' async='async'></script>

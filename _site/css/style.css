@@ -30,6 +30,9 @@ a.active {
 a {
   color: #0eb493;
 }
+a p{
+  color: #000 !important;
+}
 a:hover,
 a:focus,
 a:active,
@@ -666,9 +669,9 @@ address a.location{
 }
 
 .tech-item span{
-  font-weight: 600;
-  color: rgba(128, 128, 128, 0.41);
-  font-size: 17px;
+  font-weight: 500;
+  color: #000;
+  font-size: 14px;
 }
 .tech-item span img.android{
   width: 99px !important;

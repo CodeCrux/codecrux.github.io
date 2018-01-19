@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://codecrux.com/</loc>
+    <lastmod>2018-01-19T10:57:06+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0000</priority>
+  </url>
+
+  <url>
+    <loc>https://codecrux.com/about/</loc>
+    <lastmod>2018-01-19T10:57:06+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8000</priority>
+  </url>
+
+  <url>
+    <loc>https://codecrux.com/services/</loc>
+    <lastmod>2018-01-19T10:57:06+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8000</priority>
+  </url>
+
+  <url>
+    <loc>https://codecrux.com/portfolio/</loc>
+    <lastmod>2018-01-19T10:57:06+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8000</priority>
+  </url>
+
+  <url>
+    <loc>https://codecrux.com/contact/</loc>
+    <lastmod>2018-01-19T10:57:06+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8000</priority>
+  </url>
+
+  <url>
+    <loc>https://codecrux.com/technology/</loc>
+    <lastmod>2018-01-19T10:57:06+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8000</priority>
+  </url>
+
+  <url>
+    <loc>https://codecrux.com/ruby-on-rails-development/</loc>
+    <lastmod>2018-01-19T10:57:06+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8000</priority>
+  </url>
+
+  <url>
+    <loc>https://codecrux.com/ui-ux-design/</loc>
+    <lastmod>2018-01-19T10:57:06+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8000</priority>
+  </url>
+
+  <url>
+    <loc>https://codecrux.com/mobile-development/</loc>
+    <lastmod>2018-01-19T10:57:06+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8000</priority>
+  </url>
+
+  <url>
+    <loc>https://codecrux.com/kubernetes/</loc>
+    <lastmod>2018-01-19T10:57:06+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8000</priority>
+  </url>
+
+  <url>
+    <loc>https://codecrux.com/open-source-customization/</loc>
+    <lastmod>2018-01-19T10:57:06+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8000</priority>
+  </url>
+
+  <url>
+    <loc>https://codecrux.com/jobs/</loc>
+    <lastmod>2018-01-19T10:57:06+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8000</priority>
+  </url>
+
+  <url>
+    <loc>https://codecrux.com/jobs/business-development-jobs/</loc>
+    <lastmod>2018-01-19T10:57:06+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8000</priority>
+  </url>
+
+  <url>
+    <loc>https://codecrux.com/jobs/content-writer-and-inbound-marketing-jobs/</loc>
+    <lastmod>2018-01-19T10:57:06+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8000</priority>
+  </url>
+
+  <url>
+    <loc>https://codecrux.com/jobs/ruby-on-rails-jobs/</loc>
+    <lastmod>2018-01-19T10:57:06+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8000</priority>
+  </url>
+
+  <url>
+    <loc>https://codecrux.com/blog/</loc>
+    <lastmod>2018-01-19T10:57:06+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8000</priority>
+  </url>
+
+
+
+  <url>
+    <loc>https://codecrux.com/blog/2016/100-most-successful-apps-with-ruby-on-rails.html</loc>
+    <lastmod>2018-01-19T10:57:06+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8000</priority>
+  </url>
+
+  <url>
+    <loc>https://codecrux.com/blog/2016/static-compiled-programming-language-for-ruby-developers.html</loc>
+    <lastmod>2018-01-19T10:57:06+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8000</priority>
+  </url>
+
+  <url>
+    <loc>https://codecrux.com/blog/2016/how-to-learn-ruby-on-rails.html</loc>
+    <lastmod>2018-01-19T10:57:06+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8000</priority>
+  </url>
+
+  <url>
+    <loc>https://codecrux.com/blog/2017/best-ruby-on-rails-cms.html</loc>
+    <lastmod>2018-01-19T10:57:06+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8000</priority>
+  </url>
+
+  <url>
+    <loc>https://codecrux.com/blog/2017/how-to-configure-godaddy-domain-on-heroku.html</loc>
+    <lastmod>2018-01-19T10:57:06+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8000</priority>
+  </url>
+
+  <url>
+    <loc>https://codecrux.com/blog/2017/minikube-tips.html</loc>
+    <lastmod>2018-01-19T10:57:06+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8000</priority>
+  </url>
+
+  <url>
+    <loc>https://codecrux.com/blog/2017/why-kubernetes.html</loc>
+    <lastmod>2018-01-19T10:57:06+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8000</priority>
+  </url>
+
+  <url>
+    <loc>https://codecrux.com/blog/2017/what-is-new-in-rails5.html</loc>
+    <lastmod>2018-01-19T10:57:06+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8000</priority>
+  </url>
+
+  <url>
+    <loc>https://codecrux.com/blog/2017/why-you-should-speak-at-meetups.html</loc>
+    <lastmod>2018-01-19T10:57:06+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8000</priority>
+  </url>
+
+  <url>
+    <loc>https://codecrux.com/blog/2017/angular-4-with-rails-5.html</loc>
+    <lastmod>2018-01-19T10:57:06+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8000</priority>
+  </url>
+
+
+</urlset>

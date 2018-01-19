@@ -1,4 +1,4 @@
-name: CodeCrux Web Technologies
+name: CodeCrux Web Technologies pvt ltd
 description: CodeCrux builds web and mobile applications using Ruby on Rails, iOS and Android for startups, high growth, enterprises
 baseurl:
 url: https://codecrux.com
@@ -25,6 +25,7 @@ kramdown:
 plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
+  - jekyll-feed
 
 collections:
   cookies:

@@ -18,6 +18,7 @@ p.large {
 }
 input, textarea{
   border-width: 1px !important;
+  padding-left: 30px !important;
 }
 a,
 a:hover,
@@ -59,6 +60,12 @@ h6 {
   font-family: Maven Pro, "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 500;
   font-size: 15px;
+}
+#contact h3{
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-fize: 30px !important;
+  font-weight: 400 !important;
 }
 .btn-round {
   border-radius: 30px;
@@ -255,7 +262,7 @@ fieldset[disabled] .btn-xl.active {
   left: 0;
   width: 100%;
   z-index: 999;
-  border-bottom: 0 !important;
+  border: 0 !important;
 }
 .home-navbar .navbar-brand {
   color: #fff;
@@ -1682,4 +1689,18 @@ address a.location{
   left: 0;
   width: 100%;
   height: 100%;
+}
+.input-icon{
+  position: relative;
+}
+.input-icon>i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 46px;
+  line-height: 46px;
+  text-align: center;
+  display: block;
+  color: #999;
 }

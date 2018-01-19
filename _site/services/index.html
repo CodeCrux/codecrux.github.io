@@ -198,21 +198,42 @@
   </div>
 </section>
 
-<div class="enquiry-wraper" id="enquiry-form">
+<div class="contact-wraper" data-class="enquiry-wraper" data-id="enquiry-form" id="contact">
   <div class="container">
-    <h2 class="en-head">Get in touch with CodeCrux team</h2>
-    <center>
-    <p>
-      We would love to contribute our expertise and insights to your product. <br>
-      Do you want to know more about our services, have any questions, or any suggestions/feedback?
-    </p>
-  </center>
-  <br>
-  <br>
-
     <div class="row">
-
-      <div class="col-md-6">
+      <div class="col-lg-12 text-center">
+        <div class="section-heading">
+          <h2>Want to contact CodeCrux?</h2>
+          <p>
+            Drop us a line, or give us a heads up if you are interested in visiting us.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-4" style="text-align: left;">
+        <form name="sentMessage" id="contactForm" data-toggle="validator">
+          <h3>Give us a shoutout</h3>
+          <div class="form-group input-icon">
+            <i class="fa fa-user login-field-icon"></i>
+            <input type="text" placeholder="What should we call you?" class="form-control" id="name" required />
+          </div>
+          <div class="form-group input-icon">
+            <i class="fa fa-envelope"></i>
+            <input type="email" placeholder="Where should we reply you?" class="form-control" id="email" required />
+          </div>
+          <div class="form-group input-icon">
+            <i class="fa fa-comment" aria-hidden="true"></i>
+            <textarea type="text" rows="5" placeholder="What's on your mind?" class="form-control" id="message" required></textarea>
+          </div>
+          <div id="success"></div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary" data-loading-text="Loading ...">Send Message</button>
+          </div>
+        </form>
+      </div>
+      <!-- <div class="col-md-6">
         <form name="sentMessage" id="contactForm" data-toggle="validator">
           <div class="contact-form">
             <div class="form-group">
@@ -238,33 +259,32 @@
             </div>
           </div>
         </form>
-      </div>
+      </div> -->
 
       <div class="col-md-6">
-        <ul class="steps">
+        <h3>Our services include</h3>
+        <ul class="" style="font-size: 16px;">
+          <li>Web & Mobile App Design and Development</li>
+          <li>E-commerce Application Development</li>
+          <li>Healthcare Application development</li>
+          <li>Real Estate Application development</li>
+          <li>REST API Development</li>
+          <li>IT Infrastructure management & devOps , Backend server side programming and Cloud Services(like Amazon, Heroku, IBM, Google, Microsoft Azure  etc.) setup</li>
+        </ul>
+        <!-- <ul class="steps">
           <li>We'll contact you within 24 hrs with pricing info and next steps</li>
           <li>We currently do Ruby, Ruby on rails development, iOS, iPhone and iPad apps, and Android application development</li>
           <li>Need us to sign an NDA? No problem, just let us know and we'll take it from there</li>
           <li>Once we confirm that we're a good fit for your project, we can move into the 24-hour test project to give you an understanding of our skills and process</li>
           <li>No obligation, when you're ready to grow, we're ready for you!</li>
-        </ul>
+        </ul> -->
+        <br>
+        <br>
+        <p>Looking for a career with CodeCrux? Visit our <a href="/jobs" >Careers</a> page.</p>
       </div>
-
     </div>
   </div>
 </div>
-
-<script type="text/javascript">
-$(function() {
-    $(".btn").click(function(){
-        $(this).button('loading').delay(1000).queue(function() {
-            $(this).button('reset');
-            $(this).dequeue();
-        });
-    });
-});
-</script>
-
 
     </div>
     <div class="footer-links">
@@ -274,7 +294,7 @@ $(function() {
         <b>About CodeCrux</b>
         <ul>
           <li>
-            We are team of IIIT Hyderabad graduates with 10+ year of industry experience, started CodeCrux at <a href="http://t-hub.co/" target="_blank"><b>T-HUB</b></a>, Hyderabad, India
+            CodeCrux is a worldwide provider of a full fledged spectrum of Creative Design, Web & Mobile App Development with API Services.
             <p><a href="/about" class="read-link block-m">Read More <i class="fa fa-long-arrow-right fa-lg"></i></a></p>
           </li>
         </ul>

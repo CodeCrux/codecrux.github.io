@@ -656,6 +656,7 @@ address a.location{
   /*background-color: #f6f8f8;*/
   background-image: url("/img/why_we_do_background_codecrux.jpg");
   position: center center;
+  padding-bottom: 100px;
 }
 .codecrux-address{
   width: 265px;
@@ -1708,4 +1709,8 @@ address a.location{
   text-align: center;
   display: block;
   color: #999;
+}
+
+.careers-single h1 {
+  font-size: 24px;
 }

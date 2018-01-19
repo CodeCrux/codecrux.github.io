@@ -1,48 +1,40 @@
 CodeCrux Introduction
 ====================
 
-We are team of IIIT Hyderabad graduates, started CodeCrux Web Technologies Pvt. Ltd. at T-HUB(http://www.t-hub.co/), Hyderabad, India
-
-We are worldwide provider of full fledged spectrum of Creative Design, Web & Mobile App Development with API Services.
-
-We have successfully delivered many projects for clients across the globe - USA, UK and Europe, Australia, Germany, India e.t.c.
+CodeCrux is a worldwide provider of a full fledged spectrum of Creative Design, Web & Mobile App Development with API Services. We have successfully delivered many projects for clients across the globe - USA, UK, Australia, Germany, India etc.
 
 Our Technology Stack
 
-Ruby, Ruby on rails, Python, AngularJS, BackboneJS, HTML5, JavaScript, CSS3, SCSS, Postgres, MongoDB, MySql, Redis, Heroku, Amazon Web Services, Mobile Development Native as well as hybrid using Ionic & React and many more.
+Ruby, Ruby on rails, Golang, Python, AngularJS, Backbone JS, ReactJS, HTML5, JavaScript, CSS3, SCSS, Postgres, MongoDB, MySql, Redis, Heroku, Amazon Web Services, Mobile Development Native as well as hybrid using React Native etc.
 
-Our Portfolio :
+Our services include
 
-https://codecrux.com/portfolio
+> Web & Mobile App Design and Development
+> E-commerce Application Development
+> Healthcare Application development
+> Real Estate Application development
+> REST API Development
+> IT Infrastructure management & devOps, Backend server side programming and Cloud Services(like Amazon, Heroku, IBM, Google, Microsoft Azure  etc.) setup.
 
-Please visit
+Please visit http://codecrux.com/ for more details about the company and http://codecrux.com/portfolio/ for our work.
 
-https://codecrux.com/ for more details.
+Contact Details.
+========================
 
-Our service includes In this note:
+INDIA
 
-> Web & Mobile app Design and Development
+CodeCrux Web technologies(p) Ltd.
+5th Floor, Catalyst Building, T Hub
+IIIT Hyderabad Campus,
+Gachibowli, Hyderabad,
+Telangana, 500032
+Email: contact@codecrux.com
+Phone : +91 868 846 8400
 
-> eCommerce
+USA
 
-> Internet Marketing
-
-> API Development
-
-> Mobile App Development (Native/Hybrid)
-
-> Backend server side Programming and Cloud Services(like Amazon, Heroku, IBM, Google, Microsoft Azure  etc.) Setup.
-
-You can feel free to ask me any questions and concerns about our services.
-
-Let me know your suitable time to discuss on your application requirements.
-
-My contact Details:
-
-Shyam Mohan
-
-Email: shyam@codecrux.com
-
-Mobile: +91 8688 468 400
-
-Skype: shyammohankanojia
+CodeCrux Inc
+Apt 6735 b 2800 Waterview pkwy,
+Richardson, TX 75080
+Email: contact@codecrux.com
+Phone : +1 682 593 2808

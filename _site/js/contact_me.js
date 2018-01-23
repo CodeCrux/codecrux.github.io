@@ -1,5 +1,3 @@
-
-
 $(function() {
     $("input,textarea").jqBootstrapValidation({
       preventSubmit: true,
@@ -8,6 +6,7 @@ $(function() {
       },
       submitSuccess: function($form, event) {
           event.preventDefault(); // prevent default submit behaviour
+
           // get values from FORM
           var name = $("input#name").val();
           var email = $("input#email").val();
@@ -18,6 +17,7 @@ $(function() {
           if (firstName.indexOf(' ') >= 0) {
               firstName = name.split(' ').slice(0, -1).join(' ');
           }
+          $('#contactForm .btn').attr("disabled", true);
           $.ajax({
             // url: "https://formspree.io/{{site.contact_email}}",
               // url: "https://formspree.io/shyam@codecrux.com",
@@ -42,6 +42,7 @@ $(function() {
 
                   //clear all fields
                   $('#contactForm').trigger("reset");
+                  $('#contactForm .btn').attr("disabled", false);
               },
               error: function() {
                 $('#success').html("<div class='alert alert-success'>");

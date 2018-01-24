@@ -22,7 +22,6 @@ Contact Details.
 ========================
 
 INDIA
-
 CodeCrux Web technologies(p) Ltd.
 5th Floor, Catalyst Building, T Hub
 IIIT Hyderabad Campus,
@@ -32,8 +31,6 @@ Email: contact@codecrux.com
 Phone : +91 868 846 8400
 
 USA
-
-CodeCrux Inc
 Apt 6735 b 2800 Waterview pkwy,
 Richardson, TX 75080
 Email: contact@codecrux.com

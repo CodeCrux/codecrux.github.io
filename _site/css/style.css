@@ -1676,7 +1676,7 @@ address a.location{
 
 .about-box{
   text-align: justify;
-  min-height: 230px;
+  min-height: 170px;
 }
 
 .fa-2x {
@@ -1716,3 +1716,6 @@ address a.location{
   font-size: 24px;
 }
 
+.feature-item-icon1{
+  margin-bottom: 64px;
+}

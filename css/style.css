@@ -706,6 +706,7 @@ address a.location{
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
+  width:380px;
 }
 .team-item img {
   width: 100px;

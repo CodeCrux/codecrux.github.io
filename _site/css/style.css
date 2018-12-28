@@ -976,8 +976,8 @@ address a.location{
   margin-right: 10px;
 }
 .blog-content-img img{
-  width: 60%;
-  height: 300px;
+  width: 25%;
+  height: auto;
   /*box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.3);*/
   opacity: 0.8;
   margin-top: 9px;
@@ -1719,4 +1719,10 @@ address a.location{
 
 .feature-item-icon1{
   margin-bottom: 64px;
+}
+
+.nav-pills-text{
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight:600;
 }

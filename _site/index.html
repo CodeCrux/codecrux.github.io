@@ -72,15 +72,15 @@
       </div>
       <div class="collapse navbar-collapse" id="main-nav">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/services">Services</a></li>
-          <li><a href="/portfolio">Portfolio</a></li>
-          <li><a href="/success-stories">Success stories</a></li>
+          <!-- <li><a href="/">Home</a></li> -->
+          <li><a href="/about">ABOUT</a></li>
+          <li><a href="/services">SERVICES</a></li>
+          <li><a href="/portfolio">PORTFOLIO</a></li>
+          <li><a href="/success-stories">SUCCESS STORIES</a></li>
           <!-- <li><a href="/technology">Technology</a></li> -->
-          <li><a href="/blog">Blog</a></li>
+          <li><a href="/blog">BLOG</a></li>
           <!-- <li><a href="tel:+16825932808">+1 682 593 2808</a></li> -->
-          <li><a href="/#contact">Contact</a></li>
+          <li><a href="/#contact">CONTACT</a></li>
         </ul>
       </div>
     </div>
@@ -88,7 +88,53 @@
 
 
     <!-- Header -->
-  <section class="banner">
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="/img/home/codecrux-banner.jpg" alt="Los Angeles" style="width:100%;height: 550px !important;">
+        <div class="carousel-caption mb-150">
+          <h1>Agile Software Development Agency</h1>
+          <p class="intro-sub-title">We are experts at building digital products</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="/img/home/codecrux-banner-10.jpg" alt="Chicago" style="width:100%;height: 550px !important;">
+        <div class="carousel-caption mb-150">
+          <h1>We Build Quality Softwares</h1>
+          <p class="intro-sub-title">Innovative * Quality * On-time</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="/img/home/codecrux-banner-2.jpg" alt="New york" style="width:100%;height: 550px !important;">
+        <div class="carousel-caption mb-150">
+          <h1>We are your remote  team</h1>
+          <p class="intro-sub-title">Plan * Build * Deploy * Feedback</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <!-- <section class="banner">
     <div class="intro-text">
       <h1 class="intro-heading"><div class="intro-lead-in">We Create</div>Smart, Data-Driven and Outcome focussed Products</h1>
       <div class="intro-sub-text">
@@ -101,7 +147,9 @@
       </div>
       <a href="#contact" class="page-scroll btn btn-know-more">Contact Us  &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-right fa-lg"></i></a>
     </div>
-  </section>
+  </section> -->
+
+
   <div class="clearfix"></div>
 
 
@@ -292,11 +340,25 @@
     </div>
 
     <div class="container">
+
+      <div class="col-sm-3"><img src="/img/clients/yaxis.jpg" style="height: 105px; width: 200px;" alt="maverick"></div>
+      <div class="col-sm-3"><img src="/img/clients/barknlounge.jpg" style="height: 105px; width: 200px;" alt="maverick"></div>
+      <div class="col-sm-3"><img src="/img/clients/comakeit.jpg" style="height: 105px; width: 200px;" alt="maverick"></div>
+      <div class="col-sm-3"><img src="/img/clients/tech-mahindre.jpg" style="height: 105px; width: 200px;" alt="maverick"></div>
+
+      <div class="col-sm-3"><img src="/img/clients/hclub.jpg" style="height: 105px; width: 200px;" alt="maverick"></div>
+      <div class="col-sm-3"><img src="/img/clients/hiredgrad.jpg" style="height: 105px; width: 200px;" alt="maverick"></div>
+      <div class="col-sm-3"><img src="/img/clients/zaggle.jpg" style="height: 105px; width: 200px;" alt="maverick"></div>
+      <div class="col-sm-3"><img src="/img/clients/maverick.jpg" style="height: 105px; width: 200px;" alt="maverick"></div>
+
+
+
+
       <div id="portfolio-carousel" class="owl-carousel">
 
         <div class="portfolio-item">
           <a target="_blank" class="image" href="https://maverick.ai/">
-            <img src="/img/clients/codecrux-maverick.png" alt="HIREDGRAD">
+            <img src="/img/clients/codecrux-maverick.png" alt="maverick">
           </a>
         </div>
 
@@ -341,7 +403,7 @@
         <div style="padding-top:70px;">
           <h4>HClub</h4>
           <p>
-            Hclub medical services Pvt Ltd. is an aggregator of healthcare services that is committed to the cause of building a community by way of improving the quality of life, health and well-being in India.
+            Hclub medical services Pvt Ltd. is an aggregator of health care services that is committed to the cause of building a community by way of improving the quality of life, health and well-being in India.
           </p>
           <br>
           <p class="pf-links">
@@ -359,7 +421,7 @@
         <div style="padding-top:70px;">
           <h4>BARKNLOUNGE</h4>
           <p>
-            A pet care and accomadation booking system <br>
+            A pet care and accommodation booking system <br>
             > They offer customized care for dogs with special needs and senior dogs. <br>
             > They high ratio of staff to dogs makes sure no dog goes un-attended & all-day supervised play during daycare
           </p>
@@ -454,7 +516,7 @@
         <div class="section-heading">
           <h2>Contact CodeCrux</h2>
           <p>
-            Drop us a line, or give us a heads up if you are interested in visiting us.
+            Drop us your email, We will connect you with in 4 hours.
           </p>
         </div>
       </div>
@@ -463,7 +525,6 @@
       <div class="col-lg-12">
         <div class="row">
           <br>
-          <center>
             <div class="col-sm-1"></div>
             <div class="col-sm-5" style="text-align: left;">
               <!-- <h3>Give us a shoutout</h3> -->
@@ -488,24 +549,10 @@
                 </div>
               </form> -->
             </div>
-            <div class="col-sm-6">
+              <div class="col-sm-6">
+                
               <address class="contact-address">
-                <h4>INDIA</h4>
-                <label>CodeCrux Web Technologies(p) Ltd.</label><br>
-                <a class="location" href="https://www.google.com/maps/place/CODECRUX/@17.445893,78.350179,15z/data=!4m5!3m4!1s0x0:0x8638ca27f4e1dead!8m2!3d17.446199!4d78.347129" target="_blank">
-                  5th Floor, Catalyst Building, THub <br>
-                  IIIT Hyderabad Campus,<br>
-                  Gachibowli, Hyderabad, Telangana, 500032
-                </a>
-                <br>
-                <label><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:contact@codecrux.com"> contact@codecrux.com </a> </label> <br>
-                <label style="padding-top:5px;"><i class="fa fa-phone"></i>
-                  Shyam (<a href="tel:+918688468400">+91 868 846 8400</a>)
-                </label>
-
-              </address>
-              <address class="contact-address">
-                <h4>USA (HQ)</h4>
+                <h2>USA (HQ)</h2>
                 <!-- <label>CodeCrux Inc.</label><br> -->
                 <a class="location" href="#">
                 Apt 6735 b 2800 Waterview PKWY, <br>
@@ -515,8 +562,49 @@
                   Puneet Girdhar (<a href="tel:+16825932808">+1 682 593 2808</a>)
                 </label>
               </address>
+              <!-- </div> -->
+
+              <!-- <div class="col-sm-2"> -->
+                  <!-- <script async defer id='2019414225745907' src='https://widgets.worldtimeserver.com/Public.ashx?rid=2019414225745907&theme=Analog&action=clock&wtsid=IN&hex=ffffff&city=Hyderabad&size=small'></script> -->
+              </div>
+
+              <div class="col-sm-6">
+                <address class="contact-address">
+                <h2>INDIA</h2>
+                  <a class="location" href="https://www.google.com/maps/place/CODECRUX/@17.445893,78.350179,15z/data=!4m5!3m4!1s0x0:0x8638ca27f4e1dead!8m2!3d17.446199!4d78.347129" target="_blank">
+                    <b><h4> <i class="fa fa-map-marker" aria-hidden="true"></i> HYDERABAD</h4></b>
+
+                    5th Floor, Catalyst Building,T-Hub <br>
+                    IIIT Hyderabad Campus,<br>
+                    Gachibowli, Hyderabad, Telangana, 500032
+                  </a>
+                  <br>
+                  <label><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:contact@codecrux.com"> contact@codecrux.com </a> </label> <br>
+                  <label style="padding-top:5px;"><i class="fa fa-phone"></i>
+                    Shyam (<a href="tel:+918688468400">+91 868 846 8400</a>)
+                  </label>
+                </address>
+              </div>
+
+              
+
+            <div class="col-sm-6">
+              <address class="contact-address">
+                <a class="location" href="https://www.google.com/maps/place/CODECRUX/@17.445893,78.350179,15z/data=!4m5!3m4!1s0x0:0x8638ca27f4e1dead!8m2!3d17.446199!4d78.347129" target="_blank">
+                  <b><h4> <i class="fa fa-map-marker" aria-hidden="true"></i> BANGALORE </h4></b>
+
+                  4th Floor, Salarpuria Tower -1, No. 22, <br>
+                  Industrial Layout Landmark: Forum Mall, Hosur Rd, 7th Block, <br>
+                  Koramangala, Bengaluru, Karnataka 560095
+                </a>
+                <br>
+                <label><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:contact@codecrux.com"> contact@codecrux.com </a> </label> <br>
+                <label style="padding-top:5px;"><i class="fa fa-phone"></i>
+                  Shyam (<a href="tel:+918688468400">+91 868 846 8400</a>)
+                </label>
+              </address>
             </div>
-          </center>
+
         </div>
       </div>
     </div>
@@ -536,35 +624,6 @@
 
 
 
-
-
-<script type="text/javascript">
-  $(function() {
-  var body = $(‘body’);
-  var backgrounds = new Array(
-  ‘url(codecrux-banner-1.jpg)’,
-  ‘url(codecrux-banner-2.jpg)’,
-  ‘url(codecrux-banner-3.jpg)’,
-  ‘url(codecrux-banner-4.jpg)’,
-  ‘url(codecrux-banner-5.jpg)’,
-  ‘url(codecrux-banner-6.jpg)’,
-  ‘url(codecrux-banner-7.jpg)’,
-  ‘url(codecrux-banner-8.jpg)’
-  );
-  var current = 0;
-
-  function nextBackground() {
-  body.css(
-  ‘background’,
-  backgrounds[current = ++current % backgrounds.length]
-  );
-
-  setTimeout(nextBackground, 10000);
-  }
-  setTimeout(nextBackground, 10000);
-  body.css(‘background’, backgrounds[0]);
-  });
-</script>
 
 
 

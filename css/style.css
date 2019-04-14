@@ -52,6 +52,22 @@ h6 {
 .img-centered {
   margin: 0 auto;
 }
+
+.carousel-caption h1{
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.carousel-caption p{
+  font-size: 26px;
+}
+
+
+.mb-150{
+  margin-bottom: 120px !important;
+}
+
+
 .btn {
   height: 42px;
   padding: 10px 15px;
@@ -647,6 +663,9 @@ blockquote {
 address a.location{
   color: inherit;
   cursor: pointer;
+}
+.contact-address{
+  text-align: left;
 }
 .contact-address h4 {
   font-weight: 700;

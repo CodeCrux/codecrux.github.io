@@ -191,3 +191,32 @@ layout: landing-page
 
 
   {% include /contact.html %}
+
+
+<script type="text/javascript">
+  $(function() {
+  var body = $(‘body’);
+  var backgrounds = new Array(
+  ‘url(codecrux-banner-1.jpg)’,
+  ‘url(codecrux-banner-2.jpg)’,
+  ‘url(codecrux-banner-3.jpg)’,
+  ‘url(codecrux-banner-4.jpg)’,
+  ‘url(codecrux-banner-5.jpg)’,
+  ‘url(codecrux-banner-6.jpg)’,
+  ‘url(codecrux-banner-7.jpg)’,
+  ‘url(codecrux-banner-8.jpg)’
+  );
+  var current = 0;
+
+  function nextBackground() {
+  body.css(
+  ‘background’,
+  backgrounds[current = ++current % backgrounds.length]
+  );
+
+  setTimeout(nextBackground, 10000);
+  }
+  setTimeout(nextBackground, 10000);
+  body.css(‘background’, backgrounds[0]);
+  });
+</script>

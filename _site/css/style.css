@@ -1827,6 +1827,9 @@ address a.location{
 .testi-carousel .carousel-indicators li {
   border: 1px solid #0eb493;
 }
+.testi-body{
+  min-height: 160px;
+}
 .testi-item img {
   display: block;
   width: 120px;

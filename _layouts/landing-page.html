@@ -33,7 +33,7 @@
   </head>
 
 <body>
-  <nav class="navbar navbar-default home-navbar" style="background: transparent;">
+  <nav class="navbar navbar-default home-navbar" style="background: transparent;" id="navbar">
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header page-scroll">
@@ -45,7 +45,8 @@
         </button>
         <a class="navbar-brand page-scroll" href="/">
           <span class="color-primary">
-            <img src="/img/codecrux-logo-white.svg" alt="codecruc.com" />
+            <img src="/img/codecrux-logo-white.svg" alt="codecruc.com" class= 'cx-logo-w' />
+            <img src="/img/codecrux-logo.svg" alt="codecrux.com" class='cx-logo' />
           </span>
         </a>
       </div>
@@ -59,7 +60,8 @@
           <!-- <li><a href="/technology">Technology</a></li> -->
           <li><a href="/blog">BLOG</a></li>
           <!-- <li><a href="tel:+16825932808">+1 682 593 2808</a></li> -->
-          <li><a href="/#contact">CONTACT</a></li>
+          <li><a href="/contact">CONTACT</a></li>
+          <li class="nav-cta"><a href="/contact" class="btn btn-rounded btn-g">Get Expert Advice</a></li>
         </ul>
       </div>
     </div>
@@ -87,12 +89,13 @@
   <!-- <script src="/js/cbpAnimatedHeader.js"></script> -->
 
   <!-- Contact Form JavaScript -->
-  <script src="/js/jqBootstrapValidation.js"></script>
-  <script src="/js/contact_me.js"></script>
+  <script src="{{ site.baseurl }}/js/jqBootstrapValidation.js"></script>
+  <script src="{{ site.baseurl }}/js/contact_me.js"></script>
+  <script src="{{ site.baseurl }}/js/app.js"></script>
 
   <!-- Custom Theme JavaScript -->
   <!-- <script src="/js/agency.js"></script> -->
-  <script src="/js/owl.carousel.min.js"></script>
+  <script src="{{ site.baseurl }}/js/owl.carousel.min.js"></script>
 
   <script type="text/javascript">
     $(document).ready(function() {

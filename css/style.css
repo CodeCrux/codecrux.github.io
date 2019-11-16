@@ -251,7 +251,7 @@ fieldset[disabled] .btn-xl.active {
   margin-top: 5px;
 }
 .home-navbar .nav-cta .btn {
-  margin-top: 16px;  
+  margin-top: 16px;
 }
 .nav-cta .btn:hover,
 .nav-cta .btn:focus,
@@ -1331,6 +1331,15 @@ address a.location{
   line-height: 40px;
   padding: 0 15px;
 }
+
+.btn-o {
+  background-color: #f25f3e;
+  color: #fff;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 15px;
+}
+
 .btn-g:hover,
 .btn-g:focus {
   color: #fff;
@@ -1852,6 +1861,12 @@ address a.location{
 .testi-carousel .carousel-indicators .active {
   background-color: #0eb493;
 }
+
+.schedule-meeting{
+  background: #fff;
+  padding: 40px;
+}
+
 @media (min-width: 768px) {
   .testi-carousel .carousel-indicators {
     bottom: 10px;

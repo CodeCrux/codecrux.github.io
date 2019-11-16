@@ -16,7 +16,7 @@ Our services include
 > REST API Development
 > IT Infrastructure management & devOps, Backend server side programming and Cloud Services(like Amazon, Heroku, IBM, Google, Microsoft Azure  etc.) setup.
 
-Please visit http://codecrux.com/ for more details about the company and http://codecrux.com/portfolio/ for our work.
+Please visit https://codecrux.com/ for more details about the company and https://codecrux.com/portfolio/ for our work.
 
 Contact Details.
 ========================

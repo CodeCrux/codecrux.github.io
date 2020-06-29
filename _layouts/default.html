@@ -3,7 +3,11 @@
   {% include favicon.html %}
   {% include /head.html %}
 	<body id="top">
-    {% include /header.html %}
+    <nav class="navbar navbar-default default-header" id="navbar">
+      <div class="container">
+        {% include /header.html %}
+      </div>
+    </nav>
     <div class="main-content">
       {{ content }}
     </div>

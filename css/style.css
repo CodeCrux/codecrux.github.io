@@ -533,8 +533,7 @@ aside.clients img {
   padding: 30px 10px 60px 10px;
   background-color: #404040;
   color: #FFF;
-  line-height: 1.5;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .footer-links ul > li {
@@ -632,6 +631,15 @@ blockquote {
   .section-header {
     margin-bottom: 3.75em;
   }
+}
+
+.cta-box{
+  background-color: #f37a22;
+  color: #FFF;
+  border: 1px solid #f37a22;
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
 }
 
 .section-header h1 {

@@ -209,6 +209,12 @@ fieldset[disabled] .btn-xl.active {
   color: #0eb493;
   background-color: #fff;
 }
+
+.p10 {
+  padding-top: 3px;
+  font-size: 15px;
+}
+
 .form-control {
   height: 46px;
   padding: 8px 12px;

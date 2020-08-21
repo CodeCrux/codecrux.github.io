@@ -1200,8 +1200,10 @@ address a.location{
   height: auto;
 }
 
- /*---------------Solutions----------------*/
- .solutions-banner {
+
+
+/*---------------Solutions----------------*/
+.solutions-banner {
   background: url('/img/solutions/calltoaction-bg.jpg') no-repeat;
   background-position: top center;
   background-size: 100%;
@@ -1249,8 +1251,6 @@ address a.location{
 }
 
 /*------Technology------*/
-
-
 .technology-banner {
   background: url('/img/codecrux-tech-bg.jpg') no-repeat;
   background-position: top center;
@@ -1261,8 +1261,6 @@ address a.location{
 .technology-banner-content h1 {
   color: #fff;
 }
-
-
 .technology-content-wraper {
   padding: 30px 0;
 }

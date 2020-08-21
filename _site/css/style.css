@@ -1200,7 +1200,57 @@ address a.location{
   height: auto;
 }
 
+ /*---------------Solutions----------------*/
+ .solutions-banner {
+  background: url('/img/solutions/calltoaction-bg.jpg') no-repeat;
+  background-position: top center;
+  background-size: 100%;
+  padding: 100px 0;
+  text-align: center;
+}
+.solutions-banner-content h1 {
+  color: #fff;
+}
+
+
+
+.module-border-wrap {
+  /*max-width: 250px;*/
+  padding: 1rem;
+  position: relative;
+  background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+  border-radius: 4px;
+  padding: 3px;
+}
+
+.module {
+  background: #FFF;
+  background-color: #74EBD5;
+  background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+  padding: 2rem;
+}
+
+.module p {
+  color: #FFF;
+  font-size: 18px;
+}
+
+.scta {
+  /*background-image: radial-gradient(circle, #338cf1  30%,*/
+   /*#3c58cd 60%, #3c58cd 20%);*/
+  background-color: #74EBD5;
+  background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+  padding: 30px;
+}
+
+.big-num{
+  color: #FFF;
+  font-size: 90px;
+}
+
 /*------Technology------*/
+
+
 .technology-banner {
   background: url('/img/codecrux-tech-bg.jpg') no-repeat;
   background-position: top center;
@@ -1211,6 +1261,8 @@ address a.location{
 .technology-banner-content h1 {
   color: #fff;
 }
+
+
 .technology-content-wraper {
   padding: 30px 0;
 }

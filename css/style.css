@@ -1200,24 +1200,69 @@ address a.location{
   height: auto;
 }
 
-
-
 /*---------------Solutions----------------*/
-.solutions-banner {
-  background: url('/img/solutions/calltoaction-bg.jpg') no-repeat;
+.crm-solutions-banner {
+  background: url('/img/solutions/custom-crm-development.jpg') no-repeat;
   background-position: top center;
   background-size: 100%;
+  height: 400px;
   padding: 100px 0;
   text-align: center;
+  margin-top: -20px;
+  color: #fff;
 }
-.solutions-banner-content h1 {
+
+.ecommerce-solutions-banner {
+  background: url('/img/solutions/ecommerc.jpg') no-repeat;
+  background-position: top center;
+  background-size: 100%;
+  height: 400px;
+  vertical-align: middle;
+  padding: 100px 0;
+  text-align: center;
+  margin-top: -20px;
+  color: #fff;
+}
+
+.job-solutions-banner{
+  background: url('/img/solutions/job-portal-development.jpg') no-repeat;
+  background-position: top center;
+  background-size: 100%;
+  height: 400px;
+  vertical-align: middle;
+  padding: 100px 0;
+  text-align: center;
+  margin-top: -20px;
+  color: #fff;
+}
+
+.kennel-management-software-banner{
+  background: url('/img/solutions/kennel-management-software.jpg') no-repeat;
+  background-position: top center;
+  background-size: 100%;
+  height: 400px;
+  vertical-align: middle;
+  padding: 100px 0;
+  text-align: center;
+  margin-top: -20px;
   color: #fff;
 }
 
 
+.waste-management-solutions-banner {
+  background: url('/img/solutions/waste-management-software-applications.jpg') no-repeat;
+  background-position: top center;
+  background-size: 100%;
+  height: 400px;
+  vertical-align: middle;
+  padding: 100px 0;
+  text-align: center;
+  margin-top: -20px;
+  color: #fff;
+}
+
 
 .module-border-wrap {
-  /*max-width: 250px;*/
   padding: 1rem;
   position: relative;
   background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
@@ -1240,8 +1285,12 @@ address a.location{
 .scta {
   /*background-image: radial-gradient(circle, #338cf1  30%,*/
    /*#3c58cd 60%, #3c58cd 20%);*/
-  background-color: #74EBD5;
-  background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+  /*background-color: #74EBD5;*/
+  /*background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);*/
+  background: #ee0979;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   padding: 30px;
 }
 
@@ -1249,6 +1298,33 @@ address a.location{
   color: #FFF;
   font-size: 90px;
 }
+
+.crm-usecase-1{
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(243,94,131,1) 17.1%, rgba(236,212,80,1) 89.7% );
+  position: relative;
+  border-radius: 4px;
+  padding: 2rem;
+  color: #FFF;
+}
+.crm-usecase-2{
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,131,8,1) 0%, rgba(245,63,63,1) 90% );
+  position: relative;
+  border-radius: 4px;
+  padding: 2rem;
+  color: #FFF;
+}
+
+.crm-usecase-3{
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(243,94,131,1) 17.1%, rgba(236,212,80,1) 89.7% );
+  position: relative;
+  border-radius: 4px;
+  padding: 2rem;
+  color: #FFF;
+}
+
+
+
+
 
 /*------Technology------*/
 .technology-banner {

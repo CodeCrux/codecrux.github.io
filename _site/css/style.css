@@ -1205,6 +1205,23 @@ address a.location{
 
 /*---------------Solutions----------------*/
 
+.icon img {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+.opensource-solutions-banner{
+  background: url('/img/solutions/open-source.jpg') no-repeat;
+  background-position: top center;
+  background-size: 100%;
+  height: 400px;
+  padding: 100px 0;
+  text-align: center;
+  margin-top: -20px;
+  color: #fff;
+}
+
 .devops-solutions-banner{
   background: url('/img/solutions/devops-as-service.jpg') no-repeat;
   background-position: top center;
@@ -1315,6 +1332,14 @@ address a.location{
 
 .usecase{
   margin-bottom: 20px;
+  color: #FFF !important;
+}
+
+.usecase h3 {
+  margin-top: -5px;
+}
+.usecase a p {
+  color: #FFF !important;
 }
 
 .crm-usecase-1{
@@ -1322,14 +1347,14 @@ address a.location{
   position: relative;
   border-radius: 4px;
   padding: 2rem;
-  color: #FFF;
+  color: #FFF !important;
 }
 .crm-usecase-2{
   background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,131,8,1) 0%, rgba(245,63,63,1) 90% );
   position: relative;
   border-radius: 4px;
   padding: 2rem;
-  color: #FFF;
+  color: #FFF !important;
 }
 
 .crm-usecase-3{
@@ -1337,7 +1362,7 @@ address a.location{
   position: relative;
   border-radius: 4px;
   padding: 2rem;
-  color: #FFF;
+  color: #FFF !important;
 }
 
 

@@ -749,6 +749,9 @@ address a.location{
 }
 .contact-address{
   text-align: left;
+  font-size: 15px;
+  font-weight: 500;
+
 }
 .contact-address h4 {
   font-weight: 700;

@@ -1204,6 +1204,18 @@ address a.location{
 }
 
 /*---------------Solutions----------------*/
+
+.devops-solutions-banner{
+  background: url('/img/solutions/devops-as-service.jpg') no-repeat;
+  background-position: top center;
+  background-size: 100%;
+  height: 400px;
+  padding: 100px 0;
+  text-align: center;
+  margin-top: -20px;
+  color: #fff;
+}
+
 .crm-solutions-banner {
   background: url('/img/solutions/custom-crm-development.jpg') no-repeat;
   background-position: top center;
@@ -1250,7 +1262,6 @@ address a.location{
   margin-top: -20px;
   color: #fff;
 }
-
 
 .waste-management-solutions-banner {
   background: url('/img/solutions/waste-management-software-applications.jpg') no-repeat;
@@ -1300,6 +1311,10 @@ address a.location{
 .big-num{
   color: #FFF;
   font-size: 90px;
+}
+
+.usecase{
+  margin-bottom: 20px;
 }
 
 .crm-usecase-1{

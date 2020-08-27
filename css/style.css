@@ -830,6 +830,7 @@ address a.location{
 }
 .features-wraper {
   background-color: #f37923;
+  background-image: linear-gradient(62deg, #f37923 0%, #ffc400 100%);
   color: #FFF;
 }
 .features-wraper-head {
@@ -2021,6 +2022,11 @@ address a.location{
 .testimonial-wraper .carousel {
   padding-bottom: 50px;
 }
+
+.testi-carousel .carousel-indicators {
+    bottom: -30px !important;
+}
+
 .testi-carousel .carousel-indicators li {
   border: 1px solid #0eb493;
 }

@@ -1,12 +1,4 @@
----
-layout: default
-title: Open source customization services using ruby on rails  | CodeCrux
-description: At CodeCrux you can explore more open source projects and web development services which will be developed in ruby on rails, angularjs, and devops for your business.
-keywords: Rails,Ruby,startups,Ruby on Rails,web development, Open Source Development
-image: /img/solutions/open-source.jpg
----
-
-<!-- 
+I"§<!-- 
   TODO 
   https://digital.com/blog/open-source-business/
   add blog post links
@@ -24,7 +16,7 @@ image: /img/solutions/open-source.jpg
       <div class="module-border-wrap">
         <div class="module">
           <div class="col-sm-2">
-            <span class="big-num">5+</span><br>
+            <span class="big-num">5+</span><br />
           </div>
           <div class="col-sm-9">
             <p>CodeCrux team have 5 + years of experience developing and customizing open source software. We too love open source and Github, there are many tools you can find we can setup a working software form open source code.</p>
@@ -38,9 +30,9 @@ image: /img/solutions/open-source.jpg
       <center>
         <h2>Use Cases</h2>
       </center>
-      <hr class="pf-item-hr">
-      <br>
-      <br>
+      <hr class="pf-item-hr" />
+      <br />
+      <br />
 
       <div class="col-sm-6 usecase">
         <a href="/ecommerce-website-and-mobile-app/" target="_blank">
@@ -63,7 +55,7 @@ image: /img/solutions/open-source.jpg
       <div class="col-sm-6 usecase">
         <a href="/custom-crm-development" target="_blank">
           <div class="crm-usecase-1">
-            <h3>Custom CRM software for small & medium business (SMEs) </h3>
+            <h3>Custom CRM software for small &amp; medium business (SMEs) </h3>
             <p>Good for the individual business who want to sale products, services and  manage user base, follow-up etc .</p>
           </div>
         </a>
@@ -86,7 +78,7 @@ image: /img/solutions/open-source.jpg
           <div class="col-sm-2">
             <span class="icon">
               <img src="/img/visual-design.svg" />
-            </span><br>
+            </span><br />
           </div>
           <div class="col-sm-9">
             <h3>Private social networking application development</h3>
@@ -103,7 +95,7 @@ image: /img/solutions/open-source.jpg
           <div class="col-sm-2">
             <span class="icon">
               <img src="/img/visual-design.svg" />
-            </span><br>
+            </span><br />
           </div>
           <div class="col-sm-9">
             <h3>Alumni network website development</h3>
@@ -120,7 +112,7 @@ image: /img/solutions/open-source.jpg
           <div class="col-sm-2">
             <span class="icon">
               <img src="/img/visual-design.svg" />
-            </span><br>
+            </span><br />
           </div>
           <div class="col-sm-9">
             <h3>Audio and video conferencing softwares</h3>
@@ -137,7 +129,7 @@ image: /img/solutions/open-source.jpg
           <div class="col-sm-2">
             <span class="icon">
               <img src="/img/visual-design.svg" />
-            </span><br>
+            </span><br />
           </div>
           <div class="col-sm-9">
             <h3>School Management Software and mobile applications</h3>
@@ -154,7 +146,7 @@ image: /img/solutions/open-source.jpg
           <div class="col-sm-2">
             <span class="icon">
               <img src="/img/visual-design.svg" />
-            </span><br>
+            </span><br />
           </div>
           <div class="col-sm-9">
             <h3>Learning management system with video conferencing</h3>
@@ -169,4 +161,56 @@ image: /img/solutions/open-source.jpg
   </div>
 </div>
 
-{% include /enquiry.html %}
+<div class="scta">
+  <div class="text-center text-white">
+    <h3>Ready to get started?</h3>
+    <p>Let us know what you are looking for? <br />
+    We would help you to build a secure and scalable system.</p>
+  </div>
+</div>
+
+<div class="contact-wraper" data-class="enquiry-wraper" data-id="enquiry-form" id="contact">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+
+
+        <div class="section-heading">
+          <h2>Contact CodeCrux</h2>
+          <p>
+            Drop us your email, We will connect you with in 4 hours.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-5" style="text-align: left;">
+
+        <!-- <div id="codecrux_5750790484393984" class="agile_crm_form_embed"><span style="display:none">Fill out my <a href="https://codecrux.agilecrm.com/forms/5750790484393984">online form</a></span></div> -->
+
+        <div class="engage-hub-form-embed" id="eh_form_5517012111458304" data-id="5517012111458304"> </div>
+
+      </div>
+
+
+      <div class="col-md-6">
+        <h3>Our services include</h3>
+        <ul class="" style="font-size: 16px;">
+          <li>Web &amp; Mobile App Design and Development</li>
+          <li>E-commerce Application Development</li>
+          <li>Healthcare Application development</li>
+          <li>Real Estate Application development</li>
+          <li>REST API Development</li>
+          <li>IT Infrastructure management &amp; devOps , Backend server side programming and Cloud Services(like Amazon, Heroku, IBM, Google, Microsoft Azure  etc.) setup</li>
+        </ul>
+        <br />
+        <br />
+        <p>Looking for a career with CodeCrux? Visit our <a href="/jobs">Careers</a> page.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+:ET

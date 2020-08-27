@@ -6,6 +6,13 @@ keywords: Rails,Ruby,startups,Ruby on Rails,web development, Open Source Develop
 image: /img/solutions/open-source.jpg
 ---
 
+<!-- 
+  TODO 
+  https://digital.com/blog/open-source-business/
+  add blog post links
+  https://awesomeopensource.com/
+  https://github.com/sindresorhus/awesome
+ -->
 <div class="opensource-solutions-banner">
   <h1>Open Source Customization</h1>
 </div>

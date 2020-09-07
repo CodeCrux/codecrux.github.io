@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/css/owl.carousel.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/owl.theme.css">
 
-
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
@@ -33,34 +32,18 @@
   </head>
 
 <body>
-
   <nav class="navbar navbar-default home-navbar"  id="navbar">
-    {% include /status-banner.html %}
     <div class="container">
       {% include /header.html %}
     </div>
   </nav>
 
-
   {{ content }}
-
 
   {% include /footer.html %}
 
-  <!-- jQuery Version 1.11.0 -->
-  <!-- <script src="/js/jquery-1.11.0.js"></script> -->
-
-  <!-- Bootstrap Core JavaScript -->
-  <!-- <script src="/js/bootstrap.min.js"></script> -->
-
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <!-- <script src="/js/jquery.easing.min.js"></script> -->
-  <!-- <script src="/js/classie.js"></script> -->
-  <!-- <script src="/js/cbpAnimatedHeader.js"></script> -->
 
   <!-- Contact Form JavaScript -->
   <script src="{{ site.baseurl }}/js/jqBootstrapValidation.js"></script>
@@ -73,25 +56,6 @@
 
   <script type="text/javascript">
     $(document).ready(function() {
-      // $("#tech-carousel").owlCarousel({
-      //   loop:true,
-      //     margin:10,
-      //     responsiveClass:true,
-      //     responsive:{
-      //         0:{
-      //             items:2,
-      //             nav:true
-      //         },
-      //         600:{
-      //             items:3,
-      //             nav:false
-      //         },
-      //         1000:{
-      //             items:9,
-      //             nav: false
-      //         }
-      //     }
-      // });
 
       $("#team-carousel").owlCarousel({
          items : 3

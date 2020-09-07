@@ -639,6 +639,23 @@ blockquote {
   }
 }
 
+
+.status-banner {
+  background-color: #74EBD5;
+  background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+  color: #FFF;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.4;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+.status-banner a {
+  color: #000;
+}
+
+
 .cta-box{
   background-color: #f37a22;
   color: #FFF;
@@ -749,6 +766,9 @@ address a.location{
 }
 .contact-address{
   text-align: left;
+  font-size: 15px;
+  font-weight: 500;
+
 }
 .contact-address h4 {
   font-weight: 700;
@@ -827,6 +847,7 @@ address a.location{
 }
 .features-wraper {
   background-color: #f37923;
+  background-image: linear-gradient(62deg, #f37923 0%, #ffc400 100%);
   color: #FFF;
 }
 .features-wraper-head {
@@ -942,12 +963,13 @@ address a.location{
 .blog-banner {
   position: relative;
   width: 100%;
-  height: 300px;
+  height: 500px;
   background: url('/img/codecrux-blog-bg.png') no-repeat;
   background-size: cover;
   background-position: center center;
   padding: 80px 0;
 }
+
 .blog-banner::before {
   content: '';
   position: absolute;
@@ -957,6 +979,7 @@ address a.location{
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
 }
+
 .blog-banner-message {
   position: absolute;
   top: 0;
@@ -968,6 +991,9 @@ address a.location{
   text-align: center;
   z-index: 2;
 }
+
+
+
 .blog-banner-message h1 {
   color: #fff;
   font-weight: 700;
@@ -1012,6 +1038,8 @@ address a.location{
 
 .bg-orange {
   background-color: #f37923;
+  background-image: linear-gradient(62deg, #f37923 0%, #ffc400 100%);
+  color: #FFF;
 }
 
 .bg-blue {
@@ -1143,9 +1171,10 @@ address a.location{
 }
 .blog-post-banner {
   width: 100%;
-  height: 200px;
+  height: 250px;
   display: table;
   text-align: center;
+
 }
 .blog-post-banner-content {
   display: table-cell;
@@ -1163,11 +1192,17 @@ address a.location{
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+.blog-post-title {
+  margin-top: 135px;
+}
+
 .blog-post-title h1 {
   width: 80%;
   margin: 20px auto;
   color: #fff;
 }
+
 .blog-post-author-name {
   color: #fff;
   margin-bottom: 0;
@@ -1201,14 +1236,40 @@ address a.location{
 }
 
 /*---------------Solutions----------------*/
+
+.icon img {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+.opensource-solutions-banner{
+  background: url('/img/solutions/open-source.jpg') no-repeat;
+  background-position: top center;
+  background-size: 100%;
+  height: 400px;
+  padding:150px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.devops-solutions-banner{
+  background: url('/img/solutions/devops-as-service.jpg') no-repeat;
+  background-position: top center;
+  background-size: 100%;
+  height: 400px;
+  padding:150px 0;
+  text-align: center;
+  color: #fff;
+}
+
 .crm-solutions-banner {
   background: url('/img/solutions/custom-crm-development.jpg') no-repeat;
   background-position: top center;
   background-size: 100%;
   height: 400px;
-  padding: 100px 0;
+  padding:150px 0;
   text-align: center;
-  margin-top: -20px;
   color: #fff;
 }
 
@@ -1218,9 +1279,8 @@ address a.location{
   background-size: 100%;
   height: 400px;
   vertical-align: middle;
-  padding: 100px 0;
+  padding:150px 0;
   text-align: center;
-  margin-top: -20px;
   color: #fff;
 }
 
@@ -1230,9 +1290,8 @@ address a.location{
   background-size: 100%;
   height: 400px;
   vertical-align: middle;
-  padding: 100px 0;
+  padding:150px 0;
   text-align: center;
-  margin-top: -20px;
   color: #fff;
 }
 
@@ -1242,12 +1301,10 @@ address a.location{
   background-size: 100%;
   height: 400px;
   vertical-align: middle;
-  padding: 100px 0;
+  padding:150px 0;
   text-align: center;
-  margin-top: -20px;
   color: #fff;
 }
-
 
 .waste-management-solutions-banner {
   background: url('/img/solutions/waste-management-software-applications.jpg') no-repeat;
@@ -1255,9 +1312,8 @@ address a.location{
   background-size: 100%;
   height: 400px;
   vertical-align: middle;
-  padding: 100px 0;
+  padding: 150px 0;
   text-align: center;
-  margin-top: -20px;
   color: #fff;
 }
 
@@ -1271,9 +1327,9 @@ address a.location{
 }
 
 .module {
-  background: #FFF;
   background-color: #74EBD5;
   background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+  color: #FFF;
   padding: 2rem;
 }
 
@@ -1299,19 +1355,31 @@ address a.location{
   font-size: 90px;
 }
 
+.usecase{
+  margin-bottom: 20px;
+  color: #FFF !important;
+}
+
+.usecase h3 {
+  margin-top: -5px;
+}
+.usecase a p {
+  color: #FFF !important;
+}
+
 .crm-usecase-1{
   background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(243,94,131,1) 17.1%, rgba(236,212,80,1) 89.7% );
   position: relative;
   border-radius: 4px;
   padding: 2rem;
-  color: #FFF;
+  color: #FFF !important;
 }
 .crm-usecase-2{
   background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,131,8,1) 0%, rgba(245,63,63,1) 90% );
   position: relative;
   border-radius: 4px;
   padding: 2rem;
-  color: #FFF;
+  color: #FFF !important;
 }
 
 .crm-usecase-3{
@@ -1319,7 +1387,7 @@ address a.location{
   position: relative;
   border-radius: 4px;
   padding: 2rem;
-  color: #FFF;
+  color: #FFF !important;
 }
 
 
@@ -1331,7 +1399,7 @@ address a.location{
   background: url('/img/codecrux-tech-bg.jpg') no-repeat;
   background-position: top center;
   background-size: 100%;
-  padding: 100px 0;
+  padding:150px 0;
   text-align: center;
 }
 .technology-banner-content h1 {
@@ -1898,6 +1966,9 @@ address a.location{
     float: none !important;
     margin-top: 5px;
   }
+
+
+
   .blog-post-banner {
     padding: 20px 15px;
   }
@@ -1978,6 +2049,11 @@ address a.location{
 .testimonial-wraper .carousel {
   padding-bottom: 50px;
 }
+
+.testi-carousel .carousel-indicators {
+    bottom: -30px !important;
+}
+
 .testi-carousel .carousel-indicators li {
   border: 1px solid #0eb493;
 }
@@ -2005,8 +2081,18 @@ address a.location{
   padding: 40px;
 }
 
-@media (min-width: 768px) {
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
   .testi-carousel .carousel-indicators {
     bottom: 10px;
   }
+
+  .carousel-caption h1 {
+    font-size: 35px;
+  }
+
+  .dropdown-menu {
+    text-align: center;
+  }
 }
+

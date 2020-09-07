@@ -38,7 +38,7 @@
 <meta property="og:url" content="http://localhost:4000/about/" />
 <meta property="og:site_name" content="CodeCrux Web Technologies pvt ltd" />
 <script type="application/ld+json">
-{"description":"CodeCrux - One of the fastest growing web and mobile app development companies in Hyderabad with a full fledged spectrum of Creative Design, Web &amp; Mobile app Development and API Services. algorithms, patterns, and agile leadership. Above all, we apply concepts that matter most to your project.","@type":"WebSite","url":"http://localhost:4000/about/","name":"CodeCrux Web Technologies pvt ltd","headline":"CodeCrux is a creative design, Web and Mobile application Development company","@context":"https://schema.org"}</script>
+{"description":"CodeCrux - One of the fastest growing web and mobile app development companies in Hyderabad with a full fledged spectrum of Creative Design, Web &amp; Mobile app Development and API Services. algorithms, patterns, and agile leadership. Above all, we apply concepts that matter most to your project.","@type":"WebSite","headline":"CodeCrux is a creative design, Web and Mobile application Development company","url":"http://localhost:4000/about/","name":"CodeCrux Web Technologies pvt ltd","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -95,7 +95,10 @@
 </head>
 
 	<body id="top">
-    <nav class="navbar navbar-default default-header" id="navbar">
+    <nav class="navbar navbar-default default-header home-navbar" id="navbar">
+      <div class="status-banner">
+	CodeCrux team is working from home in response to COVID-19, Call us at <a href="tel:+918688468400">+91-8688-468-400 </a> or <a href="https://wa.me/918688468400" target="_blank"><img src="/img/whatsapp.png" width="24px;"></a> We’re here to help.
+</div>
       <div class="container">
         <div class="navbar-header page-scroll">
   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
@@ -134,6 +137,7 @@
     <li class="dropdown">
       <a class="dropdown-toggle" data-toggle="dropdown" href="#">SOLUTIONS
       <span class="caret"></span></a>
+      
       <ul class="dropdown-menu">
         <li class="p10"><a href="/custom-crm-development">Custom CRM development</a></li>
         <li class="p10"><a href="/ecommerce-website-and-mobile-app">Ecommerce website and mobile app</a></li>
@@ -153,6 +157,7 @@
         <li class="p10"><a href="/alumni-network-website-development">Alumni network website development</a></li>
         <li class="p10"><a href="/private-social-networking-application-development">Private social networking application development</a></li>
         <li class="p10"><a href="/audio-and-video-conferencing-softwares">Audio and video conferencing softwares</a></li>
+        
         <li class="p10"><a href="/school-managemnt-softwares-and-mobile-app">School Management Software and mobile app</a></li>
         <li class="p10"><a href="/learning-management-system-with-video-conferencing">Learning management system with video conferencing</a></li>
 
@@ -185,11 +190,25 @@
       <a class="dropdown-toggle" data-toggle="dropdown" href="#">SUCCESS STORIES
       <span class="caret"></span></a>
       <ul class="dropdown-menu">
-        <li class="p10"><a href="/success-stories">SUCCESS STORIES</a></li>
-        <li class="p10"><a href="/portfolio">PORTFOLIO</a></li>
+        <li class="p10"><a href="/success-stories">Success Stories</a></li>
+        <li class="p10"><a href="/success-stories/maverick-ai">Maverick.ai</a></li>
+        <li class="p10"><a href="/success-stories/tee-public">Teepublic</a></li>
+        <li class="p10"><a href="/success-stories/minibar-delivery">Minibar Delivery</a></li>
+        <li class="p10"><a href="/portfolio">Portfolio</a></li>
       </ul>
     </li>
-    <!-- <li><a href="/blog">BLOG</a></li> -->
+
+    <li class="dropdown">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#">COMPANY
+        <span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <li class="p10"><a href="/about">About</a></li>
+        <li class="p10"><a href="/portfolio">Portfolio</a></li>
+        <li class="p10"><a href="/jobs">Join our team</a></li>
+        <li class="p10"><a href="/blog">Blog</a></li>
+      </ul>
+    </li>
+
     <li><a href="/contact">CONTACT</a></li>
     <li class="nav-cta"><a href="/schedule-meeting/" class="btn btn-rounded btn-g">Schedule a Meeting</a></li>
   </ul>
@@ -197,19 +216,25 @@
 
       </div>
     </nav>
+
     <div class="main-content">
       <section class="container careers-single sm-padding">
   <div class="row">
-    <div class="col-xs-9 col-sm-12">
+    <div class="col-xs-12 col-sm-12">
       <h1 class="title">About Us</h1>
       <p>
         CodeCrux Web Technologies(p) Ltd. located at <a href="http://www.t-hub.co/" target="_blank">T-Hub</a>, Hyderabad, India is a worldwide provider of a full fledged spectrum of Creative Design, Web and Mobile app Development and API Services. We have successfully delivered many projects for clients across the globe - USA, UK, Australia, Germany, India etc.
         <br>
       </p>
-        <h3>Our Technology Stack</h3>
-        <p>
-          Ruby, Ruby on rails, Python, AngularJS, BackboneJS, HTML5, JavaScript, CSS3, SCSS, Postgres, MongoDB, MySql, Redis, Heroku, Amazon Web Services, Mobile Development Native as well as hybrid using Ionic & React Native and many more.
-          <br>
+      <h3>Our Technology Stack</h3>
+      <p>
+        Ruby, Ruby on rails, Python, AngularJS, BackboneJS, HTML5, JavaScript, CSS3, SCSS, Postgres, MongoDB, MySql, Redis, Heroku, Amazon Web Services, Mobile Development Native as well as hybrid using Ionic & React Native and many more.
+        <br>
+      </p>
+        <br>
+
+      <div class="module-border-wrap">
+        <div class="module">
           <section class="technologies-wraper">
   <div class="tech-items">
     <div class="tech-item">
@@ -224,8 +249,17 @@
     </div>
 
     <div class="tech-item">
-      <a href="/technology/#react" ><img src="/img/tech-images/react-original.png" alt="react developer hyderabad" /><br /><span>ReactJS</span></a>
+      <a href="/technology/#android" >
+        <img src="/img/tech-images/android-original.png" alt="Android mobile application developers hyderabad" /><br /><span>Android</span>
+      </a>
     </div>
+
+    <div class="tech-item">
+      <a href="/technology/#ios" >
+        <img src="/img/tech-images/ios-native.png" alt="iOS mobile application developers hyderabad" /><br /><span>iOS</span>
+      </a>
+    </div>
+
 
     <div class="tech-item">
       <a href="/technology/#react" ><img src="/img/tech-images/vuejs.png" alt="vue js developer hyderabad" /><br /><span>VueJS</span></a>
@@ -235,18 +269,11 @@
       <a href="/technology/#angularjs" ><img src="/img/tech-images/angularjs-original.png" alt="angularjs developer hyderabad" /><br /> <span>Angular</span></a>
     </div>
 
-    <div class="tech-item">
-      <a href="/technology/#android" >
-        <img src="/img/tech-images/android-original.png" alt="Android mobile application developers hyderabad" /><br /><span>Android</span>
-      </a>
+     <div class="tech-item">
+      <a href="/technology/#react" ><img src="/img/tech-images/react-original.png" alt="react developer hyderabad" /><br /><span>ReactJS</span></a>
     </div>
 
-    <div class="tech-item">
-      <a href="/technology/#android" >
-        <img src="/img/tech-images/ios-native.png" alt="iOS mobile application developers hyderabad" /><br /><span>iOS</span>
-      </a>
-    </div>
-
+    
     <div class="tech-item">
       <a href="/technology" ><img src="/img/tech-images/github.png" alt="github developers" /><br /><span>Github</span></a>
     </div>
@@ -261,6 +288,10 @@
     </div>
 
     <div class="tech-item">
+      <a href="/kubernetes" ><img src="/img/tech-images/docker-deployment.png" alt="docker deployment" /><br /><span>Docker</span></a>
+    </div>
+
+    <div class="tech-item">
       <a href="/kubernetes" ><img src="/img/tech-images/kubernetes.png" alt="kubernetes developers" /><br /><span>Kubernetes</span></a>
     </div>
 
@@ -270,29 +301,38 @@
   </div>
 </section>
 
-      </p>
+        </div>
+      </div>
+
+      
     </div>
     <div class="clearfix"></div>
     <br>
-    <div class="col-md-4">
-      <h3>Intrepid Entrepreneurs</h3>
+    <div class="col-md-4 usecase">
+      <div class="crm-usecase-1">
+        <h3>Intrepid Entrepreneurs</h3>
         <p>
           We established CodeCrux to make IT development quick and affordable. We provide a comfortable and flexible business environment.
         </p>
+      </div>
     </div>
 
-    <div class="col-md-4">
+    <div class="col-md-4 usecase">
+      <div class="crm-usecase-2">
       <h3>Knowledge and Skill</h3>
       <p>
         We're passionate about algorithms, patterns and agile leadership. We apply concepts that matter the most to your business.
       </p>
     </div>
+    </div>
 
-    <div class="col-md-4">
+    <div class="col-md-4 usecase">
+      <div class="crm-usecase-1">
       <h3>Formidable Industry Experience</h3>
       <p>
         Hospitality, healthcare, real estate, social media, e-commerce and banking are a few of the verticals we have worked for.
       </p>
+    </div>
     </div>
   </div>
 </section>
@@ -306,41 +346,84 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-sm-3">
+    <center>
+      
+    <div class="col-sm-3 col-xs-6">
       <div class="team-card">
-        <img src="/img/team/codecrux-shyam.jpg" alt="Shyam Mohan K" style="width:100%">
+        <img src="/img/team/shyam-mohan.jpeg" alt="Shyam Mohan K" style="width:80%" class="img-circle">
         <h3>Shyam Mohan K <a href="https://www.linkedin.com/in/shyam-mohan-k/" target="_blank"><img src="/img/linkedin.svg" alt="Linkedin" width="24" height="24"></a></h3>
         <p class="title">Co Founder & CEO</p>
 
       </div>
     </div>
 
-    <div class="col-sm-3">
+    <div class="col-sm-3 col-xs-6">
       <div class="team-card">
-        <img src="/img/team/codecrux-dinesh.jpg" alt="Dinesh Yadav" style="width:100%">
+        <img src="/img/team/dinesh-yadav.jpeg" alt="Dinesh Yadav" style="width:80%" class="img-circle">
         <h3>Dinesh Yadav <a href="https://www.linkedin.com/in/dineshsinghyadav/" target="_blank"><img src="/img/linkedin.svg" alt="Linkedin" width="24" height="24"></a></h3>
         <p class="title">Co Founder & CTO</p>
 
       </div>
     </div>
 
-    <div class="col-sm-3">
+    <div class="col-sm-3 col-xs-6">
       <div class="team-card">
-        <img src="/img/team/codecrux-vinay.jpg" alt="Vinay Kumar" style="width:100%">
+        <img src="/img/team/vinay.jpeg" alt="Vinay Kumar" style="width:80%" class="img-circle">
         <h3>Vinay Kumar  <a href="https://www.linkedin.com/in/vinay-kumar-iiith/" target="_blank"><img src="/img/linkedin.svg" alt="Linkedin" width="24" height="24"></a></h3>
-        <p class="title">Co Founder & Solutions Engineer</p>
+        <p class="title">Solutions Engineer</p>
 
       </div>
     </div>
 
-    <div class="col-sm-3">
+    <div class="col-sm-3 col-xs-6">
       <div class="team-card">
-        <img src="/img/team/codecrux-deepak.jpg" alt="Deepak Vig" style="width:100%">
+        <img src="/img/team/deepak.jpeg" alt="Deepak Vig" style="width:80%" class="img-circle" >
         <h3>Deepak Vig  <a href="https://www.linkedin.com/in/deepakvig/" target="_blank"><img src="/img/linkedin.svg" alt="Linkedin" width="24" height="24"></a> </h3>
-        <p class="title">Co Founder & Solutions Engineer</p>
+        <p class="title">Solutions Engineer</p>
 
       </div>
     </div>
+    <div class="clearfix"></div>
+    <br>
+    <br>
+
+    <div class="col-sm-3 col-xs-6">
+      <div class="team-card">
+        <img src="/img/team/amitesh-k.jpeg" alt="Amitesh Kumar" style="width:80%" class="img-circle">
+        <h3>Amitesh Kumar <a href="https://www.linkedin.com/in/amiteshkumar-iim/" target="_blank"><img src="/img/linkedin.svg" alt="Linkedin" width="24" height="24"></a> </h3>
+        <p class="title">Sales Director</p>
+      </div>
+    </div>
+
+    <div class="col-sm-3 col-xs-6">
+      <div class="team-card">
+        <img src="/img/team/mike-raghavan.jpeg" alt="Mike Raghavan" style="width:80%" class="img-circle">
+        <h3>Mike Raghavan <a href="https://www.linkedin.com/in/mike-raghavan-2223b7188/" target="_blank"><img src="/img/linkedin.svg" alt="Linkedin" width="24" height="24" ></a> </h3>
+        <p class="title">Partner (Sales & Marketing)</p>
+      </div>
+    </div>
+
+    <div class="col-sm-3 col-xs-6">
+      <div class="team-card">
+        <img src="/img/team/Vipul-Vikram.jpeg" alt="Vipul Vikram" style="width:80%" class="img-circle">
+        <h3>Vipul Vikram <a href="https://www.linkedin.com/in/vipul-vikram-27565415/" target="_blank"><img src="/img/linkedin.svg" alt="Linkedin" width="24" height="24"></a> </h3>
+        <p class="title">Senior Consultant</p>
+      </div>
+    </div>
+
+
+    <div class="clearfix"></div>
+    <br>
+    <br>
+    <hr class="pf-item-hr">
+      <br><br>
+    <a href="https://www.linkedin.com/company/codecrux" target="_blank">
+      <img src="/img/team/connect-with-us-on-linkedin.png" alt="Linkedin" style="width:20%" >
+    </a>
+
+    
+    </center>
+
 
   </div>
 </div>
@@ -449,22 +532,13 @@
   <br>
   <br>
 </section>
-
-<section id="focus-areas" class="features-wraper">
-  <div class="features-wraper-head">
-    <div class="section-heading">
-      <h2>Industries we've worked for</h2>
-    </div>
+<div class="scta">
+  <div class="text-center text-white">
+    <h3>Ready to get started?</h3>
+    <p>Let us know what you are looking for? <br>
+    We would help you to build a secure and scalable system.</p>
   </div>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-      </div>
-      <img src="/img/home/codecrux-product-industries.png" alt="codecrux product industries" width="100%" style="margin-top:-60px;" />
-    </div>
-  </div>
-</section>
+</div>
 
 <div class="contact-wraper" data-class="enquiry-wraper" data-id="enquiry-form" id="contact">
 
@@ -512,10 +586,11 @@
 
 
     </div>
+    
     <div class="footer-links">
   <div class="container">
     <div class="row">
-      <div class="col-sm-4 col-xs-12">
+      <div class="col-sm-3 col-xs-12">
         <b>About CodeCrux</b>
         <ul>
           <li>
@@ -555,9 +630,8 @@
         </ul>
       </div>
 
-      <div class="col-sm-3 col-xs-6">
+      <div class="col-sm-4 col-xs-6">
         <b>SOLUTIONS</b>
-
         <ul>
           <li><a href="/custom-crm-development">Custom CRM development</a></li>
           <li><a href="/ecommerce-website-and-mobile-app">Ecommerce website and mobile app</a></li>
@@ -575,18 +649,15 @@
     <div class="row">
       <div class="col-sm-4">
         <ul class="list-inline social-buttons pull-left">
-          <!-- <li><a href="/sitemap.html" title="Sitemap"><i class="fa fa-sitemap" aria-hidden="true"></i></a></li> -->
           <li><a href="https://www.linkedin.com/company/codecrux" title="LinkedIn" target="_blank"><i class="fa fa-linkedin"></i></a></li>
           <li><a href="http://twitter.com/codecrux" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
           <li><a href="http://github.com/codecrux" target="_blank" title="Github"><i class="fa fa-github"></i></a></li>
           <li><a href="https://www.facebook.com/codecrux/" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
         </ul>
       </div>
-
        <div class="col-sm-8">
           <span class="copyright pull-left">&copy; CodeCrux Web technologies(p) Ltd.</span>
       </div>
-
     </div>
   </div>
 </footer>
@@ -619,16 +690,13 @@ drift.load('5m5akmrikvr2');
 </script> -->
 <!-- End of Async Drift Code -->
 
-<script>
+<!-- <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="4.0.0";
   analytics.load("RtPjtLTBPIZHV8EvZojaURgeRie3EjvD");
   analytics.page();
   }}();
 </script>
-
-
-
-
+ -->
 
 <!-- <script id="_agile_min_js" async type="text/javascript" src="https://d1gwclp1pmzk26.cloudfront.net/agile/agile-cloud.js"> </script>
 <script type="text/javascript" >

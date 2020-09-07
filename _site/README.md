@@ -10,10 +10,15 @@ Ruby, Ruby on rails, Golang, Python, AngularJS, Backbone JS, ReactJS, HTML5, Jav
 Our services include
 
 > Web & Mobile App Design and Development
+> 
 > E-commerce Application Development
+> 
 > Healthcare Application development
+> 
 > Real Estate Application development
+> 
 > REST API Development
+> 
 > IT Infrastructure management & devOps, Backend server side programming and Cloud Services(like Amazon, Heroku, IBM, Google, Microsoft Azure  etc.) setup.
 
 Please visit https://codecrux.com/ for more details about the company and https://codecrux.com/portfolio/ for our work.

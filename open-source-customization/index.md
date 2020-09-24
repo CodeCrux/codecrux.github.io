@@ -77,72 +77,43 @@ image: /img/solutions/open-source.jpg
           </div>
         </a>
       </div>
-
     </div>
 
-    <div class="col-sm-12 usecase">
+    <div class="col-sm-6 usecase">
       <div class="module-border-wrap">
         <div class="module">
-          <div class="col-sm-2">
-            <span class="icon">
-              <img src="/img/visual-design.svg" />
-            </span><br>
-          </div>
-          <div class="col-sm-9">
             <h3>Private social networking application development</h3>
             <p>You can start a quick private social networking group to manage your community.</p>
-          </div>
           <div class="clearfix"></div>
         </div>
       </div>
     </div>
 
-    <div class="col-sm-12 usecase">
+    <div class="col-sm-6 usecase">
       <div class="module-border-wrap">
         <div class="module">
-          <div class="col-sm-2">
-            <span class="icon">
-              <img src="/img/visual-design.svg" />
-            </span><br>
-          </div>
-          <div class="col-sm-9">
             <h3>Alumni network website development</h3>
             <p>Educational institutions can adopt alumni network portal to grow student and alumni engagement and can get more placement, funds and online / offline meetings. </p>
-          </div>
           <div class="clearfix"></div>
         </div>
       </div>
     </div>
 
-    <div class="col-sm-12 usecase">
+    <div class="col-sm-6 usecase">
       <div class="module-border-wrap">
         <div class="module">
-          <div class="col-sm-2">
-            <span class="icon">
-              <img src="/img/visual-design.svg" />
-            </span><br>
-          </div>
-          <div class="col-sm-9">
             <h3>Audio and video conferencing softwares</h3>
             <p>Some time companies have data privacy rules and policies, these open source conferencing tools gives freedom to host on your servers and work seamlessly with out any user limit.</p>
-          </div>
           <div class="clearfix"></div>
         </div>
       </div>
     </div>
 
-    <div class="col-sm-12 usecase">
+    <div class="col-sm-6 usecase">
       <div class="module-border-wrap">
         <div class="module">
-          <div class="col-sm-2">
-            <span class="icon">
-              <img src="/img/visual-design.svg" />
-            </span><br>
-          </div>
-          <div class="col-sm-9">
-            <h3>School Management Software and mobile applications</h3>
+            <h3>School Management portal & mobile apps</h3>
             <p>These days each schools needs online interaction with students and parents. mobile application help schools and parents intact and communicate faster and transparent way.</p>
-          </div>
           <div class="clearfix"></div>
         </div>
       </div>
@@ -151,15 +122,8 @@ image: /img/solutions/open-source.jpg
     <div class="col-sm-12 usecase">
       <div class="module-border-wrap">
         <div class="module">
-          <div class="col-sm-2">
-            <span class="icon">
-              <img src="/img/visual-design.svg" />
-            </span><br>
-          </div>
-          <div class="col-sm-9">
             <h3>Learning management system with video conferencing</h3>
             <p>LMS systems are important part now in online education where teachers can create courses and in-role students and give the assignments to evaluate and online class with conferencing is the need of every educational institute like coaching classes, engineering collages, and universities.</p>
-          </div>
           <div class="clearfix"></div>
         </div>
       </div>

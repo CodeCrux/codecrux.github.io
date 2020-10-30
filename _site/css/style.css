@@ -1399,12 +1399,14 @@ address a.location{
   background: url('/img/codecrux-tech-bg.jpg') no-repeat;
   background-position: top center;
   background-size: 100%;
-  padding:150px 0;
+  padding:150px 0; 
   text-align: center;
 }
 .technology-banner-content h1 {
   color: #fff;
 }
+
+
 .technology-content-wraper {
   padding: 30px 0;
 }
@@ -1632,11 +1634,24 @@ address a.location{
   float: left;
 }
 .ui-item-content {
-  width: 60%;
+  
   float: left;
+  width :60%;
 }
 .ui-item-content p {
-  font-size: 16px;
+  float : left;
+  
+}
+
+@media (max-width : 360px){
+  .ui-item-content p{
+    font-size: 16px;
+    line-height: 1.75;
+    float : left;
+    width: 150%;
+
+
+  }
 }
 .ui-reverse h2 {
   width: 60%;
@@ -2094,5 +2109,123 @@ address a.location{
   .dropdown-menu {
     text-align: center;
   }
+  
+  .technology-banner{
+    padding :180px 0;
+  }
+
+  .devops-solutions-banner{
+    padding: 180px 0;
+  }
+  .opensource-solutions-banner{
+    padding: 180px 0;
+  }
+  .crm-solutions-banner{
+    padding: 180px 0;
+  }
+  .ecommerce-solutions-banner{
+    padding: 180px 0;
+  }
+  .kennel-management-software-banner{
+    padding: 180px 0;
+  }
+  .job-solutions-banner{
+    padding: 180px 0;
+  }
+  .waste-management-solutions-banner{
+    padding: 180px 0;
+  }
+  .blog-post-banner-content{
+    padding: 60px 0;
+  }
+  .pf-heading{
+    padding: 240px 0;
+  }
+  .text-white{
+    padding: 20px 0;
+  }
+  .client-logo{
+    width: 170px;
+    height: 100px;
+  }
+
 }
+
+
+@media only screen and (max-width: 414px){
+
+  .technology-banner{
+    padding:100px 0;
+  }
+  .devops-solutions-banner{
+    padding: 100px 0;
+  }
+  .opensource-solutions-banner{
+    padding: 100px 0;
+  }
+  .crm-solutions-banner{
+    padding: 100px 0;
+  }
+  .ecommerce-solutions-banner{
+    padding: 20px 0;
+  }
+  .kennel-management-software-banner{
+    padding: 100px 0;
+  }
+  .job-solutions-banner{
+    padding: 100px 0;
+  }
+  .waste-management-solutions-banner{
+    padding: 50px 0;
+  }
+  .client-logo{
+    width :140px;
+    height: 100px;
+  }
+  
+}
+
+@media only screen and (max-width: 320px){
+
+  .devops-solutions-banner{
+    padding: 30px 0;
+  }
+  .technology-banner{
+    padding :30px 0;
+  }
+  .opensource-solutions-banner{
+    padding: 30px 0;
+  }
+  .crm-solutions-banner{
+    padding: 30px 0;
+  }
+  .ecommerce-solutions-banner{
+    padding: 30px 0;
+    background-size:120%;
+    
+  }
+  .kennel-management-software-banner{
+    padding: 30px 0;
+  }
+  .job-solutions-banner{
+    padding: 100px 0;
+  }
+  .waste-management-solutions-banner{
+    padding: 20px 0;
+  }
+  .client-logo{
+    width :140px;
+    height: 100px;
+  }
+  
+}
+
+
+/*Technology Banner for ipad */
+
+
+
+
+
+
 

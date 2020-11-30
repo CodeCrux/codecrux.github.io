@@ -2232,6 +2232,9 @@ address a.location{
   background-color: white;
 
   
+ 
+
+  
 }
 
 .container .box{
@@ -2239,12 +2242,14 @@ address a.location{
   transition: transform 1s;
   position: relative;
   background: #fff;
-  padding: 40px 40px 40px;
+  padding: 20px 20px 20px;
   text-align: center;
   overflow: hidden;
-  border-radius: 20px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
+
+  
+ 
 
   
 }

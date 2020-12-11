@@ -2220,7 +2220,54 @@ address a.location{
   
 }
 
+.container-font{
+  margin : 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(22rem,1fr));
+  grid-gap : 1rem;
+  padding :10px;
+  box-sizing : border-box;
+  position: relative;
+  cursor: pointer;
+  background-color: white;
 
+  
+ 
+
+  
+}
+
+.container .box{
+
+  transition: transform 1s;
+  position: relative;
+  background: #fff;
+  padding: 20px 20px 20px;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+
+  
+ 
+
+  
+}
+
+
+/* On mouse-over, add a deeper shadow */
+.container .box:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+
+
+/* Display side by side */
+/* .cards{
+  display:flex !important;
+  flex-wrap:wrap;
+} */
 /*Technology Banner for ipad */
 
 

@@ -1,0 +1,9 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+.scw-switcher-wrap,.scw-trigger-icon{position:fixed;left:auto;background-color:#fff}.scw-trigger-icon{width:44px;height:44px;top:121px;right:26px;border:0;padding:0;text-align:center;z-index:5;cursor:pointer}.scw-trigger-icon i{font-size:18px}.scw-switcher-wrap.scw-switcher-open i:nth-of-type(1),.scw-switcher-wrap:not(.scw-switcher-open) i:nth-of-type(2){display:none}.scw-switcher-wrap{top:120px;right:25px;padding:23px;width:0;height:0;border:1px solid rgba(0,0,0,.09);border-radius:3px;box-shadow:0 13px 42px 11px rgba(0,0,0,.05);z-index:9999;overflow:hidden;-webkit-transition:all .45s ease;-o-transition:all .45s ease;transition:all .45s ease}.scw-switcher-wrap.scw-switcher-open{width:300px;height:70%;padding:35px 25px;overflow-y:scroll}.scw-switcher-wrap .widget{margin:0}.scw-switcher-wrap .line,.scw-switcher-wrap .widget{opacity:0;-webkit-transition:opacity 0s ease;-o-transition:opacity 0s ease;transition:opacity 0s ease}html{font-size:16px!important}.scw-switcher-wrap.scw-switcher-open .line,.scw-switcher-wrap.scw-switcher-open .widget{opacity:1;-webkit-transition:opacity .3s .4s ease;-o-transition:opacity .3s .4s ease;transition:opacity .3s .4s ease}.scw-switcher-wrap .widget h4{font-size:14px;letter-spacing:1px;margin-bottom:15px}.scw-switcher-wrap .btn-container{margin:0 -5px -5px 0}.scw-switcher-wrap .btn{margin:0 5px 5px 0}.scw-switcher-wrap .row{margin:0 -5px}.scw-switcher-wrap .col-6{padding:5px}
+

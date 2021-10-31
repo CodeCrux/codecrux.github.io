@@ -237,7 +237,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
   font-weight: 700;
   font-size: 30px;
-  padding: 14px 15px;
+  padding: 14px;
   line-height: 30px;
   /*font-family: 'Kaushan Script', cursive;*/
 }
@@ -2271,7 +2271,7 @@ address a.location{
   transition: transform 1s;
   position: relative;
   background: #fff;
-  padding: 20px 20px 20px;
+  padding: 20px 10px 20px;
   text-align: center;
   overflow: hidden;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);

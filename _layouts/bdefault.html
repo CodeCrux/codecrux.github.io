@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include favicon.html %}
+  {% include /bhead.html %}
+	<body id="top">
+    <nav class="navbar navbar-default default-header home-navbar" id="navbar">
+      <!-- {% include /status-banner.html %} -->
+      <div class="container">
+        {% include /header.html %}
+      </div>
+    </nav>
+
+    <div class="main-content">
+      {{ content }}
+    </div>
+    
+    {% include /footer.html %}
+
+    <!-- jQuery Version 1.11.0 -->
+    <!-- <script src="/js/jquery-1.11.0.js"></script> -->
+    <!-- Bootstrap Core JavaScript -->
+    <!-- <script src="/js/bootstrap.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
+
+<!-- Contact Form JavaScript -->
+<script src="/js/jqBootstrapValidation.js"></script>
+<script src="/js/app.js"></script>
+<script src="/js/contact_me.js"></script>

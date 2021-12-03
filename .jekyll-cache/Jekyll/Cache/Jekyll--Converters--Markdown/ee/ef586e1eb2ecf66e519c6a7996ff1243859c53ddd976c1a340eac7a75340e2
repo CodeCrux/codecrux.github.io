@@ -1,2 +1,0 @@
-I"�<p>The first step is adding the GoDaddy domain to the Heroku app. Navigate to the project folder from the terminal then type “heroku domains:add www.yourdomain.com”. The domain name is the one purchased from GoDaddy.</p>
-:ET

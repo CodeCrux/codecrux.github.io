@@ -72,7 +72,7 @@ h6 {
   object-position: center;
 }
 .mb-150{
-  margin-bottom: 120px !important;
+  margin-bottom: 70px !important;
 }
 .btn {
   height: 42px;
@@ -544,7 +544,7 @@ aside.clients img {
 
 .footer-links ul > li {
   list-style: none;
-  margin-left: -40px;
+  margin-left: -20px;
 }
 
 .footer-links ul > li > a {
@@ -1308,6 +1308,16 @@ address a.location{
 
 .waste-management-solutions-banner {
   background: url('/img/solutions/waste-management-software-applications.jpg') no-repeat;
+  background-position: top center;
+  background-size: 100%;
+  height: 400px;
+  vertical-align: middle;
+  padding: 150px 0;
+  text-align: center;
+  color: #fff;
+}
+.waste-management-solutions-banner1 {
+  background: url('/img/blackfriday/blackfridaylogo.webp') no-repeat;
   background-position: top center;
   background-size: 100%;
   height: 400px;

@@ -10,8 +10,18 @@ GEM
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
     eventmachine (1.2.7-x64-mingw32)
+<<<<<<< HEAD
     ffi (1.13.1)
     ffi (1.13.1-x64-mingw32)
+=======
+<<<<<<< HEAD
+    ffi (1.13.1)
+    ffi (1.13.1-x64-mingw32)
+=======
+    ffi (1.15.0)
+    ffi (1.15.0-x64-mingw32)
+>>>>>>> blackfriday
+>>>>>>> f4e5e84b6815e14e1591e8284805706d2c644feb
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
     i18n (1.8.5)
@@ -72,7 +82,15 @@ GEM
       ffi (~> 1.9)
     sassc (2.4.0-x64-mingw32)
       ffi (~> 1.9)
+<<<<<<< HEAD
     terminal-table (1.8.0)
+=======
+<<<<<<< HEAD
+    terminal-table (1.8.0)
+=======
+    terminal-table (2.0.0)
+>>>>>>> blackfriday
+>>>>>>> f4e5e84b6815e14e1591e8284805706d2c644feb
       unicode-display_width (~> 1.1, >= 1.1.1)
     unicode-display_width (1.7.0)
 
@@ -90,4 +108,12 @@ DEPENDENCIES
   rake
 
 BUNDLED WITH
+<<<<<<< HEAD
    1.17.3
+=======
+<<<<<<< HEAD
+   2.1.4
+=======
+   2.2.28
+>>>>>>> blackfriday
+>>>>>>> f4e5e84b6815e14e1591e8284805706d2c644feb

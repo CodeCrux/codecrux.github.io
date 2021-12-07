@@ -2106,3 +2106,36 @@ address a.location{
   }
 }
 
+.res-img-pn{
+  width: 700px;
+  height: 400px;
+  margin-left: 11em;
+  margin-top: 2em;
+  
+}
+.res-img{
+  width: 700px;
+  height: 400px;
+  margin-left: 14em;
+  margin-top: 2em;
+  
+}
+.mar-5{
+  margin-top: 5rem;
+}
+.centered{
+  float: none;
+  margin: 0 auto;
+}
+@media (max-width:768px){
+  .res-img-pn{
+        width: 400px;
+    height: 250px;
+    margin-left: 0;
+  }
+  .res-img{
+    width: 400px;
+    height: 250px;
+    margin-left: 0;
+  }
+}

@@ -544,7 +544,7 @@ aside.clients img {
 
 .footer-links ul > li {
   list-style: none;
-  margin-left: -20px;
+  margin-left: -40px;
 }
 
 .footer-links ul > li > a {
@@ -2106,3 +2106,17 @@ address a.location{
   }
 }
 
+/* fixes on jobs page */
+
+.font-15{
+  font-size: 15px;
+}
+.font-20{
+  font-size: 20px;
+}
+.mar-top-5{
+  margin-top: 5rem;
+}
+.mar-top-9{
+  margin-top: 9rem;
+}

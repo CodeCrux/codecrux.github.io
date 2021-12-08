@@ -544,7 +544,7 @@ aside.clients img {
 
 .footer-links ul > li {
   list-style: none;
-  margin-left: -20px;
+  margin-left: -40px;
 }
 
 .footer-links ul > li > a {
@@ -2138,4 +2138,11 @@ address a.location{
     height: 250px;
     margin-left: 0;
   }
+}
+.weight-400{
+font-weight: 400;
+ font-size: 16px;
+font-family: Rubik, sans-serif;
+  color: #6b5875;
+   margin-top: 1em;
 }

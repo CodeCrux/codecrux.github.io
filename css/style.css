@@ -1221,7 +1221,7 @@ address a.location{
 .blog-post-content {
   font-family: 'proxima-nova', serif;
   min-height: 600px;
-  padding: 40px 0;
+  /* padding: 40px 0; */
 }
 .blog-post-content p {
   font-size: 18px;
@@ -2145,4 +2145,10 @@ font-weight: 400;
 font-family: Rubik, sans-serif;
   color: #6b5875;
    margin-top: 1em;
+}
+.btn-color{
+      background-color: #4a9b80;
+}
+.mar-top-1{
+  margin-top: 1em;
 }

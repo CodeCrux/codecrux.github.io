@@ -2290,10 +2290,69 @@ address a.location {
 /*Technology Banner for ipad */
 
 /********* ui-ux page *********/
-
+.services .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+  margin-bottom: 3rem;
+}
+.services .icon-box::before {
+  content: "";
+  position: absolute;
+  background: #aff4e9;
+  right: -60px;
+  top: -40px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  transition: all 0.3s;
+  z-index: -1;
+}
+.services .icon-box:hover::before {
+  background: #1bbca3;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+}
+.services .title {
+  font-weight: 700;
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+.services .title {
+  color: #425451;
+}
+.services .description {
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+.services .icon-box:hover .title,
+.services .icon-box:hover .description {
+  color: #fff;
+}
+.services .icon-box:hover .icon {
+  background: #fff;
+}
+.services .icon-box:hover .icon i {
+  color: #1bbca3;
+}
+.section-bg {
+  background-color: #f2f5f4;
+}
 .col-centered {
   float: none;
   margin: 0 auto;
+}
+.about-para {
+  max-width: 700px;
 }
 
 .wrapper {
@@ -2358,6 +2417,7 @@ address a.location {
   padding: 0 32px 16px;
   height: 100%;
   width: 100%;
+  text-align: center;
 }
 .row {
   display: flex;
@@ -2382,7 +2442,7 @@ address a.location {
   font-weight: 600;
 }
 .container-fluid {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   margin-top: 100px;
 }
@@ -2436,6 +2496,13 @@ address a.location {
   max-height: 0;
   transition: all.5s ease-in;
 }
+.showcase {
+  margin-top: 7rem;
+}
+.ui-banner {
+  background-image: url(/assets/img/ui-ux/banner.png);
+  object-fit: contain;
+}
 active .icon {
   background: url(/assets/img/ui-ux/minus.png) no-repeat 8px -25px #fff;
 }
@@ -2452,7 +2519,7 @@ active .icon {
 .card-icon {
   width: 100px;
   height: 100px;
-  background-color: aqua;
+  background-color: #4a9b80;
   border-radius: 50px;
 }
 .about {
@@ -2461,6 +2528,32 @@ active .icon {
   max-width: 100%;
   margin-top: 12rem;
   object-fit: contain;
+}
+.contact-form {
+  text-align: left;
+  margin-left: 6em;
+}
+.flex-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+}
+.p-font {
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 1em;
+}
+.h1-font {
+  font-size: 30px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 1em;
+}
+.adjust {
+  height: 650px;
+  margin-top: 6rem;
 }
 @media (max-width: 768px) {
   .about {
@@ -2475,5 +2568,17 @@ active .icon {
     width: 40px;
     height: 30px;
     background: url(/assets/img/ui-ux/plus.svg) no-repeat -4px 2px #6db5ff;
+  }
+  .contact-form {
+    margin-left: 2.5em;
+  }
+  .about-img {
+    width: 100%;
+    height: 100%;
+  }
+  .adjust {
+    height: 100%;
+    width: 100%;
+    margin-top: 0;
   }
 }

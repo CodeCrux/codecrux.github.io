@@ -2697,7 +2697,7 @@ html {
   content: "";
   height: 15px;
   width: 15px;
-  background: #ff7979;
+  background: #57b594;
   top: 28px;
   z-index: -1;
   transform: rotate(45deg);
@@ -2743,11 +2743,18 @@ html {
   justify-content: space-around;
 }
 .row section .details .title {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
 }
 .row section p {
   margin: 10px 0 17px 0;
+}
+.vertical-img {
+  width: 100px;
+  margin: 0 10px;
+}
+.vertical-column {
+  display: flex;
 }
 
 @media (max-width: 790px) {
@@ -2775,5 +2782,18 @@ html {
   }
   .wrapper-1 .row {
     margin: 10px 0;
+  }
+  .vertical-img {
+    width: 100px;
+    /* margin: 78px; */
+    align-items: center;
+  }
+  .vertical-column {
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
   }
 }

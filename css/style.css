@@ -2551,7 +2551,7 @@ active .icon {
   color: black;
   margin-bottom: 1em;
 }
-.weight-400 {
+.font-18 {
   font-size: 18px;
   font-weight: 400;
   color: black;
@@ -2630,10 +2630,7 @@ active .icon {
   color: #000;
   margin-bottom: 1em;
 }
-.adjust {
-  height: 650px;
-  margin-top: 6rem;
-}
+
 @media (max-width: 768px) {
   .about {
     height: 100%;

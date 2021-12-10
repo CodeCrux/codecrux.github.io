@@ -2533,7 +2533,7 @@ active .icon {
   text-align: left;
   margin-left: 6em;
 }
-.section-details {
+.flex-row {
   display: flex;
   flex-direction: column;
   justify-content: center;

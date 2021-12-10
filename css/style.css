@@ -2425,6 +2425,12 @@ address a.location {
   margin-right: -15px;
   margin-left: -15px;
 }
+.ticks {
+  padding-top: 0.5rem;
+  padding-right: 1.5rem;
+  width: 35px;
+  height: 35px;
+}
 .mb-md-5 {
   margin-bottom: 3rem !important;
 }
@@ -2545,6 +2551,18 @@ active .icon {
   color: black;
   margin-bottom: 1em;
 }
+.weight-400 {
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+  margin-bottom: 1em;
+}
+.weight-600 {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Rubik, sans-serif;
+  color: black;
+}
 .h1-font {
   font-size: 30px;
   font-weight: 600;
@@ -2552,8 +2570,8 @@ active .icon {
   margin-bottom: 1em;
 }
 .adjust {
-  height: 650px;
-  margin-top: 6rem;
+  height: 404px;
+  margin-top: 4rem;
 }
 @media (max-width: 768px) {
   .res-img-pn {

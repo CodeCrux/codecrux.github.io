@@ -2666,6 +2666,9 @@ active .icon {
 html {
   scroll-behavior: smooth;
 }
+.text-white {
+  color: #fff;
+}
 .wrapper-1 {
   max-width: 1080px;
   margin: 50px auto;

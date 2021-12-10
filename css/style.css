@@ -2582,17 +2582,22 @@ active .icon {
     margin-top: 0;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
 .wrapper-1 {
   max-width: 1080px;
   margin: 50px auto;
   padding: 0 20px;
+  position: relative;
 }
 .wrapper-1 .center-line {
   position: absolute;
   height: 100%;
   width: 4px;
-  background: #ff7979;
+  background: #57b594;
   left: 50%;
+  top: 20px;
   transform: translateX(-50%);
 }
 .wrapper-1 .row {
@@ -2605,7 +2610,7 @@ active .icon {
   justify-content: flex-end;
 }
 .wrapper-1 .row section {
-  background: #ff7979;
+  background: #57b594;
   border-radius: 5px;
   width: calc(50% - 40px);
   padding: 20px;
@@ -2627,14 +2632,34 @@ active .icon {
 .row-2 section::before {
   left: -7px;
 }
-.row section .icon {
+.row section .icon,
+.center-line .scroll-icon {
   position: absolute;
-  background: #fff;
+  background: #57b594;
   height: 40px;
   width: 40px;
   text-align: center;
   line-height: 40px;
   border-radius: 50%;
+  color: #fff;
+
+  font-size: 17px;
+  box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0, 0, 0, 0.08),
+    0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+.center-line .scroll-icon {
+  bottom: 0;
+  left: 50%;
+  font-size: 25px;
+  transform: translateX(-50%);
+}
+.row-1 section .icon {
+  top: 13px;
+  right: -60px;
+}
+.row-2 section .icon {
+  top: 13px;
+  left: -60px;
 }
 .row section .details {
   display: flex;
@@ -2647,4 +2672,32 @@ active .icon {
 }
 .row section p {
   margin: 10px 0 17px 0;
+}
+
+@media (max-width: 790px) {
+  .wrapper-1 .center-line {
+    left: 40px;
+  }
+  .wrapper-1 .row {
+    margin: 30px 0 3px 60px;
+  }
+  .wrapper-1 .row section {
+    width: 100%;
+  }
+  .row-1 section::before {
+    left: -7px;
+  }
+  .row-1 section .icon {
+    left: -60px;
+  }
+}
+@media (max-width: 440px) {
+  .wrapper-1 .center-line,
+  .row section::before,
+  .row section .icon {
+    display: none;
+  }
+  .wrapper-1 .row {
+    margin: 10px 0;
+  }
 }

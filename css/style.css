@@ -2556,6 +2556,12 @@ active .icon {
   color: black;
   margin-bottom: 1em;
 }
+.p1-font {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 1em;
+}
 .font-18 {
   font-size: 18px;
   font-weight: 400;

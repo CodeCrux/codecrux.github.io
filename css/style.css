@@ -2304,7 +2304,7 @@ address a.location {
 .services .icon-box::before {
   content: "";
   position: absolute;
-  background: #aff4e9;
+  background: #459ea3;
   right: -60px;
   top: -40px;
   width: 100px;
@@ -2469,12 +2469,13 @@ address a.location {
 .accordion {
   width: 100%;
   padding: 0 5px;
-  border: 2px solid #6db5ff;
+  border: 2px solid #459ea3;
   cursor: pointer;
   border-radius: 50px;
   margin: 10px 0;
   display: flex;
   align-items: center;
+  background-color: #6db5ff;
 }
 .accordion .icon {
   margin: 0 10px 0 0;
@@ -2490,7 +2491,6 @@ address a.location {
   margin: 0;
   padding: 5px;
   font-weight: normal;
-  color: #1f5c9a;
 }
 .panel {
   padding: 0 15px;
@@ -2504,20 +2504,25 @@ address a.location {
 }
 .showcase {
   margin-top: 7rem;
+  padding: 0;
 }
 .ui-banner {
-  background-image: url(/assets/img/ui-ux/banner.png);
+  /* background-image: url(/assets/img/ui-ux/banner.png); */
   object-fit: contain;
+  background: linear-gradient(to right, #459ea3, #7fcbe4);
+}
+.hi {
+  background: linear-gradient(to right, #ecebeb, #f0efef);
 }
 active .icon {
   background: url(/assets/img/ui-ux/minus.png) no-repeat 8px -25px #fff;
 }
 .active {
-  background-color: #6db5ff;
-  color: #fff;
+  background-color: #fff;
+  color: black;
 }
 .active h5 {
-  color: #fff;
+  color: #000;
 }
 .btn-color {
   background-color: #4a9b80;
@@ -2681,12 +2686,14 @@ html {
 }
 .wrapper-1 .row-1 {
   justify-content: flex-start;
+  margin-bottom: -5em;
 }
 .wrapper-1 .row-2 {
   justify-content: flex-end;
+  margin-bottom: -5em;
 }
 .wrapper-1 .row section {
-  background: #57b594;
+  background: #459ea3;
   border-radius: 5px;
   width: calc(50% - 40px);
   padding: 20px;
@@ -2697,7 +2704,7 @@ html {
   content: "";
   height: 15px;
   width: 15px;
-  background: #57b594;
+  background: #459ea3;
   top: 28px;
   z-index: -1;
   transform: rotate(45deg);
@@ -2711,7 +2718,7 @@ html {
 .row section .icon,
 .center-line .scroll-icon {
   position: absolute;
-  background: #57b594;
+  background: #459ea3;
   height: 40px;
   width: 40px;
   text-align: center;

@@ -2584,6 +2584,20 @@ active .icon {
   height: 404px;
   margin-top: 4rem;
 }
+.mar-bottom-1 {
+  margin-bottom: 1em;
+}
+.article-col {
+  width: 100%;
+  height: 100%;
+  border: radius 8px;
+  border: 1px solid #88e3ff;
+}
+.article-text {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+}
 @media (max-width: 768px) {
   .res-img-pn {
     width: 400px;

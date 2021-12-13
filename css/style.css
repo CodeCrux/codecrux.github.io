@@ -2419,7 +2419,7 @@ address a.location {
   width: 100%;
   text-align: center;
 }
-.row {
+.row-style {
   display: flex;
   flex-wrap: wrap;
   margin-right: -15px;
@@ -2661,6 +2661,11 @@ active .icon {
     height: 100%;
     margin-top: 0;
   }
+  .row-style {
+    margin-right: -15px;
+    margin-left: -15px;
+    display: block;
+  }
   .container-fluid {
     margin-top: 0;
     width: 100%;
@@ -2671,7 +2676,7 @@ active .icon {
     background: url(/assets/img/ui-ux/plus.svg) no-repeat -4px 2px #6db5ff;
   }
   .contact-form {
-    margin-left: 2.5em;
+    margin-left: 0.5em;
   }
   .about-img {
     width: 100%;

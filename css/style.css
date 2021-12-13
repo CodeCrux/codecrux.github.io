@@ -1378,13 +1378,13 @@ address a.location {
   background: #ee0979; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #ff6a00,
-    #ee0979
+    #fabf3c,
+    #f18739
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #ff6a00,
-    #ee0979
+    #fabf3c,
+    #f18739
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   padding: 30px;
@@ -2304,7 +2304,7 @@ address a.location {
 .services .icon-box::before {
   content: "";
   position: absolute;
-  background: #459ea3;
+  background: #f18839;
   right: -60px;
   top: -40px;
   width: 100px;
@@ -2314,7 +2314,7 @@ address a.location {
   z-index: -1;
 }
 .services .icon-box:hover::before {
-  background: #1bbca3;
+  background: #f18839;
   right: 0;
   top: 0;
   width: 100%;
@@ -2322,12 +2322,12 @@ address a.location {
   border-radius: 0px;
 }
 .services .title {
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 16px;
   font-size: 18px;
 }
 .services .title {
-  color: #425451;
+  color: #000;
 }
 .services .description {
   font-size: 16px;
@@ -2336,7 +2336,7 @@ address a.location {
 }
 .services .icon-box:hover .title,
 .services .icon-box:hover .description {
-  color: #fff;
+  color: #000;
 }
 .services .icon-box:hover .icon {
   background: #fff;
@@ -2374,8 +2374,8 @@ address a.location {
 
 .font-16 {
   font-size: 16px;
-  font-weight: 400;
-  font-family: Rubik, sans-serif;
+  font-weight: 500;
+  font-family: "Maven Pro", sans-serif;
 }
 .font-20 {
   font-size: 20px;
@@ -2453,7 +2453,7 @@ address a.location {
   margin-top: 100px;
 }
 .container-fluid h2 {
-  color: #462e52;
+  color: #000;
   position: relative;
   width: 23rem;
 }
@@ -2469,19 +2469,19 @@ address a.location {
 .accordion {
   width: 100%;
   padding: 0 5px;
-  border: 2px solid #459ea3;
+  border: 2px solid #f18639;
   cursor: pointer;
   border-radius: 50px;
   margin: 10px 0;
   display: flex;
   align-items: center;
-  background-color: #6db5ff;
+  background-color: #f18639;
 }
 .accordion .icon {
   margin: 0 10px 0 0;
   width: 30px;
   height: 30px;
-  background: url(/assets/img/ui-ux/plus.svg) no-repeat 4px 2px #6db5ff;
+  background: url(/assets/img/ui-ux/plus.svg) no-repeat 4px 2px #f9bd3c;
   border-radius: 50%;
   float: left;
   transition: all 0.5s ease-in;
@@ -2491,6 +2491,7 @@ address a.location {
   margin: 0;
   padding: 5px;
   font-weight: normal;
+  color: #000;
 }
 .panel {
   padding: 0 15px;
@@ -2509,7 +2510,7 @@ address a.location {
 .ui-banner {
   /* background-image: url(/assets/img/ui-ux/banner.png); */
   object-fit: contain;
-  background: linear-gradient(to right, #459ea3, #7fcbe4);
+  background: linear-gradient(to right, #f18639, #fac03c);
 }
 .hi {
   background: linear-gradient(to right, #ecebeb, #f0efef);
@@ -2554,24 +2555,30 @@ active .icon {
   font-size: 18px;
   font-weight: 600;
   color: black;
+
+  font-family: "Maven Pro", sans-serif;
   margin-bottom: 1em;
 }
 .p1-font {
   font-size: 18px;
-  font-weight: 600;
-  color: #fff;
+  font-weight: 400;
+  color: #000;
+  font-family: "Maven Pro", sans-serif;
   margin-bottom: 1em;
 }
 .font-18 {
   font-size: 18px;
   font-weight: 400;
+
+  font-family: "Maven Pro", sans-serif;
   color: black;
   margin-bottom: 1em;
 }
 .weight-600 {
   font-size: 16px;
   font-weight: 600;
-  font-family: Rubik, sans-serif;
+
+  font-family: "Maven Pro", sans-serif;
   color: black;
 }
 .h1-font {
@@ -2613,7 +2620,8 @@ active .icon {
 .weight-400 {
   font-weight: 400;
   font-size: 16px;
-  font-family: Rubik, sans-serif;
+
+  font-family: "Maven Pro", sans-serif;
   color: #6b5875;
   margin-top: 1em;
 }
@@ -2677,7 +2685,7 @@ active .icon {
   .accordion .icon {
     width: 40px;
     height: 30px;
-    background: url(/assets/img/ui-ux/plus.svg) no-repeat -4px 2px #6db5ff;
+    background: url(/assets/img/ui-ux/plus.svg) no-repeat -4px 2px #fac03c;
   }
   .contact-form {
     margin-left: 0.5em;
@@ -2698,8 +2706,8 @@ active .icon {
 html {
   scroll-behavior: smooth;
 }
-.text-white {
-  color: #fff;
+.text-black {
+  color: #000;
 }
 .wrapper-1 {
   max-width: 1080px;
@@ -2711,7 +2719,7 @@ html {
   position: absolute;
   height: 100%;
   width: 4px;
-  background: #57b594;
+  background: #f9bd3c;
   left: 50%;
   top: 20px;
   transform: translateX(-50%);
@@ -2728,7 +2736,7 @@ html {
   margin-bottom: -5em;
 }
 .wrapper-1 .row section {
-  background: #459ea3;
+  background: #f9bd3c;
   border-radius: 5px;
   width: calc(50% - 40px);
   padding: 20px;
@@ -2739,7 +2747,7 @@ html {
   content: "";
   height: 15px;
   width: 15px;
-  background: #459ea3;
+  background: #f9bd3c;
   top: 28px;
   z-index: -1;
   transform: rotate(45deg);
@@ -2753,13 +2761,13 @@ html {
 .row section .icon,
 .center-line .scroll-icon {
   position: absolute;
-  background: #459ea3;
+  background: #f9bd3c;
   height: 40px;
   width: 40px;
   text-align: center;
   line-height: 40px;
   border-radius: 50%;
-  color: #fff;
+  color: #000;
 
   font-size: 17px;
   box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0, 0, 0, 0.08),
@@ -2797,6 +2805,12 @@ html {
 }
 .vertical-column {
   display: flex;
+}
+.arrow {
+  display: flex;
+  align-items: center;
+
+  list-style: none;
 }
 
 @media (max-width: 790px) {

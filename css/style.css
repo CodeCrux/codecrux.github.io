@@ -2795,6 +2795,7 @@ html {
 .row section .details .title {
   font-size: 20px;
   font-weight: 600;
+  margin-bottom: 1em;
 }
 .row section p {
   margin: 10px 0 17px 0;

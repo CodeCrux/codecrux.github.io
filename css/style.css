@@ -2655,6 +2655,10 @@ active .icon {
   color: #000;
   margin-bottom: 1em;
 }
+.vetical-style {
+  display: flex;
+  align-items: center;
+}
 
 @media (max-width: 768px) {
   .about {
@@ -2686,6 +2690,9 @@ active .icon {
     height: 100%;
     width: 100%;
     margin-top: 0;
+  }
+  .vetical-style {
+    flex-direction: column;
   }
 }
 html {

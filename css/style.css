@@ -3351,3 +3351,185 @@ figure {
   font-family: montserratbold, Verdana, Geneva, "sans-serif";
   font-weight: 700;
 }
+/* template-2 */
+
+.servicesArea {
+  padding: 15rem 0;
+}
+.custom-container {
+  max-width: 1530px;
+  width: 100%;
+  margin: 0 auto;
+}
+.secHeading {
+  margin: 0 0 9rem;
+  text-align: center;
+  width: 100%;
+}
+.subhead {
+  margin: 0 0 3rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.subhead p {
+  width: auto !important;
+  padding: 0 1rem;
+  margin: 0;
+}
+.secHeading h2 {
+  font: 4.4rem/6rem robotomedium, sans-serif;
+  margin: 0 0 3rem;
+  color: #1d1c39;
+  text-transform: capitalize;
+}
+.secHeading p {
+  width: 80%;
+  margin: 0 auto;
+  color: #414141;
+}
+.servicesArea ul {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.servicesArea ul li {
+  flex-basis: 28%;
+  margin: 0 3rem 8rem;
+}
+li {
+  list-style-type: none;
+}
+.servicesArea .web-application .icon1 {
+  background-position: 0 0;
+}
+.servicesArea i {
+  margin: 0 0 2rem;
+  width: 75px;
+  height: 75px;
+  display: block;
+}
+.servicesArea h3,
+.servicesArea h3 a {
+  color: #333;
+}
+.servicesArea ul li ul {
+  display: block;
+  margin: 3rem 0 0;
+}
+.servicesArea ul {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.servicesArea ul li ul li {
+  margin: 0;
+}
+.check-li li {
+  position: relative;
+  color: #414141;
+}
+li {
+  list-style-type: none;
+}
+.check-li li,
+.check-li2 li {
+  padding: 0 0 0 3rem;
+  margin: 0 0 1rem;
+}
+.servicesArea .check-li li::before {
+  background: 0 0;
+  top: 2px;
+}
+.check-li li:before {
+  background: #fefaef;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  display: block;
+  font: 1.6rem/2.5rem FontAwesome;
+  color: #ffbc00;
+  position: absolute;
+  border-radius: 50%;
+}
+.check-li li:before,
+.check-li2 li:before {
+  content: "\f00c";
+  left: 0;
+  top: 3px;
+}
+.servicesArea .web-application i {
+  background: url(/assets/img/service-template/erik-mclean-aielvGxZB0g-unsplash.jpg)
+    no-repeat;
+}
+.technoSec {
+  padding: 15rem 0;
+  background: #fcfcfc;
+}
+.secHeading {
+  margin: 0 0 9rem;
+  text-align: center;
+  width: 100%;
+}
+.subhead {
+  margin: 0 0 3rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.subhead,
+.subhead p {
+  font: 4.4rem/6rem robotomedium, sans-serif;
+  color: #1d1c39;
+  text-transform: capitalize;
+}
+.secHeading h2 {
+  font: 4.4rem/6rem robotomedium, sans-serif;
+  margin: 0 0 3rem;
+  color: #1d1c39;
+  text-transform: capitalize;
+}
+.secHeading p {
+  width: 80%;
+  margin: 0 auto;
+  color: #414141;
+}
+.technoSec .listRow:nth-child(odd) {
+  background: #f6f8f9;
+}
+.technoSec .listRow {
+  flex-basis: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 6rem;
+}
+h3,
+h4,
+h5 {
+  margin: 0 0 2rem;
+}
+.technoSec .listRow ul {
+  flex-basis: 62%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.technoSec .listRow ul li {
+  flex-basis: 14%;
+  margin: 0 2rem 4rem 0;
+  text-align: center;
+}
+.technoSec .listRow i {
+  width: 96px;
+  height: 76px;
+  background: url(/assets/img/service-template/webAppTech.png) no-repeat;
+  margin: 0 auto 10px;
+  display: block;
+}

@@ -3757,3 +3757,135 @@ p {
     width: 100%;
   }
 }
+/* faq*/
+.new_center_heading {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+}
+.new_section-title {
+  margin-bottom: 50px;
+}
+.new_faqs-section h1 {
+  margin-bottom: 22px;
+}
+
+.accordion-1 {
+  /* max-width: 800px; */
+}
+.accordion-1 .contentBx {
+  position: relative;
+  margin: 10px 20px;
+}
+.accordion-1 .contentBx .label-1 {
+  position: relative;
+  padding: 10px;
+  background: #2694af;
+  color: #000;
+  cursor: pointer;
+}
+.accordion-1 .contentBx .label-1::before {
+  content: "+";
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  font-size: 1.5em;
+}
+.accordion-1 .contentBx.active .label-1::before {
+  content: "-";
+}
+.accordion-1 .contentBx .content {
+  position: relative;
+  background: #fff;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  overflow-y: auto;
+}
+.accordion-1 .contentBx.active .content {
+  height: 150px;
+  padding: 10px;
+}
+@media (max-width: 480px) {
+  .style-img {
+    width: 100%;
+  }
+  .accordion-1 .contentBx .label-1::before {
+    right: 9px;
+  }
+  .accordion-1 .contentBx .label-1 {
+    padding: 16px;
+  }
+}
+/* industry */
+.new_industies-section {
+  padding: 90px 0;
+  background: #f8fcff;
+}
+.new_section-title {
+  margin-bottom: 50px;
+}
+.new_industies-section .icon_callout_listing {
+  padding-top: 0 !important;
+}
+.icon_callout_flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  justify-content: center;
+}
+.new_industies-section .icon_column_sizer {
+  text-align: center;
+}
+.icon-column-6 .icon_column_sizer {
+  width: 16%;
+  padding: 0 6px;
+}
+
+.icon_column_sizer {
+  margin-bottom: 20px;
+}
+.iconBox {
+  position: relative;
+  padding: 18px 15px 15px 15px;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  background: #fff;
+  border: 1px solid #f1f1f1;
+  margin: 0 1% 0 1%;
+  min-height: 168px;
+  height: 100%;
+}
+.icon_column_sizer h6 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  width: 100%;
+  font-family: "Inter_Regular";
+}
+
+h6 {
+  font-size: 16px;
+  line-height: 1.3;
+}
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 400px;
+  }
+  .icon_column_sizer {
+    margin-bottom: 9px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .new_industies-section .new_section-title {
+    margin-bottom: 20px;
+  }
+  .icon_column_sizer {
+    width: 33% !important;
+  }
+  .icon_callout_listing {
+    padding-top: 24px;
+  }
+}

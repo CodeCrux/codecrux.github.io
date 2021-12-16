@@ -27,3 +27,11 @@ for (i = 0; i < len; i++) {
     }
   });
 }
+var acc = document.getElementsByClassName("contentBx");
+var i;
+var len = acc.length;
+for (i = 0; i < len; i++) {
+  acc[i].addEventListener("click", function () {
+    this.classList.toggle("active");
+  });
+}

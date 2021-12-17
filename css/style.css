@@ -2525,8 +2525,14 @@ active .icon {
 .active h5 {
   color: #000;
 }
-.btn-color {
+.btn-color-1 {
+  background-color: #f18639;
+  border: 2px solid #f18639;
+}
+.btn-color-1:hover {
   background-color: #4a9b80;
+  /* border: 2px solid #000; */
+  outline: none;
 }
 .card-icon {
   width: 100px;
@@ -4012,6 +4018,9 @@ h6 {
   margin: 0;
   padding: 0;
   max-width: 320px;
+}
+.text-orange {
+  background-color: #f18639;
 }
 @media (max-width: 1600px) {
   .fix-wrap {

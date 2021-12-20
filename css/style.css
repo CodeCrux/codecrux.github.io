@@ -4069,5 +4069,10 @@ h6 {
 .icons-sty {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   background-color: #f18639;
+}
+.img-width {
+  width: 80px;
 }

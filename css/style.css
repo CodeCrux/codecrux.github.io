@@ -3561,7 +3561,7 @@ h5 {
 .section-title-2 .title {
   font-size: 37px;
   margin-top: -2px;
-  padding-bottom: 5px;
+  padding-bottom: 20px;
   font-weight: 100;
 }
 .padding-top3 {
@@ -3767,6 +3767,9 @@ p {
 @media (max-width: 480px) {
   .style-img {
     width: 100%;
+  }
+  .serv-item {
+    height: 100%;
   }
 }
 /* faq*/
@@ -4075,4 +4078,78 @@ h6 {
 }
 .img-width {
   width: 80px;
+}
+/* ***********************Android Developer******************* */
+#section-main-content {
+  padding: 40px 0;
+}
+.block {
+  position: relative;
+}
+.mb45 {
+  margin-bottom: 45px;
+}
+.font-size16 {
+  font-size: 16px !important;
+}
+.ocd-solutions {
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ededed;
+  color: #606060;
+  padding: 20px 0;
+  margin-bottom: 15px;
+}
+.ocd-solutions span {
+  width: 85px;
+  height: 85px;
+  display: inline-block;
+  border-radius: 100%;
+  margin: 0 auto 10px;
+  line-height: 86px;
+}
+.ocd-solutions h3 {
+  font-size: 17px;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.pb50 {
+  padding-bottom: 50px !important;
+}
+.fonts-40 {
+  font-size: 40px;
+  line-height: 50px;
+}
+.mb40 {
+  margin-bottom: 40px;
+}
+.section11 .dedicated-industies {
+  padding: 40px 20px 0;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px #e0e0e0;
+  margin-bottom: 30px;
+  min-height: 180px;
+}
+figure {
+  margin: 0 0 1rem;
+}
+.mb-2,
+.my-2 {
+  margin-bottom: 0.5rem !important;
+}
+.font-weight-bold {
+  font-weight: 700 !important;
+}
+.row-fl {
+  display: flex;
+
+  margin-right: -15px;
+  margin-left: -15px;
+}
+@media screen and (max-width: 480px) {
+  .row-fl {
+    flex-wrap: wrap;
+    display: block;
+  }
 }

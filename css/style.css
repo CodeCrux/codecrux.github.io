@@ -4003,14 +4003,14 @@ h6 {
   border-radius: 50%;
 }
 .process-steps-grid .process-item h4 {
-  font-size: 33px;
+  font-size: 30px;
   font-family: "Karla", sans-serif;
   letter-spacing: -1px;
   margin: 25px 0 15px;
   padding: 0;
 }
 .hireprocess-scn .process-steps-grid .process-item p {
-  max-width: 365px;
+  max-width: 325px;
 }
 .process-steps-grid .process-item p {
   margin: 0;

@@ -1069,6 +1069,15 @@ address a.location {
   display: inline-block;
   padding: 0 40px;
 }
+.font-w-400 {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: Rubik, sans-serif;
+  color: #6b5875;
+}
+.list-type {
+  list-style-type: circle;
+}
 .blog-item-title {
   font-size: 24px;
   display: block;
@@ -2907,6 +2916,9 @@ h2 {
   font-size: 18px;
   color: #fff;
 }
+.mar-t1 {
+  margin-top: 1em;
+}
 .mar-t2 {
   margin-top: 2em;
 }
@@ -2916,6 +2928,26 @@ h2 {
 .mar-t4 {
   margin-top: 4em;
 }
+.text-heading {
+  color: #462e52;
+  font-size: 32px;
+  font-weight: 600;
+}
+.s-text-heading {
+  font-size: 26px;
+  font-weight: 600;
+  color: #462e52;
+  margin-top: 2rem;
+}
+@media screen and (max-width: 480px) {
+  .s-text-heading {
+    font-size: 26px;
+  }
+  .text-heading {
+    font-size: 32px;
+  }
+}
+
 .button--white-green {
   height: 45px;
 
@@ -3615,6 +3647,7 @@ h5 {
   position: relative;
   z-index: 11;
   text-align: center;
+  width: 70px;
 }
 .serv-img:after {
   position: absolute;

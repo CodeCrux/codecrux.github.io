@@ -2556,11 +2556,12 @@ active .icon {
   color: #000;
 }
 .btn-color-1 {
-  background-color: #f18639;
+  background-color: #4a9b80;
+
   border: 2px solid #f18639;
 }
 .btn-color-1:hover {
-  background-color: #4a9b80;
+  background-color: #f18639;
   /* border: 2px solid #000; */
   outline: none;
 }
@@ -2595,11 +2596,14 @@ active .icon {
   font-family: "Maven Pro", sans-serif;
   margin-bottom: 1em;
 }
+.font-family {
+  font-family: "Maven Pro", "Helvetica neue";
+}
 .p1-font {
   font-size: 18px;
   font-weight: 400;
   color: #000;
-  font-family: "Maven Pro", sans-serif;
+  font-family: "Maven Pro", "Helvetica neue";
   margin-bottom: 1em;
 }
 .font-18 {
@@ -2621,6 +2625,7 @@ active .icon {
   font-size: 30px;
   font-weight: 600;
   color: #000;
+  font-family: "Maven Pro", "Helvetica neue";
   margin-bottom: 1em;
 }
 .adjust {
@@ -3614,7 +3619,7 @@ h5 {
 }
 #service {
   padding: 48px 0;
-  background: url(/assets/img/ui-ux/bg-dots-img.png) 0 0 repeat;
+  /* background: url(/assets/img/ui-ux/bg-dots-img.png) 0 0 repeat; */
 }
 .section-title-2 {
   padding-bottom: 50px;
@@ -3903,7 +3908,7 @@ p {
 /* industry */
 .new_industies-section {
   padding: 90px 0;
-  background: #f8fcff;
+  /* background: #f8fcff; */
 }
 .new_section-title {
   margin-bottom: 50px;
@@ -4136,7 +4141,9 @@ h6 {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background-color: #f18639;
+  box-shadow: 0 5px 15px #e0e0e0;
+  background-color: #f7f7f7;
+  /* background-color: #f18639; */
 }
 .img-width {
   width: 80px;
@@ -4209,10 +4216,16 @@ figure {
   margin-right: -15px;
   margin-left: -15px;
 }
+.dev-process {
+  width: 100px;
+}
 @media screen and (max-width: 480px) {
   .row-fl {
     flex-wrap: wrap;
     display: block;
+  }
+  .dev-process {
+    display: none;
   }
 }
 /* *************Mobile app developer***************** */

@@ -1058,6 +1058,11 @@ address a.location {
   font-family: "Maven Pro", "Helvetica neue";
   color: #462e52;
 }
+@media screen and (max-width: 480px) {
+  ol {
+    padding: 0;
+  }
+}
 .blog-item-image img {
   display: block;
   width: 100%;

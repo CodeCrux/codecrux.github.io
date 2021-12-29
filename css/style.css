@@ -3650,9 +3650,14 @@ h5 {
 .card-title-h6{
    font-size: 16px;
   margin-top: -2px;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
   font-weight: 100;
   color: #000;
+}
+.hiring-process{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .padding-top3 {
   padding-top: 100px;
@@ -3928,7 +3933,7 @@ h6 {
   height: 150px;
   padding: 10px;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
 }
 @media (max-width: 480px) {
   .style-img {
@@ -4107,13 +4112,9 @@ h6 {
 .process-steps-grid .process-item p {
   margin: 0;
   padding: 0;
-  max-width: 320px;
+  /* max-width: 320px; */
 }
-.process-steps-grid .process-item p {
-  margin: 0;
-  padding: 0;
-  max-width: 320px;
-}
+
 .text-orange {
   background-color: #f18639;
 }

@@ -2698,11 +2698,18 @@ active .icon {
   color: black;
   margin-bottom: 1em;
 }
-.h1-font {
-  font-size: 30px;
-  font-weight: 600;
+.font-title {
+  font-size: 37px;
+  margin-top: -2px;
+  padding-bottom: 20px;
+  font-weight: 100;
   color: #000;
-  margin-bottom: 1em;
+}
+.h4-font {
+  font-size: 23px;
+  padding-top: 56px;
+  padding-bottom: 13px;
+  font-weight: 200;
 }
 .vetical-style {
   display: flex;
@@ -2931,13 +2938,13 @@ html {
   height: 100%;
   width: 100%;
 }
-.title--uppercase,
+/* .title--uppercase,
 h2 {
   text-transform: uppercase;
   font-weight: 600;
   color: #fff;
   margin-top: 3em;
-}
+} */
 .hero__lead {
   font-size: 18px;
   color: #fff;
@@ -3026,18 +3033,18 @@ h2 {
   line-height: 40px;
   color: #323232;
 }
-.title--medium,
+/* .title--medium,
 h2 {
   font-size: 32px;
   margin-bottom: 20px;
   color: #323232;
-}
+} */
 
-.title--uppercase,
+/* .title--uppercase,
 h2 {
   text-transform: uppercase;
   font-weight: 600;
-}
+} */
 .mobile-app__content p.insurance-description {
   max-width: 800px;
   margin: 15px auto 0;
@@ -3630,6 +3637,23 @@ h5 {
   padding-bottom: 20px;
   font-weight: 100;
 }
+.designing {
+  display: flex;
+  align-items: center;
+}
+.designing h4 {
+  margin: 5px;
+}
+.p-wth-860{
+  max-width: 860px;
+}
+.card-title-h6{
+   font-size: 16px;
+  margin-top: -2px;
+  padding-bottom: 20px;
+  font-weight: 100;
+  color: #000;
+}
 .padding-top3 {
   padding-top: 100px;
 }
@@ -3645,7 +3669,7 @@ h5 {
     max-width: 33.333333%;
   }
 }
-.serv-item {
+.serv-items {
   padding: 50px 25px 25px;
   border: 1px solid #e6b493;
   -webkit-transition: all linear 0.3s;
@@ -3697,23 +3721,28 @@ h5 {
   z-index: -1;
   border-radius: 50%;
 }
-.serv-item h4 {
+.serv-items h4 {
   font-size: 23px;
   padding-top: 56px;
   padding-bottom: 13px;
   font-weight: 200;
+  color: #000;
 }
-.serv-item p {
+.serv-items p {
   color: #666;
   padding-bottom: 20px;
-}
-p {
   font-size: 17px;
   font-weight: 400;
   line-height: 28px;
   margin: 0;
 }
-h1,
+/* p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 0;
+} */
+/* h1,
 h2,
 h3,
 h4,
@@ -3723,15 +3752,15 @@ h6 {
   font-weight: 700;
   color: #000;
   margin: 0;
-}
+} */
 .gray-bg {
   background: #f4fbff;
 }
-.pb-120 {
-  padding-bottom: 120px;
+.pb-50 {
+  padding-bottom: 50px;
 }
-.pt-120 {
-  padding-top: 120px;
+.pt-50 {
+  padding-top: 50px;
 }
 .mb-40 {
   margin-bottom: 40px;
@@ -3766,6 +3795,13 @@ h6 {
   line-height: 26px;
   max-width: 315px;
   color: #000;
+  font-weight: 400;
+}
+.icon-desg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .row-3 {
   margin-right: -15px;
@@ -3791,15 +3827,15 @@ h6 {
 .new_section-title {
   margin-bottom: 50px;
 }
-h1 {
+/* h1 {
   font-size: 45px;
   font-family: "Inter_Bold";
   color: #191919;
-}
-.new_section-title p {
+} */
+/* .new_section-title p {
   font-weight: 500;
   /* color: #676f7e; */
-}
+} */
 .benefits_list {
   padding-top: 37px;
 }
@@ -3821,13 +3857,13 @@ h1 {
   font-weight: 600;
   margin-bottom: 12px;
 }
-p {
+/* p {
   font-size: 17px;
   font-weight: 400;
   line-height: 28px;
   margin: 0;
   color: #000;
-}
+} */
 .style-img {
   width: 500px;
 }
@@ -3945,12 +3981,12 @@ p {
   min-height: 168px;
   height: 100%;
 }
-.icon_column_sizer h6 {
+/* .icon_column_sizer h6 {
   margin-top: 15px;
   margin-bottom: 5px;
   width: 100%;
   font-family: "Inter_Regular";
-}
+} */
 
 h6 {
   font-size: 16px;
@@ -3969,7 +4005,7 @@ h6 {
     margin-bottom: 20px;
   }
   .icon_column_sizer {
-    width: 33% !important;
+    width: 90% !important
   }
   .icon_callout_listing {
     padding-top: 24px;
@@ -4222,7 +4258,7 @@ figure {
   margin-top: 4em;
 }
 @media screen and (max-width: 480px) {
-  .mar-t4 {
-    margin-top: 0;
+  .serv-items {
+    height: 100%;
   }
 }

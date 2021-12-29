@@ -3596,11 +3596,7 @@ li {
   align-items: center;
   padding: 6rem;
 }
-h3,
-h4,
-h5 {
-  margin: 0 0 2rem;
-}
+
 .technoSec .listRow ul {
   flex-basis: 62%;
   display: flex;
@@ -3644,17 +3640,17 @@ h5 {
 .designing h4 {
   margin: 5px;
 }
-.p-wth-860{
+.p-wth-860 {
   max-width: 860px;
 }
-.card-title-h6{
-   font-size: 16px;
+.card-title-h6 {
+  font-size: 16px;
   margin-top: -2px;
   /* padding-bottom: 20px; */
   font-weight: 100;
   color: #000;
 }
-.hiring-process{
+.hiring-process {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -3677,8 +3673,6 @@ h5 {
 .serv-items {
   padding: 50px 25px 25px;
   border: 1px solid #e6b493;
-  -webkit-transition: all linear 0.3s;
-  -o-transition: all linear 0.3s;
   transition: all linear 0.3s;
   background-color: #fff;
   height: 319px;
@@ -3696,8 +3690,6 @@ h5 {
   content: "";
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   width: 105px;
   height: 105px;
@@ -3717,8 +3709,6 @@ h5 {
   content: "";
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   width: 95px;
   height: 95px;
@@ -3778,7 +3768,7 @@ h6 {
   text-align: center;
   border-radius: 50%;
   font-size: 35px;
-  color: #f5ae6f;
+  color: #f28d3a;
   background-color: #f2e5e0;
   transition: all 500ms ease-out;
 }
@@ -3839,7 +3829,6 @@ h6 {
 } */
 /* .new_section-title p {
   font-weight: 500;
-  /* color: #676f7e; */
 } */
 .benefits_list {
   padding-top: 37px;
@@ -3979,7 +3968,6 @@ h6 {
   position: relative;
   padding: 18px 15px 15px 15px;
   transition: all 0.3s;
-  -webkit-transition: all 0.3s;
   background: #fff;
   border: 1px solid #f1f1f1;
   margin: 0 1% 0 1%;
@@ -4010,7 +3998,7 @@ h6 {
     margin-bottom: 20px;
   }
   .icon_column_sizer {
-    width: 90% !important
+    width: 90% !important;
   }
   .icon_callout_listing {
     padding-top: 24px;
@@ -4050,38 +4038,11 @@ h6 {
   color: #2a2a2a;
 }
 .process-steps-grid {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
-  -webkit-flex-flow: wrap;
-  -moz-flex-flow: wrap;
-  -ms-flex-flow: wrap;
   flex-flow: wrap;
-  -webkit-justify-content: space-between;
-  -moz-justify-content: space-between;
-  -ms-justify-content: space-between;
   justify-content: space-between;
-  -ms-flex-pack: space-between;
 }
 
-.uk-animation-slide-bottom-medium {
-  animation-name: uk-fade-bottom-medium;
-}
-[class*="uk-animation-"] {
-  animation-duration: 0.5s;
-  animation-timing-function: ease-out;
-  animation-fill-mode: both;
-}
-.uk-animation-slide-bottom-medium {
-  animation-name: uk-fade-bottom-medium;
-}
-[class*="uk-animation-"] {
-  animation-duration: 0.5s;
-  animation-timing-function: ease-out;
-  animation-fill-mode: both;
-}
 .process-steps-grid .process-item {
   width: 32%;
   margin-bottom: 80px;

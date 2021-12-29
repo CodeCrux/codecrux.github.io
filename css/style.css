@@ -2548,10 +2548,10 @@ address a.location {
 active .icon {
   background: url(/assets/img/ui-ux/minus.png) no-repeat 8px -25px #fff;
 }
-.active {
+/* .active {
   background-color: #fff;
   color: black;
-}
+} */
 .active h5 {
   color: #000;
 }

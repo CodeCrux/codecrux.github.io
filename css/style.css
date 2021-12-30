@@ -4345,3 +4345,15 @@ figure {
   /* background: url(/assets/img/mobile-developer/hire-green-line.png) no-repeat
     top center; */
 }
+.hire-btn {
+  padding: 0 18px !important;
+  line-height: 40px !important;
+  color: #fff !important;
+}
+.hire-btn-color {
+  background-color: #0eb493;
+  color: #fff;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 55px;
+}

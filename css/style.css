@@ -4150,7 +4150,7 @@ h6 {
 }
 .ocd-solutions {
   border-radius: 5px;
-  box-shadow: 0 0 10px #ededed;
+  box-shadow: 0 5px 15px #e0e0e0;
   color: #606060;
   padding: 20px 0;
   margin-bottom: 15px;
@@ -4219,8 +4219,129 @@ figure {
 .mar-t4 {
   margin-top: 4em;
 }
+.max-wt-600 {
+  max-width: 600px;
+}
 @media screen and (max-width: 480px) {
   .serv-items {
     height: 100%;
   }
+  img.hello {
+    display: none;
+  }
+}
+@media screen and (max-width: 1190px) {
+  img.hello {
+    display: none;
+  }
+}
+
+.how-to-start {
+  display: block;
+  position: relative;
+  padding: 100px 0px;
+  margin: 0;
+  text-align: center;
+}
+
+.how-to-start .cmn-title {
+  text-align: center;
+}
+.cmn-title {
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  position: relative;
+}
+/* .cmn-title h2,
+.cmn-title .heading-2,
+.cmn-title .prototyping-ttl {
+  display: block;
+  margin: 0;
+  font-size: var(--subheading-font);
+  line-height: 48px;
+  color: var(--dark-grey);
+  font-family: var(--font-family-bold);
+  font-weight: normal;
+  padding: 0px;
+} */
+/* .cmn-title p {
+  display: block;
+  margin: 30px 0 0 0;
+  padding: 0px;
+  font-size: var(--subheading-desc-font);
+  line-height: 36px;
+  color: var(--light-grey);
+  font-family: var(--font-family-regular);
+  font-weight: normal;
+} */
+.start-step {
+  display: inline-block;
+  position: relative;
+  margin: 40px 13px;
+  width: 197px;
+  height: 227px;
+  text-align: center;
+  padding: 20px 10px;
+  position: relative;
+}
+.how-to-start .process-step.yellow-bor {
+  border-color: #f4bd00;
+}
+.how-to-start .process-step {
+  width: 150px;
+  height: 150px;
+  display: block;
+  border: 2px dashed #0a56f5;
+  border-radius: 50%;
+  background: #fff;
+  margin: 0 auto 20px auto;
+}
+
+.how-to-start .start-step p {
+  display: block;
+  margin: 0;
+  padding: 0px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #010101;
+  font-family: "open_sansregular";
+  font-weight: normal;
+}
+.how-to-start .arrow-line1 {
+  top: 100px;
+  right: -90px;
+  /* background: url("/assets/img/mobile-developer/hire-yellow-line.png") no-repeat
+    top center; */
+}
+.how-to-start .arrow-line {
+  display: block;
+  position: absolute;
+  width: 115px;
+  height: 52px;
+}
+.how-to-start .arrow-line2 {
+  top: 80px;
+  right: -90px;
+  /* background: url(/assets/img/mobile-developer/hire-blue-line.png) no-repeat top
+    center; */
+}
+
+.how-to-start .process-step.purple-bor {
+  border-color: #6b5ea6;
+}
+.how-to-start .arrow-line3 {
+  top: 100px;
+  right: -90px;
+  /* background: url(/assets/img/mobile-developer/hire-purple-line.png) no-repeat
+    top center; */
+}
+.how-to-start .process-step.green-bor {
+  border-color: #269d39;
+}
+.how-to-start .arrow-line4 {
+  top: 80px;
+  right: -87px;
+  /* background: url(/assets/img/mobile-developer/hire-green-line.png) no-repeat
+    top center; */
 }

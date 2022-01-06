@@ -544,8 +544,7 @@ aside.clients img {
 }
 .footer-links {
   padding: 30px 10px 60px 10px;
-  background-color: #404040;
-  color: #fff;
+  color: rgb(24, 20, 20);
   font-size: 17px;
 }
 
@@ -555,7 +554,7 @@ aside.clients img {
 }
 
 .footer-links ul > li > a {
-  color: #fff;
+  color: rgb(52, 107, 109);
 }
 
 .footer-links ul > li > a:hover {
@@ -1617,9 +1616,17 @@ address a.location {
 .btn-g {
   background-color: #0eb493;
   color: #fff;
-  height: 40px;
-  line-height: 40px;
-  padding: 0 15px;
+  height: auto;
+  line-height: 35px;
+  padding: 0px 8px 0px 8px;
+  margin: 15px 2px 5px 33px;
+  float: right;
+  width: 100%;
+  min-width: 30px;
+   max-width: 147px; 
+}
+.btn-g:hover{
+  background-color: #0d9479;
 }
 
 .btn-o {

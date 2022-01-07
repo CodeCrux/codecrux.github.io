@@ -550,7 +550,11 @@ aside.clients img {
 
 .footer-links ul > li {
   list-style: none;
+<<<<<<< HEAD
   /* margin-left: -40px; */
+=======
+  margin-left: -40px;
+>>>>>>> master
 }
 
 .footer-links ul > li > a {
@@ -1626,6 +1630,15 @@ address a.location {
    max-width: 147px; 
 }
 .btn-g:hover{
+  background-color: #0d9479;
+}
+
+.btn-k{
+  background-color: #0eb493 !important;
+}
+
+.btn-k:hover,
+.btn-k:focus{
   background-color: #0d9479;
 }
 
@@ -4376,4 +4389,21 @@ figure {
   height: 40px;
   line-height: 40px;
   padding: 0 55px;
+}
+/* fixes on jobs page */
+
+.font-15{
+  font-size: 15px;
+}
+.font-20{
+  font-size: 20px;
+}
+.mar-top-5{
+  margin-top: 5rem;
+}
+.mar-top-9{
+  margin-top: 9rem;
+}
+.font-16{
+  font-size: 16px;
 }

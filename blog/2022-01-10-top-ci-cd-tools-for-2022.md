@@ -1,7 +1,9 @@
+---
 layout: blog
+title: 100 Most successful apps built in Ruby on Rails
 description: Here is a list of popular web services built with Ruby on Rails
 keywords: TwitterFeed,Fiverr,Scribd,CrunchBase,jango,github,groupon,dribbble,paper,airware,airbnb,basecamp,kickstarter,sendgrid,animoto,goodreads,teamtreehouse,urbanspoon,500px,fundingcircle,producthunt
-
+---
 
 ## What is CI/CD?
 

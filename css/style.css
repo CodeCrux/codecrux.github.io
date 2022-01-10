@@ -100,11 +100,12 @@ h6 {
 }
 .btn-default {
   color: rgb(251, 252, 248);
-  background-color: #4da88a;
+  background-color: #0eb493;
 }
 .btn-default:hover,
 .btn-default:focus {
   color: #000;
+  background-color: #0eb493;
 }
 .bg-light-gray {
   background-color: #f7f7f7;

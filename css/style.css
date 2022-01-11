@@ -598,7 +598,7 @@ aside.clients img {
   margin-left: 33px;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 960px) {
 
 .footer-mob-align ul > li{
   
@@ -1689,7 +1689,7 @@ color: white !important;
     
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 914px) {
   .btn-meet {
       
       visibility: hidden;
@@ -1698,7 +1698,7 @@ color: white !important;
 
 }
 
-@media screen and (min-width: 940px) {
+@media screen and (min-width: 915px) {
 
   .btn-g{
     visibility: hidden;

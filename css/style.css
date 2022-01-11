@@ -165,7 +165,6 @@ h6 {
     visibility: visible;
     display: block;
     
-    
 }
 
 
@@ -1740,12 +1739,13 @@ address a.location {
   color: #fff;
   height:35px;
   line-height: 35px;
-  padding: 0px 8px 0px 5px;
+  padding: 0px 5px 0px 5px;
   margin: 8px 8px ;
   float: right;
   width: auto;
   min-width: 40px;
    max-width: 144px; 
+   font-size: 13px;
 
 }
 

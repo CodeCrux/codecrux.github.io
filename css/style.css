@@ -583,6 +583,7 @@ aside.clients img {
 .footer-links ul > li {
   list-style: none;
   margin-left: 20px;
+  
 }
 
 .footer-links ul > li > a {
@@ -597,6 +598,9 @@ aside.clients img {
   margin-left: 18px;
 }
 
+.extra-mar{
+  margin-left: 33px;
+}
 .buttons-col {
   border: 1px solid #eee;
   border-radius: 4px;

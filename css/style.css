@@ -598,16 +598,13 @@ aside.clients img {
   margin-left: 33px;
 }
 
-@media screen and (min-width:540px){
+@media screen and (max-width: 540px) {
 
-.footer-links ul > .row > i > .col-sm-10{
+.footer-mob-align ul > li{
   
-  width: 83.33%;
-}
-
-.footer-links ul > .row > i {
-  width: 8.33%;
-}
+  display: flex;
+  flex-direction: row;
+  }
 }
 
 .fa-angle-right{

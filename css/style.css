@@ -566,11 +566,12 @@ aside.clients img {
   font-size: 17px;
   overflow: hidden;
   position: relative;
+  background: linear-gradient(-70deg, #f8863f 100%, rgba(0, 0, 0, 0) 30%);
   
 }
 
 .footer-img{
-  opacity: 0.24;
+  opacity: 0.18;
   position: absolute;
   left: 49px;
   top: 0;
@@ -579,6 +580,16 @@ aside.clients img {
 
 
 }
+@media screen and (max-width: 960px) {
+  .footer-links{
+    background-image: url('/img/codecrux-mobile-footer.jpg'); 
+    
+  }
+  .footer-img{
+    display: none;
+  }
+}
+
 
 .footer-links ul > li {
   list-style: none;
@@ -592,19 +603,81 @@ aside.clients img {
 }
 
 .footer-links ul > li > a:hover {
-  color: #0eb493;
+  color: #070707;
+  font-weight:640;
 }
 .footer-list-headings{
   margin-left: 33px;
 }
 
+.footer-mob-align ul > li > i{
+    position: relative;
+    padding-right: 0px;
+}
+
+.footer-mob-align ul > li > a{
+  position: relative;
+  padding-left: 3px;
+}
+
+.footer-mob-align .first-link > li > a{
+  position: relative;
+  padding-left:10px ;
+}
+
+.footer-mob-align .first-link > li > i{
+  position: relative;
+  padding-right: 0px;
+ 
+}
+.footer-mob-align .last-link > li > i{
+  position: relative;
+  padding-right: 4px;
+  text-align: right;
+  
+}
+
+.footer-mob-align .last-link > li a {
+  position: relative;
+  padding-left: 0px;
+}
+
+.footer-mob-align > .mar-new-24{
+    margin-left: 38px;
+}
+
 @media screen and (max-width: 960px) {
 
-.footer-mob-align ul > li{
-  
-  display: flex;
-  flex-direction: row;
-  }
+
+    .footer-mob-align ul > li > i{
+         position: relative;
+         padding-right: 0px;
+         text-align: right;
+      }
+
+    .footer-mob-align ul > li > a{
+          position: relative;
+          padding-left: 3px;
+      }
+
+    .footer-mob-align .first-link > li a{ 
+          position: relative;
+          padding-left:0px ;
+
+      }
+
+    .footer-mob-align .first-link > li > i{
+          position: relative;
+          padding-right: 3px;
+          text-align: right;
+      }
+    .footer-mob-align .mar-new-24 {
+          margin-left: 34px;
+      }
+
+    .footer-mob-align .last-link > li > i{
+          margin-left: 4px;
+      }
 }
 
 .fa-angle-right{

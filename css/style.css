@@ -598,7 +598,9 @@ aside.clients img {
   margin-left: 33px;
 }
 
-
+.fa-angle-right{
+  margin-top: 4px;
+}
 .buttons-col {
   border: 1px solid #eee;
   border-radius: 4px;

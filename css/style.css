@@ -598,6 +598,18 @@ aside.clients img {
   margin-left: 33px;
 }
 
+@media screen and (min-width:540px){
+
+.footer-links ul > .row > i > .col-sm-10{
+  
+  width: 83.33%;
+}
+
+.footer-links ul > .row > i {
+  width: 8.33%;
+}
+}
+
 .fa-angle-right{
   margin-top: 4px;
 }
@@ -3858,6 +3870,8 @@ h6 {
 } */
 .gray-bg {
   background: #f4fbff;
+  margin-bottom: 26px;
+  margin-top: 24px;
 }
 .pb-50 {
   padding-bottom: 50px;

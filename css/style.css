@@ -1172,6 +1172,22 @@ address a.location {
 .bg-blue {
   background-color: #006ad5;
 }
+
+
+/************WHY CHOOSE ANDROID ***************/
+
+.android-choose .h3-text{
+  font-size: 70px;
+  font-weight: 500;
+ 
+}
+
+.android-choose h1{
+  font-size: 150px;
+  font-weight: 720;
+}
+
+
 .font-weight-400 {
   font-weight: 400;
   font-size: 20px;

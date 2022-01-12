@@ -1295,6 +1295,21 @@ address a.location {
 .category-tech {
   color: #3fb1f8;
 }
+
+
+/* ************************React native service page*************************** */
+
+.h1-text{
+  font-size: 70px;
+}
+
+.custom-d .set-opac{
+  opacity: 0.18;
+}
+
+
+
+
 .author-name {
   font-family: "proxima-nova", serif;
   display: inline-block;

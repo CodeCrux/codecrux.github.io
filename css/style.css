@@ -1098,6 +1098,16 @@ address a.location {
   margin-top: 20px;
 }
 
+@media only screen and (max-width: 768px){
+  .mt-20{
+    margin-top: 5px;
+  }
+  .font-title {
+    text-align: center;
+  }
+}
+
+
 .blog-banner::before {
   content: "";
   position: absolute;

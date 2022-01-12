@@ -449,6 +449,42 @@ fieldset[disabled] .btn-xl.active {
   padding-bottom: 50px;
   z-index: 2;
 }
+
+.banner-for{
+background-color: #0f0f0f;  
+padding-top:14px;
+padding-bottom:25px;
+}
+
+.banner-for .android-choose h1{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.banner-for .android-choose > .h3-text1{
+  margin-bottom: 0px;
+  
+}
+
+.banner-for .android-choose .h3-text2{
+  margin-top: 0px;
+  
+}
+
+.app-dev-area {
+    margin-top: 23px;
+} 
+
+.app-dev-area .tech-table .text-center{
+  font-size: 55px;
+}
+
+.app-dev-area .tech-table >hr{
+    width: 30%;
+    
+    border: 2px solid rgba(60, 179, 114, 0.835);
+}
+
 .banner .intro-text .intro-lead-in {
   margin-bottom: 25px;
   font-size: 35px !important;
@@ -1188,8 +1224,52 @@ address a.location {
 .android-choose .h3-text{
   font-size: 70px;
   font-weight: 500;
+  color: whitesmoke;
  
 }
+
+.banner-inner-text h1{
+  color: rgb(237, 243, 238);
+  font-weight: 690;
+}
+
+.banner-inner-text h2{
+  color: rgb(248, 233, 233);
+  font-size: 28px;
+  
+}
+
+.banner-inner-text .banner-he{
+  color: rgba(177, 185, 178, 0.644);
+  font-size: 22px;
+  
+}
+
+.banner-inner-text .banner-desc{
+  color: rgba(177, 185, 178, 0.644);
+  font-size: 24px;
+}
+
+.banner-inner-text .col-sm-5{
+  padding-right: 70px;
+}
+
+.banner-inner-text .col-sm-7{
+  padding-left: 48px;
+}
+
+.custom-container .web-application .card-class img{
+  height:78px;
+  width: 83px;
+
+}
+
+/* @media screen and (max-width:780px){
+  .main-section{
+    width: auto;
+    max-width: fit-content;
+  }
+} */
 
 .android-choose h1{
   font-size: 150px;
@@ -1304,6 +1384,21 @@ address a.location {
 .category-tech {
   color: #3fb1f8;
 }
+
+
+/* ************************React native service page*************************** */
+
+.h1-text{
+  font-size: 70px;
+}
+
+.custom-d .set-opac{
+  opacity: 0.18;
+}
+
+
+
+
 .author-name {
   font-family: "proxima-nova", serif;
   display: inline-block;
@@ -2645,11 +2740,15 @@ color: white !important;
 .card-class {
   background: #fff;
   border-radius: 8px;
-  box-shadow: 0px 2px 5px rgb(0 0 0 / 10%);
-  padding: 0 32px 16px;
+  box-shadow: 3px 3px 5px 3px rgb(0 0 0 / 10%);
+  padding: 18px 32px;
   height: 100%;
   width: 100%;
   text-align: center;
+}
+.card-class:hover,
+.card-class:focus{
+  box-shadow: 7px 9px 10px 9px rgba(31, 30, 30, 0.1);;
 }
 .row-style {
   display: flex;
@@ -2800,7 +2899,7 @@ active .icon {
   margin-bottom: 1em;
 }
 .font-family {
-  font-family: "Maven Pro", "Helvetica neue";
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .p1-font {
   font-size: 18px;
@@ -2905,8 +3004,9 @@ active .icon {
   font-size: 37px;
   margin-top: -2px;
   padding-bottom: 20px;
-  font-weight: 100;
+  font-weight: 600;
   color: #000;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .h4-font {
   font-size: 23px;
@@ -3654,7 +3754,7 @@ figure {
 /* template-2 */
 
 .servicesArea {
-  padding: 15rem 0;
+  padding: 6rem 0;
 }
 .custom-container {
   max-width: 1530px;
@@ -4340,7 +4440,10 @@ h6 {
     font-size: 16px;
   }
 }
-
+.process-step > .process-image{
+  width: 66px;
+  height: 66px;
+}
 .icons-sty {
   display: flex;
   flex-direction: column;

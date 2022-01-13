@@ -3243,15 +3243,14 @@ html {
   height: 100%;
   width: 100%;
 }
-/* .title--uppercase,
-h2 {
+.title--uppercase{
   text-transform: uppercase;
   font-weight: 600;
-  color: #fff;
+  color: rgb(11, 11, 11);
   margin-top: 3em;
-} */
+}
 .hero__lead {
-  font-size: 18px;
+  font-size: 19px;
   color: #fff;
 }
 .mar-t1 {
@@ -3277,6 +3276,149 @@ h2 {
   margin-left: 1em;
 }
 
+
+/* ******************Mobile responsive*********************** */
+
+@media (max-width:914px){
+  .hero--600{
+    width: 100%;
+    padding: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .hero--600 > .container .col-md-4 img{
+    margin-top: 70px;
+    width: auto;
+    min-width: 80px;
+    max-width: 160px;
+    height: inherit;
+  }
+
+  .hero--600 > .container .title--uppercase{
+      font-size: 18px;
+  }
+
+  .hero--600 > .container .hero__lead{
+    font-size: 10px;
+  }
+  .hero--600 > .container .hero__content  .hero-button > .button--white-green {
+    height: 15px;
+
+    display: inline-flex;
+  
+    align-items: center;
+    width: auto;
+    min-width: 40px;
+    font-size: 7px;
+    padding: 0 8px;
+    text-transform: uppercase;
+    background: #1476f2;
+  
+    transition: all 0.3s;
+    border: none;
+    white-space: nowrap;
+    background: 0 0;
+    border: 2px solid #fff;
+    height: 20px;
+    min-width: 40px;
+    font-weight: 600;
+    color: #fff;
+    background: #17ca8e;
+    border: 2px solid #17ca8e;
+    font-size: 8px;
+  }
+
+  .web-application{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .web-application .card-class{
+      width:auto;
+      min-width: 200px;
+      max-width: 310px;
+      height: auto;
+      min-height: 190px;
+      max-height: 349px;
+     display: flex;
+     flex-direction: column;
+     padding-top: 16px;
+     /* size: 20px; */
+
+  }
+  .web-application .card-class img{
+    object-fit:contain ;
+    height: auto;
+    min-height: 20px;
+    max-height:46px ;
+    min-width: 20px;
+    max-width:53px ;
+   align-self: center;
+   padding: 0px;
+
+  }
+
+  .sectionCl > .container > .row > .col-md-6 > img{
+          width:100%;
+          object-fit: contain ;
+
+  }
+
+
+/* ******************Why android************************** */
+
+.banner-for{
+  background-color: #0f0f0f;  
+  padding-top:7px;
+  padding-bottom:5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  }
+  
+  .banner-for .android-choose h1{
+      margin-bottom: 0px;
+      margin-top: 0px;
+      font-size: 46px;
+  }
+  
+  .banner-for .android-choose .h3-text{
+    font-size: 32px;
+  }
+  .banner-for .android-choose > .h3-text1{
+    margin-bottom: 0px;
+    
+  }
+  
+  .banner-for .android-choose .h3-text2{
+    margin-top: 0px;
+    
+  }
+  .banner-for .container .banner-inner-text > .row .col-sm-7 h1{ 
+    font-size: 22px;
+
+  }
+  .banner-for .container .banner-inner-text > .row .col-sm-7 > p{ 
+    font-size: 19px;
+
+  }
+  .banner-for .container .banner-inner-text > .row .col-sm-5 > p{ 
+    font-size: 19px;
+
+  }
+  .banner-for .container .banner-inner-text > .row .col-sm-7 {
+    padding-left: 15px;
+  }
+  /* ****************************technology table**************************** */
+    .tech-table h5 {
+     font-size: 2px;
+      margin-top: -2px;
+     
+    }
+    
+
+}
+/* **************************Mobile version ends******************************** */
 
 .margin-left-35{
   margin-left: 35px;

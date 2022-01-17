@@ -343,6 +343,10 @@ fieldset[disabled] .btn-xl.active {
   z-index: 999;
   border: 0 !important;
 }
+.home-navbar .container{
+  width: 79%;
+  /* margin: 0px 35px 0px 15px; */
+}
 .sticky {
   position: fixed;
   top: 0;
@@ -368,7 +372,7 @@ fieldset[disabled] .btn-xl.active {
 .home-navbar .navbar-nav > li > a {
   color: #fff;
   padding: 28px 15px;
-  font-size: 11.8px;
+  font-size: 13px;
 }
 .navbar-default .navbar-nav li a:hover,
 .navbar-default .navbar-nav li a:focus {
@@ -689,8 +693,12 @@ aside.clients img {
 width:470px ;
 } */
 @media screen and (max-width: 960px) {
-  .footer-links{
+  /* .footer-links{
     background-image: url('/img/codecrux-mobile-footer.jpg');   
+  } */
+  .home-navbar .container{
+    width: 100%;
+    /* margin: 0px 35px 0px 15px; */
   }
   .container-fluid2 .footer-rows{
    display: flex;
@@ -2006,7 +2014,7 @@ color: white !important;
    }
 
 }
-
+/* ***************Desktop******************* */
 @media screen and (min-width: 915px) {
 
   .btn-g{
@@ -4501,7 +4509,7 @@ h6 {
 }
 .accordion-1 .contentBx {
   position: relative;
-  margin: 10px 20px;
+  margin: 7px 0px;
 }
 .accordion-1 .contentBx .label-1 {
   position: relative;

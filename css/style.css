@@ -4048,7 +4048,7 @@ figure {
 /* template-2 */
 
 .servicesArea {
-  padding: 6rem 0;
+  padding: 2rem 0rem 1rem 0rem;
 }
 .custom-container {
   max-width: 1530px;
@@ -4855,7 +4855,7 @@ figure {
 .how-to-start {
   display: block;
   position: relative;
-  padding: 100px 0px;
+  padding: 24px 0px 20px 0px;
   margin: 0;
   text-align: center;
 }

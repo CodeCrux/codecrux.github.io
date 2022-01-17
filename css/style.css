@@ -628,13 +628,13 @@ aside.clients img {
 
 }
 .container-fluid2{
-  padding:0px 0px 10px 49px
+  padding:0px 0px 10px 141px
 }
 
 .container-fluid2 .footer-rows {
   display: flex;
   flex-direction: row;
-  padding-left: 116px;
+  padding-left: 136px;
 }
 
 .container-fluid2 .footer-rows .first-footer-link {
@@ -696,6 +696,9 @@ width:470px ;
   /* .footer-links{
     background-image: url('/img/codecrux-mobile-footer.jpg');   
   } */
+  .container-fluid2{
+    padding:0px 0px 10px 10px
+  }
   .home-navbar .container{
     width: 100%;
     /* margin: 0px 35px 0px 15px; */

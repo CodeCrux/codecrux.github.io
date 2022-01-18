@@ -617,6 +617,11 @@ aside.clients img {
 .footer-social{
   padding-left: 0px;
 }
+.footer-social > .col-sm-12{
+  float: left;
+  position: relative;
+  padding-left: 0px;
+}
 .footer-img{
   opacity: 0.18;
   position: absolute;
@@ -634,7 +639,7 @@ aside.clients img {
 .container-fluid2 .footer-rows {
   display: flex;
   flex-direction: row;
-  padding-left: 136px;
+  padding-left: 126px;
 }
 
 .container-fluid2 .footer-rows .first-footer-link {
@@ -707,7 +712,17 @@ width:470px ;
    display: flex;
    flex-direction: column; 
    padding-left: 8px;
+   font-size: 3vw;
+   
   }
+  .container-fluid2 .footer-rows .footer-mob-align {
+    width: 97%;
+  }
+  /* .container-fluid2 .footer-rows ul>li{
+    width: auto;
+    min-width: 120px;
+    height: auto;
+  } */
   .container-fluid2 .footer-rows .second-footer-link{
     margin-left: 0px;
     padding-left: 0px;
@@ -761,7 +776,9 @@ width:470px ;
   position: relative;
   padding-left: 3px;
 }
-
+.footer-mob-align .first-link {
+  padding-left: 12px;
+}
 .footer-mob-align .first-link > li > a{
   position: relative;
   padding-left:0px ;
@@ -2003,6 +2020,17 @@ color: white !important;
 }
 /* *************Moile view*************** */
 @media screen and (max-width: 914px) {
+  .btn {
+    height: 29px;
+    padding: 4px 3px;
+    border: 0;
+    position: relative;
+    font-family: Maven Pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 6px;
+    border-radius: 999px;
+  }
+
   .btn-meet {
       
       visibility: hidden;
@@ -2347,6 +2375,7 @@ color: white !important;
   .app-process-content {
     min-height: 100px;
   }
+  
   .app-process-col {
     float: none;
     width: 100%;
@@ -3435,10 +3464,26 @@ html {
   margin-left: 1em;
 }
 
+@media screen and (max-width:750px){
+  .hero--600 > .container .hero__content .hero-new-button1 > .talk-btn{
+    width: auto;
+    min-width: 40px;
+    height: 28px;
+    min-width: 28px;
+    font-weight: 300;
+    font-size: 10px;
+    padding: 3px 8px;
+    background: #3c5a50;
+    border: 2px solid #17ca8e;
+    color: #fff;
+    transition: all 0.3s;
+  }
+}
+
 
 /* ******************Mobile responsive*********************** */
 
-@media (max-width:914px){
+@media screen and (max-width:914px){
   .hero--600{
     width: 100%;
     padding: 0px;
@@ -3461,7 +3506,7 @@ html {
   .hero--600 > .container .hero__lead{
     font-size: 10px;
   }
-  .hero--600 > .container .hero__content  .hero-button > .button--white-green {
+  /* .hero--600 > .container .hero__content  .hero-button > .button--white-green {
     height: 15px;
 
     display: inline-flex;
@@ -3486,7 +3531,8 @@ html {
     background: #17ca8e;
     border: 2px solid #17ca8e;
     font-size: 8px;
-  }
+  } */
+  
 
   .hero--600 > .container .hero__content  .hero-button > .button--white-green :hover{
     color: #4caf7a;
@@ -3583,6 +3629,23 @@ html {
 }
 /* **************************Mobile version ends******************************** */
 
+.hero--600 > .container .hero__content .hero-new-button1 > .talk-btn{
+  
+  height: 40px;
+  min-width: 46px;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 7px 8px;
+  background: #1daa8e;
+  border: 2px solid #0ca183;
+  color: rgb(10, 10, 10);
+  transition: all 0.3s;
+  text-align: center;
+}
+.hero--600 > .container .hero__content .hero-new-button1 > .btn-default:hover{
+  background-color:#0ca183 ;
+  color: rgb(253, 247, 247);
+}
 .margin-left-35{
   margin-left: 35px;
 }
@@ -3609,32 +3672,6 @@ html {
   }
 }
 
-.button--white-green {
-  height: 45px;
-
-  display: inline-flex;
-
-  align-items: center;
-  width: auto;
-  min-width: 140px;
-  font-size: 13px;
-  padding: 0 20px;
-  text-transform: uppercase;
-  background: #1476f2;
-
-  transition: all 0.3s;
-  border: none;
-  white-space: nowrap;
-  background: 0 0;
-  border: 2px solid #fff;
-  height: 50px;
-  min-width: 220px;
-  font-weight: 600;
-  color: #fff;
-  background: #17ca8e;
-  border: 2px solid #17ca8e;
-  font-size: 15px;
-}
 .mobile-app {
   background-color: #fff;
   /* padding: 80px 0; */

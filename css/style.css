@@ -636,6 +636,19 @@ aside.clients img {
   padding:0px 0px 10px 141px
 }
 
+@media (min-width:1015px) and (max-width:1557px) {
+  .container-fluid2{
+    padding: 0px 100px 10px 75px;
+  }
+
+  .container-fluid2 .footer-rows{
+    display: flex;
+    flex-direction: column; 
+    
+    font-size: 1vw;
+    
+   }
+}
 .container-fluid2 .footer-rows {
   display: flex;
   flex-direction: row;

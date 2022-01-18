@@ -3158,6 +3158,13 @@ active .icon {
 .btn-color {
   background-color: #4a9b80;
 }
+
+@media screen and (max-width:915px){
+  .btn-color{
+    font-size: 13px;
+    padding: 0px 5px;
+  }
+}
 .card-icon {
   width: 100px;
   height: 100px;

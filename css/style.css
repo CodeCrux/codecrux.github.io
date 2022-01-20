@@ -267,6 +267,13 @@ fieldset[disabled] .btn-xl.active {
   .navbar-default .nav-logo {
     padding: 5px;
   }
+  .hero-content-button a{
+    font-size:smaller;
+    padding: 5px 4px 3px 4px;
+   height: 26px;
+   width: 67px;
+  }
+  
 }
 .nav-cta .btn {
   padding: 0 18px ;
@@ -290,6 +297,13 @@ fieldset[disabled] .btn-xl.active {
 
 .btn-rounded {
   border-radius: 20px;
+}
+.hero-content-button a{
+  background-color: rgb(211, 115, 46);
+  color: #000;
+}
+.hero-content-button a:hover{
+  color: #0ed0a3;
 }
 .nav-logo img {
   height: 50px;
@@ -347,6 +361,23 @@ fieldset[disabled] .btn-xl.active {
   width: 79%;
   /* margin: 0px 35px 0px 15px; */
 }
+/* @media screen and (min-width:768px) {
+  .home-navbar .container{
+    width: 100%;
+  }
+  .home-navbar .navbar-nav > li > a {
+    color: #fff;
+    padding: 18px 9px;
+    font-size: 6px;
+  }
+  .navbar-nav .nav-cta .btn{
+    size: 30px;
+  }
+  
+
+ 
+} */
+
 .sticky {
   position: fixed;
   top: 0;
@@ -482,7 +513,13 @@ padding-bottom:25px;
 } 
 
 .app-dev-area .tech-table .text-center{
-  font-size: 55px;
+  /* font-size: 55px; */
+  font-size: 37px;
+  margin-top: -2px;
+  padding-bottom: 20px;
+  font-weight: 600;
+  color: #000;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .app-dev-area .tech-table >hr{
@@ -613,7 +650,41 @@ aside.clients img {
   background: linear-gradient(-70deg, #464240 100%, rgba(0, 0, 0, 0) 30%);
   
 }
+.footer-contact{
+  /* width: 50%; */
+  margin: 25px 400px 25px 640px;
+  width: 560px;
+     
+}
+@media screen and (min-width:768px){
+  .footer-contact{
+    /* width: 50%; */
+    margin: 25px 400px 25px 640px;
+    width: 560px;
+    /* border: 2px solid black; */
+       
+}
 
+
+.contact-flex .container{
+  /* display: flex; */
+  position: relative;
+  
+}
+
+}
+@media screen and (max-width:560px){
+  .footer-contact{
+    /* width: 50%; */
+    margin: 25px 0px 25px 0px;
+    width: 100%;
+    
+
+    
+    
+   
+  }
+}
 .footer-social{
   padding-left: 0px;
 }
@@ -632,6 +703,7 @@ aside.clients img {
 
 
 }
+
 .container-fluid2{
   padding:0px 0px 10px 141px
 }
@@ -2011,7 +2083,7 @@ address a.location {
   color: #fff;
   height:30px;
   line-height: 30px;
-  padding: 0px 5px 0px 5px;
+  padding: 0px 10px 0px 10px;
   margin: 8px 8px ;
   float: right;
   width: auto;
@@ -2046,7 +2118,8 @@ color: white !important;
     font-size: 6px;
     border-radius: 999px;
   }
-
+}
+@media screen and (max-width: 766px) {
   .btn-meet {
       
       visibility: hidden;
@@ -2062,7 +2135,7 @@ color: white !important;
 
 }
 /* ***************Desktop******************* */
-@media screen and (min-width: 915px) {
+@media screen and (min-width: 767px) {
 
   .btn-g{
     visibility: hidden;
@@ -3652,6 +3725,7 @@ html {
 }
 /* **************************Mobile version ends******************************** */
 
+<<<<<<< HEAD
 .hero--600 > .container .hero__content .hero-new-button1 > .talk-btn{
   
   height: 40px;
@@ -3669,6 +3743,70 @@ html {
   background-color:#0ca183 ;
   color: rgb(253, 247, 247);
 }
+=======
+.tech-table table{
+  width: 100%;
+  table-layout: fixed;
+   
+}
+/* .tech-table table tr{
+  width: 50%;
+} */
+.tech-table table tr td ul li {
+  font-size: 20px;
+  margin-left: 38px;
+  margin-top: 17px;
+  font-weight: 500;
+
+  
+ }
+ 
+ 
+ .tech-table table tr td h2{
+   margin-left: 14px;
+   margin-top: 13px; 
+  
+ }
+ .tech-table table tr>td{
+   color: rgb(91, 196, 155);
+ }
+ .tech-table table tr td ul li::before {
+
+  content: "\2022";
+  color: rgb(75, 78, 77);
+    
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+ .tech-table table tr td ul{
+   display: flex;
+   flex-direction: row;
+ }
+
+ @media screen and (max-width:650px) {
+  .tech-table table tr td ul{
+    display: flex;
+    flex-direction: column;
+  }
+  .tech-table table tr td ul li {
+    font-size: 20px;
+    margin-left: 38px;
+    margin-top: 17px;
+    font-weight: 300;
+  
+    
+   }
+   
+   
+   .tech-table table tr td h2{
+     margin-left: 14px;
+     margin-top: 13px; 
+     font-size: 20px;
+    
+   }
+ }
+>>>>>>> ui_fixing
 .margin-left-35{
   margin-left: 35px;
 }
@@ -4119,7 +4257,12 @@ figure {
 /* template-2 */
 
 .servicesArea {
-  padding: 2rem 0rem 1rem 0rem;
+  padding: 3rem 0rem 2rem 0rem;
+}
+@media screen and (max-width:767px) {
+  .servicesArea {
+    padding: 2rem 0rem 1rem 0rem;
+  }
 }
 .custom-container {
   max-width: 1530px;
@@ -4143,10 +4286,12 @@ figure {
   margin: 0;
 }
 .secHeading h2 {
-  font: 4.4rem/6rem robotomedium, sans-serif;
-  margin: 0 0 3rem;
-  color: #1d1c39;
-  text-transform: capitalize;
+  font-size: 37px;
+  margin-top: -2px;
+  padding-bottom: 20px;
+  font-weight: 600;
+  color: #000;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .secHeading p {
   width: 80%;
@@ -4253,10 +4398,12 @@ li {
   text-transform: capitalize;
 }
 .secHeading h2 {
-  font: 4.4rem/6rem robotomedium, sans-serif;
-  margin: 0 0 3rem;
-  color: #1d1c39;
-  text-transform: capitalize;
+  font-size: 37px;
+  margin-top: -2px;
+  padding-bottom: 20px;
+  font-weight: 600;
+  color: #000;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .secHeading p {
   width: 80%;

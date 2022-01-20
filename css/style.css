@@ -361,22 +361,26 @@ fieldset[disabled] .btn-xl.active {
   width: 79%;
   /* margin: 0px 35px 0px 15px; */
 }
-/* @media screen and (min-width:768px) {
+ @media screen and (min-device-width : 768px) 
+ and (max-device-width : 1024px)  {
   .home-navbar .container{
-    width: 100%;
+    width: 0%;
   }
+
+
   .home-navbar .navbar-nav > li > a {
     color: #fff;
     padding: 18px 9px;
-    font-size: 6px;
+    font-size: 1px;
   }
+  /*
   .navbar-nav .nav-cta .btn{
     size: 30px;
   }
   
-
+ */
  
-} */
+} 
 
 .sticky {
   position: fixed;
@@ -708,7 +712,7 @@ aside.clients img {
   padding:0px 0px 10px 141px
 }
 
-@media (min-width:1015px) and (max-width:1557px) {
+@media screen and (min-width:1015px) and (max-width:1557px) {
   .container-fluid2{
     padding: 0px 100px 10px 75px;
   }

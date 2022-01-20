@@ -3725,7 +3725,6 @@ html {
 }
 /* **************************Mobile version ends******************************** */
 
-<<<<<<< HEAD
 .hero--600 > .container .hero__content .hero-new-button1 > .talk-btn{
   
   height: 40px;
@@ -3743,7 +3742,6 @@ html {
   background-color:#0ca183 ;
   color: rgb(253, 247, 247);
 }
-=======
 .tech-table table{
   width: 100%;
   table-layout: fixed;
@@ -3806,7 +3804,6 @@ html {
     
    }
  }
->>>>>>> ui_fixing
 .margin-left-35{
   margin-left: 35px;
 }

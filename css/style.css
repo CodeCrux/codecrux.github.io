@@ -782,6 +782,10 @@ aside.clients img {
 .container-fluid2 .footer-rows .fifth-footer-link ul li a{
   padding-left: 4px;
 }
+.new_heading h1{
+  margin-bottom:0px;
+ 
+}
 /* 
 .container-fluid2 .footer-rows .col-sm-3{
 width:470px ;

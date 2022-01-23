@@ -692,6 +692,9 @@ aside.clients img {
   position: relative;
   
 }
+.navbar-header > .navbar-brand .img-thumbnail{
+  border: none;
+}
 
 }
 @media screen and (max-width:560px){
@@ -741,6 +744,12 @@ aside.clients img {
     font-size: 1vw;
     
    }
+   .navbar-header > .navbar-brand .img-thumbnail{
+    border: none;
+  }
+}
+.navbar-header > .navbar-brand .img-thumbnail{
+  border: none;
 }
 .container-fluid2 .footer-rows {
   display: flex;

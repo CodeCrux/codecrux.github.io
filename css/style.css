@@ -362,10 +362,19 @@ fieldset[disabled] .btn-xl.active {
   /* margin: 0px 35px 0px 15px; */
 }
  @media screen and (min-device-width : 768px) 
- and (max-device-width : 1024px)  {
+ and (max-device-width : 1023px)  {
   .home-navbar .container{
-    width: 0%;
+    width: 100%;
+    /* padding: 0px 64px 0px 69px; */
+    font-size: 2vw;
   }
+  .navbar-nav .dropdown > .dropdown-toggle{
+      font-size: 1vw;
+  }
+    .navbar-nav .dropdown > .dropdown-toggle-new{
+      font-size: 1vw;
+  }
+  
 
 
   .home-navbar .navbar-nav > li > a {
@@ -373,12 +382,18 @@ fieldset[disabled] .btn-xl.active {
     padding: 18px 9px;
     font-size: 1px;
   }
+  .navbar-header > .navbar-brand .img-thumbnail{
+    border: none;
+  }
   /*
   .navbar-nav .nav-cta .btn{
     size: 30px;
   }
   
  */
+ .main-content{
+   width: 100%;
+ }
  
 } 
 
@@ -660,6 +675,8 @@ aside.clients img {
   width: 560px;
      
 }
+
+
 @media screen and (min-width:768px){
   .footer-contact{
     /* width: 50%; */
@@ -789,7 +806,38 @@ aside.clients img {
 /* 
 .container-fluid2 .footer-rows .col-sm-3{
 width:470px ;
-} */
+} */@media screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1535px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+    .home-navbar .container{
+          width: 100%;
+          padding: 0px 64px 0px 69px;
+          font-size: 2vw;
+  }
+  .navbar-nav .dropdown > .dropdown-toggle{
+    font-size: 1vw;
+  }
+  .navbar-nav .dropdown > .dropdown-toggle-new{
+    font-size: 1vw;
+  }
+ 
+  #btn-meetsect a{
+    font-size: 0.9vw;
+    height: auto;
+    min-height: 10px;
+    max-height: 39px;
+    width: auto;
+    min-width: 10px;
+    max-width:137px ;
+    padding: 0px 8px 0px 8px;
+  }
+
+  .navbar-header > .navbar-brand .img-thumbnail{
+    border: none;
+  }
+}
 @media screen and (max-width: 960px) {
   /* .footer-links{
     background-image: url('/img/codecrux-mobile-footer.jpg');   
@@ -807,6 +855,9 @@ width:470px ;
    padding-left: 8px;
    font-size: 3vw;
    
+  }
+  .navbar-header > .navbar-brand .img-thumbnail{
+    border: none;
   }
   .container-fluid2 .footer-rows .footer-mob-align {
     width: 97%;
@@ -897,40 +948,6 @@ width:470px ;
 .footer-mob-align > .mar-new-24{
     margin-left: 38px;
 }
-/* 
-@media screen and (max-width: 960px) {
-
-
-    .footer-mob-align ul > li > i{
-         position: relative;
-         padding-right: 0px;
-         text-align: right;
-      }
-
-    .footer-mob-align ul > li > a{
-          position: relative;
-          padding-left: 3px;
-      }
-
-    .footer-mob-align .first-link > li a{ 
-          position: relative;
-          padding-left:0px ;
-
-      }
-
-    .footer-mob-align .first-link > li > i{
-          position: relative;
-          padding-right: 3px;
-          text-align: right;
-      }
-    .footer-mob-align .mar-new-24 {
-          margin-left: 34px;
-      }
-
-    .footer-mob-align .last-link > li > i{
-          margin-left: 4px;
-      }
-} */
 
 .fa-angle-right{
   margin-top: 4px;
@@ -2115,7 +2132,7 @@ color: white !important;
     
 }
 /* *************Moile view*************** */
-@media screen and (max-width: 914px) {
+@media screen and (min-device-width: 768px) and (max-device-width:960px) {
   .btn {
     height: 29px;
     padding: 4px 3px;
@@ -2123,11 +2140,11 @@ color: white !important;
     position: relative;
     font-family: Maven Pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 300;
-    font-size: 6px;
+    font-size: 12px;
     border-radius: 999px;
   }
 }
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 767px) {
   .btn-meet {
       
       visibility: hidden;
@@ -2143,7 +2160,7 @@ color: white !important;
 
 }
 /* ***************Desktop******************* */
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
 
   .btn-g{
     visibility: hidden;
@@ -2156,7 +2173,9 @@ color: white !important;
   footer .row .col-sm-8{
     margin-left: 450px;
      }
-     
+   .navbar .dropdown >a {
+     font-size: 2vw;
+   }  
      
 }
 
@@ -2510,6 +2529,7 @@ color: white !important;
     padding: 4px 0;
   }
 }
+
 @media (max-width: 767px) {
   .home-navbar .navbar-brand {
     padding-top: 5px;
@@ -2721,7 +2741,7 @@ color: white !important;
   padding: 40px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   /* For mobile phones: */
   .testi-carousel .carousel-indicators {
     bottom: 10px;
@@ -3231,7 +3251,7 @@ active .icon {
   padding-right: 1rem;
   padding-top: 1rem;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .res-img-pn {
     width: 400px;
     height: 250px;
@@ -3309,7 +3329,7 @@ active .icon {
   align-items: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .about {
     height: 100%;
     margin-top: 0;

@@ -376,9 +376,21 @@ fieldset[disabled] .btn-xl.active {
       
     }
 
+    #services-box > .container .row > .bounceIn{
+      padding-left: 120px;
+    }
+
     .row-1 > .col-md-4 .article-col {
       height: 550px;
     }
+    .section-details .nav-cta .btn-k{
+      visibility: hidden;
+      display: none;
+     }
+
+     .ui-banner > .container > .row .contact-form{
+       width: 76%;
+     }
     .row-1 > .col-md-4 {
       margin-bottom: 30px;
     }

@@ -380,6 +380,15 @@ fieldset[disabled] .btn-xl.active {
       padding-left: 120px;
     }
 
+    .footer-contact{
+    
+      margin: 25px 50px 25px 120px;
+     width: 540px; 
+     border: 2px solid black;
+        
+    }
+
+
     .row-1 > .col-md-4 .article-col {
       height: 550px;
     }
@@ -712,22 +721,15 @@ aside.clients img {
   background: linear-gradient(-70deg, #464240 100%, rgba(0, 0, 0, 0) 30%);
   
 }
-.footer-contact{
-  /* width: 50%; */
+/* .footer-contact{
   margin: 25px 400px 25px 640px;
   width: 560px;
      
-}
+} */
 
 
 @media screen and (min-width:768px){
-  .footer-contact{
-    
-     margin: 25px 400px 25px 640px;
-    width: 560px; 
-    border: 2px solid black;
-       
-   }
+  
 
 
 .contact-flex .container{
@@ -884,6 +886,7 @@ width:470px ;
     font-size: 1vw;
   }
  
+  
   #btn-meetsect a{
     font-size: 0.9vw;
     height: auto;
@@ -2206,6 +2209,10 @@ color: white !important;
     font-weight: 300;
     font-size: 12px;
     border-radius: 999px;
+  }
+  .tech-table table tr td > .row-language{
+    display: flex;
+    flex-direction:column ;
   }
 }
 @media screen and (max-width: 767px) {

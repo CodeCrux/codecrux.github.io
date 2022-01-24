@@ -376,6 +376,12 @@ fieldset[disabled] .btn-xl.active {
       
     }
 
+    .row-1 > .col-md-4 .article-col {
+      height: 550px;
+    }
+    .row-1 > .col-md-4 {
+      margin-bottom: 30px;
+    }
     .navbar-nav .dropdown .dropdown-toggle{
       padding-left:7px ;
       padding-right: 7px;

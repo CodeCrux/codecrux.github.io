@@ -365,9 +365,12 @@ fieldset[disabled] .btn-xl.active {
  and (max-device-width : 1023px)  {
   .home-navbar .container{
     width: 100%;
-    /* padding: 0px 64px 0px 69px; */
     font-size: 2vw;
+    padding: 0px 8px 0px 8px;
+    
   }
+
+  
   .navbar-nav .dropdown > .dropdown-toggle{
       font-size: 1vw;
   }
@@ -375,7 +378,7 @@ fieldset[disabled] .btn-xl.active {
       font-size: 1vw;
   }
   
-
+  
 
   .home-navbar .navbar-nav > li > a {
     color: #fff;
@@ -385,15 +388,7 @@ fieldset[disabled] .btn-xl.active {
   .navbar-header > .navbar-brand .img-thumbnail{
     border: none;
   }
-  /*
-  .navbar-nav .nav-cta .btn{
-    size: 30px;
-  }
-  
- */
- .main-content{
-   width: 100%;
- }
+ 
  
 } 
 
@@ -679,16 +674,16 @@ aside.clients img {
 
 @media screen and (min-width:768px){
   .footer-contact{
-    /* width: 50%; */
-    margin: 25px 400px 25px 640px;
-    width: 560px;
-    /* border: 2px solid black; */
+    
+     margin: 25px 400px 25px 640px;
+    width: 560px; 
+    border: 2px solid black;
        
-}
+   }
 
 
 .contact-flex .container{
-  /* display: flex; */
+  
   position: relative;
   
 }
@@ -696,7 +691,7 @@ aside.clients img {
   border: none;
 }
 
-}
+} 
 @media screen and (max-width:560px){
   .footer-contact{
     /* width: 50%; */
@@ -746,6 +741,13 @@ aside.clients img {
    }
    .navbar-header > .navbar-brand .img-thumbnail{
     border: none;
+  }
+}
+
+@media (min-device-width:1024px) and (max-device-width:1204) {
+  
+  .home-navbar .container{
+    width: 70%;
   }
 }
 .navbar-header > .navbar-brand .img-thumbnail{
@@ -854,10 +856,9 @@ width:470px ;
   .container-fluid2{
     padding:0px 0px 10px 10px
   }
-  .home-navbar .container{
+  /* .home-navbar .container{
     width: 100%;
-    /* margin: 0px 35px 0px 15px; */
-  }
+  } */
   .container-fluid2 .footer-rows{
    display: flex;
    flex-direction: column; 
@@ -2175,16 +2176,16 @@ color: white !important;
     visibility: hidden;
     display: none;
   }
-  .social-mob{
+ .social-mob{
     visibility: hidden;
-    display: none;
-  }
+    
+  } /* 
   footer .row .col-sm-8{
     margin-left: 450px;
-     }
+     }*/
    .navbar .dropdown >a {
      font-size: 2vw;
-   }  
+   }   
      
 }
 
@@ -2521,6 +2522,8 @@ color: white !important;
     margin-bottom: 25px;
   }
 }
+
+
 @media (min-width: 1200px) {
   .banner .intro-text .intro-lead-in {
     margin-bottom: 25px;

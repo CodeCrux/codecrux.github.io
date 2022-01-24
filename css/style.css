@@ -359,7 +359,15 @@ fieldset[disabled] .btn-xl.active {
 }
 .home-navbar .container{
   width: 79%;
-  /* margin: 0px 35px 0px 15px; */
+}
+.home-navbar .container .collapse ul ul{
+    position: absolute;
+    border-top: none;
+    top: 75.5px;
+    left: 10px;
+    float: none;
+    width: fit-content;
+
 }
 
 @media screen and (min-device-width : 768px) 
@@ -906,6 +914,10 @@ width:470px ;
     
   }
 }
+
+
+
+
 @media screen and (max-width: 960px) {
   /* .footer-links{
     background-image: url('/img/codecrux-mobile-footer.jpg');   

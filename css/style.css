@@ -361,6 +361,36 @@ fieldset[disabled] .btn-xl.active {
   width: 79%;
   /* margin: 0px 35px 0px 15px; */
 }
+
+@media screen and (min-device-width : 768px) 
+ and (max-device-width : 830px){
+    #btn-meetsect .btn{
+      width: auto;
+      max-width:129px ;
+      height: auto;
+      min-height: 5px;
+      max-height: 39px;
+      padding: 0px 6px 4px 6px;
+      font-size: 1.4vw;
+      font-weight: 500;
+      
+    }
+
+    .navbar-nav .dropdown .dropdown-toggle{
+      padding-left:7px ;
+      padding-right: 7px;
+    }
+    #btn-meetsect {
+      
+      margin-top: 4px;
+    }
+    .navbar-header > .navbar-brand img{
+      width: auto;
+      max-width:110px ;
+      
+    }
+    
+ }
  @media screen and (min-device-width : 768px) 
  and (max-device-width : 1023px)  {
   .home-navbar .container{
@@ -369,7 +399,7 @@ fieldset[disabled] .btn-xl.active {
     padding: 0px 8px 0px 8px;
     
   }
-
+  
   
   .navbar-nav .dropdown > .dropdown-toggle{
       font-size: 1vw;
@@ -746,9 +776,11 @@ aside.clients img {
 
 @media (min-device-width:1024px) and (max-device-width:1204) {
   
-  .home-navbar .container{
-    width: 70%;
+  .navbar-header > .navbar-brand .img-thumbnail{
+    border: none;
+    
   }
+
 }
 .navbar-header > .navbar-brand .img-thumbnail{
   border: none;
@@ -847,6 +879,10 @@ width:470px ;
 
   .navbar-header > .navbar-brand .img-thumbnail{
     border: none;
+    width: auto;
+    max-width: 119px;
+    
+    
   }
 }
 @media screen and (max-width: 960px) {
@@ -2155,6 +2191,9 @@ color: white !important;
   }
 }
 @media screen and (max-width: 767px) {
+  .home-navbar .container{
+    width: 100%;
+  }
   .btn-meet {
       
       visibility: hidden;
@@ -2183,9 +2222,9 @@ color: white !important;
   footer .row .col-sm-8{
     margin-left: 450px;
      }*/
-   .navbar .dropdown >a {
+   /* .navbar .dropdown >a {
      font-size: 2vw;
-   }   
+   }    */
      
 }
 

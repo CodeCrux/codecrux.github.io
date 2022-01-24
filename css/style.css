@@ -729,11 +729,15 @@ aside.clients img {
   background: linear-gradient(-70deg, #464240 100%, rgba(0, 0, 0, 0) 30%);
   
 }
-/* .footer-contact{
-  margin: 25px 400px 25px 640px;
-  width: 560px;
-     
-} */
+
+@media screen and (min-device-width:831px) {
+  
+  .footer-contact{
+    width: 500px;
+       
+  }
+}
+
 
 
 @media screen and (min-width:768px){

@@ -3243,6 +3243,12 @@ color: white !important;
   margin-top: 7rem;
   padding: 0;
 }
+#ui-banner {
+  /* background-image: url(/assets/img/ui-ux/banner.png); */
+  min-height: 650px;
+  object-fit: contain;
+  background: linear-gradient(to right, #f18639, #fac03c);
+}
 .ui-banner {
   /* background-image: url(/assets/img/ui-ux/banner.png); */
   min-height: 600px;

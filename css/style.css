@@ -370,6 +370,8 @@ fieldset[disabled] .btn-xl.active {
 
 }
 
+
+
 @media screen and (min-device-width : 768px) 
  and (max-device-width : 830px){
     #btn-meetsect .btn{
@@ -886,6 +888,14 @@ width:470px ;
   and (max-device-width: 1535px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
 
+    .text-alt{
+      font-size: 37px;
+      margin-top: -2px;
+      padding-bottom: 20px;
+      font-weight: 600;
+      color: #000;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
     .home-navbar .container{
           width: 100%;
           padding: 0px 64px 0px 69px;
@@ -3338,6 +3348,12 @@ active .icon {
   border-radius: 8px;
   border: 1px solid #88e3ff;
 }
+.article-col{
+  -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #3fcf9f;
+}
+
 .article-text {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -5086,6 +5102,8 @@ h6 {
 .img-width {
   width: 80px;
 }
+
+
 /* ***********************Android Developer******************* */
 #section-main-content {
   padding: 40px 0;

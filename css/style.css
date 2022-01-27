@@ -889,12 +889,18 @@ width:470px ;
   and (-webkit-min-device-pixel-ratio: 1) { 
 
     .text-alt{
-      font-size: 37px;
+      font-size: 30px;
       margin-top: -2px;
       padding-bottom: 20px;
       font-weight: 600;
       color: #000;
       font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+/* 
+      font-size: 30px;
+      font-weight: 600;
+      color: #000;
+      font-family: "Maven Pro", "Helvetica neue";
+      margin-bottom: 1em; */
     }
     .home-navbar .container{
           width: 100%;
@@ -3354,11 +3360,7 @@ active .icon {
   border-radius: 8px;
   border: 1px solid #88e3ff;
 }
-.article-col{
-  -moz-box-shadow:    inset 0 0 10px #000000;
-   -webkit-box-shadow: inset 0 0 10px #000000;
-   box-shadow:         inset 0 0 10px #3fcf9f;
-}
+
 
 .article-text {
   padding-left: 1rem;
@@ -3680,7 +3682,7 @@ html {
 }
 .mar-t1 {
   margin-top: 1em;
-  font-size: 19px;
+  
 }
 .mar-t2 {
   margin-top: 2em;
@@ -4850,7 +4852,8 @@ h6 {
   margin-bottom: 50px;
 }
 .new_faqs-section h1 {
-  margin-bottom: 22px;
+  margin-bottom: 5px;
+  padding-bottom: 0px;
 }
 
 .accordion-1 {

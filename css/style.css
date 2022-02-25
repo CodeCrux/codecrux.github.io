@@ -2903,18 +2903,9 @@ color: white !important;
   }
 }
 
-<<<<<<< HEAD
 @media only screen and (max-width: 414px) {
   .technology-banner {
     padding: 100px 0;
-=======
-<<<<<<< HEAD
-
-@media only screen and (max-width: 414px){
-
-  .technology-banner{
-    padding:100px 0;
->>>>>>> d04ea616ac70e2ae1eb82881a1a72580d74cab8a
   }
   .devops-solutions-banner {
     padding: 100px 0;
@@ -2998,10 +2989,6 @@ color: white !important;
   transition: 0.3s;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> d04ea616ac70e2ae1eb82881a1a72580d74cab8a
 /* On mouse-over, add a deeper shadow */
 .container .box:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
@@ -3116,16 +3103,11 @@ color: white !important;
   text-align: center;
 }
 
-<<<<<<< HEAD
 .col-wrapper {
   background: #fff;
   border-radius: 10px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
-=======
-=======
-/* fixes on jobs page */
->>>>>>> d04ea616ac70e2ae1eb82881a1a72580d74cab8a
 
 .font-16 {
   margin-top: 6px;
@@ -3153,7 +3135,6 @@ color: white !important;
 .text-pink {
   color: #eb366e;
 }
-<<<<<<< HEAD
 .text-light-pink {
   color: #fef5f8;
 }
@@ -5373,6 +5354,3 @@ figure {
 /* .font-16{
   font-size: 16px;
 } */
-=======
->>>>>>> master
->>>>>>> d04ea616ac70e2ae1eb82881a1a72580d74cab8a

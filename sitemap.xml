@@ -9,53 +9,188 @@
 
 <url>
   <loc>https://codecrux.com/</loc>
-  <lastmod>2020-08-29T06:47:37+00:00</lastmod>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://codecrux.com/schedule-meeting/</loc>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/hire-ui-ux-designer/</loc>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://codecrux.com/success-stories/maverick-ai</loc>
-  <lastmod>2020-08-29T06:47:37+00:00</lastmod>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://codecrux.com/success-stories/tee-public</loc>
-  <lastmod>2020-08-29T06:47:37+00:00</lastmod>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://codecrux.com/success-stories/minibar-delivery</loc>
-  <lastmod>2020-08-29T06:47:37+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://codecrux.com/schedule-meeting/</loc>
-  <lastmod>2020-08-29T06:47:37+00:00</lastmod>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://codecrux.com/technology/</loc>
-  <lastmod>2020-08-29T06:47:37+00:00</lastmod>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://codecrux.com/ui-ux-design/</loc>
-  <lastmod>2020-08-29T06:47:37+00:00</lastmod>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://codecrux.com/mobile-apps-development/</loc>
-  <lastmod>2020-08-29T06:47:37+00:00</lastmod>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://codecrux.com/microservices-and-api-development/</loc>
-  <lastmod>2020-08-29T06:47:37+00:00</lastmod>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://codecrux.com/kubernetes/</loc>
-  <lastmod>2020-08-29T06:47:37+00:00</lastmod>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/blog/10-programming-languages-to-learn-in-2022</loc>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/blog/web-application-development-complete-guide.html</loc>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/blog/what-is-the-best-platform-to-develop-a-web-application.html</loc>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/blog/10-programming-languages-to-learn-in-2022.html</loc>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/blog/top-chinese-apps-in-india.html</loc>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/blog/working-in-a-startup.html</loc>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/blog/open-source-vs-closed-source-development.html</loc>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/blog/why-modern-web-apps-are-best-built-using-rails-in-2018.html</loc>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/blog/how-startups-can-leverage-open-source-technology-to-get-faster-results.html</loc>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/blog/top-3-reasons-why-web-app-development-is-faster-with-ruby-on-rails.html</loc>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/blog/how-a-highly-functional-mobile-app-can-increase-your-business-roi.html</loc>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
+  <priority>0.17</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/blog/top-4-questions-startups-must-ask-before-hiring-an-app-agency.html</loc>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
+  <priority>0.13</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/contact/</loc>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
+  <priority>0.11</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/blog/hiring-an-enthusiastic-and-dedicated-app-development-company.html</loc>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
+  <priority>0.11</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/blog/angular-4-with-rails-5.html</loc>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
+  <priority>0.09</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/blog/why-you-should-speak-at-meetups.html</loc>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
+  <priority>0.07</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/blog/what-is-new-in-rails5.html</loc>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
+  <priority>0.05</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/blog/why-kubernetes.html</loc>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
+  <priority>0.04</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/blog/minikube-tips.html</loc>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
+  <priority>0.04</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/blog/how-to-configure-godaddy-domain-on-heroku.html</loc>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
+  <priority>0.03</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/blog/best-ruby-on-rails-cms.html</loc>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
+  <priority>0.02</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/blog/how-to-learn-ruby-on-rails.html</loc>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
+  <priority>0.02</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/blog/static-compiled-programming-language-for-ruby-developers.html</loc>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/blog/100-most-successful-apps-with-ruby-on-rails.html</loc>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/blog/vue-js.html</loc>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/blog/rails-asset-pipeline.html</loc>
+  <lastmod>2022-06-20T13:41:07+00:00</lastmod>
+  <priority>0.01</priority>
 </url>
 
 

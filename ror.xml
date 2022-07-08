@@ -6,10 +6,28 @@
 
 <item>
      <link>https://codecrux.com/</link>
-     <title>Golang, Ruby on Rails, Web &amp; Mobile App Design &amp; Development Company</title>
+     <title>
+      Golang, Ruby on Rails, Web &amp; Mobile App Design &amp; Development Company
+    </title>
      <description>CodeCrux provides cost effective web &amp; mobile applications using Ruby on Rails, iOS and Android for startups, SMBs, and enterprises. Our experience will ensure you achieve your goals in a most efficient way.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://codecrux.com/schedule-meeting/</link>
+     <title>Schedule a Meeting with CodeCrux Team | CodeCrux Web Technologies pvt ltd</title>
+     <description>CodeCrux is one of best web development companies in Hyderabad who provide quality services and excellent support for ruby on rails apps development, mobile apps development, golang microservices and API services.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://codecrux.com/hire-ui-ux-designer/</link>
+     <title>Hire Best UI/Ux Designer Hire UI/UX Designer &amp;amp; Developer India, USA Codecrux | CodeCrux Web Technologies pvt ltd</title>
+     <description>Hire UI/Ux Designer from a leading UI/Ux Developers company in India &amp;amp; USA. Codecrux offers a Hire best UI/Ux Developers and Designers that specializes in various industries such as Healthcare, Retail, E-commerce, and more. We help to evolve their creative idea into a successful business</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -32,14 +50,6 @@
      <link>https://codecrux.com/success-stories/minibar-delivery</link>
      <title>Success stories of Minibar Delivery | CodeCrux Web Technologies pvt ltd</title>
      <description>Success stories of Minibar Delivery</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://codecrux.com/schedule-meeting/</link>
-     <title>Schedule a Meeting with CodeCrux Team | CodeCrux Web Technologies pvt ltd</title>
-     <description>CodeCrux is one of best web development companies in Hyderabad who provide quality services and excellent support for ruby on rails apps development, mobile apps development, golang microservices and API services.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -82,6 +92,214 @@
      <description>CodeCrux is listed as a Kubernetes Services Partners from India. We help your business to eliminate manual processes involved in scaling and deploying containerized applications anywhere and manage them exactly as you like everywhere.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://codecrux.com/blog/10-programming-languages-to-learn-in-2022</link>
+     <title>10 Programming languages to learn in 2022 | CodeCrux Web Technologies pvt ltd</title>
+     <description>CodeCrux builds web and mobile applications using Ruby on Rails, iOS and Android for startups, high growth, enterprises</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://codecrux.com/blog/web-application-development-complete-guide.html</link>
+     <title>Web Application Development - Complete Guide for Beginners 2021 | CodeCrux Web Technologies pvt ltd</title>
+     <description>Codecrux brings a complete guide Web Application Development, how web apps work. Difference between Mobile Apps and Web Apps and different types of Web Applications and more…</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://codecrux.com/blog/what-is-the-best-platform-to-develop-a-web-application.html</link>
+     <title>6 Best platforms to develop a web application in 2022. Let’s check | CodeCrux Web Technologies pvt ltd</title>
+     <description>6 Best platforms to develop a web application. Check the complete details of each platform Pros &amp;amp; Cons to Build a Web App 1. Ruby on Rails, 2. AngularJS , 3. Node.js, 4. Asp.net, 5. React.Js, and 6. Symfony.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://codecrux.com/blog/10-programming-languages-to-learn-in-2022.html</link>
+     <title>10 Programming languages to learn in 2022 | CodeCrux Web Technologies pvt ltd</title>
+     <description>CodeCrux builds web and mobile applications using Ruby on Rails, iOS and Android for startups, high growth, enterprises</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://codecrux.com/blog/top-chinese-apps-in-india.html</link>
+     <title>Top 100 popular Chinese apps in India | CodeCrux Web Technologies pvt ltd</title>
+     <description>Chinese apps are asking data permissions like your contact list access, SMS read &amp;amp; send, media and photos etc It can be danger some time</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://codecrux.com/blog/working-in-a-startup.html</link>
+     <title>Working in a Startup | CodeCrux Web Technologies pvt ltd</title>
+     <description>You are not a valued employee. You are a pirate or a jedi instead.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://codecrux.com/blog/open-source-vs-closed-source-development.html</link>
+     <title>Open Source vs Closed Source | CodeCrux Web Technologies pvt ltd</title>
+     <description>In the digital era of automation and technology, software is incredibly used for daily tasks.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>4</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://codecrux.com/blog/why-modern-web-apps-are-best-built-using-rails-in-2018.html</link>
+     <title>Why modern web apps are best built using Rails | CodeCrux Web Technologies pvt ltd</title>
+     <description>Modern web apps when built on Ruby on Rails can make a big difference to the user experience. Ruby on Rails helps in building database-backed modern web applications by giving the programmer better usability and freedom.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>5</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://codecrux.com/blog/how-startups-can-leverage-open-source-technology-to-get-faster-results.html</link>
+     <title>How startups can leverage open - source technology to get faster results | CodeCrux Web Technologies pvt ltd</title>
+     <description>Open source no more remains a revolution as it was and has become a way of life, especially for the startups.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>6</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://codecrux.com/blog/top-3-reasons-why-web-app-development-is-faster-with-ruby-on-rails.html</link>
+     <title>Top 3 reasons why web app development is faster with Ruby on Rails | CodeCrux Web Technologies pvt ltd</title>
+     <description>Ruby on Rails is an open source web development framework, which ensures faster time frames for development. Ruby on Rails encourages collaborative and flexible approach, which is particularly well suited for web application development with fast changing requirements.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>7</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://codecrux.com/blog/how-a-highly-functional-mobile-app-can-increase-your-business-roi.html</link>
+     <title>How A Highly Functional Mobile App Can Increase Your Business roi | CodeCrux Web Technologies pvt ltd</title>
+     <description>Highly functional mobile apps are a great tool in making your business profitable. You can connect with your prospective customers and also use it to communicate with their existing clients.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>8</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://codecrux.com/blog/top-4-questions-startups-must-ask-before-hiring-an-app-agency.html</link>
+     <title>Top 4 Questions Startups Must Ask Before Hiring an App Agency | CodeCrux Web Technologies pvt ltd</title>
+     <description>Here are few things as a founder of the startup you should know before you decide to approach an app agency.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>9</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://codecrux.com/contact/</link>
+     <title>Contact CodeCrux for web and mobile app development services | CodeCrux Web Technologies pvt ltd</title>
+     <description>CodeCrux journey has started with a team of IIIT Hyderabad graduates to help startups, SMBs and enterprises for web and mobile app development. We are successfully delivering projects for clients across the globe - USA, UK, Australia, Germany, India etc. Contact us Now!</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>10</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://codecrux.com/blog/hiring-an-enthusiastic-and-dedicated-app-development-company.html</link>
+     <title>How Hiring an Enthusiastic &amp;amp; Dedicated App Development Company Can Increase Your Business ROI | CodeCrux Web Technologies pvt ltd</title>
+     <description>The burgeoning of modern technologies, smartphones, tablets and computers and now different applications – have changed the way people engage with each other.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>10</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://codecrux.com/blog/angular-4-with-rails-5.html</link>
+     <title>Angular 4 with Rails 5 | CodeCrux Web Technologies pvt ltd</title>
+     <description>Angular is a framework for building client applications in HTML and either JavaScript or a language like TypeScript that compiles to JavaScript.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>11</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://codecrux.com/blog/why-you-should-speak-at-meetups.html</link>
+     <title>Why You Should Speak At Meetups and Conferences | CodeCrux Web Technologies pvt ltd</title>
+     <description>You do important and interesting things problem to solve during her/his career. There are so many stories to be told. We would like to listen to those stories.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>12</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://codecrux.com/blog/what-is-new-in-rails5.html</link>
+     <title>what is new in ruby on rails 5 | CodeCrux Web Technologies pvt ltd</title>
+     <description>Ruby on Rails 5, the first major release of Rails in three years. Rails 5 is faster, uses less memory, and offers many new features and improvements.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>13</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://codecrux.com/blog/why-kubernetes.html</link>
+     <title>Why Kubernetes Matters | CodeCrux Web Technologies pvt ltd</title>
+     <description>CodeCrux builds web and mobile applications using Ruby on Rails, iOS and Android for startups, high growth, enterprises</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>14</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://codecrux.com/blog/minikube-tips.html</link>
+     <title>Minikube Tips | CodeCrux Web Technologies pvt ltd</title>
+     <description>CodeCrux builds web and mobile applications using Ruby on Rails, iOS and Android for startups, high growth, enterprises</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>15</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://codecrux.com/blog/how-to-configure-godaddy-domain-on-heroku.html</link>
+     <title>How to configure godaddy domain on heroku | CodeCrux Web Technologies pvt ltd</title>
+     <description>The first step is adding the GoDaddy domain to the Heroku app. Navigate to the project folder from the terminal then type “heroku domains:add www.yourdomain.com”. The domain name is the one purchased from GoDaddy.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>16</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://codecrux.com/blog/best-ruby-on-rails-cms.html</link>
+     <title>Best Ruby On Rails CMS | CodeCrux Web Technologies pvt ltd</title>
+     <description>Here is a list of popular CMS built with Ruby on Rails</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>17</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://codecrux.com/blog/how-to-learn-ruby-on-rails.html</link>
+     <title>How to learn Ruby on Rails? | CodeCrux Web Technologies pvt ltd</title>
+     <description>If you take the time to fully understand Ruby before you learn Rails; then learning Rails will become a piece of cake</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>18</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://codecrux.com/blog/static-compiled-programming-language-for-ruby-developers.html</link>
+     <title>Static compiled Programming language for ruby developers | CodeCrux Web Technologies pvt ltd</title>
+     <description>Crystal-lang, golang, rust are very eassy to learn for a ruby developer</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>19</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://codecrux.com/blog/100-most-successful-apps-with-ruby-on-rails.html</link>
+     <title>100 Most successful apps built in Ruby on Rails | CodeCrux Web Technologies pvt ltd</title>
+     <description>Here is a list of popular web services built with Ruby on Rails</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>20</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://codecrux.com/blog/vue-js.html</link>
+     <title>Vue js | CodeCrux Web Technologies pvt ltd</title>
+     <description>Introduction about Vue Js</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>21</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://codecrux.com/blog/rails-asset-pipeline.html</link>
+     <title>asset pipeline | CodeCrux Web Technologies pvt ltd</title>
+     <description>Introduction about asset pipeline</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>22</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 </channel>

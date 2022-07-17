@@ -938,7 +938,13 @@ width:470px ;
     
   }
 }
-
+@media  screen and (min-width:1536px) and (max-width:1590px)  {
+  .home-navbar .container {
+    width: 100%;
+    padding: 0px 64px 0px 69px;
+    font-size: 2vw;
+  }
+}
 @media  screen and (min-width:1350px) and (max-width:1535px)  {
 
   #btn-meetsect a{

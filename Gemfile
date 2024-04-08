@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.7.2'
+ruby '3.3.0'
 
 gem 'jekyll'
 gem 'jekyll-seo-tag'

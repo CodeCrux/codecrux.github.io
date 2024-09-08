@@ -2252,8 +2252,8 @@ address a.location {
 .nav-cta #btn-meetsect .btn-meet{
   
 
-  background-color: #0eb493;
-color: white !important;
+  background-color: #f37923;
+  color: white !important;
   height: 42px;
   line-height: 42px;
   margin-top: 15px;
@@ -3048,7 +3048,7 @@ color: white !important;
 
 /********* ui-ux page *********/
 .services .icon-box {
-  padding: 30px;
+  padding: 20px;
   position: relative;
   overflow: hidden;
   background: #fff;

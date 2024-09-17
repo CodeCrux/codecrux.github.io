@@ -26,11 +26,11 @@ In 2024, the tech industry continues to evolve rapidly, driven by advances in cl
 -   **Why It’s Popular**: The MERN stack continues to dominate in 2024 due to its JavaScript-only approach, which makes it easier for developers to work on both the frontend and backend. React's component-based architecture allows developers to create dynamic and fast user interfaces, while Node.js ensures scalability on the backend. MongoDB provides flexibility with NoSQL document databases, making it a solid choice for applications that handle unstructured data.
     
 - **Advantages**:
-    - Full JavaScript stack, streamlining development
-    - Scalability and high performance
-    - Large ecosystem and community support
+  - Full JavaScript stack, streamlining development
+  - Scalability and high performance
+  - Large ecosystem and community support
 
--   **Real-World Example**: MERN is ideal for modern, interactive websites and SPAs like social media platforms and real-time dashboards
+- **Real-World Example**: MERN is ideal for modern, interactive websites and SPAs like social media platforms and real-time dashboards
 
 ----------
 

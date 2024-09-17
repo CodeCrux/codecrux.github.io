@@ -547,7 +547,7 @@ aside.clients img {
 
 .footer-links ul > li {
   list-style: none;
-  margin-left: -20px;
+  margin-left: -2px;
 }
 
 .footer-links ul > li > a {
@@ -556,6 +556,7 @@ aside.clients img {
 
 .footer-links ul > li > a:hover {
   color: #0eb493;
+  text-shadow: #0ca183;
 }
 
 .buttons-col {
@@ -957,6 +958,14 @@ address a.location {
 .portfolio-item-info h4 {
   margin: 0;
 }
+
+.blog-home-image{
+  object-fit: cover; 
+  width: 100%; 
+  border-top-left-radius: 8px; 
+  border-top-right-radius: 8px;
+}
+
 .blog-main-content {
   min-height: 80vh;
 }
@@ -3720,22 +3729,6 @@ width:470px ;
   }
 }
 
-
-.footer-links ul > li {
-  list-style: none;
-  /* margin-left: 20px; */
-  
-}
-
-.footer-links ul > li > a {
-  color: rgb(255, 254, 254);
-  /* font-size: 10px; */
-}
-
-.footer-links ul > li > a:hover {
-  color: #fdfcfc;
-  font-weight:640;
-}
 .footer-list-headings{
   padding-left: 0px;
   margin-left: 0px;

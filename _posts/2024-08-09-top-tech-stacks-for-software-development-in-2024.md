@@ -1,5 +1,5 @@
 ---
-title: 2024-08-09-Top Tech Stacks for Software Development in 2024
+title: Top Tech Stacks for Software Development in 2024
 description: "In 2024, the tech industry continues to evolve rapidly, driven by
   advances in cloud computing, AI, machine learning, and cross-platform
   development. "

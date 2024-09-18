@@ -1,5 +1,5 @@
 ---
-title: 2024-08-10 How to configure godaddy domain on heroku
+title: How to configure godaddy domain on heroku
 description: "The first step is adding the GoDaddy domain to the Heroku app. "
 image: /img/blogs/how-to-configure-godaddy-domain-on-heroku.webp
 layout: "post "

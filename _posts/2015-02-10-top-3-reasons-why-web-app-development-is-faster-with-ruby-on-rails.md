@@ -8,25 +8,15 @@ author: Shyam Mohan
 category: Godaddy
 date: 2024-08-10T05:34:00.000Z
 ---
-
-
 **How to configure godaddy domain on heroku**
-
-
 
 **Setting Up Heroku and Godaddy**
 
 The first step is adding the GoDaddy domain to the Heroku app. Navigate to the project folder from the terminal then type "heroku domains:add www.yourdomain.com". The domain name is the one purchased from GoDaddy.
 
-
-
 Next, log into your GoDaddy account and find the domains area in the upper left navigation tab. The domains tab will allow you to choose a domain then launch. Doing this redirects to the domain details page. The domains details page will show the DNS files related to the domain name. Click on the "DNS Zone File" tab and remove all records leaving only the NameServers.
 
-
-
 The next step is adding “www” CNAME record that will point to the Heroku app domain. Change 'Host' to www and “Point to” the Heroku app domain. The Heroku app domain is something like 'myapp.herokuapp.com'. The DNS will then take some time to propagate. DNS propagation time varies and may take less than ten minutes or even a day. Once the DNS propagation is complete, the Heroku app will be accessible under the GoDaddy domain.
-
-
 
 **Configuring Naked Domain**
 
@@ -46,8 +36,6 @@ Assuming you are on the domains page, locate the "Settings" tab and click on it.
 
 \> At the bottom of the Records section, click Add and select A from the drop-down list.
 
-
-
 **Complete the other fields:**
 
 \> Host Name - Enter the host name the A record links to. Type @ to point the record directly to your domain name, including the www.
@@ -58,4 +46,4 @@ Assuming you are on the domains page, locate the "Settings" tab and click on it.
 
 \> Click Save.
 
-Refrence : https://in.godaddy.com/help/update-my-domains-ip-address-for-forwarding-5289
+Refrence : \[https://in.godaddy.com/help/update-my-domains-ip-address-for-forwarding-5289](https://in.godaddy.com/help/update-my-domains-ip-address-for-forwarding-5289)

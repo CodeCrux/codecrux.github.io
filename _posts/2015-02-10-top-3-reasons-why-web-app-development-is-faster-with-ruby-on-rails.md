@@ -10,11 +10,11 @@ date: 2024-08-10T05:34:00.000Z
 ---
 
 
-\*\*How to configure godaddy domain on heroku\*\*
+**How to configure godaddy domain on heroku**
 
 
 
-\*\*Setting Up Heroku and Godaddy\*\*
+**Setting Up Heroku and Godaddy**
 
 The first step is adding the GoDaddy domain to the Heroku app. Navigate to the project folder from the terminal then type "heroku domains:add www.yourdomain.com". The domain name is the one purchased from GoDaddy.
 
@@ -28,7 +28,7 @@ The next step is adding “www” CNAME record that will point to the Heroku app
 
 
 
-\*\*Configuring Naked Domain\*\*
+**Configuring Naked Domain**
 
 This section explains how to configure the domain name to work without www in front of the domain name. When a person accesses the domain by typing 'yourdmain.com' instead of "www.yourdmain.com" they should be redirected to the same domain with www. The naked domain 'yourdmain.com' is forwarded to "www.yourdomain.com".
 
@@ -48,7 +48,7 @@ Assuming you are on the domains page, locate the "Settings" tab and click on it.
 
 
 
-\*\*Complete the other fields:\*\*
+**Complete the other fields:**
 
 \> Host Name - Enter the host name the A record links to. Type @ to point the record directly to your domain name, including the www.
 

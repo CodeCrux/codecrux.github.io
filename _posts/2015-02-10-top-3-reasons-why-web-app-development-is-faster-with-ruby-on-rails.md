@@ -1,59 +1,55 @@
 ---
-layout: blog
-title: Top 3 reasons why web app development is faster with Ruby on Rails
-description:   Ruby on Rails is an open source web development framework, which ensures faster time frames for development.
-image: /img/blogs/how-ai-and-ml-can-transform-your-business.png
-layout: post
+title: 2024-08-10 How to configure godaddy domain on heroku
+description: "The first step is adding the GoDaddy domain to the Heroku app. "
+image: /img/blogs/how-to-configure-godaddy-domain-on-heroku.webp
+layout: "post "
 permalink: /blog/:title
 author: Shyam Mohan
-category: AIML
-date: 2014-10-15T03:33:00.000Z
+category: Godaddy
+date: 2024-08-10T05:34:00.000Z
 ---
+**Setting Up Heroku and Godaddy**
 
+The first step is adding the GoDaddy domain to the Heroku app. Navigate to the project folder from the terminal then type "heroku domains:add www.yourdomain.com". The domain name is the one purchased from GoDaddy.  
 
-### Top 3 Reasons Why Web App Development is Faster with Ruby on Rails
+  
 
-In the fast-paced world of web development, businesses often look for ways to reduce time-to-market without compromising quality. Ruby on Rails (RoR), a robust, open-source web application framework, has emerged as a popular solution for rapidly developing scalable web apps. But what exactly makes Ruby on Rails so fast? Let’s explore the top three reasons why web app development with Ruby on Rails is quicker and more efficient.
+Next, log into your GoDaddy account and find the domains area in the upper left navigation tab. The domains tab will allow you to choose a domain then launch. Doing this redirects to the domain details page. The domains details page will show the DNS files related to the domain name. Click on the "DNS Zone File" tab and remove all records leaving only the NameServers.  
 
-----------
+  
 
-#### 1. **Convention Over Configuration: Less Decision Fatigue, Faster Development**
+The next step is adding “www” CNAME record that will point to the Heroku app domain. Change 'Host' to www and “Point to” the Heroku app domain. The Heroku app domain is something like 'myapp.herokuapp.com'. The DNS will then take some time to propagate. DNS propagation time varies and may take less than ten minutes or even a day. Once the DNS propagation is complete, the Heroku app will be accessible under the GoDaddy domain.  
 
-One of the core principles behind Ruby on Rails is **Convention over Configuration (CoC)**. This means that Rails comes with sensible defaults for structuring your app, reducing the need for extensive configuration. In frameworks without CoC, developers have to spend significant time making decisions about how to organize code, database structure, and routes. Ruby on Rails handles these tasks out of the box, allowing developers to focus on the core functionality rather than repetitive decisions.
+  
 
-For example, Rails automatically assumes that a class named `User` is linked to a database table called `users`. It knows where to find your models, controllers, and views without you needing to define these paths manually. This simplicity helps developers avoid configuration bottlenecks and focus on writing actual business logic, saving hours of setup and coding time.
+**Configuring Naked Domain** 
 
-**Why It’s Faster**: By sticking to conventions, developers can skip the time-consuming process of configuration and avoid common errors, enabling them to develop functional web apps faster.
+This section explains how to configure the domain name to work without www in front of the domain name. When a person accesses the domain by typing 'yourdmain.com' instead of "www.yourdmain.com" they should be redirected to the same domain with www. The naked domain 'yourdmain.com' is forwarded to "www.yourdomain.com".  
 
-----------
+Assuming you are on the domains page, locate the "Settings" tab and click on it.Four section will appear.  
 
-#### 2. **A Rich Ecosystem of Gems: Pre-Built Features, Ready to Use**
+\> Click "Manage" right under "Domain" in the "Forwarding" section to open a window to add forwarding details.  
 
-Another reason why Ruby on Rails accelerates development is its extensive library of **gems**. Gems are open-source, reusable code packages that allow developers to add functionalities to their web apps without having to build them from scratch. Need user authentication? There’s a gem for that. Want to integrate payment gateways like Stripe or PayPal? There’s a gem for that too.
+\> Click "Add Forwarding" to add the forward details. Set "Forward to" to your domain name, which in this example is “www.yourdmain.com”. Set "Redirect type" to "301 (Permanent)"" and "Forward settings" to "Forward only".  
 
-This wide variety of gems saves valuable development time. Instead of reinventing the wheel, developers can leverage existing, battle-tested solutions to implement features like search functionality, background jobs, file uploads, and even entire e-commerce platforms. The Rails community actively maintains and updates these gems, ensuring that they stay current with evolving tech trends.
+\> To update your domain's IP Address for forwarding for domains registered at another company  
 
-**Why It’s Faster**: Gems allow developers to integrate complex features quickly, reducing the need to write custom code for common tasks. This speeds up the development process and improves reliability by using proven solutions.
+\> From the top menu, click the DNS tab, and select Manage Zones.  
 
-----------
+\> Enter the domain name you want to use and click Search.  
 
-#### 3. **Scaffolding and Rapid Prototyping: Build MVPs in No Time**
+\> At the bottom of the Records section, click Add and select A from the drop-down list.  
 
-Ruby on Rails offers powerful tools for **scaffolding** and **rapid prototyping**, enabling developers to build Minimum Viable Products (MVPs) and prototypes in a fraction of the time it would take with other frameworks. With a single command, Rails can automatically generate basic CRUD (Create, Read, Update, Delete) operations for resources in your app. This allows developers to focus on adding unique features rather than building out routine, repetitive components.
+  
 
-For example, running the `rails generate scaffold` command creates models, views, controllers, and even test files for a particular resource in minutes. With this out-of-the-box functionality, developers can quickly demonstrate the core features of an app to stakeholders or clients, allowing for early feedback and iterative improvements.
+**Complete the other fields:** 
 
-**Why It’s Faster**: The scaffolding feature gives developers a head start by generating foundational code, enabling faster prototyping and feature testing. This is ideal for startups or businesses looking to launch quickly and refine their product based on user feedback.
+\> Host Name - Enter the host name the A record links to. Type @ to point the record directly to your domain name, including the www.  
 
-----------
+\> Points to IP Address - Enter 50.63.202.1.  
 
-### Conclusion
+\> TTL - Select how long the server should cache the information.  
 
-Ruby on Rails stands out as one of the fastest frameworks for web app development thanks to its principles of Convention over Configuration, a rich ecosystem of gems, and powerful scaffolding for rapid prototyping. By streamlining common tasks and allowing developers to focus on what makes their application unique, Rails helps teams deliver high-quality web apps in record time.
+\> Click Save.  
 
-Whether you’re a startup looking to build a quick MVP or an established company needing to scale your web presence, Ruby on Rails offers the speed, flexibility, and efficiency to meet your development goals.
-
-----------
-
-Ready to launch your next web app quickly and efficiently? Consider Ruby on Rails for a faster development experience that doesn’t compromise on quality.
-
+Refrence : \[https://in.godaddy.com/help/update-my-domains-ip-address-for-forwarding-5289](https://in.godaddy.com/help/update-my-domains-ip-address-for-forwarding-5289)

@@ -47,3 +47,4 @@ Assuming you are on the domains page, locate the "Settings" tab and click on it.
 \> Click Save.
 
 Refrence : \[https://in.godaddy.com/help/update-my-domains-ip-address-for-forwarding-5289](https://in.godaddy.com/help/update-my-domains-ip-address-for-forwarding-5289)
+

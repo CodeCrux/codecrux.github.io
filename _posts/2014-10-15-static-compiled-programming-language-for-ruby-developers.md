@@ -1,7 +1,7 @@
 ---
 title: Static compiled Programming language for ruby developers
 description: Crystal-lang, golang, rust are very eassy to learn for a ruby developer
-image: /img/blogs/how-ai-and-ml-can-transform-your-business.png
+image: /img/blogs/static-compiled-programming-language-for-ruby-developers.webp
 layout: post
 permalink: /blog/:title
 author: Shyam Mohan

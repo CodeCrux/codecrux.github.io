@@ -2,7 +2,7 @@
 title: How to learn Ruby on Rails?
 description: If you take the time to fully understand Ruby before you learn
   Rails; then learning Rails will become a piece of cake
-image: /img/blogs/how-to-learn-ruby-on-rails.jpg
+image: /img/blogs/how-to-learn-ruby-on-rails.webp
 layout: post
 permalink: /blog/:title
 author: Shyam Mohan

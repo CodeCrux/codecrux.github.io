@@ -1,5 +1,4 @@
 ---
-layout: blog
 title: Open Source vs Closed Source
 description: In the digital era of automation and technology, software is incredibly used for daily tasks.
 image: /img/blogs/how-ai-and-ml-can-transform-your-business.png

@@ -1,7 +1,9 @@
 ---
 title: How A Highly Functional Mobile App Can Increase Your Business roi
-description: Highly functional mobile apps are a great tool in making your business profitable. You can connect with your prospective customers and also use it to communicate with their existing clients.
-image: /img/blogs/how-ai-and-ml-can-transform-your-business.png
+description: Highly functional mobile apps are a great tool in making your
+  business profitable. You can connect with your prospective customers and also
+  use it to communicate with their existing clients.
+image: /img/blogs/how-a-highly-functional-mobile-app-can-increase-your-business-roi.webp
 layout: post
 permalink: /blog/:title
 author: Shyam Mohan

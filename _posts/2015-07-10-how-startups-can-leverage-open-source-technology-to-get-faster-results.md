@@ -1,7 +1,8 @@
 ---
 title: How startups can leverage open - source technology to get faster results
-description:  Open source no more remains a revolution as it was and has become a way of life, especially for the startups.
-image: /img/blogs/how-ai-and-ml-can-transform-your-business.png
+description: Open source no more remains a revolution as it was and has become a
+  way of life, especially for the startups.
+image: /img/blogs/how-startups-can-leverage-open-source-technology-to-get-faster-results.webp
 layout: post
 permalink: /blog/:title
 author: Shyam Mohan

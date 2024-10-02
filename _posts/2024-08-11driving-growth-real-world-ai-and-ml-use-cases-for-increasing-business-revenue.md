@@ -6,7 +6,7 @@ image: /img/blogs/driving-growth-real-world-ai-and-ml-use-cases-for-increasing-b
 layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
-category: AI and ML
+category: AI ML
 date: 2024-08-11T18:24:00.000Z
 ---
 Driving Growth Real-World AI and ML Use Cases for Increasing Business Revenue

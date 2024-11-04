@@ -1017,17 +1017,17 @@ width:470px ;
     display: none;
   }
 }
-
+.row {
+  margin-right: -15px;
+  margin-left: -5px;
+}
 
 .footer-links ul > li {
   list-style: none;
-  /* margin-left: 20px; */
-  
 }
 
 .footer-links ul > li > a {
   color: rgb(255, 254, 254);
-  /* font-size: 10px; */
 }
 
 .footer-links ul > li > a:hover {

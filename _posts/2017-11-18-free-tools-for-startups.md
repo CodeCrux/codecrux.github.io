@@ -1,11 +1,12 @@
 ---
 title: Free Tools for startups
-description: Free Tools for startups is collection of websites over internet, It can save lots of time to explore and search correct tools.
-image: /img/blogs/how-ai-and-ml-can-transform-your-business.png
+description: Free Tools for startups is collection of websites over internet, It
+  can save lots of time to explore and search correct tools.
+image: /img/blogs/free-tools-for-startups.jpg
 layout: post
 permalink: /blog/:title
 author: Shyam Mohan
-category: 'computer science'
+category: computer science
 date: 2022-12-10T03:33:00.000Z
 ---
 

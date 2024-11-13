@@ -1,8 +1,16 @@
 ---
-layout: blog
+layout: post
+keywords: meetup, ruby on rails meetup, Software developers, Speaking experts,
+  speaking beginners, ruby conferences
 title: Why You Should Speak At Meetups and Conferences
-description: You do important and interesting things problem to solve during her/his career. There are so many stories to be told. We would like to listen to those stories.
-keywords: meetup, ruby on rails meetup, Software developers, Speaking experts, speaking beginners, ruby conferences
+description: You do important and interesting things problem to solve during
+  her/his career. There are so many stories to be told. We would like to listen
+  to those stories.
+image: /img/blogs/ruby-conf-india.png
+permalink: blog/:title
+author: Shyam Mohan
+category: Ruby on Rails
+date: 2017-09-26T02:44:00.000Z
 ---
 
 <div class="blog-post-banner bg-green">
@@ -21,7 +29,7 @@ keywords: meetup, ruby on rails meetup, Software developers, Speaking experts, s
 
 <div class="blog-post-content">
   <div class="container">
-    <div class="col-md-8 col-md-offset-2">
+    <div class="col-md-8 col-md-offset-1">
 
       <article class="post-content">
         <p><em>This post is for those of you scared or reluctant to present at meetups and conferences:
@@ -80,11 +88,7 @@ keywords: meetup, ruby on rails meetup, Software developers, Speaking experts, s
         <h2 id="practice">Practice</h2>
         <p>You have to spend a lot of hours in preparation and practice. There’s no other way but it pays off. There is a significant difference between speakers preparing for the talk and those who treat it a bit lightly. There are very few speakers with such an enormous talent they don’t have to prepare. Most of the brilliant talks I’ve listened to were the result of practicing… a lot!</p>
 
-        <h2 id="its-time-for-you">It’s time for You</h2>
-
-        <p>Now it’s time for you so <strong>go ahead</strong> and <a href="https://www.meetup.com/RubyHyderabad/" target="_blank">submit your proposals</a>!</p>
-
-        <p>Hopefully see you there!</p>
+       
 
 
       </article>
@@ -93,12 +97,4 @@ keywords: meetup, ruby on rails meetup, Software developers, Speaking experts, s
   </div>
 </div>
 
-<div class="container">
-  <div class="col-md-8 col-md-offset-2">
-    <a href="/blog/2017/what-is-new-in-rails5.html" class="btn btn-default btn-round"><i class="fa fa-long-arrow-left fa-left"></i>Previous</a>
 
-    <a href="/blog/2017/angular-4-with-rails-5.html" class="btn btn-default btn-round pull-right">Next<i class="fa fa-long-arrow-right fa-right"></i></a>
-  </div>
-</div>
-
-{% include /comment.html %}

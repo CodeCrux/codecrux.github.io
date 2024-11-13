@@ -1,7 +1,8 @@
 ---
 title: Open Source vs Closed Source
-description: In the digital era of automation and technology, software is incredibly used for daily tasks.
-image: /img/blogs/how-ai-and-ml-can-transform-your-business.png
+description: In the digital era of automation and technology, software is
+  incredibly used for daily tasks.
+image: /img/blogs/open-close-source.png
 layout: post
 permalink: /blog/:title
 author: Shyam Mohan

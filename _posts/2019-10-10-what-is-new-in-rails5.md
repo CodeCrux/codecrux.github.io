@@ -1,8 +1,16 @@
 ---
 layout: blog
+keywords: Action Cable, ruby on rails 5, latest rails version, incremental
+  garbage collection, rails speed, ruby 2.2, puma
 title: what is new in ruby on rails 5
-description: Ruby on Rails 5, the first major release of Rails in three years. Rails 5 is faster, uses less memory, and offers many new features and improvements.
-keywords: Action Cable, ruby on rails 5, latest rails version, incremental garbage collection, rails speed, ruby 2.2, puma
+description: Ruby on Rails 5, the first major release of Rails in three years.
+  Rails 5 is faster, uses less memory, and offers many new features and
+  improvements.
+image: /img/blogs/what-new-in-ruby-on-rails5.jpg
+permalink: /blog/:title
+author: Shyam Mohan
+category: Rails
+date: 2017-04-03T14:31:00.000Z
 ---
 <div class="blog-post-banner bg-green">
   <div class="blog-post-banner-content">

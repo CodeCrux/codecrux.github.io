@@ -1,8 +1,18 @@
 ---
-layout: blog
+layout: post
+keywords: modern web applications, ruby on rails, web application development
+  services, web development company, ruby on rails web development company, 5
+  reasons to use RoR
 title: Why modern web apps are best built using Rails
-description: Modern web apps when built on Ruby on Rails can make a big difference to the user experience. Ruby on Rails helps in building database-backed modern web applications by giving the programmer better usability and freedom.
-keywords: modern web applications, ruby on rails, web application development services, web development company, ruby on rails web development company, 5 reasons to use RoR
+description: Modern web apps when built on Ruby on Rails can make a big
+  difference to the user experience. Ruby on Rails helps in building
+  database-backed modern web applications by giving the programmer better
+  usability and freedom.
+image: /img/blogs/why-modern-we-apps-are-best-built-using-rails-in-2019.jpg
+permalink: /blog/:title
+author: Shyam Mohan
+category: Ruby on Rails
+date: 2019-06-12T02:53:00.000Z
 ---
 
 
@@ -16,7 +26,7 @@ keywords: modern web applications, ruby on rails, web application development se
 
 <div class="blog-post-content">
   <div class="container">
-    <div class="col-md-8 col-md-offset-2">
+    <div class="col-md-8 col-md-offset-1">
 
       <article class="post-content">
         <p>
@@ -54,12 +64,6 @@ keywords: modern web applications, ruby on rails, web application development se
   </div>
 </div>
 
-<div class="container">
-  <div class="col-md-8 col-md-offset-2">
-    <a href="/blog/open-source-vs-closed-source-development.html" class="btn btn-default btn-round pull-left"><i class="fa fa-long-arrow-left fa-left"></i>Previous</a>
 
-    <a href="/blog/how-startups-can-leverage-open-source-technology-to-get-faster-results.html" class="btn btn-default btn-round pull-right">Next<i class="fa fa-long-arrow-right fa-right"></i></a>
-  </div>
 </div>
 
-{% include /comment.html %}

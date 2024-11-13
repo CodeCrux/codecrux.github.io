@@ -1,7 +1,9 @@
 ---
 title: How to configure godaddy domain on heroku
-description: The first step is adding the GoDaddy domain to the Heroku app. Navigate to the project folder from the terminal then type "heroku domains:add www.yourdomain.com". The domain name is the one purchased from GoDaddy.
-image: /img/blogs/how-ai-and-ml-can-transform-your-business.png
+description: The first step is adding the GoDaddy domain to the Heroku app.
+  Navigate to the project folder from the terminal then type "heroku domains:add
+  www.yourdomain.com". The domain name is the one purchased from GoDaddy.
+image: /img/blogs/configure-godaddy-domain.jpg
 layout: post
 permalink: /blog/:title
 author: Shyam Mohan
@@ -11,7 +13,7 @@ date: 2024-09-09T03:33:00.000Z
 
 <div class="blog-post-content">
   <div class="container">
-    <div class="col-md-8 col-md-offset-2">
+    <div class="col-md-8 col-md-offset-1">
       <p><strong>How to configure godaddy domain on heroku?</strong></p>
       <p>
         <b>Setting Up Heroku and Godaddy</b>

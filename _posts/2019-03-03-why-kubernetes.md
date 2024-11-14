@@ -1,24 +1,21 @@
 ---
-layout: blog
 title: Why Kubernetes Matters
+description: Cloud computing and containers can reduce infrastructure costs and
+  create the conditions for innovation at scale and shift the efforts of IT
+  teams towards creating business value, rather than fighting infrastructure
+  fires.
+image: /img/blogs/kubernetes.jpeg
+layout: post
+permalink: blog/:title
+author: Shyam Mohan
+category: Kubernetes
+date: 2017-03-14T15:28:00.000Z
 ---
-<div class="blog-post-banner bg-green">
-  <div class="blog-post-banner-content">
-    <div class="blog-post-author">
-      <img src="/img/team/codecrux-dinesh.jpg" alt="" />
-      <p class="blog-post-author-name">Dinesh Y</p>
-      <time>On 5 March 2017</time>
-    </div>
-    <div class="blog-post-title">
-      <p class="blog-post-category">#Infrastructure, #Docker, #Kubernetes</p>
-      <h1>Why Kubernetes Matters ?</h1>
-    </div>
-  </div>
-</div>
+
 
 <div class="blog-post-content">
   <div class="container">
-    <div class="col-md-8 col-md-offset-2">
+    <div class="col-md-8 col-md-offset-1">
       <h4> Little history </h4> <hr>
       <p> Currently many enterprises are facing a costly battle to manage their own infrastructure, and struggling with outdated delivery models. To create new innovations and efficiencies in IT, to enabling new business models, enterprises should embrace new infrastructure innovations. Cloud computing and containers can reduce infrastructure costs and create the conditions for innovation at scale and shift the efforts of IT teams towards creating business value, rather than fighting infrastructure fires. </p>
       <p>
@@ -85,12 +82,4 @@ title: Why Kubernetes Matters
   </div>
 </div>
 
-<div class="container">
-  <br>
-  <div class="col-md-8 col-md-offset-2">
-    <a href="/blog/2017/minikube-tips.html" class="btn btn-default btn-round"><i class="fa fa-long-arrow-left fa-left"></i>Previous</a>
-    <a href="/blog/2017/what-is-new-in-rails5.html" class="btn btn-default btn-round pull-right">Next<i class="fa fa-long-arrow-right fa-right"></i></a>
-  </div>
-</div>
 
-{% include /comment.html %}

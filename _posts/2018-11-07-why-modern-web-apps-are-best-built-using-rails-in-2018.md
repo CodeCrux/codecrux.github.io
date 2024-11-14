@@ -15,17 +15,9 @@ category: Software Development
 date: 2019-06-14T19:04:00.000Z
 ---
 
-<div class="blog-post-banner bg-orange">
-  <div class="blog-post-banner-content">
-    <div class="blog-post-title">
-      <h1>Why modern web apps are best built using Rails in 2019</h1>
-    </div>
-  </div>
-</div>
-
 <div class="blog-post-content">
   <div class="container">
-    <div class="col-md-8 col-md-offset-2">
+    <div class="col-md-8 col-md-offset-1">
       <article class="post-content">
         <p>
           When it comes to programming languages, Ruby is quite a great

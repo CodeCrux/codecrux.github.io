@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    {% seo %}
+    {% feed_meta %}
+    <meta name="viewport" content="width=device-width">
+    {% include favicon.html %}
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/font-awesome/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,900,700,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Maven+Pro:400,900,500,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body id="page-top" class="index">
+
+    <nav class="navbar navbar-default home-navbar fixed-top" id="navbar">
+    <!-- <nav class="navbar navbar-default default-header fixed-top home-navbar" id="navbar"> -->
+      <!-- {% include /status-banner.html %} -->
+      <div class="container">
+        {% include /header.html %}
+      </div>
+    </nav>
+    
+    <div class="blog-post-banner bg-orange"> 
+      <div class="blog-post-banner-content">
+        <div class="blog-post-title">
+          <h1>{{ page.title }}</h1>
+          <p>Posted on: {{ page.date | date_to_string }} - {{ page.author }} </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="blog-main-content">
+      <div class="container">
+        <br>
+        <center>
+          <img src="{{ page.image }}" alt="{{page.title}}" class="img-responsive"/>
+        </center>
+        <br>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10">
+          {{ content }}
+          <center>
+            <a href="/schedule-meeting/" title="schedule a meeting" class="image-box">
+              <img src="/img/home/aiml-automation-with-codecrux.webp" alt="AIML automation with codecrux"/>
+            </a>
+          </center>
+
+        </div>
+        <div class="col-sm-1"></div>
+
+    </div>
+
+    </div>
+
+    <div class="clearfix"></div>
+
+    {% include /footer.html %}
+
+    <!-- jQuery Version 1.11.0 -->
+    <!-- <script src="{{ site.baseurl }}/js/jquery-1.11.0.js"></script> -->
+    <!-- Bootstrap Core JavaScript -->
+    <!-- <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+
+<style>
+  /* Style for the image container */
+.image-box {
+  border-radius: 15px; /* Adds rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation */
+  overflow: hidden; /* Ensures the image stays within the rounded corners */
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* Style for the image */
+.image-box img {
+  display: block;
+  width: 100%; /* Ensures the image takes the full width of the container */
+  height: auto; /* Maintains aspect ratio */
+  border-radius: 15px; /* Ensures the image also has rounded corners */
+}
+
+/* Hover effect */
+.image-box:hover {
+  transform: scale(1.05); /* Slightly enlarges the box on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Increases shadow on hover */
+}
+
+</style>

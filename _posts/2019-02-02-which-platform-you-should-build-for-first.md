@@ -1,8 +1,15 @@
 ---
-layout: blog
+layout: post
+keywords: business, startup, cost effective, codecrux, rubyonrails, hyderabad,
+  thub, codecrux.com
 title: Which platform should you build for first
-description: Once upon a time, software-creators had only a few platforms to build on. Today, there are many to choose from
-keywords: business, startup, cost effective, codecrux, rubyonrails, hyderabad, thub, codecrux.com
+description: Once upon a time, software-creators had only a few platforms to
+  build on. Today, there are many to choose from
+image: /img/blogs/platforms.png
+permalink: /blog/:title
+author: Shyam Mohan
+category: Software Development
+date: 2016-06-14T03:06:00.000Z
 ---
 <div class="blog-post-banner bg-green">
   <div class="blog-post-banner-content">
@@ -37,11 +44,4 @@ keywords: business, startup, cost effective, codecrux, rubyonrails, hyderabad, t
   </div>
 </div>
 
-<div class="container">
-  <div class="col-md-8 col-md-offset-2">
-    <a href="/blog/2016/5-simple-and-low-cost-tricks-for-growing-your-business" class="btn btn-default btn-round pull-right">Next<i class="fa fa-long-arrow-right fa-right"></i></a>
-  </div>
-</div>
-
-{% include /comment.html %}
 

@@ -1,7 +1,14 @@
 ---
-layout: blog
 title: 6 Best platforms to develop a web application in 2022. Let's check
-description: 6 Best platforms to develop a web application. Check the complete details of each platform Pros & Cons to Build a Web App 1. Ruby on Rails, 2. AngularJS , 3. Node.js, 4. Asp.net, 5. React.Js, and 6. Symfony.
+description: 6 Best platforms to develop a web application. Check the complete
+  details of each platform Pros & Cons to Build a Web App 1. Ruby on Rails, 2.
+  AngularJS , 3. Node.js, 4. Asp.net, 5. React.Js, and 6. Symfony.
+image: /img/blogs/developing-webpages.jpeg
+layout: post
+permalink: /blog/:title
+author: Shyam Mohan
+category: Software Development
+date: 2022-02-14T15:03:00.000Z
 ---
 <div class="blog-post-banner bg-orange">
   <div class="blog-post-banner-content">
@@ -238,22 +245,5 @@ What is the best platform to develop a web application?</h1>
     </div>
   </div>
 </div>
-<div class="container">
-  <div class="col-md-8 col-md-offset-2">
-    <a
-      href="/blog/top-chinese-apps-in-india.html"
-      class="btn btn-default btn-round" 
-      ><i class="fa fa-long-arrow-left fa-left"></i>Previous</a
-    >
 
-    <a
-      href="/blog/web-application-development-complete-guide.html"
-      class="btn btn-default btn-round pull-right" 
-      >Next<i class="fa fa-long-arrow-right fa-right"></i
-    ></a>
-  </div>
-</div>
 
-{% include /cta.html %}
-{% include /articles.html %}
-{% include /comment.html %}

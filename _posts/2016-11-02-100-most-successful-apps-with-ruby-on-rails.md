@@ -1,11 +1,11 @@
 ---
 title: 100 Most successful apps built in Ruby on Rails
 description: Here is a list of popular web services built with Ruby on Rails
-image: /img/blogs/codecrux-blog.png
+image: /img/blogs/learn-ruby-on-rails.png
 layout: post
 permalink: /blog/:title
 author: Shyam Mohan
-category: 'ruby on rails'
+category: ruby on rails
 date: 2016-11-02T03:33:00.000Z
 ---
 

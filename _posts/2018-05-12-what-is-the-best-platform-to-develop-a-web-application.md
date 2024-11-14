@@ -10,20 +10,11 @@ author: Shyam Mohan
 category: Software Development
 date: 2022-02-14T15:03:00.000Z
 ---
-<div class="blog-post-banner bg-orange">
-  <div class="blog-post-banner-content">
-    <div class="blog-post-title">
-      <h1>
-What is the best platform to develop a web application?</h1>
-    </div>
-  </div>
-</div>
+
 <div class="blog-post-content">
   <div class="container">
-   <div class="col-md-8 col-md-offset-2" style="margin-top: 5rem">
-      <div>
-        <img src="/img/blogs/developing-webpages.jpeg" alt="">
-      </div>
+   <div class="col-md-8 col-md-offset-1" style="margin-top: 5rem">
+     
       <article class="post-content weight-400">
         <p  class="font-weight-400 ">
           As the demand for web applications has become more than ever, the way
@@ -115,10 +106,10 @@ What is the best platform to develop a web application?</h1>
           </ul>
         </div>
         <div>
-          <img src="/img/blogs/middle.jpeg" class="mar-t1" alt="codecrux-blog" />
+  
         </div>
         <div>
-          <h3 class="mar-t1 font-weight-600 ">3. Asp.net</b></h3>
+          <h3 class="mar-t1 font-weight-600 ">3. Asp.net</h3>
           <p class="mar-t1 font-weight-400 ">
             Asp.net is one of the most popular frameworks that were built and
             released by Microsoft in 2002. The framework has gained the respect
@@ -229,7 +220,7 @@ What is the best platform to develop a web application?</h1>
           </ul>
         </div>
         <div>
-                  <img src="/img/blogs/last.jpeg" class="mar-t1"alt="codecrux-blog" />
+              
         </div>
         <div style="margin-top: 4rem">
           <h3 class="mar-t1 font-weight-600">Do you want your web application developed?</h3>

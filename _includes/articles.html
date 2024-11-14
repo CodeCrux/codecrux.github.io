@@ -3,20 +3,17 @@
     <h2 class="text-center font-30 mar-t1">Recent Articles</h2>
     <div class="row-1 mar-t2">
 
-      <div class="col-md-4" style="margin-top: 10px;">
-        <a href="/blog/10-programming-languages-to-learn-in-2022">
+      {% assign blogs = site.posts %} {% for post in blogs limit:3 %}
+
+      <div class="col-md-4">
+          <a href="{{ site.baseurl }}{{ post.url }}">
           <div class="article-col">
-            <img
-              src="/img/blogs/10-programming-languages.jpg"
-              alt="codecrux-blog"
-              
-              style="object-fit: cover; width: 100%; border-top-left-radius: 8px; border-top-right-radius: 8px;"
-            />
+            <img src="{{ post.image }}" alt="{{ post.title }}" class="blog-home-image"/>
+
             <div class="article-text">
-              <span class="font-16">10 Programming Languages To Learn In 2022 According To Experts</span>
+              <span class="font-16">{{ post.title }}</span>
               <div class="mar-bottom-1">
-                <p>As systems and applications are constantly changing, programming languages 
-                  are also evolving in both...</p>
+                <p style="font-size: 14px !important;">{{ post.description}}...</p>
                 <span class="read-more-link"
                   >Continue Reading <i class="fa fa-chevron-right"></i
                 ></span>
@@ -25,62 +22,13 @@
           </div>
         </a>
       </div>
-      <div class="col-md-4" style="margin-top: 10px;">
-        <a href="/blog/web-application-development-complete-guide.html">
-          <div class="article-col">
-            <img
-              src="/img/blogs/web-developer.jpeg"
-              alt="codecrux-blog"
-              alt="marketting"
-              style="object-fit: cover; width: 100%; border-top-left-radius: 8px; border-top-right-radius: 8px;"
-            />
-            <div class="article-text">
-              <span class="font-16"
-                >Web Application Development - Complete Guide for Beginners
-                2021</span
-              >
-              <div class="mar-bottom-1">
-                <p>
-                  Web applications have become an important segment of business
-                  these days.
-                </p>
-                <span class="read-more-link"
-                  >Continue Reading <i class="fa fa-chevron-right"></i
-                ></span>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-4" style="margin-top: 10px;">
-        <a
-          href="/blog/what-is-the-best-platform-to-develop-a-web-application.html"
-        >
-          <div class="article-col">
-            <img
-              src="/img/blogs/developing-webpages.jpeg"
-              alt="codecrux-blog"
-              alt="marketting"
-              style="object-fit: cover; width: 100%; border-top-left-radius: 8px; border-top-right-radius: 8px;"
-            />
-            <div class="article-text">
-              <span class="font-16"
-                >What is the best platform to develop a web application?</span
-              >
-              <div class="mar-bottom-1">
-                <p>
-                  As the demand for web applications has become more than ever,
-                  the way of building a feature-rich....
-                </p>
-                <span class="read-more-link"
-                  >Continue Reading <i class="fa fa-chevron-right"></i
-                ></span>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
+
+    {% endfor %}
       
     </div>
   </div>
 </section>
+
+
+
+

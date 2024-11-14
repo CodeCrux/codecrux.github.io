@@ -48,9 +48,9 @@ In 2024, the tech industry continues to evolve rapidly, driven by advances in cl
     
 -   **Advantages**:
     
-    -   Great for **single-page application** (SPAs) with complex requirements
-    -   Ideal for developing scalable enterprise applications
-    -   Angular’s dependency injection and TypeScript support
+    - Great for **single-page application** (SPAs) with complex requirements
+    - Ideal for developing scalable enterprise applications
+    - Angular’s dependency injection and TypeScript support
 -   **Real-World Example**: Popular for developing e-commerce platforms, real-time apps, and enterprise-level management systems.
 
 ----------
@@ -65,9 +65,9 @@ In 2024, the tech industry continues to evolve rapidly, driven by advances in cl
     
 -   **Advantages**:
     
-    -   Open-source and highly cost-effective
-    -   Stable and secure for small-to-medium projects
-    -   Wide availability of resources and hosting options
+    - Open-source and highly cost-effective
+    - Stable and secure for small-to-medium projects
+    - Wide availability of resources and hosting options
 -   **Real-World Example**: Many WordPress sites and other content management systems use the LAMP stack, powering millions of websites globally​
 
 ### 4. **Django + React**
@@ -80,9 +80,9 @@ In 2024, the tech industry continues to evolve rapidly, driven by advances in cl
     
 -   **Advantages**:
     
-    -   "Batteries-included" approach with built-in authentication, admin panel, etc.
-    -   React allows for fast and interactive UIs
-    -   Python’s rich ecosystem for AI/ML integration
+    - "Batteries-included" approach with built-in authentication, admin panel, etc.
+    - React allows for fast and interactive UIs
+    - Python’s rich ecosystem for AI/ML integration
 -   **Real-World Example**: This stack is great for startups developing SaaS products, social networks, and ML-integrated applications
     
 
@@ -98,9 +98,9 @@ In 2024, the tech industry continues to evolve rapidly, driven by advances in cl
     
 -   **Advantages**:
     
-    -   Rapid development and easy prototyping
-    -   Strong ecosystem and community support
-    -   Highly maintainable with clean code architecture
+    - Rapid development and easy prototyping
+    - Strong ecosystem and community support
+    - Highly maintainable with clean code architecture
 -   **Real-World Example**: Popular with startups and small businesses for MVPs and quick-to-market applications
 
 ----------
@@ -115,7 +115,7 @@ In 2024, the tech industry continues to evolve rapidly, driven by advances in cl
     
 -   **Advantages**:
     
-    -   High scalability and performance
+    - High scalability and performance
     -   Excellent for secure enterprise applications
     -   Seamless integration with Microsoft Azure and other Microsoft tools
 -   **Real-World Example**: Used by large-scale applications like Stack Overflow and enterprise resource planning (ERP) systems
@@ -132,7 +132,7 @@ In 2024, the tech industry continues to evolve rapidly, driven by advances in cl
     
 -   **Advantages**:
     
-    -   Cross-platform development with a single codebase
+    - Cross-platform development with a single codebase
     -   High-performance for both web and mobile apps
     -   Firebase integration for real-time databases and serverless applications
 -   **Real-World Example**: Ideal for startups building mobile-first applications that need to extend to the web​
@@ -149,7 +149,7 @@ In 2024, the tech industry continues to evolve rapidly, driven by advances in cl
     
 -   **Advantages**:
     
-    -   No need to manage servers, with pay-as-you-go pricing
+    - No need to manage servers, with pay-as-you-go pricing
     -   Easily scales based on traffic
     -   Reduces development complexity with AWS services and integrations
 -   **Real-World Example**: SST is ideal for building highly scalable, cost-efficient applications, such as media streaming services, real-time collaboration tools, and mobile backends

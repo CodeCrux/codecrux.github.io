@@ -13,7 +13,7 @@ date: 2024-09-10T09:03:00.000Z
 
 <div class="blog-post-content">
   <div class="container">
-    <div class="col-md-8 col-md-offset-2">
+    <div class="col-md-8 col-md-offset-0">
       <h3>Don’t Learn Rails before Ruby</h3>
       <p>
         When I first decided to learn Ruby on Rails. I read a few articles by different bloggers that   were saying that you don’t need Ruby to learn Rails. I now totally disagree with them! <br>
@@ -87,12 +87,3 @@ date: 2024-09-10T09:03:00.000Z
   </div>
 </div>
 
-<div class="container">
-  <div class="col-md-8 col-md-offset-2">
-    <a href="/blog/2016/how-to-learn-ruby-on-rails.html" class="btn btn-default btn-round"><i class="fa fa-long-arrow-left fa-left"></i>Previous</a>
-    <a href="/blog/2017/best-ruby-on-rails-cms.html" class="btn btn-default btn-round pull-right">Next<i class="fa fa-long-arrow-right fa-right"></i></a>
-  </div>
-</div>
-
-
-{% include /comment.html %}

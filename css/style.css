@@ -1010,7 +1010,7 @@ address a.location {
 .blog-item {
   background-color: #fdfdfd;
   border-bottom: 1px solid #e4e1e1;
-  border-radius: 4px;
+  border-radius: 10px;
   box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.3);
   margin-bottom: 20px;
   min-height: 555px;
@@ -1102,7 +1102,7 @@ time {
 }
 
 .blog-item-title {
-  font-size: 24px;
+  font-size: 22px;
   display: block;
   color: #2e353b;
   font-weight: 500;
@@ -1144,7 +1144,7 @@ ol, ul {
 }
 .blog-content-img img {
   width: 100%;
-  height: 300px;
+  height: 246px !important;
   box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.6);
   border-top-left-radius: 16px; border-top-right-radius: 16px;
   
@@ -1432,7 +1432,7 @@ ol, ul {
 
 .big-num {
   color: #fff;
-  font-size: 90px;
+  font-size: 64px;
 }
 
 .usecase {
@@ -4143,11 +4143,6 @@ address a.location {
   list-style-type: circle;
 }
 
-.blog-content-row {
-  padding: 10px;
-  color: #576366;
-}
-
 .nopadding {
   padding: 0 !important;
   margin: 0 !important;
@@ -4422,10 +4417,6 @@ address a.location {
   padding: 30px;
 }
 
-.big-num {
-  color: #fff;
-  font-size: 90px;
-}
 
 .usecase {
   margin-bottom: 20px;
@@ -7760,3 +7751,55 @@ figure {
 
 }
 
+
+
+ /* CTA Box Styling */
+ .cta-box {
+  background: linear-gradient(135deg, #007bff, #6610f2);
+  border: 1px solid #007bff; /* Highlight with a primary border */
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  opacity: 0; /* Start invisible */
+  transform: translateY(20px); /* Start slightly below */
+  animation: fadeInUp 1s ease-out forwards; /* Trigger fade-in animation */
+  transition: background 0.5s ease, box-shadow 0.3s ease;
+}
+
+.cta-box h2 {
+  color: #FFF; /* Primary color */
+  margin-bottom: 15px;
+}
+
+.cta-box p {
+  color: #FFF; /* Dark text for contrast */
+}
+
+.cta-box img{
+  width: 64px;
+}
+
+.cta-box .btn {
+  margin-top: 15px;
+}
+
+/* Hover Effect */
+.cta-box:hover {
+  background: linear-gradient(135deg, #007bff, #6610f2);
+  color: #fff; /* White text for contrast */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Fade-in Animation */
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}

@@ -7,7 +7,7 @@ layout: post
 permalink: blog/:title
 author: Shyam Mohan K
 category: SEO
-date: 2024-11-21T03:23:00.000Z
+date: 2024-11-22T03:23:00.000Z
 ---
 Here are **50 SEO and Digital Marketing interview questions and answers**, covering a mix of fundamental, technical, and advanced topics.
 

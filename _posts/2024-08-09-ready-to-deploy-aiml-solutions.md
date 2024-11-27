@@ -1,5 +1,5 @@
 ---
-title: 2024-08-09-Ready to deploy AIML solutions
+title: Ready to deploy AIML solutions
 description: "Here are use cases for various ready-to-deploy AI/ML solutions
   across industries. Each use case illustrates how these solutions can solve
   real-world problems or create value for businesses:"

@@ -1,5 +1,5 @@
 ---
-title: 2024-11-02 Advantages and Disadvantages of Artificial Intelligence
+title: Advantages and Disadvantages of Artificial Intelligence
 description: Artificial Intelligence has made a profound impact on nearly every
   industry in recent years. From healthcare to manufacturing, AI systems are
   being adopted to automate processes,

@@ -1,5 +1,5 @@
 ---
-title: 2024-11-1 Top 10 Machine Learning Algorithms You Need to Know
+title: Top 10 Machine Learning Algorithms You Need to Know
 description: "Machine Learning has emerged as a game-changer across industries.
   It powers recommendations on streaming platforms, "
 image: /img/blogs/top-10-machine-learning-algorithms-you-need-to-know.webp

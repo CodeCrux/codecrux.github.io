@@ -1,5 +1,5 @@
 ---
-title: 2024-11-03 Machine Learning Tutorial A Step-by-Step Guide for Beginners
+title: Machine Learning Tutorial A Step-by-Step Guide for Beginners
 description: "[Machine Learning](https://codecrux.com/services/) (ML)** has
   emerged as one of the most transformative technologies, enabling computers to
   learn and make decisions without explicit programming. "

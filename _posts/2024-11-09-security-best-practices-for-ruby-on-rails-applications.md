@@ -6,7 +6,7 @@ image: /img/blogs/security-best-practices-for-ruby-on-rails-applications.webp
 layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
-category: "Interview "
+category: Ruby Rails
 date: 2024-11-09T00:48:00.000Z
 ---
 Ruby on Rails (RoR) is a robust and popular framework for building web applications. While it provides many built-in security features, developers must actively implement best practices to safeguard applications from evolving threats. In this blog, we'll explore essential security measures for keeping your Rails applications secure.

@@ -7,7 +7,7 @@ image: /img/blogs/mastering-machine-learning-a-career-guide-for-aspiring-ai-prof
 layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
-category: "Interview "
+category: AIML
 date: 2024-11-07T23:24:00.000Z
 ---
 The world of artificial intelligence (AI) and machine learning (ML) is expanding at an unprecedented pace. As industries embrace these transformative technologies, the demand for skilled professionals in this domain has skyrocketed. Whether you're a student, a software developer, or a professional looking to pivot, this guide will help you navigate your journey into the exciting world of machine learning.

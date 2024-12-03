@@ -7,7 +7,7 @@ image: /img/blogs/exploring-the-future-of-ruby-on-rails-in-web-development-trend
 layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
-category: "Interview "
+category: Ruby Rails
 date: 2024-11-08T23:47:00.000Z
 ---
 Ruby on Rails (RoR), a web application framework loved for its simplicity and productivity, has played a pivotal role in shaping web development. Despite being over two decades old, RoR remains a relevant and powerful tool in the modern development landscape. In this blog, we explore the future of Ruby on Rails in light of emerging trends and its enduring relevance in web development.

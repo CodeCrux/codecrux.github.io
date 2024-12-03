@@ -1,5 +1,5 @@
 ---
-title: 2024-11-08 Exploring the Future of Ruby on Rails in Web Development Trends
+title: Exploring the Future of Ruby on Rails in Web Development Trends
 description: "Ruby on Rails (RoR), a web application framework loved for its
   simplicity and productivity, has played a pivotal role in shaping web
   development. "

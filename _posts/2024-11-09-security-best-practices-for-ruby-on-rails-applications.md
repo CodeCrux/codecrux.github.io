@@ -1,5 +1,5 @@
 ---
-title: 2024-11-09 Security Best Practices for Ruby on Rails Applications
+title: Security Best Practices for Ruby on Rails Applications
 description: Ruby on Rails (RoR) is a robust and popular framework for building
   web applications.
 image: /img/blogs/security-best-practices-for-ruby-on-rails-applications.webp

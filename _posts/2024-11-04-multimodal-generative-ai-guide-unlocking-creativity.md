@@ -7,7 +7,7 @@ image: /img/blogs/multimodal-generative-ai-guide-unlocking-creativity.webp
 layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
-category: "Interview "
+category: AIML
 date: 2024-11-04T17:40:00.000Z
 ---
 In the dynamic world of artificial intelligence, **[Multimodal Generative AI](https://codecrux.com/services/)** stands out as a groundbreaking innovation, merging multiple data types—text, images, audio, and video—to create content that pushes the boundaries of creativity. From generating lifelike images based on textual prompts to crafting immersive multimedia experiences, multimodal AI is redefining how we approach art, content creation, and problem-solving.

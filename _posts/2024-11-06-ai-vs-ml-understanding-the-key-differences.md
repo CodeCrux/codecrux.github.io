@@ -7,7 +7,7 @@ image: /img/blogs/ai-vs-ml-understanding-the-key-differences.webp
 layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
-category: "Interview "
+category: AI ML
 date: 2024-11-06T18:57:00.000Z
 ---
 In the rapidly evolving world of technology, **[Artificial Intelligence (AI)](https://codecrux.com/services/)** and **[Machine Learning (ML)](https://codecrux.com/services/)** are two buzzwords often used interchangeably. However, they represent distinct concepts with unique applications and characteristics. This blog will break down the differences, relationships, and real-world implications of AI and ML to provide clarity.

@@ -7,7 +7,7 @@ image: /img/blogs/5-steps-to-build-a-career-in-ai-and-machine-learning.webp
 layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
-category: "Interview "
+category: AIML
 date: 2024-11-05T18:02:00.000Z
 ---
 

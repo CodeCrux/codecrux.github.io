@@ -1,6 +1,5 @@
 ---
-title: 2024-11-07 Mastering Machine Learning A Career Guide for Aspiring AI
-  Professionals
+title: Mastering Machine Learning A Career Guide for Aspiring AI Professionals
 description: The world of artificial intelligence (AI) and machine learning (ML)
   is expanding at an unprecedented pace. As industries embrace these
   transformative technologies

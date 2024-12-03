@@ -1,5 +1,5 @@
 ---
-title: 2024-11-05 5 Steps to Build a Career in AI and Machine Learning
+title: 5 Steps to Build a Career in AI and Machine Learning
 description: Artificial Intelligence (AI) and Machine Learning (ML) are
   reshaping industries and unlocking new opportunities for innovation and
   growth.

@@ -6,7 +6,7 @@ image: /img/blogs/integrating-ai-and-machine-learning-into-react-native-apps.web
 layout: post
 permalink: /blog/:title/
 author: Shyam Mohan
-category: AI ML
+category: AIML
 date: 2024-11-10T01:16:00.000Z
 ---
 In the ever-evolving world of technology, **Artificial Intelligence (AI)** and **Machine Learning (ML)** are transforming industries, and mobile app development is no exception. When paired with **React Native**, a popular framework for building cross-platform mobile apps, AI/ML technologies can elevate your app's functionality and user experience. This blog will guide you through the integration process, highlighting tools, libraries, and best practices.

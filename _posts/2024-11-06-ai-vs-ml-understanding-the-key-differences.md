@@ -1,5 +1,5 @@
 ---
-title: 2024-11-06 AI vs ML  understanding the key differences
+title: " AI vs ML  understanding the key differences"
 description: Artificial Intelligence and Machine Learning  are two buzzwords
   often used interchangeably. However, they represent distinct concepts with
   unique applications and characteristics.

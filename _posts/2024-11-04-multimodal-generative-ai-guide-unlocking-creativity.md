@@ -1,5 +1,5 @@
 ---
-title: 2024-11-04 Multimodal Generative AI Guide Unlocking Creativity!
+title: Multimodal Generative AI Guide Unlocking Creativity!
 description: In the dynamic world of artificial intelligence, Multimodal
   Generative AI stands out as a groundbreaking innovation, merging multiple data
   types

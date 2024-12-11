@@ -1,6 +1,6 @@
 ---
-title: 2024-11-11 Leveraging Artificial Intelligence for DevOps Automation with
-  Docker and Kubernetes
+title: Leveraging Artificial Intelligence for DevOps Automation with Docker and
+  Kubernetes
 description: "DevOps is the backbone of modern software development, enabling
   seamless collaboration between development and operations teams to deliver
   robust applications rapidly. "

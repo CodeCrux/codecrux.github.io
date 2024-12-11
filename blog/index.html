@@ -27,12 +27,16 @@ layout: blog
             </div>
             
             <span class="blog-item-title">{{ post.title }} </span>
+           
             <div class="blog-content-row">
               <div class="nopadding">
                 <p>
                   {{ post.description}}...<br>
                 </p>
-                <span class="read-more-link">Continue Reading <i class="fa fa-chevron-right"></i></span>
+                <time class="text-gray">
+                  <i class="fa fa-clock-o"></i>
+                  {{ post.date | date_to_string }}
+                </time>
               </div>
               <div class="clearfix"></div>
             </div>

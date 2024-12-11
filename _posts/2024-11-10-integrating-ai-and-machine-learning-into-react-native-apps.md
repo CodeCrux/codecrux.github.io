@@ -2,7 +2,7 @@
 title: Integrating AI and Machine  Learning into React Native Apps
 description: In the ever-evolving world of technology, Artificial Intelligence
   and Machine Learning are transforming industries, and mobile app development
-image: /img/blogs/integrating-ai-and-machine-learning-into-react-native-apps.webp
+image: "/img/blogs/integrating-ai-and-machine-learning-into-react-native-apps.webp"
 layout: post
 permalink: /blog/:title/
 author: Shyam Mohan

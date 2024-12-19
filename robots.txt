@@ -1,2 +1,2 @@
-User-Agent: *
-Disallow: 
+User-agent: *
+Sitemap: https://codecrux.com/sitemap.xml

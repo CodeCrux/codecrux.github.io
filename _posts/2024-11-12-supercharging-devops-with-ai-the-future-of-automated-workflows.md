@@ -1,5 +1,5 @@
 ---
-title: "2024-11-12 Supercharging DevOps with AI: The Future of Automated Workflows"
+title: "Supercharging DevOps with AI: The Future of Automated Workflows"
 description: In the fast-paced world of software development, organizations are
   constantly seeking ways to deliver high-quality software faster and more
   efficiently.

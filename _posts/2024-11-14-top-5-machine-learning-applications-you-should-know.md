@@ -1,5 +1,5 @@
 ---
-title: 2024-11-14 Top 5 Machine Learning Applications You Should Know
+title: Top 5 Machine Learning Applications You Should Know
 description: "Machine Learning (ML) has revolutionized various industries,
   transforming how we interact with technology and solve complex problems. "
 image: /img/blogs/top-5-machine-learning-applications-you-should-know.webp

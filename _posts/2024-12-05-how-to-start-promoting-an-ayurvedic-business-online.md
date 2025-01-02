@@ -1,5 +1,5 @@
 ---
-title: 2024-12-05-How to Start Promoting an Ayurvedic Business Online
+title: How to Start Promoting an Ayurvedic Business Online
 description: Social media platforms are powerful tools for increasing brand
   visibility and engaging with your audience.
 image: /img/blogs/how-to-start-promoting-an-ayurvedic-business-online.jpg

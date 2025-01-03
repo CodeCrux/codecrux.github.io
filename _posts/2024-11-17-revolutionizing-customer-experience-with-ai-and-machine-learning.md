@@ -1,5 +1,5 @@
 ---
-title: 2024-11-17 Revolutionizing Customer Experience with AI and Machine Learning
+title: Revolutionizing Customer Experience with AI and Machine Learning
 description: "In today’s digital-first world, customer experience (CX) has
   become the cornerstone of business success. Gone are the days when companies
   could differentiate solely on price or product quality. "

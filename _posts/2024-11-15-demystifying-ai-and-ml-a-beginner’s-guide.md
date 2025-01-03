@@ -1,5 +1,5 @@
 ---
-title: "Demystifying AI and ML: A Beginner’s Guide"
+title: Demystifying AI and ML A Beginner’s Guide
 description: Artificial Intelligence (AI) and Machine Learning (ML) have become
   buzzwords across industries, reshaping how businesses operate and people
   interact with technology.

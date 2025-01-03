@@ -1,5 +1,5 @@
 ---
-title: "Understanding Machine Learning Algorithms: What Powers AI?"
+title: Understanding Machine Learning Algorithms What Powers AI?
 description: "Artificial Intelligence (AI) has revolutionized industries by
   automating tasks, uncovering insights, and driving innovation. At the heart of
   AI lies machine learning (ML), "

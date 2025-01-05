@@ -1,5 +1,5 @@
 ---
-title: 2024-11-20 Web Development and AI Building Smarter Applications
+title: Web Development and AI Building Smarter Applications
 description: "In the rapidly evolving world of technology, the convergence of
   web development and artificial intelligence (AI) is unlocking transformative
   possibilities. "

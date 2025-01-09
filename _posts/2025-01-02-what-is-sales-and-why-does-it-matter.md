@@ -1,5 +1,5 @@
 ---
-title: 2025-01-02-What is Sales and Why Does it Matter?
+title: What is Sales and Why Does it Matter?
 description: Sales is the art and science of convincing customers to purchase
   products or services.
 image: /img/blogs/working-in-codecrux.png

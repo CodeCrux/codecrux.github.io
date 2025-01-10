@@ -2,7 +2,7 @@
 title: What is Sales and Why Does it Matter?
 description: Sales is the art and science of convincing customers to purchase
   products or services.
-image: /img/blogs/working-in-codecrux.png
+image: /img/blogs/what-is-sales-and-why-does-it-matter.webp
 layout: post
 permalink: blog/:title
 author: Shyam Mohan
@@ -52,7 +52,7 @@ Sales converts leads into customers, while marketing generates awareness and nur
 
 The customer journey maps the steps a prospect takes from awareness to decision-making. Aligning sales efforts with this journey ensures a more effective strategy.
 
----
+
 
 ### Understanding the Customer Journey
 
@@ -77,7 +77,7 @@ Customer personas represent ideal buyers and include:
 
 Tailor solutions to the customer’s specific challenges and aspirations. Understand their industry and personalize interactions to build trust and rapport.
 
----
+
 
 ### Effective Communication in Sales
 
@@ -107,7 +107,7 @@ Establishing rapport involves:
 - Use social proof to reinforce credibility
 - Frame solutions as essential, not optional
 
----
+
 
 ### Sales Strategies and Techniques
 
@@ -155,7 +155,7 @@ A data-driven approach emphasizing metrics, decision criteria, and identifying k
 
 Target high-value clients with personalized strategies and focused resources.
 
----
+
 
 ### Advanced Sales Techniques and Strategies
 
@@ -195,7 +195,7 @@ Encourage customers to explain why they need your product, flipping traditional 
 
 Highlight time-sensitive opportunities without appearing pushy.
 
----
+
 
 ### Mastering the Sales Pitch
 
@@ -219,7 +219,7 @@ Customize your approach based on customer personas and buying stages.
 - Ignoring customer feedback
 - Focusing on features over benefits
 
----
+
 
 ### Overcoming Objections
 
@@ -238,7 +238,7 @@ Customize your approach based on customer personas and buying stages.
 - Provide relevant data or testimonials
 - Reframe objections as opportunities
 
----
+
 
 ### Closing the Sale
 
@@ -255,7 +255,7 @@ Look for verbal and non-verbal cues that indicate readiness to buy.
 
 Send a thank-you message, offer post-sale support, and nurture the relationship for future opportunities.
 
----
+
 
 ### Sales KPIs and Performance Metrics
 
@@ -267,7 +267,7 @@ Send a thank-you message, offer post-sale support, and nurture the relationship 
 - Pipeline velocity
 - Customer lifetime value (CLV)
 
----
+
 
 ### Data-Driven Selling
 
@@ -279,7 +279,7 @@ Leverage CRM tools to monitor customer interactions, track progress, and refine 
 
 Use historical data and market analysis to predict future sales performance.
 
----
+
 
 ### Negotiation Skills for Sales Professionals
 
@@ -291,7 +291,7 @@ Understand customer priorities and build win-win outcomes.
 
 Use anchoring, framing, and reciprocity to influence outcomes.
 
----
+
 
 ### Digital and Remote Sales Strategies
 
@@ -300,7 +300,7 @@ Use anchoring, framing, and reciprocity to influence outcomes.
 - Use video calls for personal connection
 - Leverage social media for prospecting
 
----
+
 
 ### Building and Managing a Sales Pipeline
 
@@ -316,7 +316,7 @@ Use anchoring, framing, and reciprocity to influence outcomes.
 - Prioritize high-potential leads
 - Regularly update CRM records
 
----
+
 
 ### Building a Personal Sales Brand
 

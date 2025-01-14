@@ -1,6 +1,5 @@
 ---
-title: 2024-11-21 Understanding Web Performance Optimization for Better User
-  Experience
+title: Understanding Web Performance Optimization for Better User Experience
 description: Web performance optimization (WPO) is the process of enhancing a
   website’s speed, reliability, and overall user experience to meet these
   demands.

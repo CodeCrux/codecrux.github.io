@@ -1,5 +1,5 @@
 ---
-title: 2024-11-25 Understanding the Mobile App Development Lifecycle
+title: Understanding the Mobile App Development Lifecycle
 description: "Mobile applications have become an essential part of our daily
   lives, serving everything from entertainment to productivity. "
 image: /img/blogs/understanding-the-mobile-app-development-lifecycle.webp

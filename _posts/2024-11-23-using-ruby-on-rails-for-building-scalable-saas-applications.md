@@ -1,5 +1,5 @@
 ---
-title: 2024-11-23 Using Ruby on Rails for Building Scalable SaaS Applications
+title: Using Ruby on Rails for Building Scalable SaaS Applications
 description: Software-as-a-Service (SaaS) applications, scalability and
   efficiency are paramount. Choosing the right technology stack can make all the
   difference between a seamless

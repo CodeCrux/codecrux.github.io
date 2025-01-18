@@ -1,5 +1,5 @@
 ---
-title: 2024-11-24 Why Ruby on Rails is Perfect for Startups in 2025
+title: Why Ruby on Rails is Perfect for Startups in 2025
 description: In the fast-paced world of startups, where speed, efficiency, and
   scalability are critical, choosing the right technology stack can make or
   break your business.

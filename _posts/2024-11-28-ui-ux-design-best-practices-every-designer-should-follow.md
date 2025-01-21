@@ -1,5 +1,5 @@
 ---
-title: 2024-11-28 UI/UX Design Best Practices Every Designer Should Follow
+title: UI/UX Design Best Practices Every Designer Should Follow
 description: user experience (UX) and user interface (UI) design have become
   critical to the success of any product or service.
 image: /img/blogs/uiux-design-best-practices-every-designer-should-follow.webp

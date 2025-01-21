@@ -1,5 +1,5 @@
 ---
-title: 2024-11-26 Exploring Kubernetes Operators for Automating Workloads
+title: Exploring Kubernetes Operators for Automating Workloads
 description: "Kubernetes, the leading container orchestration platform, has
   revolutionized the way we deploy, scale, and manage applications. "
 image: /img/blogs/exploring-kubernetes-operators-for-automating-workloads.webp

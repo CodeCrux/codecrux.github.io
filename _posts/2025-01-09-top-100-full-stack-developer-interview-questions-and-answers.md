@@ -1,5 +1,5 @@
 ---
-title: 2025-01-09-Top 100 full-stack developer interview questions and answers
+title: Top 100 full-stack developer interview questions and answers
 description: A full-stack developer works on both front-end (client-side) and
   back-end (server-side) parts of a web application.
 image: /img/blogs/top-100-full-stack-developer-interview-questions-and-answer.jpg

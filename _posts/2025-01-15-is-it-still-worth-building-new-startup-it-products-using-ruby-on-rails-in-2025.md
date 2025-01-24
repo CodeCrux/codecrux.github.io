@@ -1,6 +1,5 @@
 ---
-title: 2025-01-15-Is It Still Worth Building New Startup IT Products Using Ruby
-  on Rails in 2025?
+title: Is It Still Worth Building New Startup IT Products Using Ruby on Rails in 2025?
 description: Rails is perfect for building MVPs, but it’s also capable of
   scaling Companies like Shopify handle millions of users and transactions daily
 image: /img/blogs/is-it-still-worth-building-new-startup-it-products-using-ruby-on-rails-in-2025.jpg

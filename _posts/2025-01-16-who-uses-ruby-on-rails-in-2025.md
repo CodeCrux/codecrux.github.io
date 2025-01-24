@@ -1,5 +1,5 @@
 ---
-title: 2025-01-16-Who Uses Ruby on Rails in 2025?
+title: Who Uses Ruby on Rails in 2025?
 description: we explore some of the top companies leveraging Ruby on Rails in
   2025, along with their logos, company size, market valuation
 image: /img/blogs/who-uses-ruby-on-rails-in-2025.jpg

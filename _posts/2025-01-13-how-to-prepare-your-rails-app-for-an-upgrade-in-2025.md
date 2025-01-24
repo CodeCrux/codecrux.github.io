@@ -1,5 +1,5 @@
 ---
-title: 2025-01-13-How to Prepare Your Rails App for an Upgrade in 2025
+title: How to Prepare Your Rails App for an Upgrade in 2025
 description: Upgrading a Rails app isn’t as simple as running a single command.
   Without proper preparation, you risk breaking your application or introducing
   bugs.

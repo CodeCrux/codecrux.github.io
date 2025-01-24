@@ -1,6 +1,6 @@
 ---
-title: 2025-01-14-How CodeCrux Can Help You Upgrade Your Ruby on Rails
-  Application to the Latest Version
+title: How CodeCrux Can Help You Upgrade Your Ruby on Rails Application to the
+  Latest Version
 description: CodeCrux ensures a seamless transition to the latest Rails version
   while adding significant value to your business.
 image: /img/blogs/how-codecrux-can-help-you-upgrade-your-ruby-on-rails-application-to-the-latest-version.jpg

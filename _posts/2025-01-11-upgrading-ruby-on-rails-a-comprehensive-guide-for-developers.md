@@ -1,5 +1,5 @@
 ---
-title: "2025-01-11-Upgrading Ruby on  Rails: A Comprehensive Guide for Developers"
+title: "Upgrading Ruby on  Rails: A Comprehensive Guide for Developers"
 description: Ruby on Rails (Rails) is a powerful web development framework that
   evolves quickly.
 image: /img/blogs/upgrading-ruby-on-rails-a-comprehensive-guide-for-developers.jpg

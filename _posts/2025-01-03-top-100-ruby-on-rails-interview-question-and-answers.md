@@ -1,5 +1,5 @@
 ---
-title: 2025-01-03 Top 100 ruby on rails interview question and answers
+title: Top 100 ruby on rails interview question and answers
 description: Ruby on Rails, often simply referred to as Rails, is a robust web
   development framework that has revolutionized how web applications are built.
 image: /img/blogs/top-100-ruby-on-rails-interview-question-and-answers.webp

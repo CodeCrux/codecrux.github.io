@@ -1,5 +1,5 @@
 ---
-title: 2025-01-15-How to develop AI-Managed Staffing Platform - MVP Outline
+title: How to develop AI-Managed Staffing Platform - MVP Outline
 description: This plan gives you a scalable, AI-powered staffing platform with
   an automated hiring workflow. Would you like help with wireframes, UI/UX
   ideas, or a prototype?

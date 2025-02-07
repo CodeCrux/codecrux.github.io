@@ -8,7 +8,7 @@ layout: post
 permalink: blog/:title
 author: Shyam Mohan
 category: AIML
-date: 2025-01-15T15:18:00.000Z
+date: 2025-01-18T20:48:00.000Z
 ---
 ### **AI-Managed Staffing Platform - MVP Outline** 🚀  
 

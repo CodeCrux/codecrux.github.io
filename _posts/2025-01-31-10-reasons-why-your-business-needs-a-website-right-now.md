@@ -1,5 +1,5 @@
 ---
-title: 2025-01-31-10 Reasons Why Your Business Needs a Website Right Now
+title: 10 Reasons Why Your Business Needs a Website Right Now
 description: f you still think that a website is only for large corporations,
   it’s time to reconsider. Here are 10 compelling reasons why your business
   needs a website right now, even if you’re a local business.

@@ -1,9 +1,9 @@
 ---
-title: 50 React Native interview questions
+title: Top 50 React Native interview questions
 description: Here’s a comprehensive list of 50 React Native interview questions
   for a 3-year experienced developer, covering basic to advanced topics, with
   hands-on coding examples where needed
-image: /img/blogs/50-react-native-interview-questions.webp
+image: /img/blogs/top-50-react-native-interview-questions.webp
 layout: post
 permalink: blog/:title
 author: Shyam Mohan

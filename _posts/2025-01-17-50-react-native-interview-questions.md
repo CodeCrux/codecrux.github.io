@@ -1,5 +1,5 @@
 ---
-title: 2025-01-17-50 React Native interview questions
+title: 50 React Native interview questions
 description: Here’s a comprehensive list of 50 React Native interview questions
   for a 3-year experienced developer, covering basic to advanced topics, with
   hands-on coding examples where needed

@@ -1,5 +1,5 @@
 ---
-title: 2025-02-03-How to Get SEO Results Fast
+title: How to Get SEO Results Fast
 description: SEO is about working smarter, not harder. You don’t need to wait
   months to see results.
 image: /img/blogs/how-to-get-seo-results-fast.webp

@@ -1,5 +1,5 @@
 ---
-title: "2025-02-05-The ChatGPT Guide for SEO: Boost Your Website's Visibility with AI"
+title: "The ChatGPT Guide for SEO: Boost Your Website's Visibility with AI"
 description: "Unlock the full potential of ChatGPT and elevate your SEO game
   with these cutting-edge tools and strategies. "
 image: /img/blogs/chatgpt-guide-for-seo.webp
@@ -19,7 +19,7 @@ In today’s fast-paced digital world, search engine optimization (SEO) is cruci
 
 Harness the power of specialized GPTs designed to handle different aspects of SEO. These AI tools can streamline your research, content creation, and website optimization tasks:
 
-- **FREE AI SEO Keyword Research Tool**: Generate high-impact keywords for free. [Try it here](https://chat.openai.com/g/g-HJbQJkFue-free-ai-seo-keyword-research-tool).
+- **FREE AI SEO Keyword Research Tool**: Generate high-impact keywords for free. [Try it here](https://codecrux.com/blog/free-ai-seo-keyword-research-tools).
 - **Revenue-Driven SEO Keyword Research and Analysis**: Focus on revenue-driving keywords. [Try it here](https://chat.openai.com/g/g-6DqFOTUqV-revenue-driven-seo-keyword-research-and-analysis).
 - **SEO Optimized Blog Writer and Analyzer**: Create SEO-friendly blog posts. [Try it here](https://chat.openai.com/g/g-v6SgNV5F-seo-optimized-blog-writer-and-analyzer).
 - **SEO Title and Description Optimizer**: Craft compelling meta titles and descriptions. [Try it here](https://chat.openai.com/g/g-9k9UsUXM7-seo-title-and-description-optimizer).

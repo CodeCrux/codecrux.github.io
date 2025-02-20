@@ -47,10 +47,12 @@ Ensure your React Native project is properly configured with the latest version 
 
 bash
 
+```
+npx react-native init MyApp
 
+cd MyApp
 
-`npx react-native init MyApp
-cd MyApp` 
+```
 
 ### 3. **Install Required Libraries**
 
@@ -60,17 +62,21 @@ Depending on your use case, install the necessary AI/ML libraries. For example:
     
     bash
 
+    ```
+    npm install @tensorflow/tfjs @tensorflow-models/mobilenet
     
-    `npm install @tensorflow/tfjs @tensorflow-models/mobilenet` 
-    
+    ```
 -   To integrate Google ML Kit:
     
     bash
     
  
+    ```
+    npm install 
     
-    `npm install react-native-ml-kit` 
+    react-native-ml-kit
     
+    ```
 
 4. **Load and Use AI Models**
 
@@ -78,9 +84,10 @@ Here's a sample implementation of image recognition using TensorFlow.js:
 
 javascript
 
+```
 
 
-`import * as tf from '@tensorflow/tfjs';
+import * as tf from '@tensorflow/tfjs';
 
 import * as mobilenet from '@tensorflow-models/mobilenet';
 
@@ -127,7 +134,9 @@ classifyImage('image-uri-here')} />
   );
 };
 
-export default App;` 
+export default App;
+
+```
 
 ### 5. **Test the Integration**
 
@@ -137,9 +146,12 @@ bash
 
 
 
-`npx react-native run-android
- or
-npx react-native run-ios` 
+```
+  npx react-native run-android
+  or
+  npx react-native run-ios
+
+``` 
 
 Ensure the AI features work seamlessly across both platforms.
 

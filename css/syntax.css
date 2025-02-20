@@ -207,3 +207,22 @@
 .highlight {
   background-color: #f8f8f8;
 }
+
+
+pre, code {
+  background-color: #272822;
+  color: #f8f8f2;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  overflow-x: auto;
+}
+
+code {
+  padding: 2px 4px;
+}
+
+pre code {
+  display: block;
+  padding: 0;
+}

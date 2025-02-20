@@ -1,5 +1,5 @@
 ---
-title: 2025-02-06-FREE AI SEO Keyword Research Tools
+title: FREE AI SEO Keyword Research Tools
 description: Combine these free tools with AI-powered GPTs like ChatGPT for
   maximum efficiency.
 image: /img/blogs/free-ai-seo-keyword-research-tools.webp

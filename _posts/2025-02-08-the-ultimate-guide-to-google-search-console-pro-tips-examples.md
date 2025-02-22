@@ -1,5 +1,5 @@
 ---
-title: "2025-02-08-The Ultimate Guide to Google Search Console "
+title: "The Ultimate Guide to Google Search Console "
 description: Discover how to use Google Search Console to boost your website's
   SEO! This in-depth guide covers setup, performance tracking, indexing fixes,
   and advanced tips to improve rankings. Learn pro strategies, avoid common

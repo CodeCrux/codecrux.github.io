@@ -1,9 +1,7 @@
 ---
 title: "The Ultimate Guide to Google Search Console "
-description: Discover how to use Google Search Console to boost your website's
-  SEO! This in-depth guide covers setup, performance tracking, indexing fixes,
-  and advanced tips to improve rankings. Learn pro strategies, avoid common
-  mistakes, and optimize your site for better visibility.
+description: Google Search Console is an indispensable tool for website owners
+  and SEO professionals.
 image: /img/blogs/the-ultimate-guide-to-google-search-console.webp
 layout: post
 permalink: /blog/:title

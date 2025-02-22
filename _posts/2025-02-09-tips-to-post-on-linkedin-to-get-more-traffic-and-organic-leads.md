@@ -1,5 +1,5 @@
 ---
-title: " 2025-02-09-Tips to Post on LinkedIn to Get More Traffic and Organic Leads"
+title: Tips to Post on LinkedIn to Get More Traffic and Organic Leads
 description: Learn how to use LinkedIn to drive organic traffic and generate
   leads. This blog covers profile optimization, content strategies, engagement
   tactics, and analytics to boost visibility and website clicks. Perfect for

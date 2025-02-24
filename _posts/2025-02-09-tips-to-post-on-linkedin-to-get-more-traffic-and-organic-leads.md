@@ -3,7 +3,7 @@ title: Tips to Post on LinkedIn to Get More Traffic and Organic Leads
 description: LinkedIn is one of the most powerful platforms for professionals,
   businesses, and startups to build their brand, generate organic leads, and
   drive traffic to their websites.
-image: /img/blogs/how-to-post-on-linkedin-to-get-more-organic-traffic.webp
+image: /img/blogs/tips-to-post-on-linkedin-to-get-more-organic-traffic-and-leads.png
 layout: post
 permalink: /blog/:title
 author: Shyam Mohan

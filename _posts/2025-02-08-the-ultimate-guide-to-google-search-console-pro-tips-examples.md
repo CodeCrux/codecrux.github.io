@@ -2,7 +2,7 @@
 title: "The Ultimate Guide to Google Search Console "
 description: Google Search Console is an indispensable tool for website owners
   and SEO professionals.
-image: /img/blogs/the-ultimate-guide-to-google-search-console.webp
+image: /img/blogs/your-paragraph-text-2-.png
 layout: post
 permalink: /blog/:title
 author: Shyam Mohan

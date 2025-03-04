@@ -1,5 +1,5 @@
 ---
-title: 2025-02-10 Python For Machine Learning
+title: Python For Machine Learning
 description: Machine learning has become a game-changer in the tech industry,
   enabling businesses to make data-driven decisions and automate complex tasks.
 image: /img/blogs/python-for-machine-learning.webp

@@ -1,5 +1,5 @@
 ---
-title: 2025-02-12 Designing for the Future How UI/UX is Evolving in 2025
+title: Designing for the Future How UI/UX is Evolving in 2025
 description: As digital experiences continue to shape how we interact with the
   world, UI/UX design is undergoing a transformative shift in 2025.
 image: /img/blogs/designing-for-the-future-how-uxui-is-evolving-in-2025.webp

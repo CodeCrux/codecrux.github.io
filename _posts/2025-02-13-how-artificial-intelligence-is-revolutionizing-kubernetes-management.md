@@ -1,5 +1,5 @@
 ---
-title: 2025-02-13 How Artificial Intelligence is Revolutionizing Kubernetes Management
+title: How Artificial Intelligence is Revolutionizing Kubernetes Management
 description: Kubernetes has become the de facto standard for container
   orchestration, offering a powerful platform for deploying, managing, and
   scaling containerized applications.

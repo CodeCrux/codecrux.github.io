@@ -1,5 +1,5 @@
 ---
-title: "2025-02-13-How to Promote My YouTube Channel: A Complete Guide for Creators"
+title: "How to Promote My YouTube Channel: A Complete Guide for Creators"
 description: "If you're asking, \"how to promote my YouTube channel,\" you're not alone. "
 image: /img/blogs/how-to-promote-my-youtube-channel.jpg
 layout: post

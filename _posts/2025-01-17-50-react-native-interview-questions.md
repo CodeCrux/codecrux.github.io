@@ -574,7 +574,7 @@ import { GestureHandlerRootView, PanGestureHandler } from 'react-native-gesture-
 const App = () => (
   <GestureHandlerRootView>
     <PanGestureHandler onGestureEvent={() => console.log("Swiped!")}>
-      <View style={{ width: 100, height: 100, backgroundColor: 'blue' }} />
+{% raw %}      <View style={{ width: 100, height: 100, backgroundColor: 'blue' }} />{% endraw %}
     </PanGestureHandler>
   </GestureHandlerRootView>
 );
@@ -683,8 +683,9 @@ const MyContext = createContext();
 
 export const MyProvider = ({ children }) => {
   const [state, setState] = useState("Hello World");
-
+{% raw %}
   return <MyContext.Provider value={{ state, setState }}>{children}</MyContext.Provider>;
+{% endraw %}
 };
 
 export const useMyContext = () => useContext(MyContext);
@@ -744,8 +745,9 @@ npm install react-native-fast-image
 ```
 ```javascript
 import FastImage from 'react-native-fast-image';
-
+{% raw %}
 <FastImage source={{ uri: 'https://example.com/image.jpg' }} style={{ width: 100, height: 100 }} />;
+{% endraw %}
 ```
 ---
 
@@ -815,11 +817,12 @@ const getItem = (data, index) => data[index];
 **Example using `react-native-fast-image`**
 ```javascript
 import FastImage from 'react-native-fast-image';
-
+{% raw %}
 <FastImage
   source={{ uri: 'https://example.com/image.jpg', priority: FastImage.priority.high }}
   style={{ width: 200, height: 200 }}
 />;
+{% endraw %}
 ```
 ---
 
@@ -878,7 +881,7 @@ export const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState('light');
 
   return (
-    <ThemeContext.Provider value={{ theme, setTheme }}>
+{% raw %}    <ThemeContext.Provider value={{ theme, setTheme }}>{% endraw %}
       {children}
     </ThemeContext.Provider>
   );
@@ -892,10 +895,10 @@ export const useTheme = () => useContext(ThemeContext);
 import { useTheme } from './ThemeContext';
 
 const ThemedComponent = () => {
-  const { theme, setTheme } = useTheme();
+{% raw %}  const { theme, setTheme } = useTheme();{% endraw %}
 
   return (
-    <View style={{ backgroundColor: theme === 'dark' ? '#000' : '#fff' }}>
+{% raw %}    <View style={{ backgroundColor: theme === 'dark' ? '#000' : '#fff' }}>{% endraw %}
       <Text onPress={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>Toggle Theme</Text>
     </View>
   );

@@ -124,9 +124,9 @@ const App = () => {
   return (
 
     <View>
-
+{% raw %}
       <Image source={{ uri: 'image-uri-here' }} />
-
+{% endraw %}
       <Button title="Classify Image" onPress={() => 
 classifyImage('image-uri-here')} />
 

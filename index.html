@@ -76,9 +76,216 @@ layout: landing-page
 {% include /what-we-do.html %}
 
 
+<style>
+    :root {
+        /* CodeCrux inspired palette */
+        --primary-gradient: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+        --glass-bg: rgba(255, 255, 255, 0.8);
+    }
+
+    .hero-section {
+        padding: 40px 0;
+        /* background-color: #9048fd; */
+        overflow: hidden;
+    }
+
+    /* Left Side Content */
+    .hero-content {
+        padding-right: 2rem;
+    }
+
+    /* Right Side: Responsive Half-Card Container */
+    .hero-card-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        perspective: 1000px;
+    }
+
+    .hero-img-card {
+        position: relative;
+        /* Desktop: Takes up 70% of its column to look like a floating "half-part" */
+        width: 100%; 
+        padding: 0px;
+        border-radius: 20px; /* Ultra-round corners */
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+        transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        cursor: pointer;
+        animation: float 5s ease-in-out infinite;
+    }
+
+    /* Hover Effect: Scale up, rotate slightly, and increase shadow */
+    .hero-img-card:hover {
+        transform: scale(1.05) rotateX(5deg) rotateY(-5deg);
+        box-shadow: 0 30px 60px rgba(59, 130, 246, 0.4);
+    }
+
+    .hero-img-card img {
+        width: 100%;
+        border-radius: 20px; /* Matches the outer container padding */
+        display: block;
+    }
+
+    /* Floating Animation */
+    @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-15px); }
+    }
+
+    /* Mobile Responsiveness */
+    @media (max-width: 991.98px) {
+        .hero-section {
+            padding: 50px 0;
+            text-align: center;
+        }
+        .hero-content {
+            padding-right: 0;
+            margin-bottom: 3rem;
+        }
+        .hero-img-card {
+            width: 100%; /* Take full width on mobile for better visibility */
+            border-radius: 30px;
+        }
+        .hero-img-card img {
+            border-radius: 20px;
+        }
+        .justify-content-md-start {
+            justify-content: center !important;
+        }
+    }
+
+    /* Button Styling */
+    .btn-gradient {
+        background: var(--primary-gradient);
+        color: #fff;
+        border: none;
+        border-radius: 50px;
+        padding: 10px 35px;
+        font-weight: 600;
+        transition: 0.3s;
+    }
+
+    .btn-gradient:hover {
+        opacity: 0.9;
+        color: #fff;
+        transform: translateY(-2px);
+    }
+</style>
+
+  <div class="section-heading">
+    <h2>Our SaaS Products</h2>
+    <br />
+    <center>
+      <p>
+        We've helped organizations across industries leverage our products for quick setup.
+      </p>
+    </center>
+  </div>
+
+  <section class="hero-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 hero-content">
+            <h1 class="display-5 fw-bold mb-4">Insightful 
+              <span style="color: #3b82f6;">Revenue-Driving Call Intelligence with AI Platform</span></h1>
+              <p class="lead mb-4">
+                Semantic Intent Engine
+                Stop searching for keywords like "cancel" or "happy." Our AI understands meaning. 
+                It identifies frustration, urgency, and buying signals even if the customer never uses the specific words.
+              </p>
+              <ul>
+              <li>1) Find exactly where calls went wrong in seconds</li>
+
+              <li>2) Auto-tag competitor mentions across millions of calls</li>
+              </ul>
+              <br>
+            <div class="d-grid d-md-flex justify-content-md-start gap-3">
+                <a href="/insightful-call-intelligence-AI-platform.html" target="_blank">
+                  <button class="btn btn-gradient btn-lg">View More Details</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-lg-6 hero-card-wrapper">
+          <a href="/insightful-call-intelligence-AI-platform.html" target="_blank">
+            <div class="hero-img-card">
+                <img src="/img/insightful-call-intelligence-AI-platform.webp" alt="App Screenshot" class="img-fluid">
+            </div>
+          </a>
+        </div>
+        <br>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero-section">
+    <div class="container">
+      <div class="row align-items-center">
+
+             <div class="col-lg-6 hero-card-wrapper">
+          <a href="https://blinkcrm.in/" target="_blank">
+            <div class="hero-img-card">
+                <img src="/img/blinkcrm.webp" alt="App Screenshot" class="img-fluid">
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg-6 hero-content">
+            <h1 class="display-5 fw-bold mb-4">BlinkCRM 
+              <span style="color: #3b82f6;">Turn Your LinkedIn Network into Leads. </span></h1>
+              <p class="lead mb-4">
+                BlinkCRM is the AI-powered platform to automate lead nurturing, personalize outreach, 
+                and close deals faster, directly from your LinkedIn connections.
+                 No more manual data entry. No more generic emails. Just results.
+              </p>
+              <br>
+            <div class="d-grid d-md-flex justify-content-md-start gap-3">
+                <a href="https://blinkcrm.in/" target="_blank">
+                  <button class="btn btn-gradient btn-lg">View More Details</button>
+                </a>
+            </div>
+        </div>
+
+   
+        <br>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 hero-content">
+            <h1 class="display-5 fw-bold mb-4">Razorops 
+              <span style="color: #3b82f6;">Kubernetes Performance and Cost Optimization using AI</span></h1>
+              <p class="lead mb-4">
+                The intelligent AI platform that continuously tunes your Kubernetes
+                 clusters for peak performance at the lowest possible cost. Automatically.
+              </p>
+              <br>
+            <div class="d-grid d-md-flex justify-content-md-start gap-3">
+                <a href="https://razorops.com/" target="_blank">
+                  <button class="btn btn-gradient btn-lg">View More Details</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-lg-6 hero-card-wrapper">
+          <a href="https://razorops.com/" target="_blank">
+            <div class="hero-img-card">
+                <img src="/img/razorops-kubecost.webp" alt="App Screenshot" class="img-fluid">
+            </div>
+          </a>
+        </div>
+        <br>
+      </div>
+    </div>
+  </section>
 
 
-<section
+
+
+<!-- <section
   id="focus-areas"
   class="features-wraper"
   style="padding: 1px !important"
@@ -100,7 +307,7 @@ layout: landing-page
       />
     </div>
   </div>
-</section>
+</section> -->
 
 <!-- Portfolio Grid Section -->
 <section id="portfolio" class="portfolio-wrap">
@@ -238,7 +445,7 @@ layout: landing-page
   <div class="module">{% include /testimonial.html %}</div>
 </div>
 
-{% include /products.html %} 
+<!-- {% include /products.html %}  -->
 {% include /articles.html %} 
 
 <br>

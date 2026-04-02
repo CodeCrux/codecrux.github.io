@@ -1,278 +1,246 @@
-<!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Insightful | Revenue-Driving Call Intelligence & AI QA</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <style>
-        body { font-family: 'Plus Jakarta Sans', sans-serif; }
-        .glass-card {
-            background: rgba(15, 23, 42, 0.8);
-            backdrop-filter: blur(16px);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-        }
-        .hover-glow:hover {
-            box-shadow: 0 0 40px rgba(59, 130, 246, 0.3);
-            border-color: rgba(59, 130, 246, 0.5);
-            transform: translateY(-5px);
-        }
-        .gradient-text {
-            background: linear-gradient(135deg, #60a5fa 0%, #c084fc 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        .hero-gradient {
-            background: radial-gradient(circle at 50% 50%, rgba(59, 130, 246, 0.15) 0%, rgba(15, 23, 42, 0) 70%);
-        }
-    </style>
-</head>
-<body class="bg-slate-950 text-slate-200 antialiased">
+---
+layout: landing-page
+---
 
-    <nav class="fixed w-full z-50 bg-slate-950/90 backdrop-blur-xl border-b border-white/5">
-        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-            <div class="flex items-center gap-2">
-                <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-                    <div class="w-4 h-4 bg-white rounded-sm rotate-45"></div>
-                </div>
-                <span class="text-2xl font-bold tracking-tighter text-white">INSIGHTFUL</span>
-            </div>
-            <div class="hidden md:flex gap-10 items-center text-sm font-semibold tracking-wide">
-                <a href="#benefits" class="text-slate-400 hover:text-white transition-colors">The ROI</a>
-                <a href="#features" class="text-slate-400 hover:text-white transition-colors">Platform</a>
-                <a href="#tech" class="text-slate-400 hover:text-white transition-colors">Security</a>
-                <a href="#cta" class="bg-blue-600 hover:bg-blue-500 text-white px-8 py-3 rounded-full transition-all hover:scale-105 shadow-lg shadow-blue-600/20">
-                    Claim Your Edge
-                </a>
-            </div>
-        </div>
-    </nav>
+<!-- Header -->
+<!-- <div
+  id="myCarousel"
+  class="carousel slide banner-carousel"
+  data-ride="carousel"
+> -->
+  <!-- Indicators -->
+  <!-- <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
 
-    <header class="relative pt-40 pb-24 hero-gradient overflow-hidden">
-        <div class="max-w-7xl mx-auto px-6 text-center relative z-10">
-            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 text-xs font-bold uppercase tracking-widest mb-8">
-                🚀 The Future of Contact Center ROI
-            </div>
-            <h1 class="text-5xl md:text-8xl font-extrabold tracking-tight text-white mb-8 leading-tight">
-                Stop Guessing. <br>
-                <span class="gradient-text">Start Knowing.</span>
-            </h1>
-            <p class="max-w-3xl mx-auto text-xl text-slate-400 mb-12 leading-relaxed">
-                98% of your call data is a dark void. Insightful illuminates every conversation, turning hidden customer intent into <strong>massive revenue growth</strong> and <strong>churn protection.</strong>
-            </p>
-            <div class="flex flex-col sm:flex-row justify-center gap-6">
-                <a href="#cta" class="bg-blue-600 hover:bg-blue-500 text-white px-12 py-5 rounded-full text-lg font-bold transition-all hover:scale-105 shadow-2xl shadow-blue-600/40">
-                    Protect Your Revenue
-                </a>
-                <a href="#features" class="glass-card hover:bg-white/5 text-white px-12 py-5 rounded-full text-lg font-bold transition-all border border-white/10">
-                    Watch the Platform
-                </a>
-            </div>
-            
-            <div class="mt-20 pt-10 border-t border-white/5">
-                <p class="text-xs font-bold uppercase tracking-[0.3em] text-slate-500 mb-8">Powering the Next Generation of Sales Leaders</p>
-                <div class="flex flex-wrap justify-center gap-12 opacity-30 grayscale hover:opacity-100 hover:grayscale-0 transition-all duration-700">
-                    <span class="text-xl font-bold italic tracking-tighter">FINTECH+</span>
-                    <span class="text-xl font-bold italic tracking-tighter">SaaS_FLOW</span>
-                    <span class="text-xl font-bold italic tracking-tighter">AUTO_LEAD</span>
-                    <span class="text-xl font-bold italic tracking-tighter">GLOBAL_CX</span>
-                </div>
-            </div>
-        </div>
-    </header>
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="/img/home/agile-software-development-agency.jpg" alt="Los Angeles" />
+      <div class="carousel-caption mb-150">
+        <h1>We Build Full Stack, AI/ML and DevOps Solutions</h1>
+        <p class="intro-sub-title">
+          We are experts at building digital products
+        </p>
+      </div>
+    </div>
 
-    <section id="benefits" class="py-32 bg-slate-900/40">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="max-w-2xl mb-16">
-                <h2 class="text-blue-500 font-bold uppercase tracking-widest text-sm mb-4">The Cost of Silence</h2>
-                <h3 class="text-4xl md:text-5xl font-bold text-white mb-6">Your data is leaking revenue.</h3>
-                <p class="text-slate-400 text-lg">Every unreviewed call is a missed upsell, a hidden complaint, or a churn signal you didn't catch until it was too late.</p>
-            </div>
-            
-            <div class="grid md:grid-cols-3 gap-8">
-                <div class="glass-card p-10 rounded-[2.5rem] border-red-500/10 hover:border-red-500/30 transition-all">
-                    <div class="w-12 h-12 bg-red-500/10 rounded-full flex items-center justify-center text-red-500 mb-6">
-                        <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-                    </div>
-                    <h4 class="text-xl font-bold text-white mb-4">Revenue Leakage</h4>
-                    <p class="text-slate-400 text-sm leading-relaxed">Customers signal intent to leave 3 calls before they cancel. If you aren't listening to 100% of calls, you're losing them.</p>
-                </div>
-                <div class="glass-card p-10 rounded-[2.5rem] border-red-500/10 hover:border-red-500/30 transition-all">
-                    <div class="w-12 h-12 bg-red-500/10 rounded-full flex items-center justify-center text-red-500 mb-6">
-                        <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
-                    </div>
-                    <h4 class="text-xl font-bold text-white mb-4">Quality Drift</h4>
-                    <p class="text-slate-400 text-sm leading-relaxed">Without total visibility, agent performance fluctuates wildly. Coaching becomes a guessing game based on "gut feeling."</p>
-                </div>
-                <div class="glass-card p-10 rounded-[2.5rem] border-red-500/10 hover:border-red-500/30 transition-all">
-                    <div class="w-12 h-12 bg-red-500/10 rounded-full flex items-center justify-center text-red-500 mb-6">
-                        <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728L5.636 5.636"/></svg>
-                    </div>
-                    <h4 class="text-xl font-bold text-white mb-4">Operational Blindness</h4>
-                    <p class="text-slate-400 text-sm leading-relaxed">Feature requests, competitor mentions, and market shifts are being told to your agents every day. You're just not hearing them.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <div class="item">
+      <img src="/img/home/codecrux-banner-10.jpg" alt="Chicago" />
+      <div class="carousel-caption mb-150">
+        <h1>Agile Software Development Agency</h1>
+        <p class="intro-sub-title">Innovative, Quality & On-time</p>
+      </div>
+    </div>
 
-    <section id="features" class="py-32 overflow-hidden">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="text-center mb-24">
-                <h2 class="text-4xl md:text-6xl font-bold text-white mb-6 tracking-tight">The Insights You Need. <br><span class="text-blue-500">Delivered in Real-Time.</span></h2>
-            </div>
+    <div class="item">
+      <img src="/img/home/codecrux-banner-2.jpg" alt="New york" />
+      <div class="carousel-caption mb-150">
+        <h1>We are your remote team</h1>
+        <p class="intro-sub-title">Reliable, Talented & Smart</p>
+      </div>
+    </div>
+  </div>
 
-            <div class="grid lg:grid-cols-2 gap-16 items-center mb-32">
-                <div>
-                    <div class="inline-block px-4 py-1 rounded-full bg-blue-600/10 text-blue-400 text-xs font-bold mb-6">PATENT-LEVEL INTELLIGENCE</div>
-                    <h3 class="text-3xl font-bold text-white mb-6">Semantic Intent Engine</h3>
-                    <p class="text-slate-400 text-lg mb-8 leading-relaxed">
-                        Stop searching for keywords like "cancel" or "happy." Our AI understands <strong>meaning.</strong> It identifies frustration, urgency, and buying signals even if the customer never uses the specific words.
-                    </p>
-                    <ul class="space-y-4">
-                        <li class="flex items-center gap-3 text-white font-medium">
-                            <div class="w-5 h-5 bg-blue-600 rounded-full flex items-center justify-center text-[10px]">✓</div>
-                            Find exactly where calls went wrong in seconds
-                        </li>
-                        <li class="flex items-center gap-3 text-white font-medium">
-                            <div class="w-5 h-5 bg-blue-600 rounded-full flex items-center justify-center text-[10px]">✓</div>
-                            Auto-tag competitor mentions across millions of calls
-                        </li>
-                    </ul>
-                </div>
-                <div class="glass-card p-4 rounded-[3rem] border-white/10 shadow-2xl">
-                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800" alt="Dashboard Interface" class="rounded-[2.5rem] grayscale hover:grayscale-0 transition-all duration-1000">
-                </div>
-            </div>
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div> -->
 
-            <div class="grid md:grid-cols-3 gap-8">
-                <div class="glass-card p-10 rounded-[2.5rem] hover-glow transition-all group">
-                    <h4 class="text-2xl font-bold text-white mb-4">Weighted Sentiment</h4>
-                    <p class="text-slate-400 text-sm leading-relaxed mb-6">We weight the end of the call more heavily. A call that starts rough but ends with a win is a success. We track the trajectory, not just the transcript.</p>
-                    <div class="w-full h-1 bg-slate-800 rounded-full overflow-hidden">
-                        <div class="w-3/4 h-full bg-gradient-to-r from-red-500 to-green-500"></div>
-                    </div>
-                </div>
-                <div class="glass-card p-10 rounded-[2.5rem] hover-glow transition-all group">
-                    <h4 class="text-2xl font-bold text-white mb-4">Instant LLM Recaps</h4>
-                    <p class="text-slate-400 text-sm leading-relaxed mb-6">Get 1-paragraph executive summaries of 60-minute calls. Save your supervisors 20+ hours a week in manual review time.</p>
-                    <div class="flex gap-2">
-                        <div class="w-8 h-2 bg-blue-600 rounded-full"></div>
-                        <div class="w-4 h-2 bg-blue-600/30 rounded-full"></div>
-                    </div>
-                </div>
-                <div class="glass-card p-10 rounded-[2.5rem] hover-glow transition-all group">
-                    <h4 class="text-2xl font-bold text-white mb-4">Chat with Your Data</h4>
-                    <p class="text-slate-400 text-sm leading-relaxed mb-6">Ask: "Who are our top 3 agents at handling objections?" and get an instant report based on every single call they've ever taken.</p>
-                    <div class="bg-blue-600/10 text-blue-400 p-3 rounded-xl text-[10px] font-mono">Query: analyzing_agent_performance... DONE</div>
-                </div>
-            </div>
-        </div>
-    </section>
+<section class="banner">
+  <div class="intro-text">
+    <h1 class="intro-heading"><div class="intro-lead-in">We Create</div>Smart, Data-Driven and Outcome focussed Products</h1>
+    <div class="intro-sub-text">
+      <p class="for-text">for</p>
+      <ul class="intro-sub-list">
+        <li>Startups</li>
+        <li>High Growth</li>
+        <li>Enterprises</li>
+      </ul>
+    </div>
+    <a href="/contact" class="page-scroll btn btn-know-more">Contact Us  &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-right fa-lg"></i></a>
+  </div>
+</section>
 
-    <section class="py-32 bg-slate-900/50">
-        <div class="max-w-4xl mx-auto px-6 text-center">
-            <h2 class="text-3xl font-bold text-white mb-16">The Impact: From Static to Strategic</h2>
-            <div class="glass-card rounded-[3rem] overflow-hidden border-white/10 shadow-2xl">
-                <table class="w-full text-left">
-                    <thead class="bg-white/5 text-slate-500 text-xs font-bold uppercase tracking-widest border-b border-white/5">
-                        <tr>
-                            <th class="p-8">Capability</th>
-                            <th class="p-8">Traditional Center</th>
-                            <th class="p-8 text-blue-400">Insightful Powered</th>
-                        </tr>
-                    </thead>
-                    <tbody class="divide-y divide-white/5">
-                        <tr class="hover:bg-white/5 transition-colors">
-                            <td class="p-8 font-bold text-white">QA Coverage</td>
-                            <td class="p-8 text-slate-500">2-5% (Blind)</td>
-                            <td class="p-8 text-blue-400 font-extrabold">100% (Total Visibility)</td>
-                        </tr>
-                        <tr class="hover:bg-white/5 transition-colors">
-                            <td class="p-8 font-bold text-white">Search Speed</td>
-                            <td class="p-8 text-slate-500">Manual (Hours)</td>
-                            <td class="p-8 text-blue-400 font-extrabold">Instant (Seconds)</td>
-                        </tr>
-                        <tr class="hover:bg-white/5 transition-colors">
-                            <td class="p-8 font-bold text-white">Churn Defense</td>
-                            <td class="p-8 text-slate-500">Reactive</td>
-                            <td class="p-8 text-blue-400 font-extrabold">Predictive AI-Alerts</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
+<div class="clearfix"></div>
+<!-- {% include /technology.html %} -->
+<div class="container">
+  <hr class="pf-item-hr" />
+</div>
 
-    <section id="tech" class="py-32">
-        <div class="max-w-7xl mx-auto px-6 text-center">
-            <h2 class="text-sm font-bold text-indigo-400 uppercase tracking-widest mb-12">Enterprise-Grade Architecture</h2>
-            <div class="flex flex-wrap justify-center gap-x-12 gap-y-8 opacity-60">
-                <div class="flex flex-col items-center">
-                    <span class="text-2xl font-bold text-white">Whisper ASR</span>
-                    <span class="text-[10px] text-slate-500">TRANSCRIPTION</span>
-                </div>
-                <div class="flex flex-col items-center">
-                    <span class="text-2xl font-bold text-white">GPT-4o</span>
-                    <span class="text-[10px] text-slate-500">ANALYSIS ENGINE</span>
-                </div>
-                <div class="flex flex-col items-center">
-                    <span class="text-2xl font-bold text-white">PostgreSQL</span>
-                    <span class="text-[10px] text-slate-500">VECTOR STORAGE</span>
-                </div>
-                <div class="flex flex-col items-center">
-                    <span class="text-2xl font-bold text-white">Docker</span>
-                    <span class="text-[10px] text-slate-500">SECURE DEPLOY</span>
-                </div>
-            </div>
-            <p class="mt-16 text-slate-500 text-sm max-w-xl mx-auto">
-                <strong>Data Sovereignty First:</strong> Deploy as a Self-Hosted Docker instance for total control or use our secure Cloud-Ready pipeline.
-            </p>
-        </div>
-    </section>
+{% include /what-we-do.html %}
 
-    <section id="cta" class="py-32 relative overflow-hidden">
-        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[500px] bg-blue-600/10 blur-[150px] -z-10"></div>
-        <div class="max-w-3xl mx-auto px-6 text-center">
-            <div class="glass-card p-12 md:p-16 rounded-[4rem] shadow-[0_0_50px_rgba(59,130,246,0.15)] relative border-white/10">
-                <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">Own Your Conversations.</h2>
-                <p class="text-slate-400 mb-12 text-lg">Every second you wait, critical data is being deleted. Let’s unlock your insights today.</p>
-                
-                <form class="grid grid-cols-1 md:grid-cols-2 gap-4 text-left">
-                    <div class="col-span-2">
-                        <input type="text" placeholder="Full Name" class="w-full px-8 py-5 rounded-3xl bg-slate-950 border border-white/5 focus:border-blue-500 focus:outline-none transition-all text-white">
-                    </div>
-                    <div class="col-span-2">
-                        <input type="email" placeholder="Business Email" class="w-full px-8 py-5 rounded-3xl bg-slate-950 border border-white/5 focus:border-blue-500 focus:outline-none transition-all text-white">
-                    </div>
-                    <div class="col-span-2">
-                        <select class="w-full px-8 py-5 rounded-3xl bg-slate-950 border border-white/5 focus:border-blue-500 focus:outline-none transition-all text-slate-500 appearance-none">
-                            <option>Call Volume: 1k - 10k monthly</option>
-                            <option>Call Volume: 10k - 100k monthly</option>
-                            <option>Call Volume: 100k+ monthly</option>
-                        </select>
-                    </div>
-                    <button class="col-span-2 w-full bg-white text-slate-950 py-6 rounded-full font-black text-xl hover:bg-blue-500 hover:text-white transition-all transform hover:scale-[1.02] active:scale-95 shadow-2xl shadow-white/5">
-                        BOOK MY STRATEGY SESSION
-                    </button>
-                </form>
-                <p class="mt-8 text-xs font-bold text-slate-600 uppercase tracking-widest">No credit card required. 1-hour deployment available.</p>
-            </div>
-        </div>
-    </section>
 
-    <footer class="py-12 border-t border-white/5 text-center">
-        <div class="container mx-auto px-6">
-            <div class="flex justify-center gap-8 mb-8 text-slate-500 text-sm font-semibold">
-                <a href="#" class="hover:text-white transition-colors">Privacy</a>
-                <a href="#" class="hover:text-white transition-colors">Security</a>
-                <a href="#" class="hover:text-white transition-colors">Terms</a>
-            </div>
-            <p class="text-slate-600 text-xs tracking-widest">
-                &copy; 2026 INSIGHTFUL AI. ENGINEERED FOR GROWTH. HOSTED ON CODECRUX.
-            </p>
-        </div>
-    </footer>
 
-</body>
-</html>
+
+<section
+  id="focus-areas"
+  class="features-wraper"
+  style="padding: 1px !important"
+>
+  <div class="features-wraper-head">
+    <div class="section-heading">
+      <h2>Industries we've worked</h2>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12"></div>
+      <img
+        src="/img/home/codecrux-product-industries.png"
+        alt="codecrux product industries"
+        width="100%"
+        style="margin-top: -60px"
+      />
+    </div>
+  </div>
+</section>
+
+<!-- Portfolio Grid Section -->
+<section id="portfolio" class="portfolio-wrap">
+  <br />
+  <div class="section-heading">
+    <h2>Our Clients</h2>
+    <br />
+    <center>
+      <p>
+        We've helped organizations across industries leverage the web and mobile
+        for their business goals.
+      </p>
+    </center>
+  </div>
+
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-sm-3 col-xs-6">
+        <img src="/img/clients/yaxis.jpg" alt="Y-Axis" class="client-logo" />
+      </div>
+      <div class="col-sm-3 col-xs-6">
+        <img
+          src="/img/clients/novartis.png"
+          alt="novartis"
+          class="client-logo"
+        />
+      </div>
+      <div class="col-sm-3 col-xs-6">
+        <img
+          src="/img/clients/comakeit.jpg"
+          alt="ComakeIT"
+          class="client-logo"
+        />
+      </div>
+      <div class="col-sm-3 col-xs-6">
+        <img
+          src="/img/clients/tech-mahindre.jpg"
+          alt="Tech Mahindra"
+          class="client-logo"
+        />
+      </div>
+      <div class="col-sm-3 col-xs-6">
+        <img src="/img/clients/hclub.jpg" alt="Hclub" class="client-logo" />
+      </div>
+      <div class="col-sm-3 col-xs-6">
+        <img
+          src="/img/clients/barknlounge.jpg"
+          alt="Barknlounge"
+          class="client-logo"
+        />
+      </div>
+      <div class="col-sm-3 col-xs-6">
+        <img
+          src="/img/clients/hiredgrad.jpg"
+          alt="Hiredgrad"
+          class="client-logo"
+        />
+      </div>
+      <div class="col-sm-3 col-xs-6">
+        <img src="/img/clients/zaggle.jpg" alt="Zaggle" class="client-logo" />
+      </div>
+      <div class="col-sm-3 col-xs-6">
+        <img src="/img/clients/auzmor.png" alt="auzmor" class="client-logo" />
+      </div>
+      <div class="col-sm-3 col-xs-6">
+        <img
+          src="/img/clients/maverick.jpg"
+          alt="Maverick"
+          class="client-logo"
+        />
+      </div>
+      <div class="col-sm-3 col-xs-6">
+        <img
+          src="/img/clients/cantileverlabs.png"
+          alt="cantileverlabs"
+          class="client-logo"
+        />
+      </div>
+      <div class="col-sm-3 col-xs-6">
+        <img
+          src="/img/clients/1dossier.png"
+          alt="1dossier"
+          class="client-logo"
+        />
+      </div>
+      <div class="col-sm-3 col-xs-6">
+        <img
+          src="/img/clients/apposite.png"
+          alt="apposite"
+          class="client-logo"
+        />
+      </div>
+      <div class="col-sm-3 col-xs-6">
+        <img
+          src="/img/clients/teepublic.png"
+          alt="teepublic"
+          class="client-logo"
+        />
+      </div>
+      <div class="col-sm-3 col-xs-6">
+        <img src="/img/clients/proarch.png" alt="proarch" class="client-logo" />
+      </div>
+      <div class="col-sm-3 col-xs-6">
+        <img src="/img/clients/predera.png" alt="predera" class="client-logo" />
+      </div>
+      <div class="col-sm-3 col-xs-6">
+        <img src="/img/clients/minibar.png" alt="minibar" class="client-logo" />
+      </div>
+      <div class="col-sm-3 col-xs-6">
+        <img
+          src="/img/clients/migrocer.png"
+          alt="migrocer"
+          class="client-logo"
+        />
+      </div>
+      <div class="col-sm-3 col-xs-6">
+        <img
+          src="/img/clients/dbmtgroup.png"
+          alt="dbmtgroup"
+          class="client-logo"
+        />
+      </div>
+      <div class="col-sm-3 col-xs-6">
+        <img
+          src="/img/clients/university-of-hyderabad.jpg"
+          alt="university of hyderabad"
+          class="client-logo"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="module-border-wrap">
+  <div class="module">{% include /testimonial.html %}</div>
+</div>
+
+{% include /products.html %} 
+{% include /articles.html %} 
+
+<br>
+<br>
+<br>

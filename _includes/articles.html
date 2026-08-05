@@ -3,9 +3,9 @@
     <h2 class="text-center font-30 mar-t1">Latest Blog Articles</h2>
     <div class="row-1 mar-t2">
 
-      {% assign blogs = site.posts %} {% for post in blogs limit:3 %}
+      {% assign blogs = site.posts %} {% for post in blogs limit:16 %}
 
-      <div class="col-md-4">
+      <div class="col-md-3">
           <a href="{{ site.baseurl }}{{ post.url }}">
           <div class="article-col">
             <img src="{{ post.image }}" alt="{{ post.title }}" class="blog-home-image"/>

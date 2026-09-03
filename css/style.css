@@ -8474,7 +8474,7 @@ figure {
 /* Desktop and laptop navigation breakpoints */
 @media (min-width: 1101px) {
   .cc-site .navbar > .container { max-width: 1320px; padding-right: 28px; padding-left: 28px; }
-  .cc-site .cc-nav-links > ul > li > a { padding: 29px 10px 27px !important; font-size: 10.5px !important; }
+  .cc-site .cc-nav-links > ul > li > a { padding: 29px 10px 27px !important; font-size: 15px !important; }
   .cc-site .cc-nav-links .dropdown-menu li a { font-size: 12px !important; }
   .cc-site .cc-nav-links .cc-nav-cta a { font-size: 11px !important; }
 }

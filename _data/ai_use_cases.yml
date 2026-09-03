@@ -1,0 +1,639 @@
+- industry: "Technology & SaaS"
+  function: "Customer Service"
+  type: "AI Agent"
+  name: "Autonomous Customer Support Resolution"
+  problem: "Support teams switch between multiple systems to understand and resolve one customer issue."
+  trigger: "Ticket, email or chat arrives"
+  agents: "Customer context, knowledge, diagnostics and resolution agents"
+  steps: ["Classify intent and severity", "Retrieve authorized knowledge", "Check account and product context", "Recommend or execute resolution", "Monitor follow-up and update the knowledge base"]
+  systems: ["Zendesk", "Salesforce", "Jira", "Slack", "Product APIs"]
+  humans: "Approve refunds, account changes and other sensitive actions."
+  controls: ["Agent identity", "Permission-aware retrieval", "Tool permissions", "Approval gates", "Audit trail"]
+  outcomes: ["Faster resolution", "Fewer repetitive tickets", "Higher first-contact resolution"]
+  autonomy: "Level 4 - Autonomous within policy"
+  readiness: "Ready Now"
+  services: ["Agentic AI Engineering", "Enterprise AI Automation"]
+
+- industry: "Technology & SaaS"
+  function: "Engineering"
+  type: "Multi-Agent System"
+  name: "Agentic Software Engineering"
+  problem: "Engineering teams lose time translating issues into tested, reviewed and deployable changes."
+  trigger: "Jira or GitHub issue is created"
+  agents: "Requirements, coding, testing and security review agents"
+  steps: ["Understand requirements", "Analyze the repository", "Create an implementation plan", "Write and test code", "Open a pull request and monitor CI/CD"]
+  systems: ["GitHub", "GitLab", "Jira", "CI/CD", "Kubernetes"]
+  humans: "Review pull requests and approve protected branch or production changes."
+  controls: ["Repository permissions", "Protected files", "Branch restrictions", "Deployment approvals", "CI policy"]
+  outcomes: ["Shorter delivery cycles", "More consistent testing", "Higher developer productivity"]
+  autonomy: "Level 3 - Act with Approval"
+  readiness: "Ready Now"
+  services: ["Agentic AI Engineering", "AI Adoption & Transformation"]
+
+- industry: "Technology & SaaS"
+  function: "Customer Success"
+  type: "AI Copilot"
+  name: "SaaS Customer Success Agent"
+  problem: "Customer success managers lack one reliable view of product health, support history and renewal risk."
+  trigger: "Product health signal or renewal window"
+  agents: "Customer health, risk and outreach agents"
+  steps: ["Combine product, CRM, support and billing signals", "Detect risk or opportunity", "Explain the account context", "Draft an intervention", "Monitor the customer response"]
+  systems: ["CRM", "Product analytics", "Support platform", "Billing", "Email"]
+  humans: "Review high-value outreach, retention offers and escalation decisions."
+  controls: ["Customer data permissions", "CRM write access", "Outreach approval", "Traceable recommendations"]
+  outcomes: ["Earlier churn detection", "Better renewal preparation", "More relevant customer engagement"]
+  autonomy: "Level 2 - Recommend"
+  readiness: "Ready Now"
+  services: ["Enterprise AI Applications", "AI Adoption & Transformation"]
+
+- industry: "Technology & SaaS"
+  function: "Product"
+  type: "Multi-Agent System"
+  name: "Product Intelligence Agent"
+  problem: "Product feedback is fragmented across tickets, reviews, analytics, sales calls and feature requests."
+  trigger: "New feedback or scheduled intelligence review"
+  agents: "Feedback clustering, trend and impact agents"
+  steps: ["Collect approved feedback sources", "Cluster recurring problems", "Identify emerging trends", "Estimate opportunity impact", "Draft a product requirement for review"]
+  systems: ["Support platform", "CRM", "Analytics", "App reviews", "Product backlog"]
+  humans: "Validate themes, prioritize opportunities and approve product requirements."
+  controls: ["Source permissions", "Evidence links", "Human prioritization", "Backlog approval"]
+  outcomes: ["Faster product discovery", "Clearer customer signal", "Better roadmap decisions"]
+  autonomy: "Level 2 - Recommend"
+  readiness: "Ready Now"
+  services: ["Enterprise Knowledge & RAG", "Enterprise AI Applications"]
+
+- industry: "Banking & Financial Services"
+  function: "Finance"
+  type: "Agentic Workflow"
+  name: "Intelligent Loan Processing"
+  problem: "Loan teams manually gather, verify and compare documents before a credit decision can be reviewed."
+  trigger: "Loan application is submitted"
+  agents: "Document, identity, risk and policy agents"
+  steps: ["Collect and classify documents", "Extract financial information", "Run KYC and identity checks", "Evaluate policy and risk", "Prepare an underwriting recommendation"]
+  systems: ["Loan origination", "KYC provider", "Document store", "Credit data", "CRM"]
+  humans: "Make or approve regulated and high-risk underwriting decisions."
+  controls: ["PII protection", "Separation of duties", "Policy versioning", "Approval workflow", "Evidence archive"]
+  outcomes: ["Shorter processing time", "Fewer manual handoffs", "More consistent review packages"]
+  autonomy: "Level 3 - Act with Approval"
+  readiness: "Advanced"
+  services: ["Enterprise AI Automation", "AI Security & Governance"]
+
+- industry: "Banking & Financial Services"
+  function: "Security"
+  type: "AI Agent"
+  name: "Fraud Investigation Agent"
+  problem: "Fraud analysts spend hours collecting context from transactions, devices, locations and account history."
+  trigger: "Transaction alert is created"
+  agents: "Investigation, entity and risk analysis agents"
+  steps: ["Gather customer and transaction history", "Analyze device and location context", "Find related accounts", "Score risk and compile evidence", "Prepare a case for analyst review"]
+  systems: ["Core banking", "Fraud platform", "Customer profile", "Device intelligence", "Case management"]
+  humans: "Review evidence, decide escalation and take account action."
+  controls: ["Least privilege", "Case access controls", "Explainable evidence", "Analyst approval", "Audit trail"]
+  outcomes: ["Faster investigations", "Better analyst focus", "More complete case evidence"]
+  autonomy: "Level 3 - Act with Approval"
+  readiness: "Ready Now"
+  services: ["AI Engineering & LLMOps", "AI Security & Governance"]
+
+- industry: "Banking & Financial Services"
+  function: "Sales"
+  type: "AI Copilot"
+  name: "Financial Advisor Copilot"
+  problem: "Advisors need to synthesize client profiles, portfolios, market research and risk information before meetings."
+  trigger: "Client review or meeting preparation"
+  agents: "Research, scenario and presentation agents"
+  steps: ["Retrieve the client profile", "Analyze portfolio and risk profile", "Research approved market sources", "Generate scenarios and recommendations", "Prepare an advisor-reviewed presentation"]
+  systems: ["CRM", "Portfolio system", "Market data", "Research library", "Document platform"]
+  humans: "Own regulated advice, recommendations and all client-facing decisions."
+  controls: ["Approved source list", "Role-based access", "Disclosure checks", "Advisor review", "Versioned outputs"]
+  outcomes: ["Better meeting preparation", "Faster research", "More consistent client communication"]
+  autonomy: "Level 2 - Recommend"
+  readiness: "Ready Now"
+  services: ["Enterprise Knowledge & RAG", "AI Adoption & Transformation"]
+
+- industry: "Banking & Financial Services"
+  function: "Compliance"
+  type: "Multi-Agent System"
+  name: "AML Investigation Workflow"
+  problem: "AML investigators manually resolve entities and assemble evidence across transaction and research systems."
+  trigger: "AML alert is raised"
+  agents: "Entity resolution, transaction graph and evidence agents"
+  steps: ["Resolve related entities", "Analyze transaction relationships", "Retrieve historical investigations", "Search approved adverse information", "Compile evidence for investigator review"]
+  systems: ["Transaction platform", "Case management", "KYC data", "Research sources", "Entity graph"]
+  humans: "Review the case, apply judgment and decide escalation or reporting."
+  controls: ["Source authorization", "Evidence provenance", "Investigator approval", "Retention policy", "Auditability"]
+  outcomes: ["More complete investigations", "Reduced research effort", "Faster case preparation"]
+  autonomy: "Level 3 - Act with Approval"
+  readiness: "Advanced"
+  services: ["Enterprise Knowledge & RAG", "AI Security & Governance"]
+
+- industry: "Healthcare & Life Sciences"
+  function: "Healthcare Operations"
+  type: "AI Copilot"
+  name: "Clinical Documentation Copilot"
+  problem: "Clinicians spend valuable time turning patient interactions into structured notes and coding suggestions."
+  trigger: "Patient interaction is complete"
+  agents: "Transcription, clinical extraction and documentation agents"
+  steps: ["Transcribe the interaction", "Extract clinical information", "Apply medical context", "Draft a note and coding suggestions", "Present the draft for clinician review"]
+  systems: ["EHR", "Clinical documentation", "Speech platform", "Coding system", "Identity provider"]
+  humans: "Review, edit and approve all clinical notes and coding decisions."
+  controls: ["Patient data access", "Clinician identity", "No autonomous diagnosis", "Review gate", "Audit log"]
+  outcomes: ["Less documentation burden", "Faster note completion", "More consistent records"]
+  autonomy: "Level 2 - Recommend"
+  readiness: "Ready Now"
+  services: ["Enterprise AI Applications", "AI Security & Governance"]
+
+- industry: "Healthcare & Life Sciences"
+  function: "Customer Service"
+  type: "AI Agent"
+  name: "Patient Service Agent"
+  problem: "Patients need answers across appointments, records, billing and common questions, often across disconnected systems."
+  trigger: "Patient request arrives"
+  agents: "Identity, intent and service agents"
+  steps: ["Verify identity", "Understand the request", "Retrieve the authorized record", "Resolve or route the request", "Escalate when a human is needed"]
+  systems: ["Patient portal", "Scheduling", "Billing", "EHR", "Knowledge base"]
+  humans: "Handle clinical, sensitive, ambiguous and exception cases."
+  controls: ["Identity verification", "Minimum necessary access", "Sensitive-topic escalation", "Audit trail"]
+  outcomes: ["Faster patient response", "Lower service workload", "More consistent support"]
+  autonomy: "Level 4 - Autonomous within policy"
+  readiness: "Ready Now"
+  services: ["Enterprise AI Automation", "AI Security & Governance"]
+
+- industry: "Healthcare & Life Sciences"
+  function: "Operations"
+  type: "Agentic Workflow"
+  name: "Prior Authorization Intelligence Workflow"
+  problem: "Prior authorization teams spend time collecting evidence, interpreting policy and tracking submissions."
+  trigger: "Treatment authorization is requested"
+  agents: "Record retrieval, policy and documentation agents"
+  steps: ["Retrieve the patient record", "Analyze payer requirements", "Collect required evidence", "Prepare submission documents", "Monitor status and draft an appeal when needed"]
+  systems: ["EHR", "Payer portal", "Policy library", "Document store", "Case management"]
+  humans: "Review clinical documentation, submission accuracy and appeals."
+  controls: ["Patient consent", "Payer policy versioning", "Human review", "Document audit trail"]
+  outcomes: ["Faster submission preparation", "Fewer missing documents", "Better status visibility"]
+  autonomy: "Level 3 - Act with Approval"
+  readiness: "Ready Now"
+  services: ["Enterprise Knowledge & RAG", "Enterprise AI Automation"]
+
+- industry: "Healthcare & Life Sciences"
+  function: "Research"
+  type: "Multi-Agent System"
+  name: "Life Sciences Research Agent"
+  problem: "Researchers need to connect literature, trials, internal findings and structured scientific knowledge."
+  trigger: "Scientific question is submitted"
+  agents: "Literature, trial, knowledge graph and evidence agents"
+  steps: ["Search approved literature", "Retrieve relevant trial data", "Connect internal research", "Evaluate evidence quality", "Generate hypotheses for researcher review"]
+  systems: ["Research repository", "Clinical trial data", "Knowledge graph", "Document store", "Approved external sources"]
+  humans: "Evaluate findings, validate hypotheses and make scientific decisions."
+  controls: ["Approved sources", "Citation provenance", "Researcher access", "Evidence scoring", "Review workflow"]
+  outcomes: ["Faster research synthesis", "More connected knowledge", "Better evidence discovery"]
+  autonomy: "Level 2 - Recommend"
+  readiness: "Advanced"
+  services: ["Enterprise Knowledge & RAG", "AI Engineering & LLMOps"]
+
+- industry: "Insurance"
+  function: "Operations"
+  type: "AI Agent"
+  name: "Claims Processing Agent"
+  problem: "Claims teams review documents, images, policies and fraud signals across multiple systems."
+  trigger: "Claim is submitted"
+  agents: "Document, policy, damage and fraud signal agents"
+  steps: ["Analyze claim documents and images", "Retrieve policy coverage", "Assess damage or loss context", "Identify fraud signals", "Prepare a settlement recommendation"]
+  systems: ["Claims platform", "Policy system", "Image store", "Customer profile", "Case management"]
+  humans: "Review complex claims, exceptions, fraud signals and settlement decisions."
+  controls: ["Claim access policy", "Evidence links", "Adjuster approval", "Fraud escalation", "Audit trail"]
+  outcomes: ["Faster claim triage", "More consistent review", "Reduced manual effort"]
+  autonomy: "Level 3 - Act with Approval"
+  readiness: "Ready Now"
+  services: ["Enterprise AI Automation", "AI Security & Governance"]
+
+- industry: "Insurance"
+  function: "Finance"
+  type: "AI Copilot"
+  name: "Underwriting Copilot"
+  problem: "Underwriters need a clear risk summary across applications, historical data and policy rules."
+  trigger: "Insurance application arrives"
+  agents: "Enrichment, risk and policy analysis agents"
+  steps: ["Extract application data", "Enrich approved risk signals", "Analyze historical patterns", "Apply policy rules", "Prepare a coverage and pricing recommendation"]
+  systems: ["Policy administration", "Underwriting workbench", "Risk data", "CRM", "Document store"]
+  humans: "Own underwriting judgment, pricing and coverage approval."
+  controls: ["Data lineage", "Rule versioning", "Underwriter review", "Access controls"]
+  outcomes: ["Faster application review", "Clearer risk context", "More consistent underwriting packages"]
+  autonomy: "Level 2 - Recommend"
+  readiness: "Ready Now"
+  services: ["Enterprise Knowledge & RAG", "AI Adoption & Transformation"]
+
+- industry: "Insurance"
+  function: "Customer Service"
+  type: "AI Agent"
+  name: "Insurance Customer Service Agent"
+  problem: "Policyholders need quick answers and simple policy actions without navigating complex policy language."
+  trigger: "Customer request arrives"
+  agents: "Policy, account and action agents"
+  steps: ["Verify the policyholder", "Understand the request", "Retrieve coverage details", "Prepare or execute an allowed action", "Escalate exceptions"]
+  systems: ["Policy system", "Customer portal", "Claims platform", "CRM", "Contact center"]
+  humans: "Handle disputes, exceptions, sensitive changes and coverage interpretation."
+  controls: ["Identity verification", "Policy permissions", "Action allowlist", "Human escalation", "Audit trail"]
+  outcomes: ["Faster answers", "Lower service workload", "Better policyholder experience"]
+  autonomy: "Level 4 - Autonomous within policy"
+  readiness: "Ready Now"
+  services: ["Enterprise AI Automation", "AI Security & Governance"]
+
+- industry: "Insurance"
+  function: "Sales"
+  type: "Agentic Workflow"
+  name: "Renewal Intelligence Agent"
+  problem: "Renewal teams need to understand changing risk, policy history and customer behavior before outreach."
+  trigger: "Policy enters renewal window"
+  agents: "Policy history, risk and outreach agents"
+  steps: ["Review claims and policy history", "Analyze customer behavior", "Detect changes in risk", "Draft a renewal recommendation", "Prepare personalized outreach for review"]
+  systems: ["Policy system", "Claims platform", "CRM", "Customer analytics", "Email"]
+  humans: "Review renewal recommendations, pricing and customer communication."
+  controls: ["Customer permissions", "Pricing approval", "Outreach review", "Recommendation evidence"]
+  outcomes: ["Better renewal preparation", "More relevant offers", "Earlier risk visibility"]
+  autonomy: "Level 2 - Recommend"
+  readiness: "Ready Now"
+  services: ["Enterprise AI Applications", "AI Adoption & Transformation"]
+
+- industry: "Retail & E-commerce"
+  function: "Sales"
+  type: "AI Agent"
+  name: "Shopping Agent"
+  problem: "Customers need help translating intent into product choices, comparisons and an approved cart."
+  trigger: "Customer expresses a shopping intent"
+  agents: "Preference, product and inventory agents"
+  steps: ["Understand preferences", "Search authorized product data", "Compare recommendations", "Check inventory", "Prepare a cart for customer approval"]
+  systems: ["Commerce platform", "Product catalog", "Inventory", "Pricing", "Cart"]
+  humans: "Customer approves the cart and completes checkout."
+  controls: ["Catalog permissions", "Price accuracy", "Customer approval", "Purchase boundary"]
+  outcomes: ["More relevant discovery", "Faster product comparison", "Higher shopping convenience"]
+  autonomy: "Level 3 - Act with Approval"
+  readiness: "Ready Now"
+  services: ["Enterprise AI Applications", "Enterprise AI Automation"]
+
+- industry: "Retail & E-commerce"
+  function: "Customer Service"
+  type: "AI Agent"
+  name: "Customer Service & Returns Agent"
+  problem: "Returns and order questions require repetitive lookup across orders, policies, risk checks and fulfillment systems."
+  trigger: "Customer asks about an order or return"
+  agents: "Order, policy and risk agents"
+  steps: ["Verify the customer", "Look up order context", "Interpret return policy", "Check fraud and risk signals", "Execute an allowed action or escalate"]
+  systems: ["Commerce platform", "Order management", "Returns platform", "Payments", "CRM"]
+  humans: "Approve exceptions, high-value refunds and disputed cases."
+  controls: ["Identity verification", "Refund limits", "Risk checks", "Approval gates", "Audit trail"]
+  outcomes: ["Faster response", "Lower service workload", "Consistent policy handling"]
+  autonomy: "Level 4 - Autonomous within policy"
+  readiness: "Ready Now"
+  services: ["Enterprise AI Automation", "AI Security & Governance"]
+
+- industry: "Retail & E-commerce"
+  function: "Supply Chain"
+  type: "Agentic Workflow"
+  name: "Inventory Optimization System"
+  problem: "Merchandising and planning teams balance demand, promotions, supply and inventory across disconnected signals."
+  trigger: "Scheduled forecast or supply disruption"
+  agents: "Demand forecast, inventory and supplier agents"
+  steps: ["Combine demand and promotion signals", "Forecast demand", "Detect inventory risk", "Recommend replenishment", "Coordinate suppliers after planner approval"]
+  systems: ["ERP", "Inventory platform", "Sales data", "Supplier systems", "Analytics"]
+  humans: "Approve replenishment plans and supplier commitments."
+  controls: ["Planner permissions", "Scenario evidence", "ERP write approval", "Supplier access policy"]
+  outcomes: ["Better inventory visibility", "Fewer stockout surprises", "Faster planning cycles"]
+  autonomy: "Level 3 - Act with Approval"
+  readiness: "Advanced"
+  services: ["Enterprise AI Automation", "AI Engineering & LLMOps"]
+
+- industry: "Retail & E-commerce"
+  function: "Marketing"
+  type: "Multi-Agent System"
+  name: "Merchandising Intelligence Agent"
+  problem: "Merchandisers need to connect customer behavior, search trends, margins, inventory and competitors."
+  trigger: "Weekly category review or market signal"
+  agents: "Trend, pricing and promotion agents"
+  steps: ["Analyze behavior and search trends", "Review inventory and margin", "Find product opportunities", "Recommend pricing and promotions", "Prepare a review package"]
+  systems: ["Commerce analytics", "Search analytics", "Inventory", "Pricing", "Competitor data"]
+  humans: "Approve pricing, promotions and merchandising decisions."
+  controls: ["Data permissions", "Margin thresholds", "Approval workflow", "Evidence links"]
+  outcomes: ["Faster category reviews", "Better opportunity discovery", "More informed promotions"]
+  autonomy: "Level 2 - Recommend"
+  readiness: "Ready Now"
+  services: ["Enterprise Knowledge & RAG", "Enterprise AI Applications"]
+
+- industry: "Manufacturing"
+  function: "Operations"
+  type: "AI Agent"
+  name: "Predictive Maintenance Agent"
+  problem: "Maintenance teams need to interpret telemetry, asset history, failure signals and parts availability together."
+  trigger: "Machine anomaly is detected"
+  agents: "Anomaly, asset context and maintenance agents"
+  steps: ["Analyze telemetry", "Retrieve maintenance history", "Predict failure risk", "Check parts availability", "Generate a work order recommendation"]
+  systems: ["SCADA", "IoT platform", "CMMS", "ERP", "Parts inventory"]
+  humans: "Approve maintenance work and technician action."
+  controls: ["Asset access", "Operational boundaries", "Work order approval", "Safety escalation", "Audit trail"]
+  outcomes: ["Less unplanned downtime", "Faster diagnosis", "Better maintenance planning"]
+  autonomy: "Level 3 - Act with Approval"
+  readiness: "Ready Now"
+  services: ["Enterprise AI Automation", "AI Engineering & LLMOps"]
+
+- industry: "Manufacturing"
+  function: "Operations"
+  type: "Agentic Workflow"
+  name: "Production Optimization Agent"
+  problem: "Production planners balance demand, capacity, materials and machine availability under changing constraints."
+  trigger: "Planning cycle or constraint change"
+  agents: "Capacity, schedule and constraint agents"
+  steps: ["Gather demand and capacity", "Check materials and machine availability", "Run schedule scenarios", "Explain constraints", "Prepare a production plan for approval"]
+  systems: ["ERP", "MES", "Supply planning", "Inventory", "Scheduling"]
+  humans: "Approve the production plan and operational trade-offs."
+  controls: ["Planner access", "Scenario traceability", "ERP/MES approval", "Constraint guardrails"]
+  outcomes: ["Faster planning", "More transparent trade-offs", "Better use of capacity"]
+  autonomy: "Level 2 - Recommend"
+  readiness: "Advanced"
+  services: ["Enterprise AI Automation", "AI Engineering & LLMOps"]
+
+- industry: "Manufacturing"
+  function: "Quality"
+  type: "Multi-Agent System"
+  name: "Quality Investigation Agent"
+  problem: "Quality engineers investigate defects across images, sensors, batches, machine settings and suppliers."
+  trigger: "Defect is detected"
+  agents: "Vision, batch, machine and root-cause agents"
+  steps: ["Analyze defect evidence", "Retrieve batch and machine history", "Compare supplier context", "Investigate likely root causes", "Recommend corrective action"]
+  systems: ["Quality system", "MES", "Machine telemetry", "Supplier portal", "Document store"]
+  humans: "Validate root cause and approve corrective action."
+  controls: ["Quality data permissions", "Evidence provenance", "Engineer review", "Corrective action approval"]
+  outcomes: ["Faster root-cause analysis", "More complete evidence", "Reduced investigation effort"]
+  autonomy: "Level 2 - Recommend"
+  readiness: "Ready Now"
+  services: ["Enterprise Knowledge & RAG", "AI Engineering & LLMOps"]
+
+- industry: "Manufacturing"
+  function: "Knowledge Management"
+  type: "AI Assistant"
+  name: "Engineering Knowledge Agent"
+  problem: "Engineers search specifications, manuals, CAD metadata, maintenance reports and historical issues separately."
+  trigger: "Engineer asks a technical question"
+  agents: "Retrieval, evidence and recommendation agents"
+  steps: ["Understand the question", "Search authorized engineering sources", "Connect related evidence", "Answer with citations", "Suggest a next action"]
+  systems: ["PLM", "Document store", "Maintenance system", "Knowledge graph", "Issue tracker"]
+  humans: "Validate technical conclusions and own engineering decisions."
+  controls: ["Permission-aware retrieval", "Source citations", "Document versioning", "Engineer review"]
+  outcomes: ["Faster issue resolution", "Less repeated searching", "Better reuse of engineering knowledge"]
+  autonomy: "Level 1 - Assist"
+  readiness: "Ready Now"
+  services: ["Enterprise Knowledge & RAG", "AI Adoption & Transformation"]
+
+- industry: "Telecommunications & Media"
+  function: "IT"
+  type: "AI Agent"
+  name: "Network Operations Agent"
+  problem: "Network operations teams investigate alerts across topology, telemetry and historical incidents before taking action."
+  trigger: "Network alert is raised"
+  agents: "Topology, telemetry and remediation agents"
+  steps: ["Map affected dependencies", "Investigate telemetry", "Search historical incidents", "Recommend remediation", "Verify the result after approved action"]
+  systems: ["Network management", "Observability", "Topology graph", "Incident platform", "Change management"]
+  humans: "Approve changes that affect production services or customer traffic."
+  controls: ["Network identity", "Change policy", "Production approval", "Rollback plan", "Audit trail"]
+  outcomes: ["Faster incident triage", "Reduced investigation effort", "More consistent remediation"]
+  autonomy: "Level 3 - Act with Approval"
+  readiness: "Ready Now"
+  services: ["AI Engineering & LLMOps", "AI Security & Governance"]
+
+- industry: "Telecommunications & Media"
+  function: "Sales"
+  type: "AI Agent"
+  name: "Customer Retention Agent"
+  problem: "Retention teams need to connect usage, billing, support and network quality to understand churn risk."
+  trigger: "Churn signal is detected"
+  agents: "Health, reason and outreach agents"
+  steps: ["Analyze usage and billing", "Review support and service quality", "Explain likely churn reasons", "Recommend retention action", "Prepare customer outreach"]
+  systems: ["CRM", "Billing", "Network analytics", "Support platform", "Campaigns"]
+  humans: "Approve retention offers and high-value customer outreach."
+  controls: ["Customer permissions", "Offer thresholds", "CRM write policy", "Outreach review"]
+  outcomes: ["Earlier churn visibility", "More relevant interventions", "Faster account preparation"]
+  autonomy: "Level 2 - Recommend"
+  readiness: "Ready Now"
+  services: ["Enterprise AI Applications", "AI Adoption & Transformation"]
+
+- industry: "Telecommunications & Media"
+  function: "Operations"
+  type: "Agentic Workflow"
+  name: "Field Service Agent"
+  problem: "Field teams coordinate diagnosis, equipment, parts, technicians and routes across several operational systems."
+  trigger: "Service incident is created"
+  agents: "Diagnosis, parts, dispatch and field assistance agents"
+  steps: ["Diagnose remotely", "Identify equipment and location", "Determine parts and skills", "Assign a technician and route", "Assist repair and close the incident"]
+  systems: ["Service management", "Asset registry", "Inventory", "Maps", "Workforce scheduling"]
+  humans: "Approve dispatch exceptions and perform physical repair work."
+  controls: ["Technician identity", "Dispatch policy", "Safety checks", "Work order approval", "Completion evidence"]
+  outcomes: ["Faster dispatch", "Better first-time fix rates", "Less coordination effort"]
+  autonomy: "Level 3 - Act with Approval"
+  readiness: "Advanced"
+  services: ["Enterprise AI Automation", "AI Engineering & LLMOps"]
+
+- industry: "Telecommunications & Media"
+  function: "Marketing"
+  type: "Multi-Agent System"
+  name: "Media Content Intelligence"
+  problem: "Media teams need to connect content libraries, audience signals and trends before planning programming or campaigns."
+  trigger: "New content signal or planning cycle"
+  agents: "Audience, trend and content recommendation agents"
+  steps: ["Analyze the content library", "Segment audiences", "Identify trends", "Recommend content and campaigns", "Prepare an editorial review package"]
+  systems: ["Content library", "Audience analytics", "Campaign platform", "Trends", "CMS"]
+  humans: "Own editorial judgment, programming and campaign approval."
+  controls: ["Content permissions", "Source evidence", "Editorial review", "Publishing approval"]
+  outcomes: ["Faster content planning", "Better audience understanding", "More informed programming"]
+  autonomy: "Level 2 - Recommend"
+  readiness: "Ready Now"
+  services: ["Enterprise Knowledge & RAG", "Enterprise AI Applications"]
+
+- industry: "Transportation & Logistics"
+  function: "Operations"
+  type: "Multi-Agent System"
+  name: "Logistics Control Tower Agent"
+  problem: "Operations teams need to re-plan orders, vehicles, warehouses, traffic and customer ETAs when conditions change."
+  trigger: "Disruption or control-tower signal"
+  agents: "Disruption, route and customer communication agents"
+  steps: ["Detect disruption", "Evaluate alternative routes and resources", "Re-plan delivery", "Request operational approval", "Update customer ETA and monitor"]
+  systems: ["TMS", "WMS", "Fleet platform", "Maps", "Customer portal"]
+  humans: "Approve material route, cost and service-level trade-offs."
+  controls: ["Dispatcher identity", "Route boundaries", "Approval policy", "ETA evidence", "Audit trail"]
+  outcomes: ["Faster disruption response", "Better delivery visibility", "Fewer manual handoffs"]
+  autonomy: "Level 3 - Act with Approval"
+  readiness: "Ready Now"
+  services: ["Enterprise AI Automation", "AI Engineering & LLMOps"]
+
+- industry: "Transportation & Logistics"
+  function: "Customer Service"
+  type: "AI Agent"
+  name: "Shipment Exception Agent"
+  problem: "Teams investigate delays, damage and missing shipments across carriers, warehouses and route data."
+  trigger: "Shipment exception is detected"
+  agents: "Shipment, carrier and resolution agents"
+  steps: ["Investigate shipment status", "Combine carrier and warehouse data", "Analyze the route", "Recommend resolution", "Communicate with the customer and open a claim if needed"]
+  systems: ["TMS", "WMS", "Carrier APIs", "CRM", "Claims platform"]
+  humans: "Approve compensation, claims and exception handling."
+  controls: ["Shipment permissions", "Compensation limits", "Customer communication review", "Claims audit"]
+  outcomes: ["Faster exception resolution", "Better customer updates", "Reduced coordination effort"]
+  autonomy: "Level 4 - Autonomous within policy"
+  readiness: "Ready Now"
+  services: ["Enterprise AI Automation", "AI Security & Governance"]
+
+- industry: "Transportation & Logistics"
+  function: "Operations"
+  type: "AI Agent"
+  name: "Fleet Maintenance Agent"
+  problem: "Fleet managers need to combine vehicle telemetry, maintenance history, parts and schedules."
+  trigger: "Vehicle health signal is detected"
+  agents: "Health, maintenance and scheduling agents"
+  steps: ["Analyze vehicle health", "Retrieve maintenance history", "Predict failure risk", "Check parts and service capacity", "Prepare a maintenance schedule"]
+  systems: ["Fleet platform", "Telematics", "CMMS", "Parts inventory", "Scheduling"]
+  humans: "Approve maintenance scheduling and safety-related actions."
+  controls: ["Fleet identity", "Safety thresholds", "Work order approval", "Maintenance history"]
+  outcomes: ["Less unplanned downtime", "Better fleet availability", "Faster maintenance planning"]
+  autonomy: "Level 3 - Act with Approval"
+  readiness: "Ready Now"
+  services: ["Enterprise AI Automation", "AI Engineering & LLMOps"]
+
+- industry: "Transportation & Logistics"
+  function: "Operations"
+  type: "Agentic Workflow"
+  name: "Intelligent Dispatch Agent"
+  problem: "Dispatchers balance driver availability, capacity, traffic, priority and changing delivery requests."
+  trigger: "New delivery request or route change"
+  agents: "Capacity, routing and dispatch agents"
+  steps: ["Check driver and vehicle availability", "Evaluate capacity and priority", "Optimize the route", "Recommend an assignment", "Continuously re-optimize after approval"]
+  systems: ["Dispatch platform", "Fleet system", "Maps", "Orders", "Driver app"]
+  humans: "Approve assignments that violate normal policy or service boundaries."
+  controls: ["Driver identity", "Route constraints", "Dispatch approval", "Customer visibility"]
+  outcomes: ["More efficient dispatch", "Faster response to change", "Better vehicle utilization"]
+  autonomy: "Level 4 - Autonomous within policy"
+  readiness: "Ready Now"
+  services: ["Enterprise AI Automation", "AI Engineering & LLMOps"]
+
+- industry: "Energy & Utilities"
+  function: "Operations"
+  type: "AI Agent"
+  name: "Grid Operations Intelligence"
+  problem: "Grid operators need to interpret telemetry, demand, supply, weather and operational risk together."
+  trigger: "Grid anomaly or demand signal"
+  agents: "Anomaly, forecast and operations agents"
+  steps: ["Detect and classify anomaly", "Analyze demand and supply", "Add weather context", "Assess operational risk", "Prepare an operator recommendation"]
+  systems: ["SCADA", "Grid platform", "Weather data", "Forecasting", "Operations dashboard"]
+  humans: "Approve grid actions and retain operational accountability."
+  controls: ["Operator identity", "Safety boundaries", "Approval gates", "Action verification", "Audit trail"]
+  outcomes: ["Faster situation awareness", "Better operational decisions", "Reduced analysis effort"]
+  autonomy: "Level 2 - Recommend"
+  readiness: "Advanced"
+  services: ["AI Engineering & LLMOps", "AI Security & Governance"]
+
+- industry: "Energy & Utilities"
+  function: "Operations"
+  type: "Agentic Workflow"
+  name: "Field Maintenance Agent"
+  problem: "Field maintenance teams coordinate asset history, diagnostics, parts, skills and work orders manually."
+  trigger: "Asset alert is received"
+  agents: "Asset, diagnostic, parts and workforce agents"
+  steps: ["Retrieve asset history", "Run remote diagnostics", "Identify skills and parts", "Create a work order", "Assign and assist the technician"]
+  systems: ["Asset management", "IoT platform", "CMMS", "Inventory", "Workforce scheduling"]
+  humans: "Approve work, perform repair and close the maintenance record."
+  controls: ["Asset permissions", "Safety checks", "Work order approval", "Technician identity", "Completion audit"]
+  outcomes: ["Faster maintenance coordination", "Better field preparation", "More complete records"]
+  autonomy: "Level 3 - Act with Approval"
+  readiness: "Ready Now"
+  services: ["Enterprise AI Automation", "AI Security & Governance"]
+
+- industry: "Energy & Utilities"
+  function: "Finance"
+  type: "Multi-Agent System"
+  name: "Energy Forecasting Agent"
+  problem: "Energy teams need reliable scenarios across consumption, weather, historical demand and market signals."
+  trigger: "Forecasting cycle or market change"
+  agents: "Consumption, weather and scenario agents"
+  steps: ["Combine demand and weather data", "Generate forecast scenarios", "Analyze market signals", "Explain uncertainty", "Prepare recommendations for review"]
+  systems: ["Metering", "Weather data", "Market data", "Forecast platform", "Analytics"]
+  humans: "Review scenarios and make operational or commercial decisions."
+  controls: ["Data lineage", "Scenario versioning", "Analyst review", "Approved sources"]
+  outcomes: ["Faster scenario analysis", "Better planning visibility", "More informed supply decisions"]
+  autonomy: "Level 2 - Recommend"
+  readiness: "Advanced"
+  services: ["Enterprise Knowledge & RAG", "AI Engineering & LLMOps"]
+
+- industry: "Energy & Utilities"
+  function: "Customer Service"
+  type: "AI Copilot"
+  name: "Customer Energy Advisor"
+  problem: "Customers need clear guidance from usage patterns, costs, tariffs and efficiency opportunities."
+  trigger: "Customer asks about energy usage or cost"
+  agents: "Usage, tariff and recommendation agents"
+  steps: ["Analyze usage patterns", "Explain cost drivers", "Compare approved tariffs", "Identify efficiency opportunities", "Present personalized recommendations"]
+  systems: ["Metering", "Billing", "Tariff system", "CRM", "Customer portal"]
+  humans: "Customer chooses actions and a representative handles exceptions."
+  controls: ["Customer identity", "Billing permissions", "Tariff versioning", "Recommendation evidence"]
+  outcomes: ["Clearer customer communication", "Faster support", "More actionable advice"]
+  autonomy: "Level 2 - Recommend"
+  readiness: "Ready Now"
+  services: ["Enterprise AI Applications", "Enterprise Knowledge & RAG"]
+
+- industry: "Professional Services"
+  function: "Knowledge Management"
+  type: "Multi-Agent System"
+  name: "Research & Knowledge Agent"
+  problem: "Knowledge teams search internal documents, past projects and approved external sources to answer business questions."
+  trigger: "Business question is submitted"
+  agents: "Research, retrieval and evidence agents"
+  steps: ["Understand the question", "Search approved internal knowledge", "Retrieve past project evidence", "Evaluate sources", "Synthesize a reviewed deliverable"]
+  systems: ["Document store", "Project repository", "Knowledge base", "Approved research", "Collaboration tools"]
+  humans: "Review conclusions, apply expertise and approve the deliverable."
+  controls: ["Permission-aware retrieval", "Source citations", "Expert review", "External source policy"]
+  outcomes: ["Faster research", "More reusable knowledge", "Higher-quality first drafts"]
+  autonomy: "Level 2 - Recommend"
+  readiness: "Ready Now"
+  services: ["Enterprise Knowledge & RAG", "AI Adoption & Transformation"]
+
+- industry: "Professional Services"
+  function: "Sales"
+  type: "Agentic Workflow"
+  name: "Proposal & RFP Agent"
+  problem: "Proposal teams manually extract requirements and search past work before drafting a compliant response."
+  trigger: "RFP is received"
+  agents: "Requirement, experience, solution and compliance agents"
+  steps: ["Extract requirements", "Find relevant experience", "Draft the solution response", "Prepare pricing inputs", "Run compliance checks before human review"]
+  systems: ["RFP inbox", "CRM", "Proposal library", "Pricing", "Document collaboration"]
+  humans: "Approve solution, pricing, commitments and final submission."
+  controls: ["Approved experience sources", "Pricing access", "Compliance checks", "Final approval"]
+  outcomes: ["Faster proposal preparation", "More consistent responses", "Less repetitive research"]
+  autonomy: "Level 3 - Act with Approval"
+  readiness: "Ready Now"
+  services: ["Enterprise Knowledge & RAG", "Enterprise AI Applications"]
+
+- industry: "Professional Services"
+  function: "Operations"
+  type: "AI Workflow"
+  name: "Client Delivery Agent"
+  problem: "Client delivery teams lose commitments and context between meetings, research, documents and project tracking."
+  trigger: "Client meeting or delivery milestone"
+  agents: "Meeting, task, research and risk agents"
+  steps: ["Extract tasks and commitments", "Research the next questions", "Draft delivery documents", "Update project tracking", "Detect risks and prepare a client update"]
+  systems: ["Meeting platform", "Project management", "Document store", "CRM", "Collaboration tools"]
+  humans: "Review client-facing documents, decisions and risk escalations."
+  controls: ["Client data boundaries", "Document review", "Project write permissions", "Approval workflow"]
+  outcomes: ["Fewer missed commitments", "Faster follow-up", "Better delivery visibility"]
+  autonomy: "Level 3 - Act with Approval"
+  readiness: "Ready Now"
+  services: ["Enterprise AI Applications", "AI Adoption & Transformation"]
+
+- industry: "Professional Services"
+  function: "HR"
+  type: "AI Agent"
+  name: "Resource & Staffing Intelligence"
+  problem: "Staffing teams balance pipeline, skills, availability and project requirements across disconnected systems."
+  trigger: "New project requirement or staffing review"
+  agents: "Matching, scenario and utilization agents"
+  steps: ["Extract project requirements", "Match approved skills and availability", "Generate staffing scenarios", "Analyze utilization", "Prepare a recommendation for manager approval"]
+  systems: ["CRM", "HRIS", "Resource management", "Skills directory", "Project platform"]
+  humans: "Approve staffing, assignment and people-related decisions."
+  controls: ["Employee data permissions", "Fairness review", "Manager approval", "Scheduling boundaries"]
+  outcomes: ["Faster staffing decisions", "Better utilization visibility", "More transparent scenarios"]
+  autonomy: "Level 2 - Recommend"
+  readiness: "Ready Now"
+  services: ["Enterprise AI Automation", "AI Adoption & Transformation"]

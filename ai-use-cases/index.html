@@ -1,0 +1,48 @@
+---
+layout: landing-page
+title: AI & Agentic AI Use Cases by Industry | CodeCrux
+description: Explore practical AI agents, multi-agent systems and enterprise AI workflows across financial services, healthcare, SaaS, retail, manufacturing, insurance, logistics and more.
+---
+
+<main class="cc-use-cases-page">
+  <section class="cc-use-cases-hero"><div class="container"><p class="cc-kicker">Enterprise AI workflow library</p><h1>See what AI can<br>actually do <span>inside</span><br>your business.</h1><p>Explore practical AI systems and agentic workflows designed around real business processes, from customer support and software engineering to finance, healthcare, manufacturing and operations.</p><div class="cc-use-cases-actions"><a href="#workflow-library" class="cc-button cc-button-primary">Explore workflows <i class="fa fa-long-arrow-down"></i></a><a href="/contact/" class="cc-button cc-button-quiet">Design my AI workflow <i class="fa fa-long-arrow-right"></i></a></div></div><div class="cc-use-cases-hero-grid" aria-hidden="true"></div></section>
+
+  <section class="cc-terminology"><div class="container"><div class="row"><div class="col-sm-3"><span>AI assistant</span><p>Answers questions and generates information.</p></div><div class="col-sm-3"><span>AI copilot</span><p>Assists a human while they perform work.</p></div><div class="col-sm-3"><span>AI agent</span><p>Reasons, uses tools and executes actions.</p></div><div class="col-sm-3"><span>Multi-agent system</span><p>Specialized agents collaborate across a process.</p></div></div></div></section>
+
+  <section class="cc-workflow-library" id="workflow-library"><div class="container"><div class="cc-library-heading"><div><p class="cc-kicker">Find a starting point</p><h2>Complete workflows,<br>not isolated demos.</h2></div><p>Filter the library by industry, business function or AI type. Every workflow shows the systems involved, human checkpoints, autonomy level and potential value areas.</p></div><div class="cc-workflow-filters" aria-label="Filter AI workflows"><div><label for="industry-filter">Industry</label><select id="industry-filter"><option value="all">All industries</option>{% assign industries = site.data.ai_use_cases | map: "industry" | uniq %}{% for industry in industries %}<option value="{{ industry | escape }}">{{ industry }}</option>{% endfor %}</select></div><div><label for="function-filter">Business function</label><select id="function-filter"><option value="all">All functions</option>{% assign functions = site.data.ai_use_cases | map: "function" | uniq %}{% for function in functions %}<option value="{{ function | escape }}">{{ function }}</option>{% endfor %}</select></div><div><label for="type-filter">AI type</label><select id="type-filter"><option value="all">All AI types</option>{% assign types = site.data.ai_use_cases | map: "type" | uniq %}{% for type in types %}<option value="{{ type | escape }}">{{ type }}</option>{% endfor %}</select></div><button type="button" id="reset-workflow-filters" class="cc-filter-reset">Reset filters</button></div><p id="workflow-count" class="cc-workflow-count" aria-live="polite">Showing {{ site.data.ai_use_cases.size }} workflows</p><div class="row cc-workflow-grid">{% for workflow in site.data.ai_use_cases %}<div class="col-md-6 cc-workflow-col" data-industry="{{ workflow.industry | escape }}" data-function="{{ workflow.function | escape }}" data-type="{{ workflow.type | escape }}"><article class="cc-workflow-card"><div class="cc-workflow-card-top"><span class="cc-workflow-industry">{{ workflow.industry }}</span><span class="cc-workflow-number">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span></div><div class="cc-workflow-card-heading"><span class="cc-workflow-type">{{ workflow.type }}</span><h3>{{ workflow.name }}</h3><p>{{ workflow.problem }}</p></div><div class="cc-mini-flow"><span>{{ workflow.trigger }}</span>{% for step in workflow.steps limit:3 %}<i class="fa fa-long-arrow-right" aria-hidden="true"></i><span>{{ step }}</span>{% endfor %}</div><div class="cc-workflow-card-meta"><div><small>Autonomy</small><strong>{{ workflow.autonomy | split: ' - ' | first }}</strong></div><div><small>Readiness</small><strong>{{ workflow.readiness }}</strong></div></div><details><summary>Explore workflow <i class="fa fa-plus" aria-hidden="true"></i></summary><div class="cc-workflow-detail"><div><small>AI handles</small><p>{{ workflow.agents }}</p></div><div><small>Workflow</small><ol>{% for step in workflow.steps %}<li>{{ step }}</li>{% endfor %}</ol></div><div><small>Systems involved</small><div class="cc-chip-list">{% for system in workflow.systems %}<span>{{ system }}</span>{% endfor %}</div></div><div><small>Human checkpoint</small><p>{{ workflow.humans }}</p></div><div><small>Built-in controls</small><div class="cc-chip-list cc-chip-list-control">{% for control in workflow.controls %}<span>{{ control }}</span>{% endfor %}</div></div><div><small>Potential value areas</small><div class="cc-chip-list cc-chip-list-value">{% for outcome in workflow.outcomes %}<span>{{ outcome }}</span>{% endfor %}</div></div><a href="/#capabilities" class="cc-workflow-service-link">Related CodeCrux capabilities <i class="fa fa-long-arrow-right"></i></a></div></details></article></div>{% endfor %}</div><div id="workflow-empty" class="cc-workflow-empty" hidden>No workflows match those filters. Try a broader selection.</div></div></section>
+
+  <section class="cc-autonomy-section"><div class="container"><div class="row"><div class="col-md-5"><p class="cc-kicker">Controlled adoption</p><h2>Autonomy should be earned.</h2><p>Not every process needs a fully autonomous agent. Start at the level that fits the risk, data and trust required, then scale what works.</p></div><div class="col-md-6 col-md-offset-1"><div class="cc-autonomy-scale"><div><span>01</span><strong>Assist</strong><small>AI provides information.</small></div><div><span>02</span><strong>Recommend</strong><small>AI proposes the next action.</small></div><div class="cc-autonomy-active"><span>03</span><strong>Act with approval</strong><small>AI acts after human approval.</small></div><div><span>04</span><strong>Within policy</strong><small>AI acts inside permissions.</small></div><div><span>05</span><strong>Multi-agent</strong><small>Humans supervise exceptions.</small></div></div></div></div></div></section>
+
+  <section class="cc-multi-agent"><div class="container"><div class="cc-library-heading"><div><p class="cc-kicker">One workflow, many specialists</p><h2>When one agent<br>isn't enough.</h2></div><p>Complex enterprise processes work best when specialized agents collaborate inside clear permissions and a visible orchestration layer.</p></div><div class="cc-agent-system"><div class="cc-agent-system-side"><span>Enterprise systems</span><b>CRM</b><b>Support</b><b>ERP</b><b>Knowledge</b><b>Identity</b></div><div class="cc-agent-system-core"><span>ORCHESTRATED CUSTOMER OPERATIONS</span><div><b>Customer</b><i class="fa fa-long-arrow-right"></i><b>Account</b><i class="fa fa-long-arrow-right"></i><b>Knowledge</b><i class="fa fa-long-arrow-right"></i><b>Diagnostic</b><i class="fa fa-long-arrow-right"></i><b>Action</b></div><small>Policy controls / human supervisor / audit trail</small></div><div class="cc-agent-system-side cc-agent-system-side-right"><span>Control layer</span><b>Policy</b><b>Approval</b><b>Audit</b><b>Observability</b></div></div></div></section>
+
+  <section class="cc-build-workflow"><div class="container"><div class="cc-build-workflow-box"><p class="cc-kicker">Make it specific</p><h2>What workflow would<br>you give to an AI agent?</h2><p>Tell us how your team performs the process today. We will help identify what AI should automate, what stays human-controlled, which systems need integration and how to measure the outcome.</p><a href="/contact/" class="cc-button cc-button-light">Design my AI workflow <i class="fa fa-long-arrow-right"></i></a></div></div></section>
+</main>
+
+<script>
+  (function () {
+    var filters = [document.getElementById("industry-filter"), document.getElementById("function-filter"), document.getElementById("type-filter")];
+    var cards = document.querySelectorAll(".cc-workflow-col");
+    var count = document.getElementById("workflow-count");
+    var empty = document.getElementById("workflow-empty");
+    var reset = document.getElementById("reset-workflow-filters");
+
+    function updateWorkflows() {
+      var visible = 0;
+      cards.forEach(function (card) {
+        var matches = filters.every(function (filter) {
+          return filter.value === "all" || card.getAttribute("data-" + filter.id.replace("-filter", "")) === filter.value;
+        });
+        card.hidden = !matches;
+        if (matches) visible += 1;
+      });
+      count.textContent = "Showing " + visible + " workflow" + (visible === 1 ? "" : "s");
+      empty.hidden = visible !== 0;
+    }
+
+    filters.forEach(function (filter) { filter.addEventListener("change", updateWorkflows); });
+    reset.addEventListener("click", function () {
+      filters.forEach(function (filter) { filter.value = "all"; });
+      updateWorkflows();
+    });
+  }());
+</script>

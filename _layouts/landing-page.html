@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="canonical" href="https://codecrux.com/" />
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
     {% include favicon.html %}
 
     <title>{{ page.title | default: "Build the AI-Native Enterprise | CodeCrux" }}</title>
@@ -19,7 +19,7 @@
     <meta property="og:title" content="{{ page.title | default: 'Build the AI-Native Enterprise | CodeCrux' }}" />
     <meta property="og:description" content="{{ page.description | default: site.description }}" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://codecrux.com/" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.min.css" />
     <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css" />

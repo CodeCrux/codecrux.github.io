@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     {% seo %}
     {% feed_meta %}
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     {% include favicon.html %}
 
     <!-- Custom Fonts -->
@@ -15,6 +15,7 @@
     <link href='https://fonts.googleapis.com/css?family=Lato:400,900,700,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Maven+Pro:400,900,500,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet" type="text/css">
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.min.css">
@@ -30,7 +31,7 @@
 
   </head>
 
-  <body>
+  <body class="cc-site">
 
     <nav class="navbar navbar-default home-navbar" id="navbar">
       <div class="container">{% include /header.html %}</div>
@@ -58,6 +59,10 @@
     </div>
 
     {% include /footer.html %}
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="{{ site.baseurl }}/js/app.js"></script>
 
 
       

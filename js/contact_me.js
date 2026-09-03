@@ -10,8 +10,16 @@ $(function() {
           // get values from FORM
           var name = $("input#name").val();
           var email = $("input#email").val();
-          var phone = $("input#phone").val();
-          var message = $("textarea#message").val();
+           var phone = $("input#phone").val();
+           var message = $("textarea#message").val();
+           var company = $("input#company").val();
+           var role = $("input#role").val();
+           var workflow = $("input#workflow").val();
+           var projectStage = $("#projectStage").val();
+           var challenge = $("#challenge").val();
+           if (company || workflow) {
+               message = "Company: " + company + "\nRole: " + role + "\nWorkflow: " + workflow + "\nAI stage: " + projectStage + "\nMain challenge: " + challenge + "\n\n" + message;
+           }
           var firstName = name; // For Success/Failure Message
           // Check for white space in name for Success/Fail message
           if (firstName.indexOf(' ') >= 0) {

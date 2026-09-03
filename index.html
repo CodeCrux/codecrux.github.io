@@ -1,453 +1,121 @@
 ---
 layout: landing-page
+title: Build the AI-Native Enterprise | CodeCrux
+description: CodeCrux designs and engineers production-grade AI systems, agents and intelligent workflows that connect people, data and enterprise applications.
 ---
 
-<!-- Header -->
-<!-- <div
-  id="myCarousel"
-  class="carousel slide banner-carousel"
-  data-ride="carousel"
-> -->
-  <!-- Indicators -->
-  <!-- <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-    <li data-target="#myCarousel" data-slide-to="3"></li>
-  </ol>
-
-  <div class="carousel-inner">
-    <div class="item active">
-      <img src="/img/home/agile-software-development-agency.jpg" alt="Los Angeles" />
-      <div class="carousel-caption mb-150">
-        <h1>We Build Full Stack, AI/ML and DevOps Solutions</h1>
-        <p class="intro-sub-title">
-          We are experts at building digital products
-        </p>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="/img/home/codecrux-banner-10.jpg" alt="Chicago" />
-      <div class="carousel-caption mb-150">
-        <h1>Agile Software Development Agency</h1>
-        <p class="intro-sub-title">Innovative, Quality & On-time</p>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="/img/home/codecrux-banner-2.jpg" alt="New york" />
-      <div class="carousel-caption mb-150">
-        <h1>We are your remote team</h1>
-        <p class="intro-sub-title">Reliable, Talented & Smart</p>
-      </div>
-    </div>
-  </div>
-
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div> -->
-
-<section class="banner">
-  <div class="intro-text">
-    <h1 class="intro-heading"><div class="intro-lead-in">We Create</div>Smart, Data-Driven and Outcome focussed Products</h1>
-    <div class="intro-sub-text">
-      <p class="for-text">for</p>
-      <ul class="intro-sub-list">
-        <li>Startups</li>
-        <li>High Growth</li>
-        <li>Enterprises</li>
-      </ul>
-    </div>
-    <a href="/contact" class="page-scroll btn btn-know-more">Contact Us  &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-right fa-lg"></i></a>
-  </div>
-</section>
-
-<div class="clearfix"></div>
-<!-- {% include /technology.html %} -->
-<div class="container">
-  <hr class="pf-item-hr" />
-</div>
-
-{% include /what-we-do.html %}
-
-
-<style>
-    :root {
-        /* CodeCrux inspired palette */
-        --primary-gradient: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
-        --glass-bg: rgba(255, 255, 255, 0.8);
-    }
-
-    .hero-section {
-        padding: 40px 0;
-        /* background-color: #9048fd; */
-        overflow: hidden;
-    }
-
-    /* Left Side Content */
-    .hero-content {
-        padding-right: 2rem;
-    }
-
-    /* Right Side: Responsive Half-Card Container */
-    .hero-card-wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        perspective: 1000px;
-    }
-
-    .hero-img-card {
-        position: relative;
-        /* Desktop: Takes up 70% of its column to look like a floating "half-part" */
-        width: 100%; 
-        padding: 0px;
-        border-radius: 20px; /* Ultra-round corners */
-        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
-        transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        cursor: pointer;
-        animation: float 5s ease-in-out infinite;
-    }
-
-    /* Hover Effect: Scale up, rotate slightly, and increase shadow */
-    .hero-img-card:hover {
-        transform: scale(1.05) rotateX(5deg) rotateY(-5deg);
-        box-shadow: 0 30px 60px rgba(59, 130, 246, 0.4);
-    }
-
-    .hero-img-card img {
-        width: 100%;
-        border-radius: 20px; /* Matches the outer container padding */
-        display: block;
-    }
-
-    /* Floating Animation */
-    @keyframes float {
-        0%, 100% { transform: translateY(0px); }
-        50% { transform: translateY(-15px); }
-    }
-
-    /* Mobile Responsiveness */
-    @media (max-width: 991.98px) {
-        .hero-section {
-            padding: 50px 0;
-            text-align: center;
-        }
-        .hero-content {
-            padding-right: 0;
-            margin-bottom: 3rem;
-        }
-        .hero-img-card {
-            width: 100%; /* Take full width on mobile for better visibility */
-            border-radius: 30px;
-        }
-        .hero-img-card img {
-            border-radius: 20px;
-        }
-        .justify-content-md-start {
-            justify-content: center !important;
-        }
-    }
-
-    /* Button Styling */
-    .btn-gradient {
-        background: var(--primary-gradient);
-        color: #fff;
-        border: none;
-        border-radius: 50px;
-        padding: 10px 35px;
-        font-weight: 600;
-        transition: 0.3s;
-    }
-
-    .btn-gradient:hover {
-        opacity: 0.9;
-        color: #fff;
-        transform: translateY(-2px);
-    }
-</style>
-
-  <div class="section-heading">
-    <h2>Our SaaS Products</h2>
-    <br />
-    <center>
-      <p>
-        We've helped organizations across industries leverage our products for quick setup.
-      </p>
-    </center>
-  </div>
-
-  <section class="hero-section">
+<main class="cc-page">
+  <section class="cc-hero" aria-labelledby="hero-title">
     <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-6 hero-content">
-            <h1 class="display-5 fw-bold mb-4">Insightful 
-              <span style="color: #3b82f6;">Revenue-Driving Call Intelligence with AI Platform</span></h1>
-              <p class="lead mb-4">
-                Semantic Intent Engine
-                Stop searching for keywords like "cancel" or "happy." Our AI understands meaning. 
-                It identifies frustration, urgency, and buying signals even if the customer never uses the specific words.
-              </p>
-              <ul>
-              <li>1) Find exactly where calls went wrong in seconds</li>
-
-              <li>2) Auto-tag competitor mentions across millions of calls</li>
-              </ul>
-              <br>
-            <div class="d-grid d-md-flex justify-content-md-start gap-3">
-                <a href="/insightful-call-intelligence-AI-platform.html" target="_blank">
-                  <button class="btn btn-gradient btn-lg">View More Details</button>
-                </a>
-            </div>
+      <div class="row cc-hero-row">
+        <div class="col-md-7 cc-hero-copy">
+          <p class="cc-eyebrow"><span class="cc-eyebrow-mark"></span> AI engineering / agentic transformation</p>
+          <h1 id="hero-title">Build the<br><span>AI-native</span> enterprise.</h1>
+          <p class="cc-hero-lede">CodeCrux designs and engineers production-grade AI systems, agents and intelligent workflows that connect your people, data and enterprise applications.</p>
+          <p class="cc-hero-note">From the first high-value use case to secure, organization-wide adoption.</p>
+          <div class="cc-hero-actions">
+            <a href="/contact/" class="cc-button cc-button-primary">Start an AI discovery session <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+            <a href="#capabilities" class="cc-button cc-button-quiet">Explore capabilities <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+          </div>
+          <div class="cc-hero-tags" aria-label="AI capabilities">
+            <span>AI agents</span><span>Generative AI</span><span>RAG</span><span>LLMOps</span><span>Agent security</span>
+          </div>
         </div>
-
-        <div class="col-lg-6 hero-card-wrapper">
-          <a href="/insightful-call-intelligence-AI-platform.html" target="_blank">
-            <div class="hero-img-card">
-                <img src="/img/insightful-call-intelligence-AI-platform.webp" alt="App Screenshot" class="img-fluid">
+        <div class="col-md-5 cc-hero-visual" aria-label="AI workflow architecture illustration">
+          <div class="cc-system-card">
+            <div class="cc-system-topline"><span>CODECRUX / SYSTEM MAP</span><span class="cc-live-dot">LIVE</span></div>
+            <div class="cc-system-flow">
+              <div class="cc-flow-node cc-flow-human"><span class="cc-node-icon">+</span><strong>People</strong><small>intent + context</small></div>
+              <div class="cc-flow-line"></div>
+              <div class="cc-flow-node cc-flow-agent"><span class="cc-node-icon">*</span><strong>Agent layer</strong><small>reason + act</small></div>
+              <div class="cc-flow-line"></div>
+              <div class="cc-flow-node cc-flow-tools"><span class="cc-node-icon">#</span><strong>Enterprise</strong><small>systems + data</small></div>
             </div>
-          </a>
+            <div class="cc-system-console">
+              <div><span class="cc-console-dot"></span> workflow / customer-support</div>
+              <div class="cc-console-status">approval required <span>&gt;</span></div>
+            </div>
+            <div class="cc-system-footer"><span>identity</span><span>policy</span><span>observability</span><span>audit</span></div>
+          </div>
+          <span class="cc-visual-label cc-label-one">secure by design</span>
+          <span class="cc-visual-label cc-label-two">built for production</span>
         </div>
-        <br>
+      </div>
+    </div>
+    <div class="cc-hero-grid" aria-hidden="true"></div>
+  </section>
+
+  <section class="cc-proof-strip" aria-label="CodeCrux focus areas">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 cc-proof-item"><span>01</span><strong>Strategy to production</strong></div>
+        <div class="col-sm-4 cc-proof-item"><span>02</span><strong>Agents that work across systems</strong></div>
+        <div class="col-sm-4 cc-proof-item"><span>03</span><strong>Control built into every workflow</strong></div>
       </div>
     </div>
   </section>
 
-  <section class="hero-section">
+  <section class="cc-section cc-section-light" id="transformation" aria-labelledby="transformation-title">
     <div class="container">
-      <div class="row align-items-center">
+      <div class="row cc-intro-row">
+        <div class="col-md-5"><p class="cc-kicker">The work behind the work</p><h2 id="transformation-title">AI adoption is not a chatbot project.</h2></div>
+        <div class="col-md-6 col-md-offset-1"><p class="cc-body-large">The hardest part of enterprise AI is not accessing a model. It is deciding where AI creates value, connecting it safely to enterprise systems, measuring its decisions and getting teams to trust and adopt it.</p></div>
+      </div>
+      <div class="cc-journey" aria-label="AI transformation journey">
+        <div class="cc-journey-step"><span>01</span><strong>Business<br>problem</strong></div><i class="fa fa-long-arrow-right"></i>
+        <div class="cc-journey-step"><span>02</span><strong>AI<br>opportunity</strong></div><i class="fa fa-long-arrow-right"></i>
+        <div class="cc-journey-step"><span>03</span><strong>Workflow<br>design</strong></div><i class="fa fa-long-arrow-right"></i>
+        <div class="cc-journey-step cc-journey-highlight"><span>04</span><strong>Agent<br>engineering</strong></div><i class="fa fa-long-arrow-right"></i>
+        <div class="cc-journey-step"><span>05</span><strong>Integrate<br>&amp; secure</strong></div><i class="fa fa-long-arrow-right"></i>
+        <div class="cc-journey-step"><span>06</span><strong>Deploy,<br>adopt, scale</strong></div>
+      </div>
+      <p class="cc-section-signoff">CodeCrux owns the engineering journey from idea to production.</p>
+    </div>
+  </section>
 
-             <div class="col-lg-6 hero-card-wrapper">
-          <a href="https://blinkcrm.in/" target="_blank">
-            <div class="hero-img-card">
-                <img src="/img/blinkcrm.webp" alt="App Screenshot" class="img-fluid">
-            </div>
-          </a>
-        </div>
-
-        <div class="col-lg-6 hero-content">
-            <h1 class="display-5 fw-bold mb-4">BlinkCRM 
-              <span style="color: #3b82f6;">Turn Your LinkedIn Network into Leads. </span></h1>
-              <p class="lead mb-4">
-                BlinkCRM is the AI-powered platform to automate lead nurturing, personalize outreach, 
-                and close deals faster, directly from your LinkedIn connections.
-                 No more manual data entry. No more generic emails. Just results.
-              </p>
-              <br>
-            <div class="d-grid d-md-flex justify-content-md-start gap-3">
-                <a href="https://blinkcrm.in/" target="_blank">
-                  <button class="btn btn-gradient btn-lg">View More Details</button>
-                </a>
-            </div>
-        </div>
-
-   
-        <br>
+  <section class="cc-section cc-section-ink" id="capabilities" aria-labelledby="capabilities-title">
+    <div class="container">
+      <div class="cc-section-heading cc-heading-light"><p class="cc-kicker">What we do</p><h2 id="capabilities-title">The full stack for<br><em>useful</em> AI.</h2><p>We combine transformation thinking with the engineering discipline required to make intelligent systems reliable in the real world.</p></div>
+      <div class="row cc-service-grid">
+        <div class="col-sm-4"><article class="cc-service-card"><span class="cc-card-number">01</span><h3>AI strategy<br>&amp; readiness</h3><p>Find the workflows worth changing and build a roadmap grounded in value, feasibility, data and risk.</p><a href="#contact" class="cc-text-link">Assess AI readiness <i class="fa fa-arrow-right"></i></a><div class="cc-card-line"></div></article></div>
+        <div class="col-sm-4"><article class="cc-service-card cc-service-accent"><span class="cc-card-number">02</span><h3>Agentic AI<br>engineering</h3><p>Design agents that reason, plan, use tools and complete multi-step business workflows with human control.</p><a href="#contact" class="cc-text-link">Build an AI agent <i class="fa fa-arrow-right"></i></a><div class="cc-card-line"></div></article></div>
+        <div class="col-sm-4"><article class="cc-service-card"><span class="cc-card-number">03</span><h3>Enterprise AI<br>applications</h3><p>Build copilots, assistants and intelligent operations products around how your business actually works.</p><a href="#contact" class="cc-text-link">Build an application <i class="fa fa-arrow-right"></i></a><div class="cc-card-line"></div></article></div>
+        <div class="col-sm-4"><article class="cc-service-card"><span class="cc-card-number">04</span><h3>Knowledge<br>&amp; RAG systems</h3><p>Turn enterprise knowledge into a trusted, permission-aware intelligence layer with search and retrieval.</p><a href="#contact" class="cc-text-link">Build a knowledge system <i class="fa fa-arrow-right"></i></a><div class="cc-card-line"></div></article></div>
+        <div class="col-sm-4"><article class="cc-service-card"><span class="cc-card-number">05</span><h3>AI engineering<br>&amp; LLMOps</h3><p>Move beyond the demo with evaluation, tracing, routing, cost controls, deployment and production monitoring.</p><a href="#contact" class="cc-text-link">Productionize AI <i class="fa fa-arrow-right"></i></a><div class="cc-card-line"></div></article></div>
+        <div class="col-sm-4"><article class="cc-service-card"><span class="cc-card-number">06</span><h3>AI adoption<br>&amp; transformation</h3><p>Redesign the way people and agents work together through enablement, training, governance and rollout.</p><a href="#contact" class="cc-text-link">Plan AI adoption <i class="fa fa-arrow-right"></i></a><div class="cc-card-line"></div></article></div>
       </div>
     </div>
   </section>
 
-  <section class="hero-section">
+  <section class="cc-section cc-section-paper" id="use-cases" aria-labelledby="use-cases-title">
     <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-6 hero-content">
-            <h1 class="display-5 fw-bold mb-4">Razorops 
-              <span style="color: #3b82f6;">Kubernetes Performance and Cost Optimization using AI</span></h1>
-              <p class="lead mb-4">
-                The intelligent AI platform that continuously tunes your Kubernetes
-                 clusters for peak performance at the lowest possible cost. Automatically.
-              </p>
-              <br>
-            <div class="d-grid d-md-flex justify-content-md-start gap-3">
-                <a href="https://razorops.com/" target="_blank">
-                  <button class="btn btn-gradient btn-lg">View More Details</button>
-                </a>
-            </div>
-        </div>
-
-        <div class="col-lg-6 hero-card-wrapper">
-          <a href="https://razorops.com/" target="_blank">
-            <div class="hero-img-card">
-                <img src="/img/razorops-kubecost.webp" alt="App Screenshot" class="img-fluid">
-            </div>
-          </a>
-        </div>
-        <br>
+      <div class="row cc-intro-row"><div class="col-md-6"><p class="cc-kicker">What we build</p><h2 id="use-cases-title">AI systems built around your business.</h2></div><div class="col-md-5 col-md-offset-1"><p class="cc-body-large">The best agent is not the most autonomous one. It is the one that makes a valuable workflow measurably better, while knowing when to ask for help.</p></div></div>
+      <div class="row cc-use-case-grid">
+        <div class="col-sm-6"><article class="cc-use-card"><div class="cc-use-top"><span class="cc-use-index">01</span><span class="cc-use-type">Customer operations</span></div><h3>Customer support agent</h3><p>Understand the issue, search authorized knowledge, diagnose the next step and ask for approval before sensitive actions.</p><div class="cc-use-flow"><span>ticket</span><i class="fa fa-long-arrow-right"></i><span>knowledge</span><i class="fa fa-long-arrow-right"></i><span class="cc-use-active">resolution</span></div></article></div>
+        <div class="col-sm-6"><article class="cc-use-card"><div class="cc-use-top"><span class="cc-use-index">02</span><span class="cc-use-type">Engineering</span></div><h3>AI software engineering workflow</h3><p>Turn an issue into a tested pull request with repository context, security checks, CI/CD policy and human review.</p><div class="cc-use-flow"><span>issue</span><i class="fa fa-long-arrow-right"></i><span>code</span><i class="fa fa-long-arrow-right"></i><span class="cc-use-active">review</span></div></article></div>
+        <div class="col-sm-6"><article class="cc-use-card"><div class="cc-use-top"><span class="cc-use-index">03</span><span class="cc-use-type">Enterprise knowledge</span></div><h3>Permission-aware knowledge agent</h3><p>Answer complex questions across authorized systems with evidence, context and the right level of access.</p><div class="cc-use-flow"><span>question</span><i class="fa fa-long-arrow-right"></i><span>sources</span><i class="fa fa-long-arrow-right"></i><span class="cc-use-active">evidence</span></div></article></div>
+        <div class="col-sm-6"><article class="cc-use-card"><div class="cc-use-top"><span class="cc-use-index">04</span><span class="cc-use-type">Operations</span></div><h3>Operations agent</h3><p>Detect anomalies, collect diagnostics, recommend remediation and execute approved actions with an audit trail.</p><div class="cc-use-flow"><span>signal</span><i class="fa fa-long-arrow-right"></i><span>diagnose</span><i class="fa fa-long-arrow-right"></i><span class="cc-use-active">act</span></div></article></div>
       </div>
     </div>
   </section>
 
-
-
-
-<!-- <section
-  id="focus-areas"
-  class="features-wraper"
-  style="padding: 1px !important"
->
-  <div class="features-wraper-head">
-    <div class="section-heading">
-      <h2>Industries we've worked</h2>
+  <section class="cc-section cc-architecture" id="architecture" aria-labelledby="architecture-title">
+    <div class="container">
+      <div class="row"><div class="col-md-5"><p class="cc-kicker">A practical architecture</p><h2 id="architecture-title">Agents are only useful when they can safely act.</h2><p class="cc-body-large">We connect intelligence to the systems your teams already use, then add the controls that make autonomy appropriate for the job.</p><a href="#security" class="cc-button cc-button-outline">See the control layer <i class="fa fa-long-arrow-right"></i></a></div><div class="col-md-6 col-md-offset-1"><div class="cc-architecture-map"><div class="cc-arch-row"><span class="cc-arch-label">experience</span><div class="cc-arch-pills"><b>people</b><b>copilots</b><b>workflows</b></div></div><div class="cc-arch-connector"></div><div class="cc-arch-row cc-arch-row-main"><span class="cc-arch-label">intelligence</span><div class="cc-arch-pills"><b>agents</b><b>memory</b><b>tools</b><b>RAG</b></div></div><div class="cc-arch-connector"></div><div class="cc-arch-row"><span class="cc-arch-label">enterprise</span><div class="cc-arch-pills"><b>CRM</b><b>ERP</b><b>APIs</b><b>MCP</b></div></div><div class="cc-arch-control"><span>CONTROL LAYER</span><strong>identity&nbsp;&nbsp; policy&nbsp;&nbsp; approval&nbsp;&nbsp; audit</strong></div></div></div></div>
     </div>
-  </div>
+  </section>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12"></div>
-      <img
-        src="/img/home/codecrux-product-industries.png"
-        alt="codecrux product industries"
-        width="100%"
-        style="margin-top: -60px"
-      />
-    </div>
-  </div>
-</section> -->
+  <section class="cc-section cc-section-light" id="framework" aria-labelledby="framework-title">
+    <div class="container"><div class="row cc-intro-row"><div class="col-md-5"><p class="cc-kicker">How we work</p><h2 id="framework-title">The CodeCrux AI transformation framework.</h2></div><div class="col-md-6 col-md-offset-1"><p class="cc-body-large">A repeatable path from a high-value opportunity to an AI capability your organization can trust, operate and extend.</p></div></div><div class="cc-framework-grid"><div><span>01</span><h3>Discover</h3><p>Understand the process.</p></div><div><span>02</span><h3>Prioritize</h3><p>Score value and risk.</p></div><div><span>03</span><h3>Prototype</h3><p>Validate with real users.</p></div><div><span>04</span><h3>Engineer</h3><p>Build for production.</p></div><div><span>05</span><h3>Secure</h3><p>Control every action.</p></div><div><span>06</span><h3>Integrate</h3><p>Connect your stack.</p></div><div><span>07</span><h3>Evaluate</h3><p>Test quality and cost.</p></div><div><span>08</span><h3>Deploy</h3><p>Operate with visibility.</p></div><div><span>09</span><h3>Adopt</h3><p>Enable your teams.</p></div><div><span>10</span><h3>Scale</h3><p>Expand what works.</p></div></div></div>
+  </section>
 
-<!-- Portfolio Grid Section -->
-<section id="portfolio" class="portfolio-wrap">
-  <br />
-  <div class="section-heading">
-    <h2>Our Clients</h2>
-    <br />
-    <center>
-      <p>
-        We've helped organizations across industries leverage the web and mobile
-        for their business goals.
-      </p>
-    </center>
-  </div>
+  <section class="cc-section cc-section-ink cc-security" id="security" aria-labelledby="security-title"><div class="container"><div class="row"><div class="col-md-6"><p class="cc-kicker">Security as an enabler</p><h2 id="security-title">Enterprise AI needs enterprise controls.</h2><p class="cc-body-large">Production agents may read customer information, query databases, invoke APIs or trigger deployments. We design security into the workflow so teams can adopt AI with confidence.</p><a href="#axec" class="cc-text-link">Build with control <i class="fa fa-arrow-right"></i></a></div><div class="col-md-5 col-md-offset-1"><div class="cc-control-list"><div><span>01</span><strong>Identity</strong><small>Know which agent is acting.</small></div><div><span>02</span><strong>Authorization</strong><small>Limit access to what is needed.</small></div><div><span>03</span><strong>Human approval</strong><small>Escalate sensitive actions.</small></div><div><span>04</span><strong>Observability</strong><small>Trace decisions and failures.</small></div><div><span>05</span><strong>Auditability</strong><small>Make every action accountable.</small></div></div></div></div></div></section>
 
-  <div class="container">
-    <div class="row text-center">
-      <div class="col-sm-3 col-xs-6">
-        <img src="/img/clients/yaxis.jpg" alt="Y-Axis" class="client-logo" />
-      </div>
-      <div class="col-sm-3 col-xs-6">
-        <img
-          src="/img/clients/novartis.png"
-          alt="novartis"
-          class="client-logo"
-        />
-      </div>
-      <div class="col-sm-3 col-xs-6">
-        <img
-          src="/img/clients/comakeit.jpg"
-          alt="ComakeIT"
-          class="client-logo"
-        />
-      </div>
-      <div class="col-sm-3 col-xs-6">
-        <img
-          src="/img/clients/tech-mahindre.jpg"
-          alt="Tech Mahindra"
-          class="client-logo"
-        />
-      </div>
-      <div class="col-sm-3 col-xs-6">
-        <img src="/img/clients/hclub.jpg" alt="Hclub" class="client-logo" />
-      </div>
-      <div class="col-sm-3 col-xs-6">
-        <img
-          src="/img/clients/barknlounge.jpg"
-          alt="Barknlounge"
-          class="client-logo"
-        />
-      </div>
-      <div class="col-sm-3 col-xs-6">
-        <img
-          src="/img/clients/hiredgrad.jpg"
-          alt="Hiredgrad"
-          class="client-logo"
-        />
-      </div>
-      <div class="col-sm-3 col-xs-6">
-        <img src="/img/clients/zaggle.jpg" alt="Zaggle" class="client-logo" />
-      </div>
-      <div class="col-sm-3 col-xs-6">
-        <img src="/img/clients/auzmor.png" alt="auzmor" class="client-logo" />
-      </div>
-      <div class="col-sm-3 col-xs-6">
-        <img
-          src="/img/clients/maverick.jpg"
-          alt="Maverick"
-          class="client-logo"
-        />
-      </div>
-      <div class="col-sm-3 col-xs-6">
-        <img
-          src="/img/clients/cantileverlabs.png"
-          alt="cantileverlabs"
-          class="client-logo"
-        />
-      </div>
-      <div class="col-sm-3 col-xs-6">
-        <img
-          src="/img/clients/1dossier.png"
-          alt="1dossier"
-          class="client-logo"
-        />
-      </div>
-      <div class="col-sm-3 col-xs-6">
-        <img
-          src="/img/clients/apposite.png"
-          alt="apposite"
-          class="client-logo"
-        />
-      </div>
-      <div class="col-sm-3 col-xs-6">
-        <img
-          src="/img/clients/teepublic.png"
-          alt="teepublic"
-          class="client-logo"
-        />
-      </div>
-      <div class="col-sm-3 col-xs-6">
-        <img src="/img/clients/proarch.png" alt="proarch" class="client-logo" />
-      </div>
-      <div class="col-sm-3 col-xs-6">
-        <img src="/img/clients/predera.png" alt="predera" class="client-logo" />
-      </div>
-      <div class="col-sm-3 col-xs-6">
-        <img src="/img/clients/minibar.png" alt="minibar" class="client-logo" />
-      </div>
-      <div class="col-sm-3 col-xs-6">
-        <img
-          src="/img/clients/migrocer.png"
-          alt="migrocer"
-          class="client-logo"
-        />
-      </div>
-      <div class="col-sm-3 col-xs-6">
-        <img
-          src="/img/clients/dbmtgroup.png"
-          alt="dbmtgroup"
-          class="client-logo"
-        />
-      </div>
-      <div class="col-sm-3 col-xs-6">
-        <img
-          src="/img/clients/university-of-hyderabad.jpg"
-          alt="university of hyderabad"
-          class="client-logo"
-        />
-      </div>
-    </div>
-  </div>
-</section>
+  <section class="cc-section cc-axec" id="axec" aria-labelledby="axec-title"><div class="container"><div class="row cc-axec-row"><div class="col-md-5"><div class="cc-axec-mark">AXEC<span>+</span></div><p class="cc-kicker">CodeCrux + AXEC</p><h2 id="axec-title">Build powerful agents without losing control.</h2></div><div class="col-md-6 col-md-offset-1"><p class="cc-body-large">CodeCrux helps organizations implement enterprise AI and Agentic AI securely using AXEC where appropriate.</p><div class="cc-role-grid"><div><span>CODECRUX</span><strong>Build &amp; adopt</strong><p>Strategy, engineering, integration, deployment and enablement.</p></div><div><span>AXEC</span><strong>Control &amp; govern</strong><p>Identity, authorization, policy, approvals and auditability.</p></div></div><a href="/contact/" class="cc-button cc-button-primary">Talk to an AI + agent security architect <i class="fa fa-long-arrow-right"></i></a></div></div></div></section>
 
-<div class="module-border-wrap">
-  <div class="module">{% include /testimonial.html %}</div>
-</div>
+  <section class="cc-section cc-section-paper cc-proof" id="proof" aria-labelledby="proof-title"><div class="container"><div class="row cc-intro-row"><div class="col-md-5"><p class="cc-kicker">Engineering AI beyond the demo</p><h2 id="proof-title">We don't just advise on AI. We build it.</h2></div><div class="col-md-6 col-md-offset-1"><p class="cc-body-large">Building an impressive prototype is easy. Building a system that behaves reliably with enterprise data, permissions, failures, latency, cost and real users is an engineering problem. That is where CodeCrux specializes.</p></div></div><div class="row cc-proof-content"><div class="col-md-6"><div class="cc-product-card"><div class="cc-product-copy"><span class="cc-kicker">Selected product</span><h3>Insightful</h3><p>Revenue-driving call intelligence that understands meaning, not just keywords.</p><a href="/insightful-call-intelligence-AI-platform.html" class="cc-text-link">View product <i class="fa fa-arrow-right"></i></a></div><img src="/img/insightful-call-intelligence-AI-platform.webp" alt="Insightful call intelligence product interface"></div></div><div class="col-md-6"><div class="cc-testimonial-card"><span class="cc-quote">&quot;</span><p>CodeCrux has built a complex system for us and throughout the process has remained very communicative, agile, and quick to respond.</p><div class="cc-person"><strong>Yaron Oren</strong><span>Founder, Maverick.ai</span></div></div><div class="cc-technical-proof"><span>WHAT WE ENGINEER</span><p>Agent evaluation / MCP / RAG / OpenTelemetry / model routing / human-in-the-loop</p></div></div></div></div></section>
 
-<!-- {% include /products.html %}  -->
-{% include /articles.html %} 
+  <section class="cc-section cc-section-light cc-insights" id="insights" aria-labelledby="insights-title"><div class="container"><div class="cc-section-heading"><p class="cc-kicker">From the engineering team</p><h2 id="insights-title">AI engineering insights.</h2><p>Practical thinking on the systems, controls and trade-offs that make AI useful in production.</p></div><div class="row cc-insight-grid">{% for post in site.posts limit:3 %}<div class="col-sm-4"><a class="cc-insight-card" href="{{ site.baseurl }}{{ post.url }}"><span>{{ post.category | default: "AI ENGINEERING" }}</span><h3>{{ post.title }}</h3><p>{{ post.description | truncate: 120 }}</p><strong>Read insight <i class="fa fa-arrow-right"></i></strong></a></div>{% endfor %}</div><div class="text-center"><a href="/blog" class="cc-button cc-button-outline">Explore all insights <i class="fa fa-long-arrow-right"></i></a></div></div></section>
 
-<br>
-<br>
-<br>
+  <section class="cc-section cc-start" id="contact" aria-labelledby="start-title"><div class="container"><div class="cc-start-box"><div class="row"><div class="col-md-7"><p class="cc-kicker">Start where you are</p><h2 id="start-title">Have a workflow<br>worth rethinking?</h2><p>Bring us the problem, not a predetermined solution. We will help you identify the opportunity, map the path to production and define what success looks like.</p></div><div class="col-md-5 cc-start-action"><a href="/contact/" class="cc-button cc-button-light">Start an AI discovery session <i class="fa fa-long-arrow-right"></i></a><small>AI opportunity workshop / proof of value / engineering pod / enterprise transformation</small></div></div></div></div></section>
+</main>

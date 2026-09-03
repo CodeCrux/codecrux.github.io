@@ -1,54 +1,24 @@
 ---
 layout: blog
+title: AI Engineering Insights | CodeCrux
+description: Practical thinking on agentic AI, enterprise AI, RAG, MCP, AI security, LLMOps and the engineering trade-offs that make AI useful in production.
 ---
-<div class="blog-main-container">
-  <div class="blog-banner">
-    <div class="blog-banner-message">
-      <h1>Codecrux Blog</h1>
-      <p>Our Thoughts About Software Design And Development</p>
-      <div class="searchbox">
-        <center>
-        {% include search.html %}
-        </center>
-      </div>
+
+<main class="cc-blog-index">
+  {% assign featured_post = site.posts | first %}
+  <section class="cc-blog-hero" aria-labelledby="blog-title">
+    <div class="container">
+      <div class="cc-blog-hero-top"><p class="cc-kicker">CodeCrux / Field notes</p><span class="cc-blog-count">{{ site.posts.size }} insights / and counting</span></div>
+      <div class="row"><div class="col-md-8"><h1 id="blog-title">AI engineering<br><span>in the real world.</span></h1><p>Practical thinking on the systems, controls and trade-offs that make AI useful in production.</p></div><div class="col-md-4 cc-blog-hero-mark"><span>01</span><strong>Read<br>what we<br>are building.</strong></div></div>
+      <div class="cc-blog-topics"><span>Explore by topic</span><a href="#archive-title">Agentic AI</a><a href="#archive-title">Enterprise AI</a><a href="#archive-title">RAG &amp; knowledge</a><a href="#archive-title">MCP</a><a href="#archive-title">LLMOps</a><a href="#archive-title">AI security</a></div>
     </div>
-  </div>
+  </section>
 
+  <section class="cc-featured-insight" aria-labelledby="featured-title">
+    <div class="container"><div class="row"><div class="col-md-7"><a class="cc-featured-image" href="{{ site.baseurl }}{{ featured_post.url }}"><img src="{{ featured_post.image }}" alt="{{ featured_post.title }}" loading="eager"><span>Latest insight</span></a></div><div class="col-md-5 cc-featured-copy"><p class="cc-kicker">{{ featured_post.category | default: "AI ENGINEERING" }}</p><h2 id="featured-title"><a href="{{ site.baseurl }}{{ featured_post.url }}">{{ featured_post.title }}</a></h2><p>{{ featured_post.description | truncate: 220 }}</p><div class="cc-post-meta"><time datetime="{{ featured_post.date | date: '%Y-%m-%d' }}">{{ featured_post.date | date: "%d %b %Y" }}</time><span>By {{ featured_post.author | default: "CodeCrux engineering" }}</span></div><a class="cc-text-link" href="{{ site.baseurl }}{{ featured_post.url }}">Read the latest insight <i class="fa fa-arrow-right"></i></a></div></div></div>
+  </section>
 
-  <div class="blogs-wraper">
+  <section class="cc-blog-archive" aria-labelledby="archive-title"><div class="container"><div class="cc-archive-toolbar"><div><p class="cc-kicker">The archive</p><h2 id="archive-title">Ideas for building<br>AI that ships.</h2></div><div class="cc-blog-search">{% include search.html %}</div></div><div class="row cc-blog-grid">{% for post in site.posts offset:1 limit:18 %}<div class="col-sm-4"><article class="cc-blog-card" id="{{ post.title | slugify }}"><a class="cc-blog-card-image" href="{{ site.baseurl }}{{ post.url }}"><img src="{{ post.image | default: '/img/codecrux-blog-bg.png' }}" alt="{{ post.title }}" loading="lazy"></a><div class="cc-blog-card-body"><div class="cc-blog-card-meta"><span>{{ post.category | default: "AI ENGINEERING" }}</span><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%d %b %Y" }}</time></div><h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3><p>{{ post.description | truncate: 135 }}</p><a class="cc-blog-read" href="{{ site.baseurl }}{{ post.url }}">Read insight <i class="fa fa-long-arrow-right"></i></a></div></article></div>{% endfor %}</div></div></section>
 
-    {% assign blogs = site.posts %}
-    {% for post in blogs %}
-      <div class="col-sm-4">
-        <article class="blog-item">
-          <a href="{{ site.baseurl }}{{ post.url }}" class="blog-item-category" >
-            <div class="blog-content-img">
-              <img src="{{ post.image }}" alt="{{ post.title }}" />
-            </div>
-            
-            <span class="blog-item-title">{{ post.title }} </span>
-           
-            <div class="blog-content-row">
-              <div class="nopadding">
-                <p>
-                  {{ post.description}}...<br>
-                </p>
-                <time class="text-gray">
-                  <i class="fa fa-clock-o"></i>
-                  {{ post.date | date_to_string }}
-                </time>
-              </div>
-              <div class="clearfix"></div>
-            </div>
-          </a>
-        </article>
-      </div>
-    {% endfor %}
-    
-  </div>
-
-
-
-<div class="clearfix"></div>
-<br>
-{% include /enquiry.html %}
+  <section class="cc-blog-cta"><div class="container"><div class="row"><div class="col-md-8"><p class="cc-kicker">Have a production AI problem?</p><h2>Bring us the hard part.</h2><p>Talk to an AI architect about the workflow, the constraints and the path from prototype to production.</p></div><div class="col-md-4 cc-blog-cta-action"><a href="/contact/" class="cc-button cc-button-light">Start an AI discovery session <i class="fa fa-long-arrow-right"></i></a></div></div></div></section>
+</main>

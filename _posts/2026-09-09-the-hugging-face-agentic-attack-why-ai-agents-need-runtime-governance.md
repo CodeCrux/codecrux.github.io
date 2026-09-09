@@ -3,7 +3,7 @@ title: "The Hugging Face Agentic Attack: Why AI Agents Need Runtime Governance, 
 description: >-
   The OpenAI and Hugging Face incident shows why AI agents need identity,
   task-scoped permissions, runtime policy enforcement, and an audit trail.
-image: /img/blogs/securing-mcp-in-production-defense-in-depth-beyond-the-api-gateway.webp
+image: /img/blogs/hugging-face-agentic-attack-runtime-governance.svg
 layout: post
 permalink: /blog/:title/
 author: Shyam Mohan

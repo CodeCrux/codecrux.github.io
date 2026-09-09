@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">AI agent runtime governance</title>
+  <desc id="desc">An AI agent connects to enterprise tools through an identity and policy control plane while a blocked intrusion path is stopped.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071323"/>
+      <stop offset="0.58" stop-color="#0b1d33"/>
+      <stop offset="1" stop-color="#102b46"/>
+    </linearGradient>
+    <linearGradient id="gate" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1d4ed8"/>
+      <stop offset="1" stop-color="#0e9f9a"/>
+    </linearGradient>
+    <linearGradient id="cyanLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#61ddff" stop-opacity="0.2"/>
+      <stop offset="0.5" stop-color="#61ddff"/>
+      <stop offset="1" stop-color="#79e3b0"/>
+    </linearGradient>
+    <linearGradient id="redLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ef6657" stop-opacity="0.15"/>
+      <stop offset="0.75" stop-color="#ef6657"/>
+      <stop offset="1" stop-color="#ffb36b"/>
+    </linearGradient>
+    <radialGradient id="agentGlow">
+      <stop offset="0" stop-color="#61ddff" stop-opacity="0.32"/>
+      <stop offset="0.5" stop-color="#1d4ed8" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#071323" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="smallGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse">
+      <path d="M54 0H0V54" fill="none" stroke="#61ddff" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <circle cx="360" cy="470" r="390" fill="url(#agentGlow)"/>
+  <circle cx="1190" cy="480" r="330" fill="#0e9f9a" opacity="0.06"/>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <g transform="translate(90 78)">
+      <rect width="48" height="48" rx="13" fill="#173655" stroke="#61ddff" stroke-opacity="0.7"/>
+      <path d="M24 38s13-7 13-17V11L24 6 11 11v10c0 10 13 17 13 17Z" fill="none" stroke="#61ddff" stroke-width="2.5"/>
+      <path d="m18 24 4 4 8-9" fill="none" stroke="#79e3b0" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="66" y="22" fill="#f8fbff" font-size="24" font-weight="800" letter-spacing="4">AXEC</text>
+      <text x="68" y="43" fill="#91a9c5" font-size="11" font-weight="700" letter-spacing="2">AI AGENT SECURITY</text>
+    </g>
+
+    <text x="90" y="225" fill="#61ddff" font-size="18" font-weight="700" letter-spacing="4">THE HUGGING FACE INCIDENT</text>
+    <text x="90" y="290" fill="#f8fbff" font-size="58" font-weight="800" letter-spacing="-2">When agents can act,</text>
+    <text x="90" y="356" fill="#61ddff" font-size="58" font-weight="800" letter-spacing="-2">runtime control matters.</text>
+    <text x="90" y="409" fill="#b6c8da" font-size="22">Identity. Policy. Audit.</text>
+
+    <g transform="translate(92 710)">
+      <rect width="168" height="42" rx="8" fill="#102a46" stroke="#244a6a"/>
+      <text x="84" y="27" fill="#bdefff" font-size="13" font-weight="700" letter-spacing="2" text-anchor="middle">ZERO TRUST</text>
+      <rect x="183" width="168" height="42" rx="8" fill="#102a46" stroke="#244a6a"/>
+      <text x="267" y="27" fill="#bdefff" font-size="13" font-weight="700" letter-spacing="2" text-anchor="middle">AGENT IDENTITY</text>
+      <rect x="366" width="168" height="42" rx="8" fill="#102a46" stroke="#244a6a"/>
+      <text x="450" y="27" fill="#bdefff" font-size="13" font-weight="700" letter-spacing="2" text-anchor="middle">RUNTIME POLICY</text>
+    </g>
+  </g>
+
+  <g transform="translate(735 265)">
+    <path d="M0 190H135" fill="none" stroke="url(#cyanLine)" stroke-width="5" filter="url(#smallGlow)"/>
+    <path d="M415 190h150" fill="none" stroke="url(#cyanLine)" stroke-width="5" filter="url(#smallGlow)"/>
+    <path d="M275 72V0" fill="none" stroke="url(#redLine)" stroke-width="5" stroke-dasharray="11 12" filter="url(#smallGlow)"/>
+
+    <circle cx="-18" cy="190" r="12" fill="#61ddff" filter="url(#smallGlow)"/>
+    <circle cx="583" cy="190" r="12" fill="#79e3b0" filter="url(#smallGlow)"/>
+
+    <circle cx="-8" cy="190" r="94" fill="none" stroke="#61ddff" stroke-opacity="0.24" stroke-width="2"/>
+    <circle cx="-8" cy="190" r="72" fill="none" stroke="#61ddff" stroke-opacity="0.52" stroke-width="1" stroke-dasharray="7 9"/>
+    <circle cx="-8" cy="190" r="50" fill="#102a46" stroke="#61ddff" stroke-width="3"/>
+    <rect x="-44" y="168" width="72" height="49" rx="10" fill="#173655" stroke="#61ddff"/>
+    <circle cx="-26" cy="191" r="5" fill="#61ddff"/>
+    <circle cx="10" cy="191" r="5" fill="#61ddff"/>
+    <path d="M-22 203h30" stroke="#79e3b0" stroke-width="3" stroke-linecap="round"/>
+    <text x="-8" y="285" fill="#f8fbff" font-size="16" font-weight="800" text-anchor="middle" letter-spacing="2">AGENT</text>
+    <text x="-8" y="309" fill="#91a9c5" font-size="11" text-anchor="middle" letter-spacing="1">proposes action</text>
+
+    <rect x="135" y="82" width="280" height="216" rx="24" fill="#0c2038" stroke="url(#gate)" stroke-width="3" filter="url(#smallGlow)"/>
+    <rect x="164" y="112" width="222" height="40" rx="8" fill="#173655" stroke="#2c5878"/>
+    <path d="M184 132h16m-8-8v16" stroke="#61ddff" stroke-width="2"/>
+    <text x="218" y="138" fill="#bdefff" font-size="13" font-weight="800" letter-spacing="1.5">IDENTITY CHECK</text>
+    <rect x="164" y="164" width="222" height="40" rx="8" fill="#173655" stroke="#2c5878"/>
+    <path d="M184 184h16" stroke="#79e3b0" stroke-width="3" stroke-linecap="round"/>
+    <text x="218" y="190" fill="#bdefff" font-size="13" font-weight="800" letter-spacing="1.5">POLICY CHECK</text>
+    <rect x="164" y="216" width="222" height="40" rx="8" fill="#e6faf5"/>
+    <path d="m184 236 6 6 12-13" fill="none" stroke="#087d78" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="218" y="242" fill="#087d78" font-size="13" font-weight="800" letter-spacing="1.5">ALLOW / DENY / REVIEW</text>
+    <text x="275" y="334" fill="#61ddff" font-size="16" font-weight="800" text-anchor="middle" letter-spacing="2">RUNTIME CONTROL PLANE</text>
+
+    <g transform="translate(565 133)">
+      <rect width="178" height="114" rx="18" fill="#102a46" stroke="#79e3b0" stroke-width="2"/>
+      <circle cx="40" cy="40" r="20" fill="#e6faf5"/>
+      <path d="M33 40h14M40 33v14" stroke="#087d78" stroke-width="3" stroke-linecap="round"/>
+      <text x="76" y="38" fill="#f8fbff" font-size="15" font-weight="800">TOOLS</text>
+      <text x="76" y="61" fill="#91a9c5" font-size="11">API / DB / MCP</text>
+      <text x="89" y="92" fill="#79e3b0" font-size="11" font-weight="800" letter-spacing="1">AUDITED</text>
+    </g>
+
+    <g transform="translate(230 -73)">
+      <path d="M45 0v55" stroke="#ef6657" stroke-width="4" stroke-dasharray="8 9"/>
+      <circle cx="45" cy="66" r="26" fill="#3a1d27" stroke="#ef6657" stroke-width="2"/>
+      <path d="M33 54 57 78M57 54 33 78" stroke="#ffb36b" stroke-width="5" stroke-linecap="round"/>
+      <text x="45" y="112" fill="#ffb36b" font-size="12" font-weight="800" text-anchor="middle" letter-spacing="1.5">UNAUTHORIZED PATH</text>
+    </g>
+  </g>
+
+  <text x="1510" y="825" fill="#7790aa" font-family="Consolas, monospace" font-size="12" text-anchor="end" letter-spacing="1.5">SECURE EVERY AGENT / GOVERN EVERY ACTION</text>
+</svg>

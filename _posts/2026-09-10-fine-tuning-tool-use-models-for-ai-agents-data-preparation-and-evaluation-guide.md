@@ -158,6 +158,7 @@ Robust fine-tuning for tool-use models requires addressing challenging scenarios
 *   **Multiple Tools:** Examples requiring two or more tools, either sequentially or in parallel.
 *   **Error Handling:** Training examples could include scenarios where a tool fails or returns unexpected results, and the agent needs to recover gracefully or inform the user.
 
+{% raw %}
 ```python
 import json
 
@@ -261,6 +262,7 @@ If a user's request is ambiguous or requires more information to call a tool, as
 # In your application code, you would dynamically insert the tool schemas:
 # formatted_system_prompt = SYSTEM_PROMPT.format(tools_json_schema=json.dumps(your_tool_definitions, indent=2))
 ```
+{% endraw %}
 
 By combining robust data preparation with strategic fine-tuning and clear prompt engineering, you can significantly enhance your AI agent's ability to utilize tools effectively. The next crucial step is to verify this performance through rigorous evaluation.
 

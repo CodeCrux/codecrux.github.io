@@ -1,0 +1,123 @@
+---
+layout: landing-page
+---
+{% assign workflow = site.data.ai_use_cases[page.use_case_index] %}
+{% assign related_candidates = site.data.ai_use_cases | where: "industry", workflow.industry %}
+{% capture faq_question_1 %}What is {{ workflow.name }}?{% endcapture %}
+{% capture faq_answer_1 %}{{ workflow.name }} is a {{ workflow.type | downcase }} for {{ workflow.function | downcase }} teams in {{ workflow.industry }}. It helps address this problem: {{ workflow.problem }}{% endcapture %}
+{% capture faq_question_2 %}How does {{ workflow.name }} work?{% endcapture %}
+{% capture faq_answer_2 %}The workflow starts when {{ workflow.trigger | downcase }}. It uses {{ workflow.agents | downcase }} to complete these steps: {{ workflow.steps | join: "; " }}.{% endcapture %}
+{% capture faq_question_3 %}What systems can {{ workflow.name }} connect to?{% endcapture %}
+{% capture faq_answer_3 %}A typical implementation can connect to approved systems such as {{ workflow.systems | join: ", " }}. The exact integration depends on the organization's architecture, access policies, and data boundaries.{% endcapture %}
+{% capture faq_question_4 %}What should humans approve in {{ workflow.name }}?{% endcapture %}
+{% capture faq_answer_4 %}Human involvement should remain where the workflow requires judgment, exceptions, or a sensitive business action. For this use case, {{ workflow.humans }}{% endcapture %}
+{% capture faq_question_5 %}What controls are needed for {{ workflow.name }}?{% endcapture %}
+{% capture faq_answer_5 %}Important controls include {{ workflow.controls | join: ", " }}. These controls help define what the AI system can see, recommend, or do and when a person must review the outcome.{% endcapture %}
+{% capture faq_question_6 %}Is {{ workflow.name }} ready for production?{% endcapture %}
+{% capture faq_answer_6 %}This workflow is marked {{ workflow.readiness | downcase }} in the CodeCrux use-case library. Production readiness still depends on data quality, system access, evaluation, observability, security, and a clear human review design.{% endcapture %}
+
+<main class="cc-use-case-detail">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": {{ workflow.name | jsonify }},
+      "serviceType": {{ workflow.type | jsonify }},
+      "description": {{ page.description | jsonify }},
+      "provider": {
+        "@type": "Organization",
+        "name": "CodeCrux Web Technologies Pvt Ltd",
+        "url": "https://codecrux.com"
+      },
+      "areaServed": "Worldwide",
+      "url": "{{ site.url }}{{ page.url }}"
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type":"ListItem","position":1,"name":"AI Use Cases","item":"{{ site.url }}/ai-use-cases/"},
+        {"@type":"ListItem","position":2,"name":{{ workflow.industry | jsonify }},"item":"{{ site.url }}/ai-use-cases/"},
+        {"@type":"ListItem","position":3,"name":{{ workflow.name | jsonify }},"item":"{{ site.url }}{{ page.url }}"}
+      ]
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type":"Question","name":{{ faq_question_1 | strip | jsonify }},"acceptedAnswer":{"@type":"Answer","text":{{ faq_answer_1 | strip | jsonify }}}},
+        {"@type":"Question","name":{{ faq_question_2 | strip | jsonify }},"acceptedAnswer":{"@type":"Answer","text":{{ faq_answer_2 | strip | jsonify }}}},
+        {"@type":"Question","name":{{ faq_question_3 | strip | jsonify }},"acceptedAnswer":{"@type":"Answer","text":{{ faq_answer_3 | strip | jsonify }}}},
+        {"@type":"Question","name":{{ faq_question_4 | strip | jsonify }},"acceptedAnswer":{"@type":"Answer","text":{{ faq_answer_4 | strip | jsonify }}}},
+        {"@type":"Question","name":{{ faq_question_5 | strip | jsonify }},"acceptedAnswer":{"@type":"Answer","text":{{ faq_answer_5 | strip | jsonify }}}},
+        {"@type":"Question","name":{{ faq_question_6 | strip | jsonify }},"acceptedAnswer":{"@type":"Answer","text":{{ faq_answer_6 | strip | jsonify }}}}
+      ]
+    }
+  </script>
+
+  <section class="cc-use-case-detail-hero" aria-labelledby="use-case-title">
+    <div class="container">
+      <p class="cc-eyebrow"><span class="cc-eyebrow-mark"></span> AI use case / {{ workflow.industry }}</p>
+      <div class="cc-use-case-detail-hero-row">
+        <div>
+          <span class="cc-use-case-detail-type">{{ workflow.type }}</span>
+          <h1 id="use-case-title">{{ workflow.name }}</h1>
+          <p>{{ workflow.problem }}</p>
+          <a href="/contact/" class="cc-button cc-button-primary">Design this AI workflow <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+        </div>
+        <div class="cc-use-case-detail-signal" aria-label="Use case summary">
+          <span>FUNCTION</span><strong>{{ workflow.function }}</strong>
+          <span>TRIGGER</span><strong>{{ workflow.trigger }}</strong>
+          <span>READINESS</span><strong>{{ workflow.readiness }}</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cc-use-case-detail-summary" aria-labelledby="use-case-summary-title">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5"><p class="cc-kicker">Why this workflow</p><h2 id="use-case-summary-title">Make the next decision faster.</h2></div>
+        <div class="col-md-6 col-md-offset-1"><p class="cc-body-large">{{ workflow.problem }}</p><div class="cc-use-case-outcomes"><span>Potential value</span>{% for outcome in workflow.outcomes %}<strong>{{ outcome }}</strong>{% endfor %}</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cc-use-case-detail-workflow" aria-labelledby="use-case-workflow-title">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5"><p class="cc-kicker">The workflow</p><h2 id="use-case-workflow-title">From signal to supervised action.</h2><p class="cc-use-case-muted">The exact implementation changes by organization. The operating pattern stays clear.</p></div>
+        <div class="col-md-6 col-md-offset-1"><div class="cc-use-case-steps">{% for step in workflow.steps %}<div><span>{{ forloop.index | prepend: "0" | slice: -2, 2 }}</span><strong>{{ step }}</strong></div>{% endfor %}</div><div class="cc-use-case-systems"><small>Typical systems</small><div>{% for system in workflow.systems %}<span>{{ system }}</span>{% endfor %}</div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cc-use-case-detail-controls" aria-labelledby="use-case-controls-title">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5"><p class="cc-kicker">Built with control</p><h2 id="use-case-controls-title">Autonomy is useful when the boundary is clear.</h2><p>CodeCrux designs the workflow around its permissions, review points, system actions, and evidence requirements.</p></div>
+        <div class="col-md-6 col-md-offset-1"><div class="cc-use-case-control-list"><div><span>HUMAN CHECKPOINT</span><strong>{{ workflow.humans }}</strong></div><div><span>CONTROL LAYER</span><div class="cc-use-case-chips">{% for control in workflow.controls %}<b>{{ control }}</b>{% endfor %}</div></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cc-use-case-detail-faq" id="faq" aria-labelledby="use-case-faq-title">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5"><p class="cc-kicker">Frequently asked questions</p><h2 id="use-case-faq-title">Questions teams ask before they build it.</h2></div>
+        <div class="col-md-6 col-md-offset-1"><div class="cc-use-case-faq-list"><details open><summary>{{ faq_question_1 }}</summary><p>{{ faq_answer_1 }}</p></details><details><summary>{{ faq_question_2 }}</summary><p>{{ faq_answer_2 }}</p></details><details><summary>{{ faq_question_3 }}</summary><p>{{ faq_answer_3 }}</p></details><details><summary>{{ faq_question_4 }}</summary><p>{{ faq_answer_4 }}</p></details><details><summary>{{ faq_question_5 }}</summary><p>{{ faq_answer_5 }}</p></details><details><summary>{{ faq_question_6 }}</summary><p>{{ faq_answer_6 }}</p></details></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cc-use-case-detail-related" aria-labelledby="use-case-related-title">
+    <div class="container">
+      <div class="cc-use-case-detail-cta"><p class="cc-kicker">Make it specific</p><h2>Have a workflow like this?</h2><p>Bring the process, the systems, and the decision that matters. We will help map the right AI pattern and a practical path to production.</p><a href="/contact/" class="cc-button cc-button-light">Design my AI workflow <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></div>
+      <div class="cc-use-case-related-list"><p class="cc-kicker">Related {{ workflow.industry }} workflows</p><div class="row">{% assign related_count = 0 %}{% for related in related_candidates %}{% if related.name != workflow.name and related_count < 3 %}<div class="col-md-4"><a href="/ai-use-cases/{{ related.name | slugify }}/"><span>{{ related.function }} / {{ related.type }}</span><strong>{{ related.name }}</strong><i class="fa fa-arrow-right" aria-hidden="true"></i></a></div>{% assign related_count = related_count | plus: 1 %}{% endif %}{% endfor %}</div></div>
+    </div>
+  </section>
+</main>

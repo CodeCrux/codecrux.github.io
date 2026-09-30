@@ -538,5 +538,211 @@
   <priority>0.51</priority>
 </url>
 
+<url>
+  <loc>https://codecrux.com/ai-use-cases/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/agentic-software-engineering/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/aml-investigation-workflow/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/autonomous-customer-support-resolution/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/claims-processing-agent/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/client-delivery-agent/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/clinical-documentation-copilot/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/customer-energy-advisor/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/customer-retention-agent/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/customer-service-returns-agent/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/energy-forecasting-agent/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/engineering-knowledge-agent/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/field-maintenance-agent/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/field-service-agent/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/financial-advisor-copilot/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/fleet-maintenance-agent/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/fraud-investigation-agent/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/grid-operations-intelligence/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/insurance-customer-service-agent/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/intelligent-dispatch-agent/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/intelligent-loan-processing/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/inventory-optimization-system/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/life-sciences-research-agent/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/logistics-control-tower-agent/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/media-content-intelligence/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/merchandising-intelligence-agent/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/network-operations-agent/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/patient-service-agent/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/predictive-maintenance-agent/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/prior-authorization-intelligence-workflow/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/product-intelligence-agent/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/production-optimization-agent/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/proposal-rfp-agent/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/quality-investigation-agent/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/renewal-intelligence-agent/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/research-knowledge-agent/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/resource-staffing-intelligence/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/saas-customer-success-agent/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/shipment-exception-agent/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/shopping-agent/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codecrux.com/ai-use-cases/underwriting-copilot/</loc>
+  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
 
 </urlset>

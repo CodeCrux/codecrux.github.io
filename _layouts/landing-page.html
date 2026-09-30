@@ -14,7 +14,7 @@
     />
     <meta
       name="keywords"
-      content="enterprise AI, AI engineering, agentic AI, AI transformation, AI agents, LLMOps, RAG, AI adoption, CodeCrux"
+      content="{{ page.keywords | default: 'enterprise AI, AI engineering, agentic AI, AI transformation, AI agents, LLMOps, RAG, AI adoption, CodeCrux' }}"
     />
     <meta property="og:title" content="{{ page.title | default: 'Build the AI-Native Enterprise | CodeCrux' }}" />
     <meta property="og:description" content="{{ page.description | default: site.description }}" />
@@ -67,7 +67,7 @@
     </nav>
 
     {{ content }}
-    {% unless page.url == "/" or page.url == "/ai-use-cases/" or page.url == "/digital-marketing-for-doctors-and-hospitals.html" %}{% include /page-cta.html %}{% endunless %}
+    {% unless page.url == "/" or page.url == "/about/" or page.url == "/ai-use-cases/" or page.url == "/enterprise-ai-security/" or page.url == "/digital-marketing-for-doctors-and-hospitals.html" %}{% include /page-cta.html %}{% endunless %}
     {% include /footer.html %}
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

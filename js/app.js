@@ -34,39 +34,76 @@ $(document).ready(function () {
     $(this).removeClass("cc-nav-dragging");
   });
 
-  var touchStartY = null;
-  var touchCurrentY = null;
+  var touchStartX = null;
+  var touchCurrentX = null;
   $(document).on("touchstart", "#main-nav", function (event) {
     if (!$(this).hasClass("in")) return;
-    touchStartY = event.originalEvent.touches[0].clientY;
-    touchCurrentY = touchStartY;
+    touchStartX = event.originalEvent.touches[0].clientX;
+    touchCurrentX = touchStartX;
   });
 
   $(document).on("touchmove", "#main-nav", function (event) {
-    if (touchStartY === null) return;
-    touchCurrentY = event.originalEvent.touches[0].clientY;
-    var distance = touchCurrentY - touchStartY;
-    if (distance > 0 && this.scrollTop === 0) {
+    if (touchStartX === null) return;
+    touchCurrentX = event.originalEvent.touches[0].clientX;
+    var distance = touchStartX - touchCurrentX;
+    if (distance > 0) {
       event.preventDefault();
-      this.style.setProperty("--cc-drawer-offset", distance + "px");
+      this.style.setProperty("--cc-drawer-offset", -distance + "px");
       $(this).addClass("cc-nav-dragging");
     }
   });
 
   $(document).on("touchend touchcancel", "#main-nav", function () {
-    if (touchStartY === null) return;
-    var distance = touchCurrentY - touchStartY;
+    if (touchStartX === null) return;
+    var distance = touchStartX - touchCurrentX;
     if (distance > 80) {
       $(this).collapse("hide");
     } else {
       this.style.removeProperty("--cc-drawer-offset");
       $(this).removeClass("cc-nav-dragging");
     }
-    touchStartY = null;
-    touchCurrentY = null;
+    touchStartX = null;
+    touchCurrentX = null;
   });
 
-  $(".blog-post-body .highlight, .blog-post-body > pre").each(function () {
+  var axecPopupKey = "ccAxecCtaClosedAt";
+  var axecPopupSessionKey = "ccAxecCtaSeen";
+  var axecPopupDelay = 3000;
+  var axecPopupWindow = 3 * 24 * 60 * 60 * 1000;
+
+  $("body").append('<div class="cc-axec-popup" role="dialog" aria-modal="true" aria-labelledby="cc-axec-popup-title" aria-hidden="true"><div class="cc-axec-popup-card"><button type="button" class="cc-axec-popup-close" aria-label="Close promotion"><span aria-hidden="true">&times;</span></button><p class="cc-kicker">AXEC / enterprise AI security</p><h2 id="cc-axec-popup-title">Start your first secured agent workflow.</h2><p>Put one valuable agent action behind identity, policy, protected credentials, approvals, and evidence.</p><a href="https://cal.id/axec/demo?duration=30" class="cc-button cc-button-primary" target="_blank" rel="noopener">Schedule a 30-minute conversation <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></div></div>');
+
+  var axecPopup = document.querySelector(".cc-axec-popup");
+  var closeAxecPopup = function () {
+    axecPopup.classList.remove("is-visible");
+    axecPopup.setAttribute("aria-hidden", "true");
+    try {
+      sessionStorage.setItem(axecPopupSessionKey, "1");
+      localStorage.setItem(axecPopupKey, String(Date.now()));
+    } catch (error) {}
+  };
+  var showAxecPopup = function () {
+    axecPopup.classList.add("is-visible");
+    axecPopup.setAttribute("aria-hidden", "false");
+    try { sessionStorage.setItem(axecPopupSessionKey, "1"); } catch (error) {}
+  };
+
+  axecPopup.addEventListener("click", function (event) {
+    if (event.target === axecPopup || event.target.closest(".cc-axec-popup-close")) closeAxecPopup();
+  });
+  axecPopup.querySelector(".cc-button").addEventListener("click", closeAxecPopup);
+
+  window.setTimeout(function () {
+    var seenThisSession = false;
+    var lastClosedAt = 0;
+    try {
+      seenThisSession = sessionStorage.getItem(axecPopupSessionKey) === "1";
+      lastClosedAt = Number(localStorage.getItem(axecPopupKey)) || 0;
+    } catch (error) {}
+    if (!seenThisSession || Date.now() - lastClosedAt >= axecPopupWindow) showAxecPopup();
+  }, axecPopupDelay);
+
+  $(".blog-post-body .highlight:not(pre), .blog-post-body > pre").each(function () {
     var block = this;
     if (block.querySelector(".cc-code-copy")) return;
 

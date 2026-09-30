@@ -1,111 +1,80 @@
 ---
-layout: default
-title: CodeCrux offers Kubernetes as a service
-description: CodeCrux is listed as a Kubernetes Services Partners from India. We help your business to eliminate manual processes involved in scaling and deploying containerized applications anywhere and manage them exactly as you like everywhere.
-keywords: Kubernetes Expert, Kubernetes, Cloud Migration, containers deployment, architecture and implementation,cluster,Security,Workflow integrations
+layout: landing-page
+title: "Kubernetes for AI Products | Scalable, Cost-Effective AI Deployment | CodeCrux"
+description: "Deploy scalable, cost-effective AI systems and agents on Kubernetes with CodeCrux. Optimize GPU workloads, inference performance, reliability, observability, and cloud cost."
+keywords: "Kubernetes for AI, AI infrastructure optimization, managed Kubernetes for AI, Kubernetes AI deployment, GPU workload optimization, AI agent deployment"
+permalink: /kubernetes/
 ---
 
-<div class="technology-content-wraper">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2 text-center" style="margin-bottom:30px;">
+<main class="cc-k8s-page">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Kubernetes for AI Products",
+      "serviceType": "AI infrastructure and Kubernetes implementation",
+      "description": "CodeCrux designs and implements scalable, cost-effective Kubernetes platforms for AI systems, agents, model serving, and inference workloads.",
+      "provider": {
+        "@type": "Organization",
+        "name": "CodeCrux Web Technologies Pvt Ltd",
+        "url": "https://codecrux.com"
+      },
+      "areaServed": "Worldwide",
+      "url": "https://codecrux.com/kubernetes/"
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type":"Question","name":"Why use Kubernetes for AI products?","acceptedAnswer":{"@type":"Answer","text":"Kubernetes gives AI teams a repeatable platform for deploying model services, agents, APIs, background workers, data services, and observability with consistent release and scaling controls."}},
+        {"@type":"Question","name":"Can CodeCrux optimize GPU and inference costs?","acceptedAnswer":{"@type":"Answer","text":"Yes. The optimization work can cover workload sizing, GPU utilization, node pools, autoscaling, batching, model serving, observability, and capacity decisions."}},
+        {"@type":"Question","name":"Can you work with our existing cloud Kubernetes cluster?","acceptedAnswer":{"@type":"Answer","text":"Yes. CodeCrux can assess and improve an existing managed Kubernetes environment or design a new platform around the AI workload and operating requirements."}},
+        {"@type":"Question","name":"Can you deploy AI agents as well as model APIs?","acceptedAnswer":{"@type":"Answer","text":"Yes. The platform can support agent runtimes, tool services, APIs, scheduled workers, model endpoints, retrieval services, and the surrounding production controls."}}
+      ]
+    }
+  </script>
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ep6qb5hOwts?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <h1>Kubernetes as a Service</h1>
-        <p>We help your organization get the most out of Containers and Kubernetes, regardless of where you are in your journey.</p>
-      </div>
-    </div>
-  </div>
-  <div class="kub-packages">
+  <section class="cc-k8s-hero" aria-labelledby="k8s-hero-title">
     <div class="container">
-      <div class="row">
-
-        <div class="col-md-6">
-          <div class="kub-package-item">
-            <div class="kub-package-header">
-              <figure>
-                <img src="/img/migrating.svg" alt="" />
-              </figure>
-              <h4>Explore Kubernetes</h4>
-            </div>
-            <div class="kub-package-message">
-              <p> See if Kubernetes will work for you.</p>
-              <ul>
-                <li> Session on Introduction to Kubernetes </li>
-                <li> Production-grade Kubernetes, on your hosting environment </li>
-                <li> CI/CD pipeline for an example application </li>
-                <li> Roadmap on how to move cloud apps to Kubernetes </li>
-              </ul>
-            </div>
-          </div>
+      <div class="row cc-k8s-hero-row">
+        <div class="col-md-7 cc-k8s-hero-copy">
+          <p class="cc-eyebrow"><span class="cc-eyebrow-mark"></span> AI platform engineering / Kubernetes implementation</p>
+          <h1 id="k8s-hero-title">Deploy AI that scales without letting <span>costs</span> scale with it.</h1>
+          <p class="cc-k8s-hero-lede">CodeCrux designs and implements production Kubernetes platforms for AI systems, agents, model APIs, and inference workloads that need reliability, performance, and cost control.</p>
+          <div class="cc-k8s-actions"><a href="/contact/" class="cc-button cc-button-primary">Plan your AI platform <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a><a href="#optimization" class="cc-button cc-button-quiet">See optimization areas <i class="fa fa-angle-down" aria-hidden="true"></i></a></div>
+          <p class="cc-k8s-hero-note">Kubernetes implementation for AI products / platform foundations / performance and cost optimization</p>
         </div>
-
-        <div class="col-md-6">
-          <div class="kub-package-item">
-            <div class="kub-package-header">
-              <figure>
-                <img src="/img/migrating.svg" alt="" />
-              </figure>
-              <h4>Application Migration </h4>
-            </div>
-            <div class="kub-package-message">
-              <p> Our engineers will help your team fully up and running with containers.</p>
-              <ul>
-                <li> Roadmap for migration for "containerizing" complex applications. </li>
-                <li> Guided migration of legacy workloads to Containers </li>
-                <li> Production-grade Kubernetes (Bare meta, AWS or VMs) </li>
-                <li> Architecture and implementation of stateful services like data stores. </li>
-                <li> Production-grade logging, monitoring and disaster recovery </li>
-              </ul>
-            </div>
+        <div class="col-md-5 cc-k8s-hero-visual" aria-label="AI workloads running on Kubernetes">
+          <div class="cc-k8s-cluster-card">
+            <div class="cc-k8s-card-top"><span>AI PLATFORM / PRODUCTION</span><b><i></i> HEALTHY</b></div>
+            <div class="cc-k8s-cluster-head"><strong>kubernetes</strong><span>cluster / ai-prod-01</span></div>
+            <div class="cc-k8s-workloads"><div><span class="cc-k8s-node-dot"></span><b>model serving</b><em>GPU / 68%</em></div><div><span class="cc-k8s-node-dot"></span><b>agent runtime</b><em>CPU / 42%</em></div><div><span class="cc-k8s-node-dot"></span><b>retrieval API</b><em>p95 / 184ms</em></div><div class="cc-k8s-workload-alert"><span class="cc-k8s-node-dot"></span><b>capacity policy</b><em>optimized</em></div></div>
+            <div class="cc-k8s-cost-row"><span>MONTHLY CAPACITY SIGNAL</span><strong>RIGHT-SIZED <i class="fa fa-arrow-down" aria-hidden="true"></i></strong></div>
           </div>
+          <span class="cc-k8s-float-label cc-k8s-label-one">scale with demand</span><span class="cc-k8s-float-label cc-k8s-label-two">observe every layer</span>
         </div>
-
-        <div class="col-md-6">
-          <div class="kub-package-item bg-pink">
-            <div class="kub-package-header">
-              <figure>
-                <img src="/img/cx-logo.png" alt="" />
-              </figure>
-              <h4>Managed Ops</h4>
-            </div>
-            <div class="kub-package-message">
-              <p>We provide a production hardended cluster remotely managed by us bespoked to your needs.</p>
-              <ul>
-                <li> Production-grade logging, monitoring, backup and disaster recovery</li>
-                <li> Security Patching/Upgrade Management </li>
-                <li> Remote monitoring with SLA, Incident escalations </li>
-                <li> SLA, incident escalation </li>
-                <li> Load testing, Security vulnerability assessment </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6">
-          <div class="kub-package-item bg-white">
-            <div class="kub-package-header">
-              <figure>
-                <img src="/img/integrations.svg" alt="" />
-              </figure>
-              <h4>Integration Services</h4>
-            </div>
-            <div class="kub-package-message">
-              <p>We provide kubernetes addons to be more productive and agile.</p>
-              <ul>
-                <li>CI/CD integrations</li>
-                <li>Secrets management</li>
-                <li>Workflow integrations</li>
-                <li>Enhanced intra-cluster security </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        
       </div>
     </div>
-  </div>
-</div>
+    <div class="cc-k8s-grid" aria-hidden="true"></div>
+  </section>
 
-{% include /enquiry.html %}
+  <section class="cc-k8s-proof-strip" aria-label="AI Kubernetes deployment outcomes"><div class="container"><div class="row"><div class="col-sm-4"><span>01</span><strong>Production-ready AI platforms</strong></div><div class="col-sm-4"><span>02</span><strong>Performance you can measure</strong></div><div class="col-sm-4"><span>03</span><strong>Cost decisions grounded in data</strong></div></div></div></section>
 
+  <section class="cc-section cc-k8s-problem" aria-labelledby="k8s-problem-title"><div class="container"><div class="row cc-intro-row"><div class="col-md-5"><p class="cc-kicker">The AI infrastructure problem</p><h2 id="k8s-problem-title">A model demo is not an AI product platform.</h2></div><div class="col-md-6 col-md-offset-1"><p class="cc-body-large">AI systems combine spiky inference traffic, expensive compute, stateful data, background jobs, model dependencies, and agents that need to call tools reliably.</p><p class="cc-k8s-muted-copy">Kubernetes gives you a platform. The right implementation makes that platform understandable, resilient, observable, and economical for the workload you actually run.</p></div></div><div class="row cc-k8s-risk-grid"><div class="col-md-4"><article><span>01</span><h3>Unpredictable demand</h3><p>Inference and agent workloads can move from idle to saturated quickly, making static capacity expensive or unreliable.</p></article></div><div class="col-md-4"><article><span>02</span><h3>Expensive compute</h3><p>GPU and high-memory nodes need workload-aware scheduling, utilization tracking, and clear capacity decisions.</p></article></div><div class="col-md-4"><article><span>03</span><h3>More than one service</h3><p>Production AI includes APIs, workers, retrieval, model serving, tools, queues, data, and operational controls.</p></article></div></div></div></section>
+
+  <section class="cc-section cc-k8s-services" aria-labelledby="k8s-services-title"><div class="container"><div class="cc-section-heading"><p class="cc-kicker">Kubernetes implementation for AI products</p><h2 id="k8s-services-title">Build the platform around the workload.</h2><p>Start with the product and its operating requirements, then implement the Kubernetes foundation that helps the team ship and run it with confidence.</p></div><div class="cc-k8s-service-grid"><article><span>01 / PLATFORM FOUNDATION</span><h3>Design the AI cluster.</h3><p>Cluster topology, namespaces, node pools, security boundaries, networking, storage, secrets, and environment promotion.</p></article><article><span>02 / MODEL SERVING</span><h3>Run inference predictably.</h3><p>Deploy model APIs and inference services with health checks, rollout controls, autoscaling signals, and capacity-aware scheduling.</p></article><article><span>03 / AGENT RUNTIMES</span><h3>Operate agents in production.</h3><p>Run agent APIs, workers, tool services, queues, scheduled jobs, and retrieval dependencies as observable workloads.</p></article><article><span>04 / DELIVERY &amp; OPERATIONS</span><h3>Make releases repeatable.</h3><p>Infrastructure as code, CI/CD, configuration promotion, monitoring, incident signals, backup, recovery, and upgrade practices.</p></article></div></div></section>
+
+  <section class="cc-section cc-k8s-optimization" id="optimization" aria-labelledby="k8s-optimization-title"><div class="container"><div class="cc-section-heading cc-heading-light"><p class="cc-kicker">Performance and cost optimization</p><h2 id="k8s-optimization-title">Make every unit of compute do more.</h2><p>Optimization is not one setting. It is a feedback loop across workloads, scheduling, autoscaling, serving behavior, observability, and capacity planning.</p></div><div class="cc-k8s-optimization-grid"><article><span>01</span><h3>Right-size workloads</h3><p>Set realistic requests and limits from measured behavior so workloads are schedulable without reserving unnecessary capacity.</p></article><article><span>02</span><h3>Improve GPU utilization</h3><p>Match GPU profiles, node pools, batching, concurrency, and scheduling to the model and traffic pattern.</p></article><article><span>03</span><h3>Scale on useful signals</h3><p>Use queue depth, request rate, latency, tokens, and utilization instead of CPU alone when scaling AI services.</p></article><article><span>04</span><h3>Optimize inference</h3><p>Measure model latency, throughput, cold starts, batching, caching, and serving overhead across real requests.</p></article><article><span>05</span><h3>Observe the full path</h3><p>Connect service health, traces, logs, GPU behavior, cost signals, and user-facing SLOs to the same operating view.</p></article><article><span>06</span><h3>Control capacity cost</h3><p>Choose node pools, commitments, burst capacity, scale-down policies, and workload placement from evidence.</p></article></div></div></section>
+
+  <section class="cc-section cc-k8s-architecture" aria-labelledby="k8s-architecture-title"><div class="container"><div class="row cc-intro-row"><div class="col-md-5"><p class="cc-kicker">A production path</p><h2 id="k8s-architecture-title">One platform for the complete AI runtime.</h2><p class="cc-k8s-muted-copy">Kubernetes is the execution layer. The platform should make it easy to see how requests, models, agents, tools, data, and infrastructure behave together.</p></div><div class="col-md-6 col-md-offset-1"><div class="cc-k8s-architecture-map"><div class="cc-k8s-architecture-row"><span>EXPERIENCE</span><div><b>AI product</b><b>copilot</b><b>agent workflow</b></div></div><i class="fa fa-long-arrow-down" aria-hidden="true"></i><div class="cc-k8s-architecture-row cc-k8s-architecture-main"><span>AI RUNTIME</span><div><b>model APIs</b><b>agents</b><b>retrieval</b><b>tools</b></div></div><i class="fa fa-long-arrow-down" aria-hidden="true"></i><div class="cc-k8s-architecture-row"><span>PLATFORM</span><div><b>Kubernetes</b><b>GPU pools</b><b>observability</b></div></div><div class="cc-k8s-architecture-control"><span>OPERATE WITH SIGNAL</span><strong>performance / reliability / cost</strong></div></div></div></div></div></section>
+
+  <section class="cc-section cc-k8s-process" aria-labelledby="k8s-process-title"><div class="container"><div class="row cc-intro-row"><div class="col-md-5"><p class="cc-kicker">How we work</p><h2 id="k8s-process-title">From workload discovery to measurable operations.</h2></div><div class="col-md-6 col-md-offset-1"><p class="cc-body-large">The goal is not to add Kubernetes complexity. It is to give the team a reliable, cost-aware operating path for the AI product they need to ship.</p></div></div><div class="cc-k8s-process-grid"><div><span>01</span><h3>Assess</h3><p>Map services, data, compute, traffic, reliability, and cost requirements.</p></div><div><span>02</span><h3>Design</h3><p>Choose cluster boundaries, workload patterns, security controls, and operating signals.</p></div><div><span>03</span><h3>Implement</h3><p>Build the platform, delivery path, observability, and production safeguards.</p></div><div><span>04</span><h3>Optimize</h3><p>Use measured performance and spend to tune capacity and scale what works.</p></div></div></div></section>
+
+  <section class="cc-section cc-k8s-fit" aria-labelledby="k8s-fit-title"><div class="container"><div class="row"><div class="col-md-5"><p class="cc-kicker">Who this is for</p><h2 id="k8s-fit-title">For teams ready to make AI operational.</h2></div><div class="col-md-6 col-md-offset-1"><div class="cc-k8s-fit-list"><div><span>AI STARTUPS</span><strong>Move from prototype to product</strong><p>Build an infrastructure foundation that can support the first real customers without premature complexity.</p></div><div><span>ENTERPRISE AI TEAMS</span><strong>Standardize the runtime</strong><p>Give multiple AI systems, agents, and teams a repeatable deployment and operations model.</p></div><div><span>PLATFORM TEAMS</span><strong>Reduce operational drag</strong><p>Make workload behavior, reliability, performance, and cost visible enough to improve continuously.</p></div></div></div></div></div></section>
+
+  <section class="cc-section cc-k8s-faq" aria-labelledby="k8s-faq-title"><div class="container"><div class="row"><div class="col-md-5"><p class="cc-kicker">Before you start</p><h2 id="k8s-faq-title">Questions about running AI on Kubernetes.</h2></div><div class="col-md-6 col-md-offset-1"><details open><summary>Why use Kubernetes for AI products?</summary><p>Kubernetes gives AI teams a repeatable platform for model services, agents, APIs, background workers, data services, and observability with consistent release and scaling controls.</p></details><details><summary>Can you optimize GPU and inference costs?</summary><p>Yes. The work can cover workload sizing, GPU utilization, node pools, autoscaling, batching, model serving, observability, and capacity decisions.</p></details><details><summary>Can you improve our existing cloud Kubernetes cluster?</summary><p>Yes. CodeCrux can assess an existing managed Kubernetes environment and improve its platform, delivery, reliability, performance, or cost controls.</p></details><details><summary>Can you deploy AI agents as well as model APIs?</summary><p>Yes. The platform can support agent runtimes, tool services, APIs, scheduled workers, model endpoints, retrieval services, and their production dependencies.</p></details></div></div></div></section>
+
+  <section class="cc-section cc-k8s-final-cta" aria-labelledby="k8s-final-title"><div class="container"><div class="cc-k8s-final-box"><p class="cc-kicker">Start with the workload that matters</p><h2 id="k8s-final-title">Ready to deploy AI with more control over performance and cost?</h2><p>Book a discovery conversation with CodeCrux. Bring one AI system, one agent workflow, or one infrastructure bottleneck.</p><a href="/contact/" class="cc-button cc-button-light">Schedule an AI infrastructure conversation <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></div></div></section>
+</main>

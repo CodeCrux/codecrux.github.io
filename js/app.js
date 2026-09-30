@@ -65,6 +65,56 @@ $(document).ready(function () {
     touchStartY = null;
     touchCurrentY = null;
   });
+
+  $(".blog-post-body .highlight, .blog-post-body > pre").each(function () {
+    var block = this;
+    if (block.querySelector(".cc-code-copy")) return;
+
+    var button = document.createElement("button");
+    button.type = "button";
+    button.className = "cc-code-copy";
+    button.setAttribute("aria-label", "Copy code");
+    button.setAttribute("title", "Copy code");
+    button.innerHTML = '<i class="fa fa-copy" aria-hidden="true"></i><span>Copy</span>';
+
+    button.addEventListener("click", function () {
+      var source = block.querySelector(".rouge-code pre") || block.querySelector("code") || block.querySelector("pre");
+      if (!source) return;
+
+      var text = source.innerText || source.textContent;
+      var copy = navigator.clipboard && window.isSecureContext
+        ? navigator.clipboard.writeText(text)
+        : new Promise(function (resolve, reject) {
+            var textarea = document.createElement("textarea");
+            textarea.value = text;
+            textarea.style.position = "fixed";
+            textarea.style.opacity = "0";
+            document.body.appendChild(textarea);
+            textarea.select();
+            try {
+              document.execCommand("copy") ? resolve() : reject();
+            } catch (error) {
+              reject(error);
+            }
+            document.body.removeChild(textarea);
+          });
+
+      copy.then(function () {
+        button.classList.add("is-copied");
+        button.setAttribute("aria-label", "Code copied");
+        button.setAttribute("title", "Code copied");
+        button.querySelector("span").textContent = "Copied";
+        window.setTimeout(function () {
+          button.classList.remove("is-copied");
+          button.setAttribute("aria-label", "Copy code");
+          button.setAttribute("title", "Copy code");
+          button.querySelector("span").textContent = "Copy";
+        }, 1800);
+      });
+    });
+
+    block.appendChild(button);
+  });
 });
 
 var acc = document.getElementsByClassName("accordion");

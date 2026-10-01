@@ -9104,6 +9104,21 @@ figure {
   .cc-site .cc-nav-links[style] { transform: translateX(var(--cc-drawer-offset, -110%)); }
   .cc-site .cc-nav-overlay { top: 0; }
 }
+
+/* Keep the CodeCrux brand anchored to the left edge of the header. */
+.cc-site .cc-nav-brand-wrap {
+  justify-content: flex-start !important;
+  text-align: left !important;
+}
+.cc-site .cc-nav-brand {
+  float: left !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  text-align: left !important;
+}
+.cc-site .cc-nav-brand img {
+  margin-left: 0 !important;
+}
 /* AXEC enterprise AI security landing page. */
 .cc-site .cc-axec-page { overflow: hidden; color: var(--cc-ink); background: var(--cc-paper); }
 .cc-site .cc-axec-hero { position: relative; padding: 96px 0 92px; color: var(--cc-white); background: radial-gradient(circle at 85% 8%, rgba(184, 245, 209, .18), transparent 27%), linear-gradient(125deg, #09191a 0%, #173536 58%, #0c1d1e 100%); }
@@ -9224,21 +9239,33 @@ figure {
   .cc-site .cc-axec-fit-list p { margin: 0; }
   .cc-site .cc-axec-final-box { padding: 43px 25px; }
 }
-/* AXEC CTA promotion dialog. */
-.cc-site .cc-axec-popup { position: fixed; right: 0; bottom: 0; left: 0; z-index: 2000; display: flex; align-items: flex-end; justify-content: flex-end; padding: 24px; visibility: hidden; opacity: 0; background: rgba(12, 29, 30, .28); transition: opacity .25s ease, visibility .25s ease; }
-.cc-site .cc-axec-popup.is-visible { visibility: visible; opacity: 1; }
-.cc-site .cc-axec-popup-card { position: relative; width: min(430px, 100%); padding: 34px 32px 30px; border: 1px solid rgba(12, 29, 30, .14); border-radius: 4px; color: var(--cc-ink); background: var(--cc-white); box-shadow: 0 22px 60px rgba(12, 29, 30, .25); transform: translateY(18px); transition: transform .25s ease; }
-.cc-site .cc-axec-popup.is-visible .cc-axec-popup-card { transform: translateY(0); }
-.cc-site .cc-axec-popup-card .cc-kicker { margin-bottom: 17px; color: var(--cc-coral); }
-.cc-site .cc-axec-popup-card h2 { max-width: 340px; margin: 0 0 13px; color: var(--cc-ink); font-size: 30px; line-height: 1.02; }
-.cc-site .cc-axec-popup-card p:not(.cc-kicker) { max-width: 350px; margin: 0 0 24px; color: var(--cc-muted); font-size: 14px; line-height: 1.65; }
-.cc-site .cc-axec-popup-close { position: absolute; top: 12px; right: 13px; width: 32px; height: 32px; padding: 0; border: 1px solid var(--cc-line); border-radius: 50%; color: var(--cc-ink); background: transparent; font-size: 22px; font-weight: 300; line-height: 26px; }
-.cc-site .cc-axec-popup-close:hover, .cc-site .cc-axec-popup-close:focus { border-color: var(--cc-coral); color: var(--cc-coral); outline: none; }
+/* CodeCrux security control diagram and CTA promotion dialog. */
+.cc-site .cc-security-control-panel { display: grid; grid-template-columns: 1fr auto 1fr auto 1fr; align-items: stretch; gap: 10px; padding: 10px; border: 1px solid rgba(184, 245, 209, .28); background: rgba(255, 253, 249, .05); }
+.cc-site .cc-security-control-panel > div { display: flex; min-height: 112px; flex-direction: column; justify-content: space-between; padding: 15px; border: 1px solid rgba(184, 245, 209, .22); background: rgba(12, 29, 30, .35); }
+.cc-site .cc-security-control-panel span { color: var(--cc-mint); font-family: "DM Mono", monospace; font-size: 9px; letter-spacing: .08em; }
+.cc-site .cc-security-control-panel strong { color: var(--cc-white); font-size: 14px; line-height: 1.25; }
+.cc-site .cc-security-control-panel > i { align-self: center; color: var(--cc-coral); font-size: 12px; }
+.cc-site .cc-security-control-panel-light { grid-template-columns: repeat(2, 1fr); gap: 1px; padding: 1px; border: 0; background: rgba(12, 29, 30, .2); }
+.cc-site .cc-security-control-panel-light > div { min-height: 135px; padding: 22px; border: 0; background: rgba(255, 253, 249, .22); }
+.cc-site .cc-security-control-panel-light span { color: var(--cc-coral); }
+.cc-site .cc-security-control-panel-light strong { color: var(--cc-ink); font-size: 17px; }
+.cc-site .cc-security-popup { position: fixed; right: 0; bottom: 0; left: 0; z-index: 2000; display: flex; align-items: flex-end; justify-content: flex-end; padding: 24px; visibility: hidden; opacity: 0; background: rgba(12, 29, 30, .28); transition: opacity .25s ease, visibility .25s ease; }
+.cc-site .cc-security-popup.is-visible { visibility: visible; opacity: 1; }
+.cc-site .cc-security-popup-card { position: relative; width: min(430px, 100%); padding: 34px 32px 30px; border: 1px solid rgba(12, 29, 30, .14); border-radius: 4px; color: var(--cc-ink); background: var(--cc-white); box-shadow: 0 22px 60px rgba(12, 29, 30, .25); transform: translateY(18px); transition: transform .25s ease; }
+.cc-site .cc-security-popup.is-visible .cc-security-popup-card { transform: translateY(0); }
+.cc-site .cc-security-popup-card .cc-kicker { margin-bottom: 17px; color: var(--cc-coral); }
+.cc-site .cc-security-popup-card h2 { max-width: 340px; margin: 0 0 13px; color: var(--cc-ink); font-size: 30px; line-height: 1.02; }
+.cc-site .cc-security-popup-card p:not(.cc-kicker) { max-width: 350px; margin: 0 0 24px; color: var(--cc-muted); font-size: 14px; line-height: 1.65; }
+.cc-site .cc-security-popup-close { position: absolute; top: 12px; right: 13px; width: 32px; height: 32px; padding: 0; border: 1px solid var(--cc-line); border-radius: 50%; color: var(--cc-ink); background: transparent; font-size: 22px; font-weight: 300; line-height: 26px; }
+.cc-site .cc-security-popup-close:hover, .cc-site .cc-security-popup-close:focus { border-color: var(--cc-coral); color: var(--cc-coral); outline: none; }
 @media (max-width: 767px) {
-  .cc-site .cc-axec-popup { padding: 14px; }
-  .cc-site .cc-axec-popup-card { padding: 31px 22px 24px; }
-  .cc-site .cc-axec-popup-card h2 { font-size: 27px; }
-  .cc-site .cc-axec-popup-card .cc-button { width: 100%; text-align: center; }
+  .cc-site .cc-security-control-panel { grid-template-columns: 1fr; }
+  .cc-site .cc-security-control-panel > i { display: none; }
+  .cc-site .cc-security-control-panel-light { grid-template-columns: 1fr 1fr; }
+  .cc-site .cc-security-popup { padding: 14px; }
+  .cc-site .cc-security-popup-card { padding: 31px 22px 24px; }
+  .cc-site .cc-security-popup-card h2 { font-size: 27px; }
+  .cc-site .cc-security-popup-card .cc-button { width: 100%; text-align: center; }
 }
 /* Kubernetes for AI products landing page. */
 .cc-site .cc-k8s-page { overflow: hidden; color: var(--cc-ink); background: var(--cc-paper); }

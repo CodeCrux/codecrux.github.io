@@ -15,7 +15,7 @@ date: 2026-09-09T10:00:00.000Z
 
 <div class="callout-box">
   <h3>Quick Answer</h3>
-  <p>The Hugging Face incident is a reminder that AI agents need security controls outside the model. Prompts can describe an agent's role, but they should not be the only boundary around credentials, tools, networks, or data. Production agents need their own identity, task-scoped permissions, runtime policy checks, and a reliable record of every consequential action. <a href="https://axec.dev/" target="_blank" rel="noopener">Book a free AI agent security assessment with AXEC</a>.</p>
+  <p>The Hugging Face incident is a reminder that AI agents need security controls outside the model. Prompts can describe an agent's role, but they should not be the only boundary around credentials, tools, networks, or data. Production agents need their own identity, task-scoped permissions, runtime policy checks, and a reliable record of every consequential action. <a href="/contact/">Talk to CodeCrux about an AI agent security assessment</a>.</p>
 </div>
 
 An AI agent does not need to be conscious to become a security incident.
@@ -135,13 +135,13 @@ Examples include unexpected credential enumeration, repeated access failures, un
 
 High-risk events should trigger a deny decision, a human approval step, a credential revocation, or a run-level shutdown. The response should not depend on a person noticing a strange line in a log several hours later.
 
-## Where AXEC fits
+## Where CodeCrux fits
 
-AXEC is designed to provide an agent identity and runtime governance layer between AI agents and the tools they can reach.
+CodeCrux designs an agent identity and runtime governance layer between AI agents and the tools they can reach.
 
 That means helping organizations register agents, apply scoped authorization, mediate agent-to-tool and MCP requests, and maintain a trace of agent actions. A security team should be able to see the difference between an approved read, a denied secret request, an unexpected tool call, and a high-risk action that requires human approval.
 
-AXEC is not a substitute for secure software development, sandboxing, network segmentation, secret rotation, vulnerability management, or incident response. Those controls remain necessary.
+This control layer is not a substitute for secure software development, sandboxing, network segmentation, secret rotation, vulnerability management, or incident response. Those controls remain necessary.
 
 The value of an independent agent control layer is that it gives the organization a place to enforce authority at runtime. It moves the trust boundary away from the model's instructions and closer to the system that can actually allow or deny the action.
 
@@ -189,18 +189,18 @@ Start with agent identity and an inventory of the execution surface. You cannot 
 
 No. Sandboxing, network isolation, secure code, secret management, and vulnerability management remain essential. Agent governance adds a decision and evidence layer for the actions that pass through the runtime.
 
-### How can AXEC help?
+### How can CodeCrux help?
 
-AXEC can help teams establish agent identities, apply task-scoped authorization, govern agent-to-tool and MCP traffic, block unauthorized actions, and maintain an agent action trail. The exact control design should match the organization's architecture and risk profile.
+CodeCrux can help teams establish agent identities, apply task-scoped authorization, govern agent-to-tool and MCP traffic, block unauthorized actions, and maintain an agent action trail. The exact control design should match the organization's architecture and risk profile.
 
 ### How can I assess our current agent risk?
 
-Book a free AI agent security assessment with AXEC. The assessment can help you map agent identities, tool connections, permissions, trust boundaries, and audit gaps before those gaps become an incident.
+Book an AI agent security assessment with CodeCrux. The assessment can help you map agent identities, tool connections, permissions, trust boundaries, and audit gaps before those gaps become an incident.
 
 <div class="callout-box">
   <h3>Book your free AI agent security assessment</h3>
   <p>If your agents can call APIs, query databases, execute code, use MCP servers, or operate across cloud environments, now is the right time to review their execution surface.</p>
-  <p><a href="https://axec.dev/" target="_blank" rel="noopener"><strong>Book your free assessment meeting with AXEC</strong> <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></p>
+  <p><a href="/contact/"><strong>Book your AI security assessment with CodeCrux</strong> <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></p>
 </div>
 
 ## Sources

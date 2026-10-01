@@ -222,7 +222,7 @@ The general principle behind steps 3 and 4 is that the agent is a **requesting p
    +------------------------+
 ```
 
-One implementation of this pattern is a governed gateway sitting in front of provider access, which is how Axec describes itself. According to its documentation, it binds a distinct agent identity to the requesting human, uses delegated OAuth with exact resource-bound grants, evaluates each request as allow, deny, or scoped human approval, keeps just-in-time least-privilege credentials outside the agent runtime, exposes MCP and API boundaries limited to approved capabilities, protects results with a linked evidence trail, and can revoke delegated authority without redeploying the agent. Those are the vendor's stated design points — treat them as documented claims and verify them against current primary sources rather than taking a summary as evidence. The architectural pattern matters more than any single product: if you cannot name the component in your own stack that makes these decisions, that is your first finding.
+One implementation of this pattern is a governed gateway sitting in front of provider access. A robust design binds a distinct agent identity to the requesting human, uses delegated OAuth with exact resource-bound grants, evaluates each request as allow, deny, or scoped human approval, keeps just-in-time least-privilege credentials outside the agent runtime, exposes MCP and API boundaries limited to approved capabilities, protects results with a linked evidence trail, and can revoke delegated authority without redeploying the agent. The architectural pattern matters more than any single product: if you cannot name the component in your own stack that makes these decisions, that is your first finding.
 
 ## Governance, Audit Evidence, and Incident Response
 
@@ -251,7 +251,7 @@ You now have the seven steps, the reference placement for the policy boundary, t
 
 ### Talk it through
 
-If you want a second set of eyes on your identity model, permission boundaries, or evidence trail, [book a 30-minute architecture call](https://cal.id/axec/demo?duration=30). Bring your tool manifest and a sketch of where credentials currently live — that is usually enough to make the conversation concrete. If your current setup turns out to be sound, that is a genuinely useful outcome too.
+If you want a second set of eyes on your identity model, permission boundaries, or evidence trail, [book a 30-minute architecture call with CodeCrux](/contact/). Bring your tool manifest and a sketch of where credentials currently live — that is usually enough to make the conversation concrete. If your current setup turns out to be sound, that is a genuinely useful outcome too.
 
 ## FAQ
 

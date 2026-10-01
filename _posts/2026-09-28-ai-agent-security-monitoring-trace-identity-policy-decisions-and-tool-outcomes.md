@@ -109,7 +109,7 @@ The core principle is simple: **the agent runtime should never hold standing cre
         Provider SaaS
 ```
 
-This is the general pattern, sometimes described as a governed gateway. One implementation of the pattern is [Axec](https://axec.dev), whose stated design — distinct agent identity bound to the requesting human, delegated OAuth grants bound to exact resources, allow/deny/approval policy decisions, just-in-time credentials held outside the agent runtime, connector boundaries exposing only approved capabilities, protected results with a linked evidence trail, and revocation of delegated authority without redeploying the agent — is a concrete instance of each layer above. Treat it as one example of the architecture, not the only way to build it.
+This is the general pattern, sometimes described as a governed gateway. A strong implementation uses distinct agent identity bound to the requesting human, delegated OAuth grants bound to exact resources, allow/deny/approval policy decisions, just-in-time credentials held outside the agent runtime, connector boundaries exposing only approved capabilities, protected results with a linked evidence trail, and revocation of delegated authority without redeploying the agent. CodeCrux can help teams design and implement these layers around their existing systems.
 
 The design decision that makes the rest feasible: **the boundary is the only thing that can reach a provider.** Controls are then a set of properties of that boundary.
 
@@ -381,4 +381,4 @@ These are stable starting points; verify current versions against the primary so
 
 ---
 
-If you're designing the security architecture for your own agents — identity, delegation, policy boundaries, evidence trails — I'd be glad to compare notes on where the hard parts tend to show up in practice. Book a short, no-pressure walkthrough here: [https://cal.id/axec/demo?duration=30](https://cal.id/axec/demo?duration=30).
+If you're designing the security architecture for your own agents — identity, delegation, policy boundaries, evidence trails — I'd be glad to compare notes on where the hard parts tend to show up in practice. Book a short, no-pressure walkthrough with CodeCrux here: [/contact/](/contact/).

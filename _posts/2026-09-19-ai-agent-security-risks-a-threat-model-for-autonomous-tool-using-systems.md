@@ -94,7 +94,7 @@ User ──▶ Agent Runtime ──▶ Governance Gateway ──▶ Providers
                             audit evidence)
 ```
 
-This is the **governed-gateway pattern**. It is not a specific product concept but a widely used architecture pattern — products such as **Axec** implement it, but you can build it with your existing stack (OAuth2/OIDC, a policy engine like Open Policy Agent, a vault like HashiCorp Vault). The key properties of the boundary:
+This is the **governed-gateway pattern**. It is not a specific product concept and can be built with your existing stack (OAuth2/OIDC, a policy engine like Open Policy Agent, a vault like HashiCorp Vault). The key properties of the boundary:
 
 - **A distinct agent identity** bound to the requesting human — not a shared service account, so every action is attributable.
 - **Delegated authorization** with exact resource-bound grants, rather than broad scopes.
@@ -294,4 +294,4 @@ A secure architecture you can't prove is a security theater. Governance means th
 
 **Conclusion.** AI agent security risks do not come from intelligence; they come from **capability without governance**. By mapping the eight-part attack surface, placing an authorization and policy boundary between agent and tool, applying least privilege, delegated identity, JIT credentials, approval checkpoints, and fail-closed defaults — and then testing, monitoring, and audit-evidenced planning — you can operate autonomous systems that are genuinely useful and genuinely contained.
 
-If you're designing an agent architecture and want to stress-test your threat model or see how a governed gateway (with delegated OAuth, scoped approvals, JIT access, and a revocable evidence trail) would fit your stack, I'd be glad to walk through the design with you: [Book 30 minutes with me](https://cal.id/axec/demo?duration=30).
+If you're designing an agent architecture and want to stress-test your threat model or see how a governed gateway (with delegated OAuth, scoped approvals, JIT access, and a revocable evidence trail) would fit your stack, I'd be glad to walk through the design with you: [Book 30 minutes with CodeCrux](/contact/).

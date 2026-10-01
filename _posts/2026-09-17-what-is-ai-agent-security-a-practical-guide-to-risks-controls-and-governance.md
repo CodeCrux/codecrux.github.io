@@ -97,7 +97,7 @@ The single highest-leverage decision is architectural: put a policy boundary—a
                     └───────────────────────────┘
 ```
 
-This is where tools like **Axec** operate: a governed gateway for AI access that binds a distinct agent identity to the requesting human, issues delegated OAuth grants with exact resource scopes, and makes allow/deny/approve decisions at the boundary. The generalization is what matters here—*whatever* gateway you choose, the boundary must exist and must be the only path to provider credentials. Axec is one implementation of that principle, not the principle itself.
+This is where a governed gateway operates: it binds a distinct agent identity to the requesting human, issues delegated OAuth grants with exact resource scopes, and makes allow/deny/approve decisions at the boundary. The generalization is what matters here—*whatever* gateway you choose, the boundary must exist and must be the only path to provider credentials. CodeCrux helps teams design that boundary around their own architecture.
 
 Concretely, every outbound call flows through this policy layer:
 
@@ -327,10 +327,10 @@ A chatbot recommends; an agent executes. A chatbot's risk is confined to text ou
 
 - **OWASP — Agentic AI Threats** — Practical threat enumeration for autonomous agents, a good baseline for your own attack-surface review.
 - **OpenAI — Reducing Risks in Agentic AI** or the equivalent paper/guidance from your model provider — the standard reference for agent-specific risk categories.
-- **Axec — Governed AI Access** — A reference implementation of the gateway pattern described here, worth reviewing if you're evaluating tooling for your boundary.
+- **CodeCrux — Enterprise AI Security** — A practical implementation partner for the governed gateway pattern described here.
 
 ## Final Thoughts
 
 You've now worked through what is AI agent security as an engineering problem, not a slogan: map the surface, insert a policy boundary before providers, delegate identity with least privilege and JIT credentials, add approval checkpoints, fail closed, and leave an evidence trail. None of this is exotic; it's the same discipline you already apply to your API layer, applied to a component that can reason, chain, and spend. In a world where agents hold keys, the boundary is the security.
 
-If you're designing an agent architecture and want to walk through the gateway, identity, and policy patterns with someone who works on them daily, [book a 30-minute discussion](https://cal.id/axec/demo?duration=30) — no pitch, just a technical review of your setup.
+If you're designing an agent architecture and want to walk through the gateway, identity, and policy patterns with someone who works on them daily, [book a 30-minute discussion with CodeCrux](/contact/) — no pitch, just a technical review of your setup.

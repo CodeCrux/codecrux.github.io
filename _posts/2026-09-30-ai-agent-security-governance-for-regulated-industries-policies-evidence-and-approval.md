@@ -105,7 +105,7 @@ That reduction is the whole game. Next, the control set that makes it hold.
 
 **7. Revocation without redeploy.** Authority can be cut at the identity or grant level, effective on the next call, with the running agent untouched.
 
-Take the generic version of these seven and apply them to your own stack. If you want a reference implementation of the governed-gateway pattern rather than a diagram, [AXEC.dev](https://axec.dev) is worth a look; the principles above are the ones to evaluate it against, and they stand on their own regardless of which gateway you choose.
+Take the generic version of these seven and apply them to your own stack. If you want help implementing the governed-gateway pattern rather than a diagram, CodeCrux can help you evaluate the policy, identity, access, approval, and evidence boundaries against your own architecture.
 
 ## Implementing the Policy Boundary
 
@@ -319,4 +319,4 @@ At minimum: agent identity, the delegated human subject, capability, exact resou
 
 ---
 
-**Working through your own agent architecture?** If you want to pressure-test a design where the agent holds no standing credentials, or map your current tool grants to a delegated identity model, [book a 30-minute walkthrough with the AXEC.dev team](https://cal.id/axec/demo?duration=30). Bring your capability list and we'll work through the policy shape together.
+**Working through your own agent architecture?** If you want to pressure-test a design where the agent holds no standing credentials, or map your current tool grants to a delegated identity model, [book a 30-minute walkthrough with the CodeCrux team](/contact/). Bring your capability list and we'll work through the policy shape together.

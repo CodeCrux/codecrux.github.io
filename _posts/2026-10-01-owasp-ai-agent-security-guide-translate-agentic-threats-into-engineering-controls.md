@@ -326,4 +326,4 @@ This structured approach ensures that incidents can be contained quickly while s
 
 ---
 
-**Ready to take the next step?** If you're designing or hardening your AI agent architecture, [discuss your AI agent security architecture with our team](https://cal.id/axec/demo?duration=30) to explore practical implementation paths tailored to your environment.
+**Ready to take the next step?** If you're designing or hardening your AI agent architecture, [discuss your AI agent security architecture with the CodeCrux team](/contact/) to explore practical implementation paths tailored to your environment.

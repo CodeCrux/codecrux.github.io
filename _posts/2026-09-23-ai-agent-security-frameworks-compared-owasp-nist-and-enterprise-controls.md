@@ -267,7 +267,7 @@ Building a resilient security posture for agentic systems doesn't require reinve
 
 The key is to enforce decisions at a clear policy boundary before provider access, treat agents as non-human identities with delegated authority, and maintain a linked evidence trail for every action. These principles reduce risk without sacrificing the productivity gains that agents deliver. 
 
-**Ready to assess your AI agent security architecture?** [Schedule a 30-minute discussion with the Axec team](https://cal.id/axec/demo?duration=30) to explore how these guardrails can be applied to your specific use case. 
+**Ready to assess your AI agent security architecture?** [Schedule a 30-minute discussion with the CodeCrux team](/contact/) to explore how these guardrails can be applied to your specific use case.
 
 <script type="application/ld+json">
 {% raw %}

@@ -66,42 +66,42 @@ $(document).ready(function () {
     touchCurrentX = null;
   });
 
-  var axecPopupKey = "ccAxecCtaClosedAt";
-  var axecPopupSessionKey = "ccAxecCtaSeen";
-  var axecPopupDelay = 3000;
-  var axecPopupWindow = 3 * 24 * 60 * 60 * 1000;
+  var securityPopupKey = "ccSecurityCtaClosedAt";
+  var securityPopupSessionKey = "ccSecurityCtaSeen";
+  var securityPopupDelay = 3000;
+  var securityPopupWindow = 3 * 24 * 60 * 60 * 1000;
 
-  $("body").append('<div class="cc-axec-popup" role="dialog" aria-modal="true" aria-labelledby="cc-axec-popup-title" aria-hidden="true"><div class="cc-axec-popup-card"><button type="button" class="cc-axec-popup-close" aria-label="Close promotion"><span aria-hidden="true">&times;</span></button><p class="cc-kicker">AXEC / enterprise AI security</p><h2 id="cc-axec-popup-title">Start your first secured agent workflow.</h2><p>Put one valuable agent action behind identity, policy, protected credentials, approvals, and evidence.</p><a href="https://cal.id/axec/demo?duration=30" class="cc-button cc-button-primary" target="_blank" rel="noopener">Schedule a 30-minute conversation <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></div></div>');
+  $("body").append('<div class="cc-security-popup" role="dialog" aria-modal="true" aria-labelledby="cc-security-popup-title" aria-hidden="true"><div class="cc-security-popup-card"><button type="button" class="cc-security-popup-close" aria-label="Close promotion"><span aria-hidden="true">&times;</span></button><p class="cc-kicker">CodeCrux / enterprise AI security</p><h2 id="cc-security-popup-title">Ready to secure an AI workflow?</h2><p>CodeCrux helps teams put identity, policy, approvals, protected access, and evidence around production agent actions.</p><a href="/contact/" class="cc-button cc-button-primary">Talk to CodeCrux <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></div></div>');
 
-  var axecPopup = document.querySelector(".cc-axec-popup");
-  var closeAxecPopup = function () {
-    axecPopup.classList.remove("is-visible");
-    axecPopup.setAttribute("aria-hidden", "true");
+  var securityPopup = document.querySelector(".cc-security-popup");
+  var closeSecurityPopup = function () {
+    securityPopup.classList.remove("is-visible");
+    securityPopup.setAttribute("aria-hidden", "true");
     try {
-      sessionStorage.setItem(axecPopupSessionKey, "1");
-      localStorage.setItem(axecPopupKey, String(Date.now()));
+      sessionStorage.setItem(securityPopupSessionKey, "1");
+      localStorage.setItem(securityPopupKey, String(Date.now()));
     } catch (error) {}
   };
-  var showAxecPopup = function () {
-    axecPopup.classList.add("is-visible");
-    axecPopup.setAttribute("aria-hidden", "false");
-    try { sessionStorage.setItem(axecPopupSessionKey, "1"); } catch (error) {}
+  var showSecurityPopup = function () {
+    securityPopup.classList.add("is-visible");
+    securityPopup.setAttribute("aria-hidden", "false");
+    try { sessionStorage.setItem(securityPopupSessionKey, "1"); } catch (error) {}
   };
 
-  axecPopup.addEventListener("click", function (event) {
-    if (event.target === axecPopup || event.target.closest(".cc-axec-popup-close")) closeAxecPopup();
+  securityPopup.addEventListener("click", function (event) {
+    if (event.target === securityPopup || event.target.closest(".cc-security-popup-close")) closeSecurityPopup();
   });
-  axecPopup.querySelector(".cc-button").addEventListener("click", closeAxecPopup);
+  securityPopup.querySelector(".cc-button").addEventListener("click", closeSecurityPopup);
 
   window.setTimeout(function () {
     var seenThisSession = false;
     var lastClosedAt = 0;
     try {
-      seenThisSession = sessionStorage.getItem(axecPopupSessionKey) === "1";
-      lastClosedAt = Number(localStorage.getItem(axecPopupKey)) || 0;
+      seenThisSession = sessionStorage.getItem(securityPopupSessionKey) === "1";
+      lastClosedAt = Number(localStorage.getItem(securityPopupKey)) || 0;
     } catch (error) {}
-    if (!seenThisSession || Date.now() - lastClosedAt >= axecPopupWindow) showAxecPopup();
-  }, axecPopupDelay);
+    if (!seenThisSession && Date.now() - lastClosedAt >= securityPopupWindow) showSecurityPopup();
+  }, securityPopupDelay);
 
   $(".blog-post-body .highlight:not(pre), .blog-post-body > pre").each(function () {
     var block = this;

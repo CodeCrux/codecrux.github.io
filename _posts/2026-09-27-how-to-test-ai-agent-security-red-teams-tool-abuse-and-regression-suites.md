@@ -106,7 +106,7 @@ evidence:
   redact: [authorization, prompt, customer_pii]
 ```
 
-A governed gateway like this is the pattern Axec.dev implements: distinct agent identity bound to the requesting human, delegated OAuth with resource-bound grants, allow/deny/scoped-approval decisions, just-in-time credentials held outside the agent runtime, MCP/API boundaries exposing only approved capabilities, and a linked evidence trail per decision. The valuable idea is the boundary, not the vendor — evaluate the same primitives against whatever gateway you adopt.
+A governed gateway like this gives the requesting human a distinct agent identity, delegated OAuth with resource-bound grants, allow/deny/scoped-approval decisions, just-in-time credentials held outside the agent runtime, MCP/API boundaries exposing only approved capabilities, and a linked evidence trail per decision. The valuable idea is the boundary, not a vendor — evaluate the same primitives against whatever gateway you adopt.
 
 The decision itself should be boring and auditable:
 
@@ -228,4 +228,4 @@ Tool and connector manifests with version hashes, the policy rules and grant sco
 
 ---
 
-If you are designing an AI agent security architecture and want to pressure-test where your policy boundary should sit, happy to compare notes — a 30-minute working session is usually enough to surface the gaps. Book a slot here: https://cal.id/axec/demo?duration=30
+If you are designing an AI agent security architecture and want to pressure-test where your policy boundary should sit, happy to compare notes — a 30-minute working session is usually enough to surface the gaps. Book a slot with CodeCrux here: /contact/

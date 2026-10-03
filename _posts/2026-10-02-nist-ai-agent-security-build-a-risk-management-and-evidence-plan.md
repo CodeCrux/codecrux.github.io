@@ -134,7 +134,7 @@ To align with **ai agent security nist** principles, place a strong authorizatio
 7. **Record evidence:** All steps, including protected results, are written to the evidence trail.
 8. **Revoke on demand:** Delegated authority can be revoked without redeploying the agent.
 
-> **Note on Axec.dev Editorial Alignment:** The principles above mirror a governed gateway approach—distinct identity, delegated OAuth, policy decisions (allow/deny/require approval), JIT least-privilege credentials kept outside the runtime, bounded connectors, protected results, linked evidence, and revocability. These are general security principles; we present them as such without implying exclusivity or unverified claims.
+> **Editorial note:** The principles above mirror a governed gateway approach—distinct identity, delegated OAuth, policy decisions (allow/deny/require approval), JIT least-privilege credentials kept outside the runtime, bounded connectors, protected results, linked evidence, and revocability. These are general security principles rather than an exclusive implementation.
 
 > **Transition:** This architecture sets the boundary. Next, we will operationalize it with concrete controls your team can implement.
 
@@ -423,4 +423,4 @@ Building a defensible program for **ai agent security nist** requires more than 
 
 The plan outlined here gives you a practical path to establish **ai agent security governance**, produce an actionable **ai agent security report**, and prepare for an **ai agent security audit** with confidence. Start small by focusing on your highest-impact agent workflows, implement policy-as-code, and iterate based on real telemetry.
 
-**Ready to discuss your AI agent security architecture?** [Book a 30-minute consultation with Axec.dev](https://cal.id/axec/demo?duration=30).
+**Ready to discuss your AI agent security architecture?** [Contact CodeCrux](/contact/) to plan the next step.

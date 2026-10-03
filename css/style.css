@@ -271,7 +271,7 @@ fieldset[disabled] .btn-primary.active {
 .cc-site .cc-proof-strip { padding: 0; color: var(--cc-white); background: var(--cc-coral); }
 .cc-site .cc-proof-item { min-height: 88px; display: flex; align-items: center; gap: 18px; border-right: 1px solid rgba(12, 29, 30, .18); }
 .cc-site .cc-proof-item:last-child { border: 0; }
-.cc-site .cc-proof-item span { font-family: "DM Mono", monospace; font-size: 10px; opacity: .63; }
+.cc-site .cc-proof-item span { font-family: "DM Mono", monospace; font-size: 96px; opacity: .63; }
 .cc-site .cc-proof-item strong { font-size: 13px; font-weight: 700; }
 .cc-site .cc-section { padding: 112px 0; }
 .cc-site .cc-section-light { background: var(--cc-paper); }
@@ -9119,7 +9119,7 @@ figure {
 .cc-site .cc-nav-brand img {
   margin-left: 0 !important;
 }
-/* AXEC enterprise AI security landing page. */
+/* Enterprise AI security landing page. */
 .cc-site .cc-axec-page { overflow: hidden; color: var(--cc-ink); background: var(--cc-paper); }
 .cc-site .cc-axec-hero { position: relative; padding: 96px 0 92px; color: var(--cc-white); background: radial-gradient(circle at 85% 8%, rgba(184, 245, 209, .18), transparent 27%), linear-gradient(125deg, #09191a 0%, #173536 58%, #0c1d1e 100%); }
 .cc-site .cc-axec-hero .container { position: relative; z-index: 1; }
@@ -9451,7 +9451,7 @@ figure {
   .cc-site .cc-about-close-action { margin-top: 45px; padding: 30px 0 0; border-top: 1px solid rgba(12,29,30,.25); border-left: 0; }
 }
 
-/* Homepage AXEC sales block. */
+/* Homepage security sales block. */
 .cc-site .cc-axec-sales-row { display: flex; align-items: center; }
 .cc-site .cc-axec-sales-copy { padding-right: 3%; }
 .cc-site .cc-axec-sales h2 { max-width: 570px; font-size: clamp(42px, 5vw, 70px); letter-spacing: -.045em; }

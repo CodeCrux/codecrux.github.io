@@ -130,7 +130,7 @@ The pattern Google's model implies is a governed gateway between the agent runti
 
 Two properties matter more than the diagram. The policy decision happens **before** provider access, not after. And every decision and outcome is logged as linked evidence, so an investigator can reconstruct what the agent was allowed to do and what it actually did.
 
-This gateway pattern is not unique to one vendor. Google's IAM and Cloud Identity provide building blocks (workload identity federation, service account impersonation, IAM Conditions), and the governed-gateway category implements the same shape. Axec, for example, describes a governed gateway for AI access built around a distinct agent identity bound to the requesting human, delegated OAuth grants bound to exact resources, allow/deny/require-approval policy outcomes, just-in-time credentials held outside the agent runtime, and revocation of delegated authority without redeploying the agent. Treat that as one implementation of the pattern, not the pattern itself.
+This gateway pattern is not unique to one vendor. Google's IAM and Cloud Identity provide building blocks (workload identity federation, service account impersonation, IAM Conditions), and the governed-gateway category implements the same shape: a distinct agent identity bound to the requesting human, delegated OAuth grants bound to exact resources, allow/deny/require-approval policy outcomes, just-in-time credentials held outside the agent runtime, and revocation of delegated authority without redeploying the agent. Treat this as a reusable architecture pattern, not a vendor-specific feature.
 
 ## Identity, Delegation, and Just-in-Time Credentials
 
@@ -397,4 +397,4 @@ Give every agent its own identity and remove shared credentials first, then inse
 
 **An introduction to Google's approach to AI agent security** ultimately reduces to a single architectural stance: the agent is a principal, not a process. Give it an identity, bind that identity to a human, hand it short-lived and resource-scoped credentials only at the moment of use, decide every action at a boundary that sits in front of the provider, and let the default answer be no. Prompt engineering still matters, but it is one control among many, and it is not the one that stops an agent from doing something irreversible.
 
-If you are designing that boundary now and want to pressure-test the shape of it against your own environment, I am happy to walk through your architecture in a short working session. No pitch, just a design review: [book a 30-minute conversation](https://cal.id/axec/demo?duration=30).
+If you are designing that boundary now and want to pressure-test the shape of it against your own environment, I am happy to walk through your architecture in a short working session. No pitch, just a design review: [contact CodeCrux](/contact/).

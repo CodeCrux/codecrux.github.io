@@ -125,15 +125,15 @@ Follow this runbook when you suspect an agent has acted outside its authority.
 
 ```bash
 # Revoke the agent's delegated authority without redeploying
-axec grants revoke --agent support-agent-01 --reason "suspected unauthorized delete"
+codecrux-gateway grants revoke --agent support-agent-01 --reason "suspected unauthorized delete"
 # Rotate any credential found in the runtime environment
-axec secrets rotate --scope crm-api --grace 0
+codecrux-gateway secrets rotate --scope crm-api --grace 0
 ```
 
 **Step 2 — Freeze and export the evidence trail.** Pull every policy decision and tool result tied to the agent session. Preserve timestamps, the requesting human, the input that triggered the plan, and the exact tool arguments.
 
 ```bash
-axec audit export --agent support-agent-01 \
+codecrux-gateway audit export --agent support-agent-01 \
   --since 24h --format jsonl > incident-$(date +%F).jsonl
 ```
 
@@ -204,7 +204,7 @@ It verifies least-privilege grant scope against real tool usage, tests revocatio
 
 ---
 
-**Designing your own agent authorization boundary?** If you are working through identity binding, delegated grants, or approval checkpoints for your agents, we are happy to walk through your architecture with you — book a conversation at https://cal.id/axec/demo?duration=30.
+**Designing your own agent authorization boundary?** If you are working through identity binding, delegated grants, or approval checkpoints for your agents, we are happy to walk through your architecture with you — contact CodeCrux at https://codecrux.com/contact/.
 
 <script type="application/ld+json">
 {% raw %}

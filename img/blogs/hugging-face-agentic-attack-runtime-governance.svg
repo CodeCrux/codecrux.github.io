@@ -49,7 +49,7 @@
       <rect width="48" height="48" rx="13" fill="#173655" stroke="#61ddff" stroke-opacity="0.7"/>
       <path d="M24 38s13-7 13-17V11L24 6 11 11v10c0 10 13 17 13 17Z" fill="none" stroke="#61ddff" stroke-width="2.5"/>
       <path d="m18 24 4 4 8-9" fill="none" stroke="#79e3b0" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-      <text x="66" y="22" fill="#f8fbff" font-size="24" font-weight="800" letter-spacing="4">AXEC</text>
+      <text x="66" y="22" fill="#f8fbff" font-size="24" font-weight="800" letter-spacing="4">CODECRUX</text>
       <text x="68" y="43" fill="#91a9c5" font-size="11" font-weight="700" letter-spacing="2">AI AGENT SECURITY</text>
     </g>
 

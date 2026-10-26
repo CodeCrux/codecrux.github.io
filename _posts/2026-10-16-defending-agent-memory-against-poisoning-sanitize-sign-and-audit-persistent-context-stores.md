@@ -121,7 +121,7 @@ all general, not vendor-specific:
    are filtered, not wholesale.
 6. **Revocation without redeployment.** Delegated authority can be pulled centrally.
 
-Axec is one example of this governed-gateway pattern — a gateway for AI access that
+CodeCrux is one implementation of this governed-gateway pattern — a gateway for AI access that
 implements these principles. The principle, not the product, is what matters: put a policy
 boundary in the path and make it authoritative.
 
@@ -391,4 +391,4 @@ liability.
 
 If you are designing or reviewing an AI agent security architecture, I am happy to talk
 through your threat model, authorization boundary, and audit requirements:
-**[book a 30-minute architecture discussion](https://cal.id/axec/demo?duration=30)**.
+**[contact CodeCrux](https://codecrux.com/contact/)**.

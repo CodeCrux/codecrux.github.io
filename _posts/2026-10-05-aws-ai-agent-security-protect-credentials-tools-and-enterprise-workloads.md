@@ -216,7 +216,7 @@ Audit evidence is what turns "we think the agent is secure" into something a rev
 
 That record supports three workflows. **Governance:** sample decisions per agent per month and review scope drift. **Incident response:** when something goes wrong, reconstruct the exact action sequence instead of reading logs scattered across five services. **Regulated industries:** map controls to your framework, but verify against current primary sources — frameworks and guidance change, and no architecture guarantees compliance on its own. If your obligations involve financial services, health data, or the EU AI Act, treat framework alignment as one input alongside legal review, not as a conclusion.
 
-This is where the governed-gateway pattern shows up in practice. One example is [Axec](https://axec.dev), a governed gateway for AI access: it binds a distinct agent identity to the requesting human, holds delegated OAuth authorization with resource-bound grants, evaluates policy as allow/deny/require-approval, keeps just-in-time credentials outside the agent runtime, exposes MCP, API, and connector boundaries limited to approved capabilities, records a linked evidence trail per decision, and allows delegated authority to be revoked without redeploying. The general principle stands on its own regardless of vendor: credentials live outside the agent, every action passes a policy decision, and revocation is a runtime operation.
+This is where the governed-gateway pattern shows up in practice. A CodeCrux security gateway can bind a distinct agent identity to the requesting human, hold delegated OAuth authorization with resource-bound grants, evaluate policy as allow/deny/require-approval, keep just-in-time credentials outside the agent runtime, expose MCP, API, and connector boundaries limited to approved capabilities, record a linked evidence trail per decision, and allow delegated authority to be revoked without redeploying. The general principle stands on its own: credentials live outside the agent, every action passes a policy decision, and revocation is a runtime operation.
 
 ## Conclusion
 
@@ -300,4 +300,4 @@ Log each policy decision with agent identity, initiating human, grant ID, action
 
 ---
 
-If you are designing an agent security architecture and want to pressure-test it against your own workload, I am happy to walk through your credential flow, tool boundaries, and audit requirements in a 30-minute conversation: [book a session here](https://cal.id/axec/demo?duration=30).
+If you are designing an agent security architecture and want to pressure-test it against your own workload, I am happy to walk through your credential flow, tool boundaries, and audit requirements: [contact CodeCrux](https://codecrux.com/contact/).

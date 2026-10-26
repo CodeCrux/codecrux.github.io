@@ -86,7 +86,7 @@ The architectural move that makes deny-by-default enforceable is a **policy boun
    identity                        Evidence log
 ```
 
-Key properties of a governed gateway approach (the model Axec is built around):
+Key properties of a governed gateway approach (the model CodeCrux implements):
 
 - **Distinct agent identity bound to the requesting human** — so the "who" behind an action is always recoverable.
 - **Delegated OAuth authorization and exact resource-bound grants** — the agent inherits a person's authority, narrowed to specific resources.
@@ -306,4 +306,4 @@ Bind every grant to a delegated human identity with an expiry, and manage revoca
 
 ---
 
-Designing a policy boundary that cleanly separates **allow**, **deny**, and **step-up** decisions is easier to get right when you can see it against your actual architecture. If you would like to talk through your AI agent security architecture — identity binding, just-in-time access, or approval checkpoints — you can [book a 30-minute discussion with AXEC.dev](https://cal.id/axec/demo?duration=30). No pressure; bring your hardest agent-security question.
+Designing a policy boundary that cleanly separates **allow**, **deny**, and **step-up** decisions is easier to get right when you can see it against your actual architecture. If you would like to talk through your AI agent security architecture — identity binding, just-in-time access, or approval checkpoints — you can [contact CodeCrux](https://codecrux.com/contact/). No pressure; bring your hardest agent-security question.

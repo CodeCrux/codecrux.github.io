@@ -95,7 +95,7 @@ logging:
   retention: per_policy
 ```
 
-A governed-gateway approach — the model Axec.dev implements for AI access — makes each of these concrete: a distinct agent identity bound to the requesting human, delegated OAuth grants scoped to exact resources, decisions that allow/deny/require approval, JIT least-privilege credentials held outside the runtime, and a linked evidence trail per decision. The general principle stands regardless of tooling: place authorization in front of capability, not inside the prompt.
+A governed-gateway approach — the model CodeCrux implements for AI access — makes each of these concrete: a distinct agent identity bound to the requesting human, delegated OAuth grants scoped to exact resources, decisions that allow/deny/require approval, JIT least-privilege credentials held outside the runtime, and a linked evidence trail per decision. The general principle stands regardless of tooling: place authorization in front of capability, not inside the prompt.
 
 With the boundary defined, you can now build the suite that proves it holds.
 
@@ -213,7 +213,7 @@ Beyond the final verdict: least-privilege scope, delegated identity on every cal
 
 If you are replaying attack traces and finding that your current checks only catch single-step failures, it is worth pressure-testing where your authorization boundary actually sits. I am happy to walk through your agent's identity, credential, and tool-chaining model and where a policy layer would change the outcome.
 
-**Book a 30-minute conversation:** https://cal.id/axec/demo?duration=30
+**Contact CodeCrux:** https://codecrux.com/contact/
 
 <script type="application/ld+json">
 {% raw %}

@@ -285,4 +285,4 @@ Use this scorecard to compare **ai agent security vendors** objectively across t
 
 ---
 
-Ready to put this framework into practice for your environment? **Discuss your AI agent security architecture with our team** to validate your requirements against a governed-gateway approach: [https://cal.id/axec/demo?duration=30](https://cal.id/axec/demo?duration=30)
+Ready to put this framework into practice for your environment? **Discuss your AI agent security architecture with our team** to validate your requirements against a governed-gateway approach: [https://codecrux.com/contact/](https://codecrux.com/contact/)

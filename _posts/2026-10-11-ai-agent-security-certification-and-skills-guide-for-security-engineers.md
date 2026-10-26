@@ -93,7 +93,7 @@ Key properties of this design:
 - **Protected results and a linked evidence trail** for each decision and outcome.
 - **Revocable delegated authority** that can be pulled without redeploying the agent.
 
-This is the architecture a governed gateway for AI access embodies — for example, Axec applies this model by binding agent identity to the requesting human and keeping credential use outside the runtime. The general principle, however, is vendor-neutral: *never let the agent both decide and hold the keys.*
+This is the architecture a governed gateway for AI access embodies — CodeCrux applies this model by binding agent identity to the requesting human and keeping credential use outside the runtime. The general principle is vendor-neutral: *never let the agent both decide and hold the keys.*
 
 Now that the boundary is defined, here is what you enforce inside it.
 
@@ -318,4 +318,4 @@ Rarely. Certifications validate baseline knowledge, but employers look for demon
 
 ---
 
-An ai agent security certification is a starting point, not the finish line. The engineers who stand out are the ones who can draw the trust boundary, enforce deny-by-default policy, and prove their controls fired. If you would like to walk through your own AI agent security architecture and pressure-test the design, [book a 30-minute session](https://cal.id/axec/demo?duration=30) and we can map it together.
+An ai agent security certification is a starting point, not the finish line. The engineers who stand out are the ones who can draw the trust boundary, enforce deny-by-default policy, and prove their controls fired. If you would like to walk through your own AI agent security architecture and pressure-test the design, [contact CodeCrux](https://codecrux.com/contact/) and we can map it together.

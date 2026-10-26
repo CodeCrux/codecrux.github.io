@@ -84,7 +84,7 @@ The core design principle is simple: **no agent should ever talk directly to a p
 What this boundary buys you:
 
 - **A single enforcement point.** One place to allow, deny, or demand scoped human approval — instead of scattered checks inside tool code.
-- **Revocation without redeployment.** Because credentials live at the gateway, not in the agent, you can withdraw delegated authority while the agent keeps running (or stop it cleanly). This is the governed-gateway pattern that products like Axec implement with distinct agent identity bound to the requesting human and exact resource-bound grants; the principle stands independently of any particular vendor.
+- **Revocation without redeployment.** Because credentials live at the gateway, not in the agent, you can withdraw delegated authority while the agent keeps running (or stop it cleanly). This is the governed-gateway pattern that CodeCrux implements with distinct agent identity bound to the requesting human and exact resource-bound grants; the principle stands independently of any particular vendor.
 - **An evidence trail.** Each decision and outcome is linked to an actor, a scope, and a timestamp — exactly what you need after an incident.
 
 A minimal policy declaration might look like this:
@@ -217,4 +217,4 @@ Analysts and vendors, including coverage around crowdstrike ai agent security to
 
 ---
 
-**Want a second set of eyes on your containment design?** If you are mapping policy boundaries, delegated identity, or revocation paths for your agents, we are happy to walk through your architecture together — no pitch required. Book a 30-minute conversation: https://cal.id/axec/demo?duration=30
+**Want a second set of eyes on your containment design?** If you are mapping policy boundaries, delegated identity, or revocation paths for your agents, we are happy to walk through your architecture together — no pitch required. Contact CodeCrux: https://codecrux.com/contact/

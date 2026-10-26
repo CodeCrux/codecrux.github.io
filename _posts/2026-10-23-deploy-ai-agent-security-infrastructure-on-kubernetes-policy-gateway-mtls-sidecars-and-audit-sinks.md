@@ -15,4 +15,4 @@ date: 2026-10-23T00:00:00.000Z
 ## Discuss Your AI Agent Security Architecture
 
 If you are evaluating governed access, delegated authorization, policy enforcement,
-or evidence for AI agents, [schedule a conversation with the AXEC team](https://cal.id/axec/demo?duration=30).
+or evidence for AI agents, [contact the CodeCrux team](https://codecrux.com/contact/).

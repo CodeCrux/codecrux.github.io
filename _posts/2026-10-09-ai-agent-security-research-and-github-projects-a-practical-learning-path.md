@@ -102,7 +102,7 @@ evidence:
   linked_result_hash: "sha256:1c9e..."
 ```
 
-This is the governed-gateway approach. A vendor example of the pattern is **Axec.dev**, which is a governed gateway for AI access. Its model illustrates the general principle: distinct agent identity bound to the requesting human, delegated OAuth authorization with exact resource-bound grants, policy decisions that allow/deny/require scoped approval, just-in-time least-privilege credentials kept outside the agent runtime, MCP and API connector boundaries exposing only approved capabilities, protected results with a linked evidence trail, and the ability to revoke delegated authority without redeploying the agent.
+This is the governed-gateway approach. CodeCrux applies this pattern as a governed gateway for AI access. Its model illustrates the general principle: distinct agent identity bound to the requesting human, delegated OAuth authorization with exact resource-bound grants, policy decisions that allow/deny/require scoped approval, just-in-time least-privilege credentials kept outside the agent runtime, MCP and API connector boundaries exposing only approved capabilities, protected results with a linked evidence trail, and the ability to revoke delegated authority without redeploying the agent.
 
 The principle is what matters: **authorization happens before provider access, and it is explicit, scoped, and evidenced.** Any gateway, service mesh policy engine, or custom proxy can implement it.
 
@@ -212,4 +212,4 @@ Yes — this is a core benefit of delegated identity. Revoke the delegation to i
 ---
 
 **Ready to design your AI agent security architecture?**
-If you want to talk through identity, delegated authorization, and where to place your policy boundary, [book a 30-minute architecture discussion](https://cal.id/axec/demo?duration=30). We will map your agent's attack surface and the controls that fit your stack — no pitch, just a working session.
+If you want to talk through identity, delegated authorization, and where to place your policy boundary, [contact CodeCrux](https://codecrux.com/contact/). We will map your agent's attack surface and the controls that fit your stack — no pitch, just a working session.

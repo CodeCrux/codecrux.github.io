@@ -117,7 +117,7 @@ requested_grant:
   agent_id: "agent:repo-helper:abc123"
   actor: "user:shyam"
   capability: "github:pull_request:create"
-  resource: "repo:axec/docs"
+  resource: "repo:codecrux/ai-security-docs"
   scope: ["pull_request:write"]
   justification: "Draft docs PR for current task"
   expiry: "300s"

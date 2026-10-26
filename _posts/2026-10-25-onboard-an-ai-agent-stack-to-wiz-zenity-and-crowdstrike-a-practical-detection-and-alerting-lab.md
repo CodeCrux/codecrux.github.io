@@ -68,7 +68,7 @@ It is critical to note: observing these areas individually is not enough. These 
 
 ## 3. Reference Architecture For A Governed Agent Stack
 
-The most resilient approach for agentic environments is to enforce authorization *before* the agent is able to call a downstream provider. This is not exclusive to any singular vendor, but a general security principle. As a relevant example of this governed-gateway approach, **Axec** is a governed gateway for AI access that utilizes concepts such as distinct agent identity bound to a requesting human, delegated OAuth authorization with exact resource-bound grants, and policy decisions that allow, deny, or require scoped human approval. When implementing a lab, the goal should be to replicate this boundary of control regardless of the gateway that your organization evaluates. 
+The most resilient approach for agentic environments is to enforce authorization *before* the agent is able to call a downstream provider. This is not exclusive to any singular vendor, but a general security principle. CodeCrux applies this governed-gateway approach using concepts such as distinct agent identity bound to a requesting human, delegated OAuth authorization with exact resource-bound grants, and policy decisions that allow, deny, or require scoped human approval. When implementing a lab, the goal should be to replicate this boundary of control regardless of the gateway that your organization evaluates.
 
 Below is a reference architecture to model against: 
 
@@ -246,7 +246,7 @@ _The most effective security posture is one that is able to contain, investigate
       "name": "Do I need to buy a single platform to secure AI agents?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. A layered approach is typically required. The key is to enforce a governed authorization boundary before provider access and to correlate telemetry between identity, application, and runtime layers. A governed gateway (such as Axec's concepts of delegated grants and approval checkpoints) can unify these signals, however this should be evaluated against your specific stack."
+        "text": "No. A layered approach is typically required. The key is to enforce a governed authorization boundary before provider access and to correlate telemetry between identity, application, and runtime layers. A governed gateway with delegated grants and approval checkpoints can unify these signals, however this should be evaluated against your specific stack."
       }
     },
     {
@@ -282,7 +282,7 @@ _The most effective security posture is one that is able to contain, investigate
 **A:** As outlined within the lab, Wiz covers cloud posture, NHIs, and attack paths, Zenity covers agentic applications, prompts, tools, and MCP guardrails, and CrowdStrike covers endpoint/runtime, processes, and network egress. 
 
 **Q2. Do I need to buy a single platform to secure AI agents?**  
-**A:** Not necessarily. A layered detection stack is heavily recommended, paired with a governed authorization boundary. While concepts from governed gateways (such as those offered by Axec) are applicable, always evaluate based off of integration coverage for your specific orchestrator. 
+**A:** Not necessarily. A layered detection stack is heavily recommended, paired with a governed authorization boundary. While governed-gateway concepts are applicable, always evaluate based off of integration coverage for your specific orchestrator.
 
 **Q3. What is the biggest risk with MCP servers and AI agents?**  
 **A:** MCP sprawl with over-broad permissions. This allows for tool hopping after prompt injection. Mitigate via function allowlists, resource-bound delegation, and just-in-time credentials. 
@@ -307,6 +307,6 @@ Building secure AI agents is not a one-time deployment, but a continuous feedbac
 
 This approach to **wiz ai agent security** allows your organization to enable agentic velocity without sacrificing containment or accountability. 
 
-**Ready to discuss your AI agent security architecture with the team at Axec?** [Book a 30-minute strategy session here](https://cal.id/axec/demo?duration=30) to talk through your use cases, threat model, and governance requirements. No product assumptions were made within this guide, just a practical blueprint to get you started. 
+**Ready to discuss your AI agent security architecture with the CodeCrux team?** [Contact CodeCrux](https://codecrux.com/contact/) to talk through your use cases, threat model, and governance requirements. No product assumptions were made within this guide, just a practical blueprint to get you started.
 
 _This concludes the lab. Be sure to continuously re-baseline your detections as your agent capabilities evolve._

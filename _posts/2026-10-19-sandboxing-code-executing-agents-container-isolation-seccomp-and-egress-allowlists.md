@@ -340,4 +340,4 @@ Sandbox hardening governs what code can do at runtime. AWS-side controls govern 
 
 ---
 
-**Want a second set of eyes on your architecture?** If you are designing sandboxing, identity, or policy controls for your agents, we are happy to walk through your **ai agent security infrastructure** with you — no pitch required. Book a 30-minute conversation: https://cal.id/axec/demo?duration=30
+**Want a second set of eyes on your architecture?** If you are designing sandboxing, identity, or policy controls for your agents, we are happy to walk through your **ai agent security infrastructure** with you — no pitch required. Contact CodeCrux: https://codecrux.com/contact/

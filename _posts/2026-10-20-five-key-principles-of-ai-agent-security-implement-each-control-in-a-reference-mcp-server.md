@@ -79,7 +79,7 @@ User → Agent runtime → MCP Gateway (identity + policy + approval)
                           └─ approval → human checkpoint → resume or cancel
 ```
 
-The agent runtime never holds provider credentials. The gateway decides *who is acting*, *what is permitted*, *whether a human must approve*, and *what evidence to record*. Tools like Axec implement this governed-gateway pattern — distinct agent identity bound to a requesting human, exact resource-bound grants, and revocation without redeploying the agent — but the principle is vendor-neutral: place policy in front of capability.
+The agent runtime never holds provider credentials. The gateway decides *who is acting*, *what is permitted*, *whether a human must approve*, and *what evidence to record*. CodeCrux implements this governed-gateway pattern — distinct agent identity bound to a requesting human, exact resource-bound grants, and revocation without redeploying the agent — but the principle is vendor-neutral: place policy in front of capability.
 
 With the architecture in place, we can wire each control into concrete code.
 
@@ -268,7 +268,7 @@ Not necessarily, but you need the same functions — identity, policy decision, 
 
 So: **which of the following is a key principle for AI agent security?** Least privilege is the textbook answer, but the operational answer is the full set — delegated human-bound identity, just-in-time credentials held outside the runtime, approval checkpoints on irreversible actions, and fail-closed input/output protection, all sitting behind a policy boundary before any provider is reached. Implementing the five controls in a reference MCP server shows they are each a few dozen lines of code; the discipline is in composing them, testing them, and keeping the evidence.
 
-If you are designing or reviewing an AI agent security architecture and want a second set of eyes on your policy boundary, identity model, or approval flows, we are happy to walk through it with you: [https://cal.id/axec/demo?duration=30](https://cal.id/axec/demo?duration=30)
+If you are designing or reviewing an AI agent security architecture and want a second set of eyes on your policy boundary, identity model, or approval flows, we are happy to walk through it with you: [https://codecrux.com/contact/](https://codecrux.com/contact/)
 
 <script type="application/ld+json">
 {% raw %}

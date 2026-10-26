@@ -318,4 +318,4 @@ It adds one network hop plus a policy evaluation. For single-tenant, read-only, 
 
 ---
 
-**Working through your own agent identity architecture?** If you're mapping how your agents get authority — scopes, approval gates, credential lifetimes, evidence — I'm happy to walk through your setup and point at the gaps. Book 30 minutes here: [https://cal.id/axec/demo?duration=30](https://cal.id/axec/demo?duration=30)
+**Working through your own agent identity architecture?** If you're mapping how your agents get authority — scopes, approval gates, credential lifetimes, evidence — I'm happy to walk through your setup and point at the gaps. Contact CodeCrux: [https://codecrux.com/contact/](https://codecrux.com/contact/)

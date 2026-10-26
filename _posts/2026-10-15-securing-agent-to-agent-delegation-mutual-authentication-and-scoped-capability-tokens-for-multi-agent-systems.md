@@ -86,7 +86,7 @@ In this model, four things happen at the boundary on every request:
 3. **Evaluate policy** to allow, deny, or require scoped human approval.
 4. **Mint short-lived, resource-bound credentials** just in time, keeping them outside the agent runtime.
 
-This is the governed-gateway approach that products such as **Axec** implement — distinct agent identity bound to the requesting human, delegated OAuth authorization with exact resource-bound grants, policy decisions that allow, deny, or require scoped approval, and the ability to revoke delegated authority without redeploying the agent. The general principle matters more than any vendor: centralize authorization so it is consistent, auditable, and revocable.
+This is the governed-gateway approach that CodeCrux implements — distinct agent identity bound to the requesting human, delegated OAuth authorization with exact resource-bound grants, policy decisions that allow, deny, or require scoped approval, and the ability to revoke delegated authority without redeploying the agent. The general principle matters more than any vendor: centralize authorization so it is consistent, auditable, and revocable.
 
 With the boundary in place, the next question is which concrete controls enforce it.
 
@@ -197,7 +197,7 @@ Because tokens are short-lived and identity lives at the gateway, you can revoke
 
 ```bash
 # Revoke all delegation for an agent or a human subject
-axec revoke --agent researcher-agent-01 --reason "offboarding"
+codecrux-gateway revoke --agent researcher-agent-01 --reason "offboarding"
 ```
 
 With identity, scoping, and approval in place, you can now observe whether the design actually holds under load and attack.
@@ -311,4 +311,4 @@ Securing agent-to-agent delegation comes down to three commitments: prove identi
 
 ---
 
-Designing this for your own system? If you want to talk through your AI agent delegation and authorization architecture, [book a 30-minute session with AXEC.dev](https://cal.id/axec/demo?duration=30).
+Designing this for your own system? If you want to talk through your AI agent delegation and authorization architecture, [contact CodeCrux](https://codecrux.com/contact/).

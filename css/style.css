@@ -9566,7 +9566,7 @@ figure {
 }
 
 /* Digital marketing services landing page. */
-.cc-site .cc-dm-page { color: var(--cc-ink); background: var(--cc-paper); }
+.cc-site .cc-dm-page { overflow: hidden; color: var(--cc-ink); background: var(--cc-paper); }
 .cc-site .cc-dm-hero { position: relative; overflow: hidden; padding: 94px 0 82px; color: var(--cc-white); background: var(--cc-ink); }
 .cc-site .cc-dm-hero:after { position: absolute; right: -7%; bottom: -44%; width: 55%; height: 100%; content: ""; opacity: .18; background-image: linear-gradient(rgba(184,245,209,.32) 1px, transparent 1px), linear-gradient(90deg, rgba(184,245,209,.32) 1px, transparent 1px); background-size: 35px 35px; transform: rotate(-15deg); mask-image: linear-gradient(135deg, transparent, #000); }
 .cc-site .cc-dm-hero .container { position: relative; z-index: 1; }
@@ -9644,6 +9644,17 @@ figure {
 .cc-site .cc-footer-digital div { display: flex; gap: 22px; flex-wrap: wrap; }
 .cc-site .cc-footer-digital a { color: rgba(255,253,249,.63); font-size: 12px; }
 .cc-site .cc-footer-digital a:hover { color: var(--cc-mint); }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .cc-site .cc-dm-hero-grid { grid-template-columns: 1fr; gap: 44px; }
+  .cc-site .cc-dm-hero-copy { max-width: 680px; }
+  .cc-site .cc-dm-hero-visual { width: min(100%, 680px); min-height: 430px; margin: 0 auto; }
+  .cc-site .cc-dm-workflow-row { display: block; }
+  .cc-site .cc-dm-workflow-row > [class*="col-"] { width: 100%; float: none; margin-left: 0; }
+  .cc-site .cc-dm-workflow-image { min-height: 430px; margin-bottom: 48px; }
+  .cc-site .cc-dm-workflow-image img { width: 76%; }
+  .cc-site .cc-dm-cta-box { padding: 48px; }
+}
 
 @media (max-width: 767px) {
   .cc-site .cc-dm-hero { padding: 66px 0 55px; }

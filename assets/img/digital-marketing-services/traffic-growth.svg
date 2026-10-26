@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Traffic growth</title><desc id="desc">A rising traffic chart with content and campaign signals.</desc>
+  <rect width="1200" height="700" fill="#f06d48"/><g opacity=".25" stroke="#fffdf9" stroke-width="2"><path d="M100 125h1000M100 250h1000M100 375h1000M100 500h1000"/><path d="M225 85v450M400 85v450M575 85v450M750 85v450M925 85v450"/></g><path d="M110 540 260 478 390 500 525 332 655 370 810 210 948 247 1090 105" fill="none" stroke="#0c1d1e" stroke-width="16"/><path d="m1028 112 63-7-9 63" fill="none" stroke="#0c1d1e" stroke-width="16"/>
+  <circle cx="260" cy="478" r="17" fill="#b8f5d1"/><circle cx="525" cy="332" r="17" fill="#b8f5d1"/><circle cx="810" cy="210" r="17" fill="#b8f5d1"/><text x="105" y="105" fill="#fffdf9" font-family="monospace" font-size="20">04 / TRAFFIC GROWTH</text><text x="105" y="635" fill="#0c1d1e" font-family="Arial,sans-serif" font-size="24" font-weight="700">search + content + campaigns</text>
+</svg>
